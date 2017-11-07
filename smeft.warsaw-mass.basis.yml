@@ -1,0 +1,11 @@
+eft: SMEFT
+basis: Warsaw mass
+parent: Warsaw
+metadata:
+  description: >
+    Variant of the Warsaw basis where all fermion fields are rotated such as
+    to make their mass matrices diagonal. This rotation breaks $SU(2)_L$
+    invariance and is ambiguous for some operators. We adhere to the choice of
+    arXiv:1704.03888 by Dedes, Materkowska, Paraskevas, Rosiek, and Suxho,
+    which coincides with the "tilded" basis in arXiv:1512.02830 by Aebischer,
+    Crivellin, Fael, and Greub.

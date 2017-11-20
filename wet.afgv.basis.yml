@@ -1140,7 +1140,7 @@ sectors:
       tex: 4G_F/\sqrt{2} (\bar{d} P_R\gamma_{\mu\nu\rho\sigma} b)(\bar{\tau} \gamma^{\mu\nu\rho\sigma} \mu)
     9pdbtaumu:
       tex: 4G_F/\sqrt{2} (\bar{d}P_L\gamma_{\mu\nu\rho\sigma} b)(\bar{\tau} \gamma^{\mu\nu\rho\sigma} \mu)
-  bsnunu:
+  sbnunu:
     Lsbee:
       tex: 4G_F/\sqrt{2} (\bar{s}P_R \gamma_\mu b)(\bar{\nu}_e \gamma^\mu \nu_{e})
     Rsbee:
@@ -1177,7 +1177,7 @@ sectors:
       tex: 4G_F/\sqrt{2} (\bar{s}P_R \gamma_\mu b)(\bar{\nu}_\mu \gamma^\mu \nu_{\tau})
     Rsbmutau:
       tex: 4G_F/\sqrt{2} (\bar{s} P_L \gamma_\mu b)(\bar{\nu}_\mu \gamma^\mu \nu_{\tau})
-  bdnunu:
+  dbnunu:
     Ldbee:
       tex: 4G_F/\sqrt{2} (\bar{d}P_R \gamma_\mu b)(\bar{\nu}_e \gamma^\mu \nu_{e})
     Rdbee:

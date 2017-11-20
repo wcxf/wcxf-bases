@@ -840,7 +840,7 @@ sectors:
       tex: (\bar c_L T^A d_R) (\bar b_L T^A c_R)
     S8udduRR_2312:
       tex: (\bar c_L T^A b_R) (\bar d_L T^A c_R)
-  ds:
+  sd:
     dgamma_12:
       tex: \bar d_L \sigma^{\mu \nu} s_R\, F_{\mu \nu}
     dgamma_21:
@@ -1069,7 +1069,7 @@ sectors:
       tex: (\bar c_L T^A d_R) (\bar s_L T^A c_R)
     S8udduRR_2212:
       tex: (\bar c_L T^A s_R) (\bar d_L T^A c_R)
-  uc:
+  cu:
     ugamma_12:
       tex: \bar u_L \sigma^{\mu \nu} c_R\, F_{\mu \nu}
     ugamma_21:
@@ -4112,7 +4112,7 @@ sectors:
       tex: (\bar \nu_{L3} \tau_R) (\bar d_L c_R)
     TnueduRR_3312:
       tex: (\bar \nu_{L3} \sigma^{\mu \nu} \tau_R) (\bar d_L \sigma_{\mu \nu} c_R)
-  bsnunu:
+  sbnunu:
     VnudLL_1123:
       tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar s_L \gamma_\mu b_L)
     VnudLL_2223:
@@ -4149,7 +4149,7 @@ sectors:
       tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar s_L \gamma_\mu b_L)
     VnudLR_2323:
       tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar s_R \gamma_\mu b_R)
-  bdnunu:
+  dbnunu:
     VnudLL_1113:
       tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar d_L \gamma_\mu b_L)
     VnudLL_2213:

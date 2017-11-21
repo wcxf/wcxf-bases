@@ -390,9 +390,9 @@ sectors:
       tex: 4G_F/\sqrt{2} (\bar{d} P_L \gamma_{\mu\nu\rho\sigma} T^{A} b)(\bar{c} \gamma^{\mu\nu\rho\sigma} T^{A} u)
   sbsd:
     1sbsd:
-      tex: 4G_F/\sqrt{2} (\bar{s} \gamma_\muP_L b)(\bar{s} \gamma^\mu d)
+      tex: 4G_F/\sqrt{2} (\bar{s} \gamma_\mu P_L b)(\bar{s} \gamma^\mu d)
     1psbsd:
-      tex: 4G_F/\sqrt{2} (\bar{s} \gamma_\muP_R b)(\bar{s} \gamma^\mu d)
+      tex: 4G_F/\sqrt{2} (\bar{s} \gamma_\mu P_R b)(\bar{s} \gamma^\mu d)
     3sbsd:
       tex: 4G_F/\sqrt{2} (\bar{s}\gamma_{\mu\nu\rho}P_L b)(\bar{s} \gamma^{\mu\nu\rho} d)
     3psbsd:
@@ -411,9 +411,9 @@ sectors:
       tex: 4G_F/\sqrt{2} (\bar{s}\gamma_{\mu\nu\rho\sigma}P_R b)(\bar{s} \gamma^{\mu\nu\rho\sigma} d)
   dbds:
     1dbds:
-      tex: 4G_F/\sqrt{2} (\bar{d} \gamma_\muP_L b)(\bar{d} \gamma^\mu s)
+      tex: 4G_F/\sqrt{2} (\bar{d} \gamma_\mu P_L b)(\bar{d} \gamma^\mu s)
     1pdbds:
-      tex: 4G_F/\sqrt{2} (\bar{d} \gamma_\muP_R b)(\bar{d} \gamma^\mu s)
+      tex: 4G_F/\sqrt{2} (\bar{d} \gamma_\mu P_R b)(\bar{d} \gamma^\mu s)
     3dbds:
       tex: 4G_F/\sqrt{2} (\bar{d}\gamma_{\mu\nu\rho}P_L b)(\bar{d} \gamma^{\mu\nu\rho} s)
     3pdbds:
@@ -580,9 +580,9 @@ sectors:
     9psbbb:
       tex: 4G_F/\sqrt{2} (\bar{s}P_L\gamma_{\mu\nu\rho\sigma}b)(\bar{b} \gamma^{\mu\nu\rho\sigma} b)
     1sbss:
-      tex: 4G_F/\sqrt{2} (\bar{s} \gamma_\muP_L b)(\bar{s} \gamma^\mu s)
+      tex: 4G_F/\sqrt{2} (\bar{s} \gamma_\mu P_L b)(\bar{s} \gamma^\mu s)
     1psbss:
-      tex: 4G_F/\sqrt{2} (\bar{s} \gamma_\muP_R b)(\bar{s} \gamma^\mu s)
+      tex: 4G_F/\sqrt{2} (\bar{s} \gamma_\mu P_R b)(\bar{s} \gamma^\mu s)
     3sbss:
       tex: 4G_F/\sqrt{2} (\bar{s}\gamma_{\mu\nu\rho}P_L b)(\bar{s} \gamma^{\mu\nu\rho} s)
     3psbss:
@@ -809,9 +809,9 @@ sectors:
     9pdbbb:
       tex: 4G_F/\sqrt{2} (\bar{d}P_L\gamma_{\mu\nu\rho\sigma}b)(\bar{b} \gamma^{\mu\nu\rho\sigma} b)
     1dbss:
-      tex: 4G_F/\sqrt{2} (\bar{d} \gamma_\muP_L b)(\bar{s} \gamma^\mu s)
+      tex: 4G_F/\sqrt{2} (\bar{d} \gamma_\mu P_L b)(\bar{s} \gamma^\mu s)
     1pdbss:
-      tex: 4G_F/\sqrt{2} (\bar{d} \gamma_\muP_R b)(\bar{s} \gamma^\mu s)
+      tex: 4G_F/\sqrt{2} (\bar{d} \gamma_\mu P_R b)(\bar{s} \gamma^\mu s)
     3dbss:
       tex: 4G_F/\sqrt{2} (\bar{d}\gamma_{\mu\nu\rho}P_L b)(\bar{s} \gamma^{\mu\nu\rho} s)
     3pdbss:

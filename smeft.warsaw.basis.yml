@@ -259,109 +259,109 @@ sectors:
       tex: \left( \bar q_3 \sigma^{\mu \nu} d_3 \right) \varphi B_{\mu \nu}
     phil1_11:
       real: true
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar \ell_1 \gamma^\mu \ell_1 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar \ell_1 \gamma^\mu \ell_1 \right)
     phil1_12:
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar \ell_1 \gamma^\mu \ell_2 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar \ell_1 \gamma^\mu \ell_2 \right)
     phil1_13:
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar \ell_1 \gamma^\mu \ell_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar \ell_1 \gamma^\mu \ell_3 \right)
     phil1_22:
       real: true
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar \ell_2 \gamma^\mu \ell_2 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar \ell_2 \gamma^\mu \ell_2 \right)
     phil1_23:
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar \ell_2 \gamma^\mu \ell_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar \ell_2 \gamma^\mu \ell_3 \right)
     phil1_33:
       real: true
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar \ell_3 \gamma^\mu \ell_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar \ell_3 \gamma^\mu \ell_3 \right)
     phil3_11:
       real: true
-      tex: \left( \varphi^\dagger i \DlrImu \varphi \right) \left( \bar \ell_1 \tau^I \gamma^\mu \ell_1 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}Imu \varphi \right) \left( \bar \ell_1 \tau^I \gamma^\mu \ell_1 \right)
     phil3_12:
-      tex: \left( \varphi^\dagger i \DlrImu \varphi \right) \left( \bar \ell_1 \tau^I \gamma^\mu \ell_2 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}Imu \varphi \right) \left( \bar \ell_1 \tau^I \gamma^\mu \ell_2 \right)
     phil3_13:
-      tex: \left( \varphi^\dagger i \DlrImu \varphi \right) \left( \bar \ell_1 \tau^I \gamma^\mu \ell_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}Imu \varphi \right) \left( \bar \ell_1 \tau^I \gamma^\mu \ell_3 \right)
     phil3_22:
       real: true
-      tex: \left( \varphi^\dagger i \DlrImu \varphi \right) \left( \bar \ell_2 \tau^I \gamma^\mu \ell_2 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}Imu \varphi \right) \left( \bar \ell_2 \tau^I \gamma^\mu \ell_2 \right)
     phil3_23:
-      tex: \left( \varphi^\dagger i \DlrImu \varphi \right) \left( \bar \ell_2 \tau^I \gamma^\mu \ell_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}Imu \varphi \right) \left( \bar \ell_2 \tau^I \gamma^\mu \ell_3 \right)
     phil3_33:
       real: true
-      tex: \left( \varphi^\dagger i \DlrImu \varphi \right) \left( \bar \ell_3 \tau^I \gamma^\mu \ell_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}Imu \varphi \right) \left( \bar \ell_3 \tau^I \gamma^\mu \ell_3 \right)
     phie_11:
       real: true
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar e_1 \gamma^\mu e_1 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar e_1 \gamma^\mu e_1 \right)
     phie_12:
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar e_1 \gamma^\mu e_2 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar e_1 \gamma^\mu e_2 \right)
     phie_13:
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar e_1 \gamma^\mu e_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar e_1 \gamma^\mu e_3 \right)
     phie_22:
       real: true
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar e_2 \gamma^\mu e_2 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar e_2 \gamma^\mu e_2 \right)
     phie_23:
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar e_2 \gamma^\mu e_3 \right)
     phie_33:
       real: true
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar e_3 \gamma^\mu e_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar e_3 \gamma^\mu e_3 \right)
     phiq1_11:
       real: true
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar q_1 \gamma^\mu q_1 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar q_1 \gamma^\mu q_1 \right)
     phiq1_12:
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar q_1 \gamma^\mu q_2 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar q_1 \gamma^\mu q_2 \right)
     phiq1_13:
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar q_1 \gamma^\mu q_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar q_1 \gamma^\mu q_3 \right)
     phiq1_22:
       real: true
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar q_2 \gamma^\mu q_2 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar q_2 \gamma^\mu q_2 \right)
     phiq1_23:
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar q_2 \gamma^\mu q_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar q_2 \gamma^\mu q_3 \right)
     phiq1_33:
       real: true
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar q_3 \gamma^\mu q_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar q_3 \gamma^\mu q_3 \right)
     phiq3_11:
       real: true
-      tex: \left( \varphi^\dagger i \DlrImu \varphi \right) \left( \bar q_1 \tau^I \gamma^\mu q_1 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}Imu \varphi \right) \left( \bar q_1 \tau^I \gamma^\mu q_1 \right)
     phiq3_12:
-      tex: \left( \varphi^\dagger i \DlrImu \varphi \right) \left( \bar q_1 \tau^I \gamma^\mu q_2 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}Imu \varphi \right) \left( \bar q_1 \tau^I \gamma^\mu q_2 \right)
     phiq3_13:
-      tex: \left( \varphi^\dagger i \DlrImu \varphi \right) \left( \bar q_1 \tau^I \gamma^\mu q_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}Imu \varphi \right) \left( \bar q_1 \tau^I \gamma^\mu q_3 \right)
     phiq3_22:
       real: true
-      tex: \left( \varphi^\dagger i \DlrImu \varphi \right) \left( \bar q_2 \tau^I \gamma^\mu q_2 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}Imu \varphi \right) \left( \bar q_2 \tau^I \gamma^\mu q_2 \right)
     phiq3_23:
-      tex: \left( \varphi^\dagger i \DlrImu \varphi \right) \left( \bar q_2 \tau^I \gamma^\mu q_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}Imu \varphi \right) \left( \bar q_2 \tau^I \gamma^\mu q_3 \right)
     phiq3_33:
       real: true
-      tex: \left( \varphi^\dagger i \DlrImu \varphi \right) \left( \bar q_3 \tau^I \gamma^\mu q_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}Imu \varphi \right) \left( \bar q_3 \tau^I \gamma^\mu q_3 \right)
     phiu_11:
       real: true
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar u_1 \gamma^\mu u_1 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar u_1 \gamma^\mu u_1 \right)
     phiu_12:
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar u_1 \gamma^\mu u_2 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar u_1 \gamma^\mu u_2 \right)
     phiu_13:
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar u_1 \gamma^\mu u_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar u_1 \gamma^\mu u_3 \right)
     phiu_22:
       real: true
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar u_2 \gamma^\mu u_2 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar u_2 \gamma^\mu u_2 \right)
     phiu_23:
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar u_2 \gamma^\mu u_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar u_2 \gamma^\mu u_3 \right)
     phiu_33:
       real: true
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar u_3 \gamma^\mu u_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar u_3 \gamma^\mu u_3 \right)
     phid_11:
       real: true
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar d_1 \gamma^\mu d_1 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar d_1 \gamma^\mu d_1 \right)
     phid_12:
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar d_1 \gamma^\mu d_2 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar d_1 \gamma^\mu d_2 \right)
     phid_13:
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar d_1 \gamma^\mu d_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar d_1 \gamma^\mu d_3 \right)
     phid_22:
       real: true
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar d_2 \gamma^\mu d_2 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar d_2 \gamma^\mu d_2 \right)
     phid_23:
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar d_2 \gamma^\mu d_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar d_2 \gamma^\mu d_3 \right)
     phid_33:
       real: true
-      tex: \left( \varphi^\dagger i \Dlr_\mu \varphi \right) \left( \bar d_3 \gamma^\mu d_3 \right)
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar d_3 \gamma^\mu d_3 \right)
     phiud_11:
       tex: \left( \widetilde \varphi^\dagger i D_\mu \varphi \right) \left( \bar u_1 \gamma^\mu d_1 \right)
     phiud_12:

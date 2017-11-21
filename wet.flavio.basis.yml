@@ -32,7 +32,7 @@ sectors:
     CTRR_bdbd:
       tex: (\bar d_L \sigma^{\mu\nu} b_R)(\bar d_L \sigma_{\mu\nu} b_R)
     CVLR_bdbd:
-      tex: (\bar d_L \samma^\mu b_L)(\bar d_R \gamma_\mu b_R)
+      tex: (\bar d_L \gamma^\mu b_L)(\bar d_R \gamma_\mu b_R)
     CSLR_bdbd:
       tex: (\bar d_R  b_L)(\bar d_L  b_R)
   sdsd:
@@ -390,7 +390,7 @@ sectors:
       tex: 4G_F/\sqrt{2} V_{tb} V_{ts}^* \frac{e^2}{16\pi^2}m_b(\bar s_R b_L)(\bar e \gamma_5 \tau)
   sbmutau:
     C9_bsmutau:
-      tex: 4G_F/\sqrt{2} V_{tb} V_{ts}^* \frac{e^2}{16\pi^2}(\bar s_L \gamma^\mu b_L)(\bar \tau \gamma_\mu \mu) 
+      tex: 4G_F/\sqrt{2} V_{tb} V_{ts}^* \frac{e^2}{16\pi^2}(\bar s_L \gamma^\mu b_L)(\bar \tau \gamma_\mu \mu)
     C9p_bsmutau:
       tex: 4G_F/\sqrt{2} V_{tb} V_{ts}^* \frac{e^2}{16\pi^2}(\bar s_R \gamma^\mu b_R)(\bar \tau \gamma_\mu \mu)
     C10_bsmutau:
@@ -492,7 +492,7 @@ sectors:
       tex: 4G_F/\sqrt{2} V_{tb} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_R b_L)(\bar e \gamma_5 \tau)
   dbmutau:
     C9_bdmutau:
-      tex: 4G_F/\sqrt{2} V_{tb} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_L \gamma^\mu b_L)(\bar \tau \gamma_\mu \mu) 
+      tex: 4G_F/\sqrt{2} V_{tb} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_L \gamma^\mu b_L)(\bar \tau \gamma_\mu \mu)
     C9p_bdmutau:
       tex: 4G_F/\sqrt{2} V_{tb} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_R \gamma^\mu b_R)(\bar \tau \gamma_\mu \mu)
     C10_bdmutau:
@@ -526,280 +526,280 @@ sectors:
       tex: 4G_F/\sqrt{2} V_{tb} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_R b_L)(\bar \mu \gamma_5 \tau)
   cbenu:
       CV_bcenue:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar e_L \gamma_\mu \nue_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar e_L \gamma_\mu \nu_{e L})
       CVp_bcenue:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar e_L \gamma_\mu \nue_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar e_L \gamma_\mu \nu_{e L})
       CS_bcenue:
-        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_L b_R)(\bar e_R \nue_L)
+        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_L b_R)(\bar e_R \nu_{e L})
       CSp_bcenue:
-        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_R b_L)(\bar e_R \nue_L)
+        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_R b_L)(\bar e_R \nu_{e L})
       CT_bcenue:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar e_R \sigma_{\mu\nu}\nue_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar e_R \sigma_{\mu\nu}\nu_{e L})
       CV_bcenumu:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar e_L \gamma_\mu \numu_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar e_L \gamma_\mu \nu_{mu L})
       CVp_bcenumu:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar e_L \gamma_\mu \numu_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar e_L \gamma_\mu \nu_{mu L})
       CS_bcenumu:
-        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_L b_R)(\bar e_R \numu_L)
+        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_L b_R)(\bar e_R \nu_{mu L})
       CSp_bcenumu:
-        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_R b_L)(\bar e_R \numu_L)
+        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_R b_L)(\bar e_R \nu_{mu L})
       CT_bcenumu:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar e_R \sigma_{\mu\nu}\numu_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar e_R \sigma_{\mu\nu}\nu_{mu L})
       CV_bcenutau:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar e_L \gamma_\mu \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar e_L \gamma_\mu \nu_{tau L})
       CVp_bcenutau:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar e_L \gamma_\mu \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar e_L \gamma_\mu \nu_{tau L})
       CS_bcenutau:
-        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_L b_R)(\bar e_R \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_L b_R)(\bar e_R \nu_{tau L})
       CSp_bcenutau:
-        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_R b_L)(\bar e_R \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_R b_L)(\bar e_R \nu_{tau L})
       CT_bcenutau:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar e_R \sigma_{\mu\nu}\nutau_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar e_R \sigma_{\mu\nu}\nu_{tau L})
   ubenu:
       CV_buenue:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar e_L \gamma_\mu \nue_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar e_L \gamma_\mu \nu_{e L})
       CVp_buenue:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \gamma^\mu b_R)(\bar e_L \gamma_\mu \nue_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \gamma^\mu b_R)(\bar e_L \gamma_\mu \nu_{e L})
       CS_buenue:
-        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_L b_R)(\bar e_R \nue_L)
+        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_L b_R)(\bar e_R \nu_{e L})
       CSp_buenue:
-        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_R b_L)(\bar e_R \nue_L)
+        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_R b_L)(\bar e_R \nu_{e L})
       CT_buenue:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \sigma^{\mu\nu} b_L)(\bar e_R \sigma_{\mu\nu}\nue_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \sigma^{\mu\nu} b_L)(\bar e_R \sigma_{\mu\nu}\nu_{e L})
       CV_buenumu:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar e_L \gamma_\mu \numu_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar e_L \gamma_\mu \nu_{mu L})
       CVp_buenumu:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \gamma^\mu b_R)(\bar e_L \gamma_\mu \numu_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \gamma^\mu b_R)(\bar e_L \gamma_\mu \nu_{mu L})
       CS_buenumu:
-        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_L b_R)(\bar e_R \numu_L)
+        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_L b_R)(\bar e_R \nu_{mu L})
       CSp_buenumu:
-        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_R b_L)(\bar e_R \numu_L)
+        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_R b_L)(\bar e_R \nu_{mu L})
       CT_buenumu:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \sigma^{\mu\nu} b_L)(\bar e_R \sigma_{\mu\nu}\numu_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \sigma^{\mu\nu} b_L)(\bar e_R \sigma_{\mu\nu}\nu_{mu L})
       CV_buenutau:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar e_L \gamma_\mu \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar e_L \gamma_\mu \nu_{tau L})
       CVp_buenutau:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \gamma^\mu b_R)(\bar e_L \gamma_\mu \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \gamma^\mu b_R)(\bar e_L \gamma_\mu \nu_{tau L})
       CS_buenutau:
-        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_L b_R)(\bar e_R \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_L b_R)(\bar e_R \nu_{tau L})
       CSp_buenutau:
-        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_R b_L)(\bar e_R \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_R b_L)(\bar e_R \nu_{tau L})
       CT_buenutau:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \sigma^{\mu\nu} b_L)(\bar e_R \sigma_{\mu\nu}\nutau_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \sigma^{\mu\nu} b_L)(\bar e_R \sigma_{\mu\nu}\nu_{tau L})
   usenu:
       CV_suenue:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_L \gamma^\mu s_L)(\bar e_L \gamma_\mu \nue_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_L \gamma^\mu s_L)(\bar e_L \gamma_\mu \nu_{e L})
       CVp_suenue:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \gamma^\mu s_R)(\bar e_L \gamma_\mu \nue_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \gamma^\mu s_R)(\bar e_L \gamma_\mu \nu_{e L})
       CS_suenue:
-        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_L s_R)(\bar e_R \nue_L)
+        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_L s_R)(\bar e_R \nu_{e L})
       CSp_suenue:
-        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_R s_L)(\bar e_R \nue_L)
+        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_R s_L)(\bar e_R \nu_{e L})
       CT_suenue:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \sigma^{\mu\nu} s_L)(\bar e_R \sigma_{\mu\nu}\nue_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \sigma^{\mu\nu} s_L)(\bar e_R \sigma_{\mu\nu}\nu_{e L})
       CV_suenumu:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_L \gamma^\mu s_L)(\bar e_L \gamma_\mu \numu_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_L \gamma^\mu s_L)(\bar e_L \gamma_\mu \nu_{mu L})
       CVp_suenumu:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \gamma^\mu s_R)(\bar e_L \gamma_\mu \numu_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \gamma^\mu s_R)(\bar e_L \gamma_\mu \nu_{mu L})
       CS_suenumu:
-        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_L s_R)(\bar e_R \numu_L)
+        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_L s_R)(\bar e_R \nu_{mu L})
       CSp_suenumu:
-        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_R s_L)(\bar e_R \numu_L)
+        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_R s_L)(\bar e_R \nu_{mu L})
       CT_suenumu:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \sigma^{\mu\nu} s_L)(\bar e_R \sigma_{\mu\nu}\numu_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \sigma^{\mu\nu} s_L)(\bar e_R \sigma_{\mu\nu}\nu_{mu L})
       CV_suenutau:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_L \gamma^\mu s_L)(\bar e_L \gamma_\mu \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_L \gamma^\mu s_L)(\bar e_L \gamma_\mu \nu_{tau L})
       CVp_suenutau:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \gamma^\mu s_R)(\bar e_L \gamma_\mu \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \gamma^\mu s_R)(\bar e_L \gamma_\mu \nu_{tau L})
       CS_suenutau:
-        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_L s_R)(\bar e_R \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_L s_R)(\bar e_R \nu_{tau L})
       CSp_suenutau:
-        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_R s_L)(\bar e_R \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_R s_L)(\bar e_R \nu_{tau L})
       CT_suenutau:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \sigma^{\mu\nu} s_L)(\bar e_R \sigma_{\mu\nu}\nutau_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \sigma^{\mu\nu} s_L)(\bar e_R \sigma_{\mu\nu}\nu_{tau L})
   cbmunu:
       CV_bcmunue:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar \mu_L \gamma_\mu \nue_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar \mu_L \gamma_\mu \nu_{e L})
       CVp_bcmunue:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar \mu_L \gamma_\mu \nue_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar \mu_L \gamma_\mu \nu_{e L})
       CS_bcmunue:
-        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_L b_R)(\bar \mu_R \nue_L)
+        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_L b_R)(\bar \mu_R \nu_{e L})
       CSp_bcmunue:
-        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_R b_L)(\bar \mu_R \nue_L)
+        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_R b_L)(\bar \mu_R \nu_{e L})
       CT_bcmunue:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar \mu_R \sigma_{\mu\nu}\nue_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar \mu_R \sigma_{\mu\nu}\nu_{e L})
       CV_bcmunumu:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar \mu_L \gamma_\mu \numu_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar \mu_L \gamma_\mu \nu_{mu L})
       CVp_bcmunumu:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar \mu_L \gamma_\mu \numu_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar \mu_L \gamma_\mu \nu_{mu L})
       CS_bcmunumu:
-        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_L b_R)(\bar \mu_R \numu_L)
+        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_L b_R)(\bar \mu_R \nu_{mu L})
       CSp_bcmunumu:
-        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_R b_L)(\bar \mu_R \numu_L)
+        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_R b_L)(\bar \mu_R \nu_{mu L})
       CT_bcmunumu:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar \mu_R \sigma_{\mu\nu}\numu_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar \mu_R \sigma_{\mu\nu}\nu_{mu L})
       CV_bcmunutau:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar \mu_L \gamma_\mu \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar \mu_L \gamma_\mu \nu_{tau L})
       CVp_bcmunutau:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar \mu_L \gamma_\mu \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar \mu_L \gamma_\mu \nu_{tau L})
       CS_bcmunutau:
-        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_L b_R)(\bar \mu_R \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_L b_R)(\bar \mu_R \nu_{tau L})
       CSp_bcmunutau:
-        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_R b_L)(\bar \mu_R \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_R b_L)(\bar \mu_R \nu_{tau L})
       CT_bcmunutau:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar \mu_R \sigma_{\mu\nu}\nutau_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar \mu_R \sigma_{\mu\nu}\nu_{tau L})
   ubmunu:
       CV_bumunue:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar \mu_L \gamma_\mu \nue_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar \mu_L \gamma_\mu \nu_{e L})
       CVp_bumunue:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \gamma^\mu b_R)(\bar \mu_L \gamma_\mu \nue_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \gamma^\mu b_R)(\bar \mu_L \gamma_\mu \nu_{e L})
       CS_bumunue:
-        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_L b_R)(\bar \mu_R \nue_L)
+        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_L b_R)(\bar \mu_R \nu_{e L})
       CSp_bumunue:
-        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_R b_L)(\bar \mu_R \nue_L)
+        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_R b_L)(\bar \mu_R \nu_{e L})
       CT_bumunue:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \sigma^{\mu\nu} b_L)(\bar \mu_R \sigma_{\mu\nu}\nue_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \sigma^{\mu\nu} b_L)(\bar \mu_R \sigma_{\mu\nu}\nu_{e L})
       CV_bumunumu:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar \mu_L \gamma_\mu \numu_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar \mu_L \gamma_\mu \nu_{mu L})
       CVp_bumunumu:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \gamma^\mu b_R)(\bar \mu_L \gamma_\mu \numu_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \gamma^\mu b_R)(\bar \mu_L \gamma_\mu \nu_{mu L})
       CS_bumunumu:
-        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_L b_R)(\bar \mu_R \numu_L)
+        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_L b_R)(\bar \mu_R \nu_{mu L})
       CSp_bumunumu:
-        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_R b_L)(\bar \mu_R \numu_L)
+        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_R b_L)(\bar \mu_R \nu_{mu L})
       CT_bumunumu:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \sigma^{\mu\nu} b_L)(\bar \mu_R \sigma_{\mu\nu}\numu_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \sigma^{\mu\nu} b_L)(\bar \mu_R \sigma_{\mu\nu}\nu_{mu L})
       CV_bumunutau:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar \mu_L \gamma_\mu \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar \mu_L \gamma_\mu \nu_{tau L})
       CVp_bumunutau:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \gamma^\mu b_R)(\bar \mu_L \gamma_\mu \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \gamma^\mu b_R)(\bar \mu_L \gamma_\mu \nu_{tau L})
       CS_bumunutau:
-        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_L b_R)(\bar \mu_R \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_L b_R)(\bar \mu_R \nu_{tau L})
       CSp_bumunutau:
-        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_R b_L)(\bar \mu_R \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_R b_L)(\bar \mu_R \nu_{tau L})
       CT_bumunutau:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \sigma^{\mu\nu} b_L)(\bar \mu_R \sigma_{\mu\nu}\nutau_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \sigma^{\mu\nu} b_L)(\bar \mu_R \sigma_{\mu\nu}\nu_{tau L})
   usmunu:
       CV_sumunue:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_L \gamma^\mu s_L)(\bar \mu_L \gamma_\mu \nue_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_L \gamma^\mu s_L)(\bar \mu_L \gamma_\mu \nu_{e L})
       CVp_sumunue:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \gamma^\mu s_R)(\bar \mu_L \gamma_\mu \nue_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \gamma^\mu s_R)(\bar \mu_L \gamma_\mu \nu_{e L})
       CS_sumunue:
-        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_L s_R)(\bar \mu_R \nue_L)
+        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_L s_R)(\bar \mu_R \nu_{e L})
       CSp_sumunue:
-        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_R s_L)(\bar \mu_R \nue_L)
+        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_R s_L)(\bar \mu_R \nu_{e L})
       CT_sumunue:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \sigma^{\mu\nu} s_L)(\bar \mu_R \sigma_{\mu\nu}\nue_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \sigma^{\mu\nu} s_L)(\bar \mu_R \sigma_{\mu\nu}\nu_{e L})
       CV_sumunumu:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_L \gamma^\mu s_L)(\bar \mu_L \gamma_\mu \numu_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_L \gamma^\mu s_L)(\bar \mu_L \gamma_\mu \nu_{mu L})
       CVp_sumunumu:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \gamma^\mu s_R)(\bar \mu_L \gamma_\mu \numu_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \gamma^\mu s_R)(\bar \mu_L \gamma_\mu \nu_{mu L})
       CS_sumunumu:
-        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_L s_R)(\bar \mu_R \numu_L)
+        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_L s_R)(\bar \mu_R \nu_{mu L})
       CSp_sumunumu:
-        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_R s_L)(\bar \mu_R \numu_L)
+        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_R s_L)(\bar \mu_R \nu_{mu L})
       CT_sumunumu:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \sigma^{\mu\nu} s_L)(\bar \mu_R \sigma_{\mu\nu}\numu_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \sigma^{\mu\nu} s_L)(\bar \mu_R \sigma_{\mu\nu}\nu_{mu L})
       CV_sumunutau:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_L \gamma^\mu s_L)(\bar \mu_L \gamma_\mu \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_L \gamma^\mu s_L)(\bar \mu_L \gamma_\mu \nu_{tau L})
       CVp_sumunutau:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \gamma^\mu s_R)(\bar \mu_L \gamma_\mu \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \gamma^\mu s_R)(\bar \mu_L \gamma_\mu \nu_{tau L})
       CS_sumunutau:
-        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_L s_R)(\bar \mu_R \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_L s_R)(\bar \mu_R \nu_{tau L})
       CSp_sumunutau:
-        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_R s_L)(\bar \mu_R \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_R s_L)(\bar \mu_R \nu_{tau L})
       CT_sumunutau:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \sigma^{\mu\nu} s_L)(\bar \mu_R \sigma_{\mu\nu}\nutau_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \sigma^{\mu\nu} s_L)(\bar \mu_R \sigma_{\mu\nu}\nu_{tau L})
   cbtaunu:
       CV_bctaunue:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar \tau_L \gamma_\mu \nue_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar \tau_L \gamma_\mu \nu_{e L})
       CVp_bctaunue:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar \tau_L \gamma_\mu \nue_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar \tau_L \gamma_\mu \nu_{e L})
       CS_bctaunue:
-        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_L b_R)(\bar \tau_R \nue_L)
+        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_L b_R)(\bar \tau_R \nu_{e L})
       CSp_bctaunue:
-        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_R b_L)(\bar \tau_R \nue_L)
+        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_R b_L)(\bar \tau_R \nu_{e L})
       CT_bctaunue:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar \tau_R \sigma_{\mu\nu}\nue_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar \tau_R \sigma_{\mu\nu}\nu_{e L})
       CV_bctaunumu:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar \tau_L \gamma_\mu \numu_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar \tau_L \gamma_\mu \nu_{mu L})
       CVp_bctaunumu:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar \tau_L \gamma_\mu \numu_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar \tau_L \gamma_\mu \nu_{mu L})
       CS_bctaunumu:
-        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_L b_R)(\bar \tau_R \numu_L)
+        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_L b_R)(\bar \tau_R \nu_{mu L})
       CSp_bctaunumu:
-        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_R b_L)(\bar \tau_R \numu_L)
+        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_R b_L)(\bar \tau_R \nu_{mu L})
       CT_bctaunumu:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar \tau_R \sigma_{\mu\nu}\numu_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar \tau_R \sigma_{\mu\nu}\nu_{mu L})
       CV_bctaunutau:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar \tau_L \gamma_\mu \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar \tau_L \gamma_\mu \nu_{tau L})
       CVp_bctaunutau:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar \tau_L \gamma_\mu \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar \tau_L \gamma_\mu \nu_{tau L})
       CS_bctaunutau:
-        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_L b_R)(\bar \tau_R \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_L b_R)(\bar \tau_R \nu_{tau L})
       CSp_bctaunutau:
-        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_R b_L)(\bar \tau_R \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{cb} m_b(\bar c_R b_L)(\bar \tau_R \nu_{tau L})
       CT_bctaunutau:
-        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar \tau_R \sigma_{\mu\nu}\nutau_L)
+        tex: -4G_F/\sqrt{2} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar \tau_R \sigma_{\mu\nu}\nu_{tau L})
   ubtaunu:
       CV_butaunue:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar \tau_L \gamma_\mu \nue_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar \tau_L \gamma_\mu \nu_{e L})
       CVp_butaunue:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \gamma^\mu b_R)(\bar \tau_L \gamma_\mu \nue_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \gamma^\mu b_R)(\bar \tau_L \gamma_\mu \nu_{e L})
       CS_butaunue:
-        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_L b_R)(\bar \tau_R \nue_L)
+        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_L b_R)(\bar \tau_R \nu_{e L})
       CSp_butaunue:
-        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_R b_L)(\bar \tau_R \nue_L)
+        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_R b_L)(\bar \tau_R \nu_{e L})
       CT_butaunue:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \sigma^{\mu\nu} b_L)(\bar \tau_R \sigma_{\mu\nu}\nue_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \sigma^{\mu\nu} b_L)(\bar \tau_R \sigma_{\mu\nu}\nu_{e L})
       CV_butaunumu:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar \tau_L \gamma_\mu \numu_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar \tau_L \gamma_\mu \nu_{mu L})
       CVp_butaunumu:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \gamma^\mu b_R)(\bar \tau_L \gamma_\mu \numu_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \gamma^\mu b_R)(\bar \tau_L \gamma_\mu \nu_{mu L})
       CS_butaunumu:
-        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_L b_R)(\bar \tau_R \numu_L)
+        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_L b_R)(\bar \tau_R \nu_{mu L})
       CSp_butaunumu:
-        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_R b_L)(\bar \tau_R \numu_L)
+        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_R b_L)(\bar \tau_R \nu_{mu L})
       CT_butaunumu:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \sigma^{\mu\nu} b_L)(\bar \tau_R \sigma_{\mu\nu} \numu_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \sigma^{\mu\nu} b_L)(\bar \tau_R \sigma_{\mu\nu} \nu_{mu L})
       CV_butaunutau:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar \tau_L \gamma_\mu \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar \tau_L \gamma_\mu \nu_{tau L})
       CVp_butaunutau:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \gamma^\mu b_R)(\bar \tau_L \gamma_\mu \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \gamma^\mu b_R)(\bar \tau_L \gamma_\mu \nu_{tau L})
       CS_butaunutau:
-        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_L b_R)(\bar \tau_R \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_L b_R)(\bar \tau_R \nu_{tau L})
       CSp_butaunutau:
-        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_R b_L)(\bar \tau_R \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{ub} m_b(\bar u_R b_L)(\bar \tau_R \nu_{tau L})
       CT_butaunutau:
-        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \sigma^{\mu\nu} b_L)(\bar \tau_R \sigma_{\mu\nu}\nutau_L)
+        tex: -4G_F/\sqrt{2} V_{ub} (\bar u_R \sigma^{\mu\nu} b_L)(\bar \tau_R \sigma_{\mu\nu}\nu_{tau L})
   ustaunu:
       CV_sutaunue:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_L \gamma^\mu s_L)(\bar \tau_L \gamma_\mu \nue_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_L \gamma^\mu s_L)(\bar \tau_L \gamma_\mu \nu_{e L})
       CVp_sutaunue:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \gamma^\mu s_R)(\bar \tau_L \gamma_\mu \nue_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \gamma^\mu s_R)(\bar \tau_L \gamma_\mu \nu_{e L})
       CS_sutaunue:
-        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_L s_R)(\bar \tau_R \nue_L)
+        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_L s_R)(\bar \tau_R \nu_{e L})
       CSp_sutaunue:
-        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_R s_L)(\bar \tau_R \nue_L)
+        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_R s_L)(\bar \tau_R \nu_{e L})
       CT_sutaunue:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \sigma^{\mu\nu} s_L)(\bar \tau_R \sigma_{\mu\nu}\nue_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \sigma^{\mu\nu} s_L)(\bar \tau_R \sigma_{\mu\nu}\nu_{e L})
       CV_sutaunumu:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_L \gamma^\mu s_L)(\bar \tau_L \gamma_\mu \numu_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_L \gamma^\mu s_L)(\bar \tau_L \gamma_\mu \nu_{mu L})
       CVp_sutaunumu:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \gamma^\mu s_R)(\bar \tau_L \gamma_\mu \numu_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \gamma^\mu s_R)(\bar \tau_L \gamma_\mu \nu_{mu L})
       CS_sutaunumu:
-        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_L s_R)(\bar \tau_R \numu_L)
+        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_L s_R)(\bar \tau_R \nu_{mu L})
       CSp_sutaunumu:
-        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_R s_L)(\bar \tau_R \numu_L)
+        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_R s_L)(\bar \tau_R \nu_{mu L})
       CT_sutaunumu:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \sigma^{\mu\nu} s_L)(\bar \tau_R \sigma_{\mu\nu}\numu_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \sigma^{\mu\nu} s_L)(\bar \tau_R \sigma_{\mu\nu}\nu_{mu L})
       CV_sutaunutau:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_L \gamma^\mu s_L)(\bar \tau_L \gamma_\mu \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_L \gamma^\mu s_L)(\bar \tau_L \gamma_\mu \nu_{tau L})
       CVp_sutaunutau:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \gamma^\mu s_R)(\bar \tau_L \gamma_\mu \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \gamma^\mu s_R)(\bar \tau_L \gamma_\mu \nu_{tau L})
       CS_sutaunutau:
-        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_L s_R)(\bar \tau_R \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_L s_R)(\bar \tau_R \nu_{tau L})
       CSp_sutaunutau:
-        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_R s_L)(\bar \tau_R \nutau_L)
+        tex: -4G_F/\sqrt{2} V_{us} m_s(\bar u_R s_L)(\bar \tau_R \nu_{tau L})
       CT_sutaunutau:
-        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \sigma^{\mu\nu} s_L)(\bar \tau_R \sigma_{\mu\nu}\nutau_L)
+        tex: -4G_F/\sqrt{2} V_{us} (\bar u_R \sigma^{\mu\nu} s_L)(\bar \tau_R \sigma_{\mu\nu}\nu_{tau L})

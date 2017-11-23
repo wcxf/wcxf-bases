@@ -431,7 +431,7 @@ sectors:
     9pdbds:
       tex: \frac{4G_F}{\sqrt{2}} (\bar{d}\gamma_{\mu\nu\rho\sigma}P_R b)(\bar{d} \gamma^{\mu\nu\rho\sigma} s)
   sb:
-    7gammabsb:
+    7gammasb:
       tex: \frac{4G_F}{\sqrt{2}} \frac{e}{g_s^2} m_b (\bar{s} P_R \sigma_{\mu\nu} b) F^{\mu\nu}
     8gsb:
       tex: \frac{4G_F}{\sqrt{2}} \frac{1}{g_s} m_b (\bar{s} P_R \sigma_{\mu\nu} T^{ A} b) G^{\mu\nu}_A

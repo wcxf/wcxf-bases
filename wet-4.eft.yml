@@ -1,0 +1,55 @@
+eft: WET-4
+metadata:
+  description: >
+    Weak effective theory with four dynamical quark flavours valid between the
+    charm and bottom quark mass scales.
+sectors:
+  sdsd:
+  cucu:
+  sduc:
+  sdcu:
+  usenu:
+  csenu:
+  udenu:
+  cdenu:
+  usmunu:
+  csmunu:
+  udmunu:
+  cdmunu:
+  ustaunu:
+  cstaunu:
+  udtaunu:
+  cdtaunu:
+  sdnunu:
+  cununu:
+  sd:
+  cu:
+  sdemu:
+  sdmue:
+  sdetau:
+  sdtaue:
+  sdmutau:
+  sdtaumu:
+  cuemu:
+  cumue:
+  cuetau:
+  cutaue:
+  cumutau:
+  cutaumu:
+  mutau:
+  mue:
+  taue:
+  tauetaue:
+  taumutaumu:
+  muemue:
+  muemutau:
+  etauemu:
+  tauetaumu:
+  nunununu:
+  nunuemu:
+  nunumue:
+  nunutaumu:
+  nunumutau:
+  nunutaue:
+  nunuetau:
+  dF=0:

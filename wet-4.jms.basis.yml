@@ -1,0 +1,2639 @@
+basis: JMS
+eft: WET-4
+sectors:
+  sdsd:
+    VddLL_1212:
+      tex: (\bar d_L \gamma^\mu s_L)(\bar d_L \gamma_\mu s_L)
+    VddRR_1212:
+      tex: (\bar d_R \gamma^\mu s_R)(\bar d_R \gamma_\mu s_R)
+    V1ddLR_1212:
+      tex: (\bar d_L \gamma^\mu s_L)(\bar d_R \gamma_\mu s_R)
+    V8ddLR_1212:
+      tex: (\bar d_L \gamma^\mu T^A s_L)(\bar d_R \gamma_\mu T^A s_R)
+    S1ddRR_1212:
+      tex: (\bar d_L s_R) (\bar d_L s_R)
+    S1ddRR_2121:
+      tex: (\bar s_L d_R) (\bar s_L d_R)
+    S8ddRR_1212:
+      tex: (\bar d_L T^A s_R) (\bar d_L T^A s_R)
+    S8ddRR_2121:
+      tex: (\bar s_L T^A d_R) (\bar s_L T^A d_R)
+  cucu:
+    VuuLL_1212:
+      tex: (\bar u_L \gamma^\mu c_L)(\bar u_L \gamma_\mu c_L)
+    VuuRR_1212:
+      tex: (\bar u_R \gamma^\mu c_R)(\bar u_R \gamma_\mu c_R)
+    V1uuLR_1212:
+      tex: (\bar u_L \gamma^\mu c_L)(\bar u_R \gamma_\mu c_R)
+    V8uuLR_1212:
+      tex: (\bar u_L \gamma^\mu T^A c_L)(\bar u_R \gamma_\mu T^A c_R)
+    S1uuRR_1212:
+      tex: (\bar u_L c_R) (\bar u_L c_R)
+    S1uuRR_2121:
+      tex: (\bar c_L u_R) (\bar c_L u_R)
+    S8uuRR_1212:
+      tex: (\bar u_L T^A c_R) (\bar u_L T^A c_R)
+    S8uuRR_2121:
+      tex: (\bar c_L T^A u_R) (\bar c_L T^A u_R)
+  sduc:
+    V1udLL_1221:
+      tex: (\bar u_L \gamma^\mu c_L) (\bar s_L \gamma_\mu d_L)
+    V8udLL_1221:
+      tex: (\bar u_L \gamma^\mu T^A c_L) (\bar s_L \gamma_\mu T^A d_L)
+    V1udRR_1221:
+      tex: (\bar u_R \gamma^\mu c_R) (\bar s_R \gamma_\mu d_R)
+    V8udRR_1221:
+      tex: (\bar u_R \gamma^\mu T^A c_R) (\bar s_R \gamma_\mu T^A d_R)
+    V1udLR_1221:
+      tex: (\bar u_L \gamma^\mu c_L) (\bar s_R \gamma_\mu d_R)
+    V8udLR_1221:
+      tex: (\bar u_L \gamma^\mu T^A c_L) (\bar s_R \gamma_\mu T^A d_R)
+    V1duLR_1221:
+      tex: (\bar d_L \gamma^\mu s_L)(\bar c_R \gamma_\mu u_R)
+    V8duLR_1221:
+      tex: (\bar d_L \gamma^\mu T^A s_L)(\bar c_R \gamma_\mu T^A u_R)
+    V1udduLR_1122:
+      tex: (\bar u_L \gamma^\mu d_L)(\bar s_R \gamma_\mu c_R)
+    V1udduLR_2211:
+      tex: (\bar c_L \gamma^\mu s_L)(\bar d_R \gamma_\mu u_R)
+    V8udduLR_1122:
+      tex: (\bar u_L \gamma^\mu T^A d_L)(\bar s_R \gamma_\mu T^A c_R)
+    V8udduLR_2211:
+      tex: (\bar c_L \gamma^\mu T^A s_L)(\bar d_R \gamma_\mu T^A u_R)
+    S1udRR_1221:
+      tex: (\bar u_L c_R) (\bar s_L d_R)
+    S1udRR_2112:
+      tex: (\bar c_L u_R) (\bar d_L s_R)
+    S8udRR_1221:
+      tex: (\bar u_L T^A c_R) (\bar s_L T^A d_R)
+    S8udRR_2112:
+      tex: (\bar c_L T^A u_R) (\bar d_L T^A s_R)
+    S1udduRR_1122:
+      tex: (\bar u_L d_R) (\bar s_L c_R)
+    S1udduRR_2211:
+      tex: (\bar c_L s_R) (\bar d_L u_R)
+    S8udduRR_1122:
+      tex: (\bar u_L T^A d_R) (\bar s_L T^A c_R)
+    S8udduRR_2211:
+      tex: (\bar c_L T^A s_R) (\bar d_L T^A u_R)
+  sdcu:
+    V1udLL_1212:
+      tex: (\bar u_L \gamma^\mu c_L) (\bar d_L \gamma_\mu s_L)
+    V8udLL_1212:
+      tex: (\bar u_L \gamma^\mu T^A c_L) (\bar d_L \gamma_\mu T^A s_L)
+    V1udRR_1212:
+      tex: (\bar u_R \gamma^\mu c_R) (\bar d_R \gamma_\mu s_R)
+    V8udRR_1212:
+      tex: (\bar u_R \gamma^\mu T^A c_R) (\bar d_R \gamma_\mu T^A s_R)
+    V1udLR_1212:
+      tex: (\bar u_L \gamma^\mu c_L) (\bar d_R \gamma_\mu s_R)
+    V8udLR_1212:
+      tex: (\bar u_L \gamma^\mu T^A c_L) (\bar d_R \gamma_\mu T^A s_R)
+    V1duLR_1212:
+      tex: (\bar d_L \gamma^\mu s_L)(\bar u_R \gamma_\mu c_R)
+    V8duLR_1212:
+      tex: (\bar d_L \gamma^\mu T^A s_L)(\bar u_R \gamma_\mu T^A c_R)
+    V1udduLR_1212:
+      tex: (\bar u_L \gamma^\mu s_L)(\bar d_R \gamma_\mu c_R)
+    V1udduLR_2121:
+      tex: (\bar c_L \gamma^\mu d_L)(\bar s_R \gamma_\mu u_R)
+    V8udduLR_1212:
+      tex: (\bar u_L \gamma^\mu T^A s_L)(\bar d_R \gamma_\mu T^A c_R)
+    V8udduLR_2121:
+      tex: (\bar c_L \gamma^\mu T^A d_L)(\bar s_R \gamma_\mu T^A u_R)
+    S1udRR_1212:
+      tex: (\bar u_L c_R) (\bar d_L s_R)
+    S1udRR_2121:
+      tex: (\bar c_L u_R) (\bar s_L d_R)
+    S8udRR_1212:
+      tex: (\bar u_L T^A c_R) (\bar d_L T^A s_R)
+    S8udRR_2121:
+      tex: (\bar c_L T^A u_R) (\bar s_L T^A d_R)
+    S1udduRR_1212:
+      tex: (\bar u_L s_R) (\bar d_L c_R)
+    S1udduRR_2121:
+      tex: (\bar c_L d_R) (\bar s_L u_R)
+    S8udduRR_1212:
+      tex: (\bar u_L T^A s_R) (\bar d_L T^A c_R)
+    S8udduRR_2121:
+      tex: (\bar c_L T^A d_R) (\bar s_L T^A u_R)
+  sd:
+    dgamma_12:
+      tex: \bar d_L \sigma^{\mu \nu} s_R\, F_{\mu \nu}
+    dgamma_21:
+      tex: \bar s_L \sigma^{\mu \nu} d_R\, F_{\mu \nu}
+    dG_12:
+      tex: \bar d_L \sigma^{\mu \nu} T^A s_R\, G_{\mu \nu}^A
+    dG_21:
+      tex: \bar s_L \sigma^{\mu \nu} T^A d_R\, G_{\mu \nu}^A
+    VedLL_1112:
+      tex: (\bar e_L \gamma^\mu e_L)(\bar d_L \gamma_\mu s_L)
+    VedLL_2212:
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar d_L \gamma_\mu s_L)
+    VedLL_3312:
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar d_L \gamma_\mu s_L)
+    VddLL_1112:
+      tex: (\bar d_L \gamma^\mu d_L)(\bar d_L \gamma_\mu s_L)
+    VddLL_1222:
+      tex: (\bar d_L \gamma^\mu s_L)(\bar s_L \gamma_\mu s_L)
+    V1udLL_1112:
+      tex: (\bar u_L \gamma^\mu u_L) (\bar d_L \gamma_\mu s_L)
+    V1udLL_2212:
+      tex: (\bar c_L \gamma^\mu c_L) (\bar d_L \gamma_\mu s_L)
+    V8udLL_1112:
+      tex: (\bar u_L \gamma^\mu T^A u_L) (\bar d_L \gamma_\mu T^A s_L)
+    V8udLL_2212:
+      tex: (\bar c_L \gamma^\mu T^A c_L) (\bar d_L \gamma_\mu T^A s_L)
+    VedRR_1112:
+      tex: (\bar e_R \gamma^\mu e_R) (\bar d_R \gamma_\mu s_R)
+    VedRR_2212:
+      tex: (\bar \mu_R \gamma^\mu \mu_R) (\bar d_R \gamma_\mu s_R)
+    VedRR_3312:
+      tex: (\bar \tau_R \gamma^\mu \tau_R) (\bar d_R \gamma_\mu s_R)
+    VddRR_1112:
+      tex: (\bar d_R \gamma^\mu d_R)(\bar d_R \gamma_\mu s_R)
+    VddRR_1222:
+      tex: (\bar d_R \gamma^\mu s_R)(\bar s_R \gamma_\mu s_R)
+    V1udRR_1112:
+      tex: (\bar u_R \gamma^\mu u_R) (\bar d_R \gamma_\mu s_R)
+    V1udRR_2212:
+      tex: (\bar c_R \gamma^\mu c_R) (\bar d_R \gamma_\mu s_R)
+    V8udRR_1112:
+      tex: (\bar u_R \gamma^\mu T^A u_R) (\bar d_R \gamma_\mu T^A s_R)
+    V8udRR_2212:
+      tex: (\bar c_R \gamma^\mu T^A c_R) (\bar d_R \gamma_\mu T^A s_R)
+    VedLR_1112:
+      tex: (\bar e_L \gamma^\mu e_L)(\bar d_R \gamma_\mu s_R)
+    VedLR_2212:
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar d_R \gamma_\mu s_R)
+    VedLR_3312:
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar d_R \gamma_\mu s_R)
+    VdeLR_1211:
+      tex: (\bar d_L \gamma^\mu s_L) (\bar e_R \gamma_\mu e_R)
+    VdeLR_1222:
+      tex: (\bar d_L \gamma^\mu s_L) (\bar \mu_R \gamma_\mu \mu_R)
+    VdeLR_1233:
+      tex: (\bar d_L \gamma^\mu s_L) (\bar \tau_R \gamma_\mu \tau_R)
+    V1udLR_1112:
+      tex: (\bar u_L \gamma^\mu u_L) (\bar d_R \gamma_\mu s_R)
+    V1udLR_2212:
+      tex: (\bar c_L \gamma^\mu c_L) (\bar d_R \gamma_\mu s_R)
+    V8udLR_1112:
+      tex: (\bar u_L \gamma^\mu T^A u_L) (\bar d_R \gamma_\mu T^A s_R)
+    V8udLR_2212:
+      tex: (\bar c_L \gamma^\mu T^A c_L) (\bar d_R \gamma_\mu T^A s_R)
+    V1duLR_1211:
+      tex: (\bar d_L \gamma^\mu s_L)(\bar u_R \gamma_\mu u_R)
+    V1duLR_1222:
+      tex: (\bar d_L \gamma^\mu s_L)(\bar c_R \gamma_\mu c_R)
+    V8duLR_1211:
+      tex: (\bar d_L \gamma^\mu T^A s_L)(\bar u_R \gamma_\mu T^A u_R)
+    V8duLR_1222:
+      tex: (\bar d_L \gamma^\mu T^A s_L)(\bar c_R \gamma_\mu T^A c_R)
+    V1ddLR_1112:
+      tex: (\bar d_L \gamma^\mu d_L)(\bar d_R \gamma_\mu s_R)
+    V1ddLR_1211:
+      tex: (\bar d_L \gamma^\mu s_L)(\bar d_R \gamma_\mu d_R)
+    V1ddLR_1222:
+      tex: (\bar d_L \gamma^\mu s_L)(\bar s_R \gamma_\mu s_R)
+    V1ddLR_2212:
+      tex: (\bar s_L \gamma^\mu s_L)(\bar d_R \gamma_\mu s_R)
+    V8ddLR_1112:
+      tex: (\bar d_L \gamma^\mu T^A d_L)(\bar d_R \gamma_\mu T^A s_R)
+    V8ddLR_1211:
+      tex: (\bar d_L \gamma^\mu T^A s_L)(\bar d_R \gamma_\mu T^A d_R)
+    V8ddLR_1222:
+      tex: (\bar d_L \gamma^\mu T^A s_L)(\bar s_R \gamma_\mu T^A s_R)
+    V8ddLR_2212:
+      tex: (\bar s_L \gamma^\mu T^A s_L)(\bar d_R \gamma_\mu T^A s_R)
+    V1udduLR_1121:
+      tex: (\bar u_L \gamma^\mu d_L)(\bar s_R \gamma_\mu u_R)
+    V1udduLR_1211:
+      tex: (\bar u_L \gamma^\mu s_L)(\bar d_R \gamma_\mu u_R)
+    V1udduLR_2122:
+      tex: (\bar c_L \gamma^\mu d_L)(\bar s_R \gamma_\mu c_R)
+    V1udduLR_2212:
+      tex: (\bar c_L \gamma^\mu s_L)(\bar d_R \gamma_\mu c_R)
+    V8udduLR_1121:
+      tex: (\bar u_L \gamma^\mu T^A d_L)(\bar s_R \gamma_\mu T^A u_R)
+    V8udduLR_1211:
+      tex: (\bar u_L \gamma^\mu T^A s_L)(\bar d_R \gamma_\mu T^A u_R)
+    V8udduLR_2122:
+      tex: (\bar c_L \gamma^\mu T^A d_L)(\bar s_R \gamma_\mu T^A c_R)
+    V8udduLR_2212:
+      tex: (\bar c_L \gamma^\mu T^A s_L)(\bar d_R \gamma_\mu T^A c_R)
+    SedRL_1112:
+      tex: (\bar e_L e_R) (\bar d_R s_L)
+    SedRL_1121:
+      tex: (\bar e_L e_R) (\bar s_R d_L)
+    SedRL_2212:
+      tex: (\bar \mu_L \mu_R) (\bar d_R s_L)
+    SedRL_2221:
+      tex: (\bar \mu_L \mu_R) (\bar s_R d_L)
+    SedRL_3312:
+      tex: (\bar \tau_L \tau_R) (\bar d_R s_L)
+    SedRL_3321:
+      tex: (\bar \tau_L \tau_R) (\bar s_R d_L)
+    SedRR_1112:
+      tex: (\bar e_L e_R)(\bar d_L s_R)
+    SedRR_1121:
+      tex: (\bar e_L e_R)(\bar s_L d_R)
+    SedRR_2212:
+      tex: (\bar \mu_L \mu_R)(\bar d_L s_R)
+    SedRR_2221:
+      tex: (\bar \mu_L \mu_R)(\bar s_L d_R)
+    SedRR_3312:
+      tex: (\bar \tau_L \tau_R)(\bar d_L s_R)
+    SedRR_3321:
+      tex: (\bar \tau_L \tau_R)(\bar s_L d_R)
+    TedRR_1112:
+      tex: (\bar e_L \sigma^{\mu \nu} e_R) (\bar d_L \sigma_{\mu \nu} s_R)
+    TedRR_1121:
+      tex: (\bar e_L \sigma^{\mu \nu} e_R) (\bar s_L \sigma_{\mu \nu} d_R)
+    TedRR_2212:
+      tex: (\bar \mu_L \sigma^{\mu \nu} \mu_R) (\bar d_L \sigma_{\mu \nu} s_R)
+    TedRR_2221:
+      tex: (\bar \mu_L \sigma^{\mu \nu} \mu_R) (\bar s_L \sigma_{\mu \nu} d_R)
+    TedRR_3312:
+      tex: (\bar \tau_L \sigma^{\mu \nu} \tau_R) (\bar d_L \sigma_{\mu \nu} s_R)
+    TedRR_3321:
+      tex: (\bar \tau_L \sigma^{\mu \nu} \tau_R) (\bar s_L \sigma_{\mu \nu} d_R)
+    S1udRR_1112:
+      tex: (\bar u_L u_R) (\bar d_L s_R)
+    S1udRR_1121:
+      tex: (\bar u_L u_R) (\bar s_L d_R)
+    S1udRR_2212:
+      tex: (\bar c_L c_R) (\bar d_L s_R)
+    S1udRR_2221:
+      tex: (\bar c_L c_R) (\bar s_L d_R)
+    S8udRR_1112:
+      tex: (\bar u_L T^A u_R) (\bar d_L T^A s_R)
+    S8udRR_1121:
+      tex: (\bar u_L T^A u_R) (\bar s_L T^A d_R)
+    S8udRR_2212:
+      tex: (\bar c_L T^A c_R) (\bar d_L T^A s_R)
+    S8udRR_2221:
+      tex: (\bar c_L T^A c_R) (\bar s_L T^A d_R)
+    S1ddRR_1112:
+      tex: (\bar d_L d_R) (\bar d_L s_R)
+    S1ddRR_1121:
+      tex: (\bar d_L d_R) (\bar s_L d_R)
+    S1ddRR_1222:
+      tex: (\bar d_L s_R) (\bar s_L s_R)
+    S1ddRR_2122:
+      tex: (\bar s_L d_R) (\bar s_L s_R)
+    S8ddRR_1112:
+      tex: (\bar d_L T^A d_R) (\bar d_L T^A s_R)
+    S8ddRR_1121:
+      tex: (\bar d_L T^A d_R) (\bar s_L T^A d_R)
+    S8ddRR_1222:
+      tex: (\bar d_L T^A s_R) (\bar s_L T^A s_R)
+    S8ddRR_2122:
+      tex: (\bar s_L T^A d_R) (\bar s_L T^A s_R)
+    S1udduRR_1121:
+      tex: (\bar u_L d_R) (\bar s_L u_R)
+    S1udduRR_1211:
+      tex: (\bar u_L s_R) (\bar d_L u_R)
+    S1udduRR_2122:
+      tex: (\bar c_L d_R) (\bar s_L c_R)
+    S1udduRR_2212:
+      tex: (\bar c_L s_R) (\bar d_L c_R)
+    S8udduRR_1121:
+      tex: (\bar u_L T^A d_R) (\bar s_L T^A u_R)
+    S8udduRR_1211:
+      tex: (\bar u_L T^A s_R) (\bar d_L T^A u_R)
+    S8udduRR_2122:
+      tex: (\bar c_L T^A d_R) (\bar s_L T^A c_R)
+    S8udduRR_2212:
+      tex: (\bar c_L T^A s_R) (\bar d_L T^A c_R)
+  cu:
+    ugamma_12:
+      tex: \bar u_L \sigma^{\mu \nu} c_R\, F_{\mu \nu}
+    ugamma_21:
+      tex: \bar c_L \sigma^{\mu \nu} u_R\, F_{\mu \nu}
+    uG_12:
+      tex: \bar u_L \sigma^{\mu \nu} T^A c_R\, G_{\mu \nu}^A
+    uG_21:
+      tex: \bar c_L \sigma^{\mu \nu} T^A u_R\, G_{\mu \nu}^A
+    VeuLL_1112:
+      tex: (\bar e_L \gamma^\mu e_L)(\bar u_L \gamma_\mu c_L)
+    VeuLL_2212:
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar u_L \gamma_\mu c_L)
+    VeuLL_3312:
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar u_L \gamma_\mu c_L)
+    VuuLL_1112:
+      tex: (\bar u_L \gamma^\mu u_L)(\bar u_L \gamma_\mu c_L)
+    VuuLL_1222:
+      tex: (\bar u_L \gamma^\mu c_L)(\bar c_L \gamma_\mu c_L)
+    V1udLL_1211:
+      tex: (\bar u_L \gamma^\mu c_L) (\bar d_L \gamma_\mu d_L)
+    V1udLL_1222:
+      tex: (\bar u_L \gamma^\mu c_L) (\bar s_L \gamma_\mu s_L)
+    V8udLL_1211:
+      tex: (\bar u_L \gamma^\mu T^A c_L) (\bar d_L \gamma_\mu T^A d_L)
+    V8udLL_1222:
+      tex: (\bar u_L \gamma^\mu T^A c_L) (\bar s_L \gamma_\mu T^A s_L)
+    VeuRR_1112:
+      tex: (\bar e_R \gamma^\mu e_R)(\bar u_R \gamma_\mu c_R)
+    VeuRR_2212:
+      tex: (\bar \mu_R \gamma^\mu \mu_R)(\bar u_R \gamma_\mu c_R)
+    VeuRR_3312:
+      tex: (\bar \tau_R \gamma^\mu \tau_R)(\bar u_R \gamma_\mu c_R)
+    VuuRR_1112:
+      tex: (\bar u_R \gamma^\mu u_R)(\bar u_R \gamma_\mu c_R)
+    VuuRR_1222:
+      tex: (\bar u_R \gamma^\mu c_R)(\bar c_R \gamma_\mu c_R)
+    V1udRR_1211:
+      tex: (\bar u_R \gamma^\mu c_R) (\bar d_R \gamma_\mu d_R)
+    V1udRR_1222:
+      tex: (\bar u_R \gamma^\mu c_R) (\bar s_R \gamma_\mu s_R)
+    V8udRR_1211:
+      tex: (\bar u_R \gamma^\mu T^A c_R) (\bar d_R \gamma_\mu T^A d_R)
+    V8udRR_1222:
+      tex: (\bar u_R \gamma^\mu T^A c_R) (\bar s_R \gamma_\mu T^A s_R)
+    VeuLR_1112:
+      tex: (\bar e_L \gamma^\mu e_L)(\bar u_R \gamma_\mu c_R)
+    VeuLR_2212:
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar u_R \gamma_\mu c_R)
+    VeuLR_3312:
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar u_R \gamma_\mu c_R)
+    VueLR_1211:
+      tex: (\bar u_L \gamma^\mu c_L)(\bar e_R \gamma_\mu e_R)
+    VueLR_1222:
+      tex: (\bar u_L \gamma^\mu c_L)(\bar \mu_R \gamma_\mu \mu_R)
+    VueLR_1233:
+      tex: (\bar u_L \gamma^\mu c_L)(\bar \tau_R \gamma_\mu \tau_R)
+    V1uuLR_1112:
+      tex: (\bar u_L \gamma^\mu u_L)(\bar u_R \gamma_\mu c_R)
+    V1uuLR_1211:
+      tex: (\bar u_L \gamma^\mu c_L)(\bar u_R \gamma_\mu u_R)
+    V1uuLR_1222:
+      tex: (\bar u_L \gamma^\mu c_L)(\bar c_R \gamma_\mu c_R)
+    V1uuLR_2212:
+      tex: (\bar c_L \gamma^\mu c_L)(\bar u_R \gamma_\mu c_R)
+    V8uuLR_1112:
+      tex: (\bar u_L \gamma^\mu T^A u_L)(\bar u_R \gamma_\mu T^A c_R)
+    V8uuLR_1211:
+      tex: (\bar u_L \gamma^\mu T^A c_L)(\bar u_R \gamma_\mu T^A u_R)
+    V8uuLR_1222:
+      tex: (\bar u_L \gamma^\mu T^A c_L)(\bar c_R \gamma_\mu T^A c_R)
+    V8uuLR_2212:
+      tex: (\bar c_L \gamma^\mu T^A c_L)(\bar u_R \gamma_\mu T^A c_R)
+    V1udLR_1211:
+      tex: (\bar u_L \gamma^\mu c_L) (\bar d_R \gamma_\mu d_R)
+    V1udLR_1222:
+      tex: (\bar u_L \gamma^\mu c_L) (\bar s_R \gamma_\mu s_R)
+    V8udLR_1211:
+      tex: (\bar u_L \gamma^\mu T^A c_L) (\bar d_R \gamma_\mu T^A d_R)
+    V8udLR_1222:
+      tex: (\bar u_L \gamma^\mu T^A c_L) (\bar s_R \gamma_\mu T^A s_R)
+    V1duLR_1112:
+      tex: (\bar d_L \gamma^\mu d_L)(\bar u_R \gamma_\mu c_R)
+    V1duLR_2212:
+      tex: (\bar s_L \gamma^\mu s_L)(\bar u_R \gamma_\mu c_R)
+    V8duLR_1112:
+      tex: (\bar d_L \gamma^\mu T^A d_L)(\bar u_R \gamma_\mu T^A c_R)
+    V8duLR_2212:
+      tex: (\bar s_L \gamma^\mu T^A s_L)(\bar u_R \gamma_\mu T^A c_R)
+    V1udduLR_1112:
+      tex: (\bar u_L \gamma^\mu d_L)(\bar d_R \gamma_\mu c_R)
+    V1udduLR_1222:
+      tex: (\bar u_L \gamma^\mu s_L)(\bar s_R \gamma_\mu c_R)
+    V1udduLR_2111:
+      tex: (\bar c_L \gamma^\mu d_L)(\bar d_R \gamma_\mu u_R)
+    V1udduLR_2221:
+      tex: (\bar c_L \gamma^\mu s_L)(\bar s_R \gamma_\mu u_R)
+    V8udduLR_1112:
+      tex: (\bar u_L \gamma^\mu T^A d_L)(\bar d_R \gamma_\mu T^A c_R)
+    V8udduLR_1222:
+      tex: (\bar u_L \gamma^\mu T^A s_L)(\bar s_R \gamma_\mu T^A c_R)
+    V8udduLR_2111:
+      tex: (\bar c_L \gamma^\mu T^A d_L)(\bar d_R \gamma_\mu T^A u_R)
+    V8udduLR_2221:
+      tex: (\bar c_L \gamma^\mu T^A s_L)(\bar s_R \gamma_\mu T^A u_R)
+    SeuRL_1112:
+      tex: (\bar e_L e_R) (\bar u_R c_L)
+    SeuRL_1121:
+      tex: (\bar e_L e_R) (\bar c_R u_L)
+    SeuRL_2212:
+      tex: (\bar \mu_L \mu_R) (\bar u_R c_L)
+    SeuRL_2221:
+      tex: (\bar \mu_L \mu_R) (\bar c_R u_L)
+    SeuRL_3312:
+      tex: (\bar \tau_L \tau_R) (\bar u_R c_L)
+    SeuRL_3321:
+      tex: (\bar \tau_L \tau_R) (\bar c_R u_L)
+    SeuRR_1112:
+      tex: (\bar e_L e_R) (\bar u_L c_R)
+    SeuRR_1121:
+      tex: (\bar e_L e_R) (\bar c_L u_R)
+    SeuRR_2212:
+      tex: (\bar \mu_L \mu_R) (\bar u_L c_R)
+    SeuRR_2221:
+      tex: (\bar \mu_L \mu_R) (\bar c_L u_R)
+    SeuRR_3312:
+      tex: (\bar \tau_L \tau_R) (\bar u_L c_R)
+    SeuRR_3321:
+      tex: (\bar \tau_L \tau_R) (\bar c_L u_R)
+    TeuRR_1112:
+      tex: (\bar e_L \sigma^{\mu \nu} e_R) (\bar u_L \sigma_{\mu \nu} c_R)
+    TeuRR_1121:
+      tex: (\bar e_L \sigma^{\mu \nu} e_R) (\bar c_L \sigma_{\mu \nu} u_R)
+    TeuRR_2212:
+      tex: (\bar \mu_L \sigma^{\mu \nu} \mu_R) (\bar u_L \sigma_{\mu \nu} c_R)
+    TeuRR_2221:
+      tex: (\bar \mu_L \sigma^{\mu \nu} \mu_R) (\bar c_L \sigma_{\mu \nu} u_R)
+    TeuRR_3312:
+      tex: (\bar \tau_L \sigma^{\mu \nu} \tau_R) (\bar u_L \sigma_{\mu \nu} c_R)
+    TeuRR_3321:
+      tex: (\bar \tau_L \sigma^{\mu \nu} \tau_R) (\bar c_L \sigma_{\mu \nu} u_R)
+    S1uuRR_1112:
+      tex: (\bar u_L u_R) (\bar u_L c_R)
+    S1uuRR_1121:
+      tex: (\bar u_L u_R) (\bar c_L u_R)
+    S1uuRR_1222:
+      tex: (\bar u_L c_R) (\bar c_L c_R)
+    S1uuRR_2122:
+      tex: (\bar c_L u_R) (\bar c_L c_R)
+    S8uuRR_1112:
+      tex: (\bar u_L T^A u_R) (\bar u_L T^A c_R)
+    S8uuRR_1121:
+      tex: (\bar u_L T^A u_R) (\bar c_L T^A u_R)
+    S8uuRR_1222:
+      tex: (\bar u_L T^A c_R) (\bar c_L T^A c_R)
+    S8uuRR_2122:
+      tex: (\bar c_L T^A u_R) (\bar c_L T^A c_R)
+    S1udRR_1211:
+      tex: (\bar u_L c_R) (\bar d_L d_R)
+    S1udRR_1222:
+      tex: (\bar u_L c_R) (\bar s_L s_R)
+    S1udRR_2111:
+      tex: (\bar c_L u_R) (\bar d_L d_R)
+    S1udRR_2122:
+      tex: (\bar c_L u_R) (\bar s_L s_R)
+    S8udRR_1211:
+      tex: (\bar u_L T^A c_R) (\bar d_L T^A d_R)
+    S8udRR_1222:
+      tex: (\bar u_L T^A c_R) (\bar s_L T^A s_R)
+    S8udRR_2111:
+      tex: (\bar c_L T^A u_R) (\bar d_L T^A d_R)
+    S8udRR_2122:
+      tex: (\bar c_L T^A u_R) (\bar s_L T^A s_R)
+    S1udduRR_1112:
+      tex: (\bar u_L d_R) (\bar d_L c_R)
+    S1udduRR_1222:
+      tex: (\bar u_L s_R) (\bar s_L c_R)
+    S1udduRR_2111:
+      tex: (\bar c_L d_R) (\bar d_L u_R)
+    S1udduRR_2221:
+      tex: (\bar c_L s_R) (\bar s_L u_R)
+    S8udduRR_1112:
+      tex: (\bar u_L T^A d_R) (\bar d_L T^A c_R)
+    S8udduRR_1222:
+      tex: (\bar u_L T^A s_R) (\bar s_L T^A c_R)
+    S8udduRR_2111:
+      tex: (\bar c_L T^A d_R) (\bar d_L T^A u_R)
+    S8udduRR_2221:
+      tex: (\bar c_L T^A s_R) (\bar s_L T^A u_R)
+  sdemu:
+    VedLL_1221:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar s_L \gamma_\mu d_L)
+    VedRR_1221:
+      tex: (\bar e_R \gamma^\mu \mu_R) (\bar s_R \gamma_\mu d_R)
+    VedLR_1221:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar s_R \gamma_\mu d_R)
+    VdeLR_1221:
+      tex: (\bar d_L \gamma^\mu s_L) (\bar \mu_R \gamma_\mu e_R)
+    SedRL_1221:
+      tex: (\bar e_L \mu_R) (\bar s_R d_L)
+    SedRL_2112:
+      tex: (\bar \mu_L e_R) (\bar d_R s_L)
+    SedRR_1221:
+      tex: (\bar e_L \mu_R)(\bar s_L d_R)
+    SedRR_2112:
+      tex: (\bar \mu_L e_R)(\bar d_L s_R)
+    TedRR_1221:
+      tex: (\bar e_L \sigma^{\mu \nu} \mu_R) (\bar s_L \sigma_{\mu \nu} d_R)
+    TedRR_2112:
+      tex: (\bar \mu_L \sigma^{\mu \nu} e_R) (\bar d_L \sigma_{\mu \nu} s_R)
+  sdmue:
+    VedLL_1212:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar d_L \gamma_\mu s_L)
+    VedRR_1212:
+      tex: (\bar e_R \gamma^\mu \mu_R) (\bar d_R \gamma_\mu s_R)
+    VedLR_1212:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar d_R \gamma_\mu s_R)
+    VdeLR_1212:
+      tex: (\bar d_L \gamma^\mu s_L) (\bar e_R \gamma_\mu \mu_R)
+    SedRL_1212:
+      tex: (\bar e_L \mu_R) (\bar d_R s_L)
+    SedRL_2121:
+      tex: (\bar \mu_L e_R) (\bar s_R d_L)
+    SedRR_1212:
+      tex: (\bar e_L \mu_R)(\bar d_L s_R)
+    SedRR_2121:
+      tex: (\bar \mu_L e_R)(\bar s_L d_R)
+    TedRR_1212:
+      tex: (\bar e_L \sigma^{\mu \nu} \mu_R) (\bar d_L \sigma_{\mu \nu} s_R)
+    TedRR_2121:
+      tex: (\bar \mu_L \sigma^{\mu \nu} e_R) (\bar s_L \sigma_{\mu \nu} d_R)
+  sdetau:
+    VedLL_1321:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar s_L \gamma_\mu d_L)
+    VedRR_1321:
+      tex: (\bar e_R \gamma^\mu \tau_R) (\bar s_R \gamma_\mu d_R)
+    VedLR_1321:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar s_R \gamma_\mu d_R)
+    VdeLR_1231:
+      tex: (\bar d_L \gamma^\mu s_L) (\bar \tau_R \gamma_\mu e_R)
+    SedRL_1321:
+      tex: (\bar e_L \tau_R) (\bar s_R d_L)
+    SedRL_3112:
+      tex: (\bar \tau_L e_R) (\bar d_R s_L)
+    SedRR_1321:
+      tex: (\bar e_L \tau_R)(\bar s_L d_R)
+    SedRR_3112:
+      tex: (\bar \tau_L e_R)(\bar d_L s_R)
+    TedRR_1321:
+      tex: (\bar e_L \sigma^{\mu \nu} \tau_R) (\bar s_L \sigma_{\mu \nu} d_R)
+    TedRR_3112:
+      tex: (\bar \tau_L \sigma^{\mu \nu} e_R) (\bar d_L \sigma_{\mu \nu} s_R)
+  sdtaue:
+    VedLL_1312:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar d_L \gamma_\mu s_L)
+    VedRR_1312:
+      tex: (\bar e_R \gamma^\mu \tau_R) (\bar d_R \gamma_\mu s_R)
+    VedLR_1312:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar d_R \gamma_\mu s_R)
+    VdeLR_1213:
+      tex: (\bar d_L \gamma^\mu s_L) (\bar e_R \gamma_\mu \tau_R)
+    SedRL_1312:
+      tex: (\bar e_L \tau_R) (\bar d_R s_L)
+    SedRL_3121:
+      tex: (\bar \tau_L e_R) (\bar s_R d_L)
+    SedRR_1312:
+      tex: (\bar e_L \tau_R)(\bar d_L s_R)
+    SedRR_3121:
+      tex: (\bar \tau_L e_R)(\bar s_L d_R)
+    TedRR_1312:
+      tex: (\bar e_L \sigma^{\mu \nu} \tau_R) (\bar d_L \sigma_{\mu \nu} s_R)
+    TedRR_3121:
+      tex: (\bar \tau_L \sigma^{\mu \nu} e_R) (\bar s_L \sigma_{\mu \nu} d_R)
+  sdmutau:
+    VedLL_2321:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar s_L \gamma_\mu d_L)
+    VedRR_2321:
+      tex: (\bar \mu_R \gamma^\mu \tau_R) (\bar s_R \gamma_\mu d_R)
+    VedLR_2321:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar s_R \gamma_\mu d_R)
+    VdeLR_1232:
+      tex: (\bar d_L \gamma^\mu s_L) (\bar \tau_R \gamma_\mu \mu_R)
+    SedRL_2321:
+      tex: (\bar \mu_L \tau_R) (\bar s_R d_L)
+    SedRL_3212:
+      tex: (\bar \tau_L \mu_R) (\bar d_R s_L)
+    SedRR_2321:
+      tex: (\bar \mu_L \tau_R)(\bar s_L d_R)
+    SedRR_3212:
+      tex: (\bar \tau_L \mu_R)(\bar d_L s_R)
+    TedRR_2321:
+      tex: (\bar \mu_L \sigma^{\mu \nu} \tau_R) (\bar s_L \sigma_{\mu \nu} d_R)
+    TedRR_3212:
+      tex: (\bar \tau_L \sigma^{\mu \nu} \mu_R) (\bar d_L \sigma_{\mu \nu} s_R)
+  sdtaumu:
+    VedLL_2312:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar d_L \gamma_\mu s_L)
+    VedRR_2312:
+      tex: (\bar \mu_R \gamma^\mu \tau_R) (\bar d_R \gamma_\mu s_R)
+    VedLR_2312:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar d_R \gamma_\mu s_R)
+    VdeLR_1223:
+      tex: (\bar d_L \gamma^\mu s_L) (\bar \mu_R \gamma_\mu \tau_R)
+    SedRL_2312:
+      tex: (\bar \mu_L \tau_R) (\bar d_R s_L)
+    SedRL_3221:
+      tex: (\bar \tau_L \mu_R) (\bar s_R d_L)
+    SedRR_2312:
+      tex: (\bar \mu_L \tau_R)(\bar d_L s_R)
+    SedRR_3221:
+      tex: (\bar \tau_L \mu_R)(\bar s_L d_R)
+    TedRR_2312:
+      tex: (\bar \mu_L \sigma^{\mu \nu} \tau_R) (\bar d_L \sigma_{\mu \nu} s_R)
+    TedRR_3221:
+      tex: (\bar \tau_L \sigma^{\mu \nu} \mu_R) (\bar s_L \sigma_{\mu \nu} d_R)
+  cuemu:
+    VeuLL_1221:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar c_L \gamma_\mu u_L)
+    VeuRR_1221:
+      tex: (\bar e_R \gamma^\mu \mu_R)(\bar c_R \gamma_\mu u_R)
+    VeuLR_1221:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar c_R \gamma_\mu u_R)
+    VueLR_1221:
+      tex: (\bar u_L \gamma^\mu c_L)(\bar \mu_R \gamma_\mu e_R)
+    SeuRL_1221:
+      tex: (\bar e_L \mu_R) (\bar c_R u_L)
+    SeuRL_2112:
+      tex: (\bar \mu_L e_R) (\bar u_R c_L)
+    SeuRR_1221:
+      tex: (\bar e_L \mu_R) (\bar c_L u_R)
+    SeuRR_2112:
+      tex: (\bar \mu_L e_R) (\bar u_L c_R)
+    TeuRR_1221:
+      tex: (\bar e_L \sigma^{\mu \nu} \mu_R) (\bar c_L \sigma_{\mu \nu} u_R)
+    TeuRR_2112:
+      tex: (\bar \mu_L \sigma^{\mu \nu} e_R) (\bar u_L \sigma_{\mu \nu} c_R)
+  cumue:
+    VeuLL_1212:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar u_L \gamma_\mu c_L)
+    VeuRR_1212:
+      tex: (\bar e_R \gamma^\mu \mu_R)(\bar u_R \gamma_\mu c_R)
+    VeuLR_1212:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar u_R \gamma_\mu c_R)
+    VueLR_1212:
+      tex: (\bar u_L \gamma^\mu c_L)(\bar e_R \gamma_\mu \mu_R)
+    SeuRL_1212:
+      tex: (\bar e_L \mu_R) (\bar u_R c_L)
+    SeuRL_2121:
+      tex: (\bar \mu_L e_R) (\bar c_R u_L)
+    SeuRR_1212:
+      tex: (\bar e_L \mu_R) (\bar u_L c_R)
+    SeuRR_2121:
+      tex: (\bar \mu_L e_R) (\bar c_L u_R)
+    TeuRR_1212:
+      tex: (\bar e_L \sigma^{\mu \nu} \mu_R) (\bar u_L \sigma_{\mu \nu} c_R)
+    TeuRR_2121:
+      tex: (\bar \mu_L \sigma^{\mu \nu} e_R) (\bar c_L \sigma_{\mu \nu} u_R)
+  cuetau:
+    VeuLL_1321:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar c_L \gamma_\mu u_L)
+    VeuRR_1321:
+      tex: (\bar e_R \gamma^\mu \tau_R)(\bar c_R \gamma_\mu u_R)
+    VeuLR_1321:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar c_R \gamma_\mu u_R)
+    VueLR_1231:
+      tex: (\bar u_L \gamma^\mu c_L)(\bar \tau_R \gamma_\mu e_R)
+    SeuRL_1321:
+      tex: (\bar e_L \tau_R) (\bar c_R u_L)
+    SeuRL_3112:
+      tex: (\bar \tau_L e_R) (\bar u_R c_L)
+    SeuRR_1321:
+      tex: (\bar e_L \tau_R) (\bar c_L u_R)
+    SeuRR_3112:
+      tex: (\bar \tau_L e_R) (\bar u_L c_R)
+    TeuRR_1321:
+      tex: (\bar e_L \sigma^{\mu \nu} \tau_R) (\bar c_L \sigma_{\mu \nu} u_R)
+    TeuRR_3112:
+      tex: (\bar \tau_L \sigma^{\mu \nu} e_R) (\bar u_L \sigma_{\mu \nu} c_R)
+  cutaue:
+    VeuLL_1312:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar u_L \gamma_\mu c_L)
+    VeuRR_1312:
+      tex: (\bar e_R \gamma^\mu \tau_R)(\bar u_R \gamma_\mu c_R)
+    VeuLR_1312:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar u_R \gamma_\mu c_R)
+    VueLR_1213:
+      tex: (\bar u_L \gamma^\mu c_L)(\bar e_R \gamma_\mu \tau_R)
+    SeuRL_1312:
+      tex: (\bar e_L \tau_R) (\bar u_R c_L)
+    SeuRL_3121:
+      tex: (\bar \tau_L e_R) (\bar c_R u_L)
+    SeuRR_1312:
+      tex: (\bar e_L \tau_R) (\bar u_L c_R)
+    SeuRR_3121:
+      tex: (\bar \tau_L e_R) (\bar c_L u_R)
+    TeuRR_1312:
+      tex: (\bar e_L \sigma^{\mu \nu} \tau_R) (\bar u_L \sigma_{\mu \nu} c_R)
+    TeuRR_3121:
+      tex: (\bar \tau_L \sigma^{\mu \nu} e_R) (\bar c_L \sigma_{\mu \nu} u_R)
+  cumutau:
+    VeuLL_2321:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar c_L \gamma_\mu u_L)
+    VeuRR_2321:
+      tex: (\bar \mu_R \gamma^\mu \tau_R)(\bar c_R \gamma_\mu u_R)
+    VeuLR_2321:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar c_R \gamma_\mu u_R)
+    VueLR_1232:
+      tex: (\bar u_L \gamma^\mu c_L)(\bar \tau_R \gamma_\mu \mu_R)
+    SeuRL_2321:
+      tex: (\bar \mu_L \tau_R) (\bar c_R u_L)
+    SeuRL_3212:
+      tex: (\bar \tau_L \mu_R) (\bar u_R c_L)
+    SeuRR_2321:
+      tex: (\bar \mu_L \tau_R) (\bar c_L u_R)
+    SeuRR_3212:
+      tex: (\bar \tau_L \mu_R) (\bar u_L c_R)
+    TeuRR_2321:
+      tex: (\bar \mu_L \sigma^{\mu \nu} \tau_R) (\bar c_L \sigma_{\mu \nu} u_R)
+    TeuRR_3212:
+      tex: (\bar \tau_L \sigma^{\mu \nu} \mu_R) (\bar u_L \sigma_{\mu \nu} c_R)
+  cutaumu:
+    VeuLL_2312:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar u_L \gamma_\mu c_L)
+    VeuRR_2312:
+      tex: (\bar \mu_R \gamma^\mu \tau_R)(\bar u_R \gamma_\mu c_R)
+    VeuLR_2312:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar u_R \gamma_\mu c_R)
+    VueLR_1223:
+      tex: (\bar u_L \gamma^\mu c_L)(\bar \mu_R \gamma_\mu \tau_R)
+    SeuRL_2312:
+      tex: (\bar \mu_L \tau_R) (\bar u_R c_L)
+    SeuRL_3221:
+      tex: (\bar \tau_L \mu_R) (\bar c_R u_L)
+    SeuRR_2312:
+      tex: (\bar \mu_L \tau_R) (\bar u_L c_R)
+    SeuRR_3221:
+      tex: (\bar \tau_L \mu_R) (\bar c_L u_R)
+    TeuRR_2312:
+      tex: (\bar \mu_L \sigma^{\mu \nu} \tau_R) (\bar u_L \sigma_{\mu \nu} c_R)
+    TeuRR_3221:
+      tex: (\bar \tau_L \sigma^{\mu \nu} \mu_R) (\bar c_L \sigma_{\mu \nu} u_R)
+  mutau:
+    egamma_23:
+      tex: \bar \mu_L \sigma^{\mu \nu} \tau_R\, F_{\mu \nu}
+    egamma_32:
+      tex: \bar \tau_L \sigma^{\mu \nu} \mu_R\, F_{\mu \nu}
+    VeeLL_1123:
+      tex: (\bar e_L \gamma^\mu e_L)(\bar \mu_L \gamma_\mu \tau_L)
+    VeeLL_2223:
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar \mu_L \gamma_\mu \tau_L)
+    VeeLL_2333:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar \tau_L \gamma_\mu \tau_L)
+    VnueLL_1123:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar \mu_L \gamma_\mu \tau_L)
+    VnueLL_2223:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar \mu_L \gamma_\mu \tau_L)
+    VnueLL_3323:
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar \mu_L \gamma_\mu \tau_L)
+    VeuLL_2311:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar u_L \gamma_\mu u_L)
+    VeuLL_2322:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar c_L \gamma_\mu c_L)
+    VedLL_2311:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar d_L \gamma_\mu d_L)
+    VedLL_2322:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar s_L \gamma_\mu s_L)
+    VeeRR_1123:
+      tex: (\bar e_R \gamma^\mu e_R)(\bar \mu_R \gamma_\mu \tau_R)
+    VeeRR_2223:
+      tex: (\bar \mu_R \gamma^\mu \mu_R)(\bar \mu_R \gamma_\mu \tau_R)
+    VeeRR_2333:
+      tex: (\bar \mu_R \gamma^\mu \tau_R)(\bar \tau_R \gamma_\mu \tau_R)
+    VeuRR_2311:
+      tex: (\bar \mu_R \gamma^\mu \tau_R)(\bar u_R \gamma_\mu u_R)
+    VeuRR_2322:
+      tex: (\bar \mu_R \gamma^\mu \tau_R)(\bar c_R \gamma_\mu c_R)
+    VedRR_2311:
+      tex: (\bar \mu_R \gamma^\mu \tau_R) (\bar d_R \gamma_\mu d_R)
+    VedRR_2322:
+      tex: (\bar \mu_R \gamma^\mu \tau_R) (\bar s_R \gamma_\mu s_R)
+    VnueLR_1123:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar \mu_R \gamma_\mu \tau_R)
+    VnueLR_2223:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar \mu_R \gamma_\mu \tau_R)
+    VnueLR_3323:
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar \mu_R \gamma_\mu \tau_R)
+    VeeLR_1123:
+      tex: (\bar e_L \gamma^\mu e_L)(\bar \mu_R \gamma_\mu \tau_R)
+    VeeLR_1231:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar \tau_R \gamma_\mu e_R)
+    VeeLR_1321:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar \mu_R \gamma_\mu e_R)
+    VeeLR_2223:
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar \mu_R \gamma_\mu \tau_R)
+    VeeLR_2311:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar e_R \gamma_\mu e_R)
+    VeeLR_2322:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar \mu_R \gamma_\mu \mu_R)
+    VeeLR_2333:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar \tau_R \gamma_\mu \tau_R)
+    VeeLR_3323:
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar \mu_R \gamma_\mu \tau_R)
+    VeuLR_2311:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar u_R \gamma_\mu u_R)
+    VeuLR_2322:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar c_R \gamma_\mu c_R)
+    VedLR_2311:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar d_R \gamma_\mu d_R)
+    VedLR_2322:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar s_R \gamma_\mu s_R)
+    VueLR_1123:
+      tex: (\bar u_L \gamma^\mu u_L)(\bar \mu_R \gamma_\mu \tau_R)
+    VueLR_2223:
+      tex: (\bar c_L \gamma^\mu c_L)(\bar \mu_R \gamma_\mu \tau_R)
+    VdeLR_1123:
+      tex: (\bar d_L \gamma^\mu d_L) (\bar \mu_R \gamma_\mu \tau_R)
+    VdeLR_2223:
+      tex: (\bar s_L \gamma^\mu s_L) (\bar \mu_R \gamma_\mu \tau_R)
+    SeuRL_2311:
+      tex: (\bar \mu_L \tau_R) (\bar u_R u_L)
+    SeuRL_2322:
+      tex: (\bar \mu_L \tau_R) (\bar c_R c_L)
+    SeuRL_3211:
+      tex: (\bar \tau_L \mu_R) (\bar u_R u_L)
+    SeuRL_3222:
+      tex: (\bar \tau_L \mu_R) (\bar c_R c_L)
+    SedRL_2311:
+      tex: (\bar \mu_L \tau_R) (\bar d_R d_L)
+    SedRL_2322:
+      tex: (\bar \mu_L \tau_R) (\bar s_R s_L)
+    SedRL_3211:
+      tex: (\bar \tau_L \mu_R) (\bar d_R d_L)
+    SedRL_3222:
+      tex: (\bar \tau_L \mu_R) (\bar s_R s_L)
+    SeeRR_1123:
+      tex: (\bar e_L e_R) (\bar \mu_L \tau_R)
+    SeeRR_1132:
+      tex: (\bar e_L e_R) (\bar \tau_L \mu_R)
+    SeeRR_1231:
+      tex: (\bar e_L \mu_R) (\bar \tau_L e_R)
+    SeeRR_1321:
+      tex: (\bar e_L \tau_R) (\bar \mu_L e_R)
+    SeeRR_2223:
+      tex: (\bar \mu_L \mu_R) (\bar \mu_L \tau_R)
+    SeeRR_2232:
+      tex: (\bar \mu_L \mu_R) (\bar \tau_L \mu_R)
+    SeeRR_2333:
+      tex: (\bar \mu_L \tau_R) (\bar \tau_L \tau_R)
+    SeeRR_3233:
+      tex: (\bar \tau_L \mu_R) (\bar \tau_L \tau_R)
+    SeuRR_2311:
+      tex: (\bar \mu_L \tau_R) (\bar u_L u_R)
+    SeuRR_2322:
+      tex: (\bar \mu_L \tau_R) (\bar c_L c_R)
+    SeuRR_3211:
+      tex: (\bar \tau_L \mu_R) (\bar u_L u_R)
+    SeuRR_3222:
+      tex: (\bar \tau_L \mu_R) (\bar c_L c_R)
+    TeuRR_2311:
+      tex: (\bar \mu_L \sigma^{\mu \nu} \tau_R) (\bar u_L \sigma_{\mu \nu} u_R)
+    TeuRR_2322:
+      tex: (\bar \mu_L \sigma^{\mu \nu} \tau_R) (\bar c_L \sigma_{\mu \nu} c_R)
+    TeuRR_3211:
+      tex: (\bar \tau_L \sigma^{\mu \nu} \mu_R) (\bar u_L \sigma_{\mu \nu} u_R)
+    TeuRR_3222:
+      tex: (\bar \tau_L \sigma^{\mu \nu} \mu_R) (\bar c_L \sigma_{\mu \nu} c_R)
+    SedRR_2311:
+      tex: (\bar \mu_L \tau_R)(\bar d_L d_R)
+    SedRR_2322:
+      tex: (\bar \mu_L \tau_R)(\bar s_L s_R)
+    SedRR_3211:
+      tex: (\bar \tau_L \mu_R)(\bar d_L d_R)
+    SedRR_3222:
+      tex: (\bar \tau_L \mu_R)(\bar s_L s_R)
+    TedRR_2311:
+      tex: (\bar \mu_L \sigma^{\mu \nu} \tau_R) (\bar d_L \sigma_{\mu \nu} d_R)
+    TedRR_2322:
+      tex: (\bar \mu_L \sigma^{\mu \nu} \tau_R) (\bar s_L \sigma_{\mu \nu} s_R)
+    TedRR_3211:
+      tex: (\bar \tau_L \sigma^{\mu \nu} \mu_R) (\bar d_L \sigma_{\mu \nu} d_R)
+    TedRR_3222:
+      tex: (\bar \tau_L \sigma^{\mu \nu} \mu_R) (\bar s_L \sigma_{\mu \nu} s_R)
+  mue:
+    egamma_12:
+      tex: \bar e_L \sigma^{\mu \nu} \mu_R\, F_{\mu \nu}
+    egamma_21:
+      tex: \bar \mu_L \sigma^{\mu \nu} e_R\, F_{\mu \nu}
+    VeeLL_1112:
+      tex: (\bar e_L \gamma^\mu e_L)(\bar e_L \gamma_\mu \mu_L)
+    VeeLL_1222:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar \mu_L \gamma_\mu \mu_L)
+    VeeLL_1233:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar \tau_L \gamma_\mu \tau_L)
+    VnueLL_1112:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar e_L \gamma_\mu \mu_L)
+    VnueLL_2212:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar e_L \gamma_\mu \mu_L)
+    VnueLL_3312:
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar e_L \gamma_\mu \mu_L)
+    VeuLL_1211:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar u_L \gamma_\mu u_L)
+    VeuLL_1222:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar c_L \gamma_\mu c_L)
+    VedLL_1211:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar d_L \gamma_\mu d_L)
+    VedLL_1222:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar s_L \gamma_\mu s_L)
+    VeeRR_1112:
+      tex: (\bar e_R \gamma^\mu e_R)(\bar e_R \gamma_\mu \mu_R)
+    VeeRR_1222:
+      tex: (\bar e_R \gamma^\mu \mu_R)(\bar \mu_R \gamma_\mu \mu_R)
+    VeeRR_1233:
+      tex: (\bar e_R \gamma^\mu \mu_R)(\bar \tau_R \gamma_\mu \tau_R)
+    VeuRR_1211:
+      tex: (\bar e_R \gamma^\mu \mu_R)(\bar u_R \gamma_\mu u_R)
+    VeuRR_1222:
+      tex: (\bar e_R \gamma^\mu \mu_R)(\bar c_R \gamma_\mu c_R)
+    VedRR_1211:
+      tex: (\bar e_R \gamma^\mu \mu_R) (\bar d_R \gamma_\mu d_R)
+    VedRR_1222:
+      tex: (\bar e_R \gamma^\mu \mu_R) (\bar s_R \gamma_\mu s_R)
+    VnueLR_1112:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar e_R \gamma_\mu \mu_R)
+    VnueLR_2212:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar e_R \gamma_\mu \mu_R)
+    VnueLR_3312:
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar e_R \gamma_\mu \mu_R)
+    VeeLR_1112:
+      tex: (\bar e_L \gamma^\mu e_L)(\bar e_R \gamma_\mu \mu_R)
+    VeeLR_1211:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar e_R \gamma_\mu e_R)
+    VeeLR_1222:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar \mu_R \gamma_\mu \mu_R)
+    VeeLR_1233:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar \tau_R \gamma_\mu \tau_R)
+    VeeLR_1332:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar \tau_R \gamma_\mu \mu_R)
+    VeeLR_2212:
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar e_R \gamma_\mu \mu_R)
+    VeeLR_2331:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar \tau_R \gamma_\mu e_R)
+    VeeLR_3312:
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar e_R \gamma_\mu \mu_R)
+    VeuLR_1211:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar u_R \gamma_\mu u_R)
+    VeuLR_1222:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar c_R \gamma_\mu c_R)
+    VedLR_1211:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar d_R \gamma_\mu d_R)
+    VedLR_1222:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar s_R \gamma_\mu s_R)
+    VueLR_1112:
+      tex: (\bar u_L \gamma^\mu u_L)(\bar e_R \gamma_\mu \mu_R)
+    VueLR_2212:
+      tex: (\bar c_L \gamma^\mu c_L)(\bar e_R \gamma_\mu \mu_R)
+    VdeLR_1112:
+      tex: (\bar d_L \gamma^\mu d_L) (\bar e_R \gamma_\mu \mu_R)
+    VdeLR_2212:
+      tex: (\bar s_L \gamma^\mu s_L) (\bar e_R \gamma_\mu \mu_R)
+    SeuRL_1211:
+      tex: (\bar e_L \mu_R) (\bar u_R u_L)
+    SeuRL_1222:
+      tex: (\bar e_L \mu_R) (\bar c_R c_L)
+    SeuRL_2111:
+      tex: (\bar \mu_L e_R) (\bar u_R u_L)
+    SeuRL_2122:
+      tex: (\bar \mu_L e_R) (\bar c_R c_L)
+    SedRL_1211:
+      tex: (\bar e_L \mu_R) (\bar d_R d_L)
+    SedRL_1222:
+      tex: (\bar e_L \mu_R) (\bar s_R s_L)
+    SedRL_2111:
+      tex: (\bar \mu_L e_R) (\bar d_R d_L)
+    SedRL_2122:
+      tex: (\bar \mu_L e_R) (\bar s_R s_L)
+    SeeRR_1112:
+      tex: (\bar e_L e_R) (\bar e_L \mu_R)
+    SeeRR_1121:
+      tex: (\bar e_L e_R) (\bar \mu_L e_R)
+    SeeRR_1222:
+      tex: (\bar e_L \mu_R) (\bar \mu_L \mu_R)
+    SeeRR_1233:
+      tex: (\bar e_L \mu_R) (\bar \tau_L \tau_R)
+    SeeRR_1332:
+      tex: (\bar e_L \tau_R) (\bar \tau_L \mu_R)
+    SeeRR_2122:
+      tex: (\bar \mu_L e_R) (\bar \mu_L \mu_R)
+    SeeRR_2133:
+      tex: (\bar \mu_L e_R) (\bar \tau_L \tau_R)
+    SeeRR_2331:
+      tex: (\bar \mu_L \tau_R) (\bar \tau_L e_R)
+    SeuRR_1211:
+      tex: (\bar e_L \mu_R) (\bar u_L u_R)
+    SeuRR_1222:
+      tex: (\bar e_L \mu_R) (\bar c_L c_R)
+    SeuRR_2111:
+      tex: (\bar \mu_L e_R) (\bar u_L u_R)
+    SeuRR_2122:
+      tex: (\bar \mu_L e_R) (\bar c_L c_R)
+    TeuRR_1211:
+      tex: (\bar e_L \sigma^{\mu \nu} \mu_R) (\bar u_L \sigma_{\mu \nu} u_R)
+    TeuRR_1222:
+      tex: (\bar e_L \sigma^{\mu \nu} \mu_R) (\bar c_L \sigma_{\mu \nu} c_R)
+    TeuRR_2111:
+      tex: (\bar \mu_L \sigma^{\mu \nu} e_R) (\bar u_L \sigma_{\mu \nu} u_R)
+    TeuRR_2122:
+      tex: (\bar \mu_L \sigma^{\mu \nu} e_R) (\bar c_L \sigma_{\mu \nu} c_R)
+    SedRR_1211:
+      tex: (\bar e_L \mu_R)(\bar d_L d_R)
+    SedRR_1222:
+      tex: (\bar e_L \mu_R)(\bar s_L s_R)
+    SedRR_2111:
+      tex: (\bar \mu_L e_R)(\bar d_L d_R)
+    SedRR_2122:
+      tex: (\bar \mu_L e_R)(\bar s_L s_R)
+    TedRR_1211:
+      tex: (\bar e_L \sigma^{\mu \nu} \mu_R) (\bar d_L \sigma_{\mu \nu} d_R)
+    TedRR_1222:
+      tex: (\bar e_L \sigma^{\mu \nu} \mu_R) (\bar s_L \sigma_{\mu \nu} s_R)
+    TedRR_2111:
+      tex: (\bar \mu_L \sigma^{\mu \nu} e_R) (\bar d_L \sigma_{\mu \nu} d_R)
+    TedRR_2122:
+      tex: (\bar \mu_L \sigma^{\mu \nu} e_R) (\bar s_L \sigma_{\mu \nu} s_R)
+  taue:
+    egamma_13:
+      tex: \bar e_L \sigma^{\mu \nu} \tau_R\, F_{\mu \nu}
+    egamma_31:
+      tex: \bar \tau_L \sigma^{\mu \nu} e_R\, F_{\mu \nu}
+    VeeLL_1113:
+      tex: (\bar e_L \gamma^\mu e_L)(\bar e_L \gamma_\mu \tau_L)
+    VeeLL_1223:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar \mu_L \gamma_\mu \tau_L)
+    VeeLL_1333:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar \tau_L \gamma_\mu \tau_L)
+    VnueLL_1113:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar e_L \gamma_\mu \tau_L)
+    VnueLL_2213:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar e_L \gamma_\mu \tau_L)
+    VnueLL_3313:
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar e_L \gamma_\mu \tau_L)
+    VeuLL_1311:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar u_L \gamma_\mu u_L)
+    VeuLL_1322:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar c_L \gamma_\mu c_L)
+    VedLL_1311:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar d_L \gamma_\mu d_L)
+    VedLL_1322:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar s_L \gamma_\mu s_L)
+    VeeRR_1113:
+      tex: (\bar e_R \gamma^\mu e_R)(\bar e_R \gamma_\mu \tau_R)
+    VeeRR_1223:
+      tex: (\bar e_R \gamma^\mu \mu_R)(\bar \mu_R \gamma_\mu \tau_R)
+    VeeRR_1333:
+      tex: (\bar e_R \gamma^\mu \tau_R)(\bar \tau_R \gamma_\mu \tau_R)
+    VeuRR_1311:
+      tex: (\bar e_R \gamma^\mu \tau_R)(\bar u_R \gamma_\mu u_R)
+    VeuRR_1322:
+      tex: (\bar e_R \gamma^\mu \tau_R)(\bar c_R \gamma_\mu c_R)
+    VedRR_1311:
+      tex: (\bar e_R \gamma^\mu \tau_R) (\bar d_R \gamma_\mu d_R)
+    VedRR_1322:
+      tex: (\bar e_R \gamma^\mu \tau_R) (\bar s_R \gamma_\mu s_R)
+    VnueLR_1113:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar e_R \gamma_\mu \tau_R)
+    VnueLR_2213:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar e_R \gamma_\mu \tau_R)
+    VnueLR_3313:
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar e_R \gamma_\mu \tau_R)
+    VeeLR_1113:
+      tex: (\bar e_L \gamma^\mu e_L)(\bar e_R \gamma_\mu \tau_R)
+    VeeLR_1223:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar \mu_R \gamma_\mu \tau_R)
+    VeeLR_1311:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar e_R \gamma_\mu e_R)
+    VeeLR_1322:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar \mu_R \gamma_\mu \mu_R)
+    VeeLR_1333:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar \tau_R \gamma_\mu \tau_R)
+    VeeLR_2213:
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar e_R \gamma_\mu \tau_R)
+    VeeLR_2312:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar e_R \gamma_\mu \mu_R)
+    VeeLR_3313:
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar e_R \gamma_\mu \tau_R)
+    VeuLR_1311:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar u_R \gamma_\mu u_R)
+    VeuLR_1322:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar c_R \gamma_\mu c_R)
+    VedLR_1311:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar d_R \gamma_\mu d_R)
+    VedLR_1322:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar s_R \gamma_\mu s_R)
+    VueLR_1113:
+      tex: (\bar u_L \gamma^\mu u_L)(\bar e_R \gamma_\mu \tau_R)
+    VueLR_2213:
+      tex: (\bar c_L \gamma^\mu c_L)(\bar e_R \gamma_\mu \tau_R)
+    VdeLR_1113:
+      tex: (\bar d_L \gamma^\mu d_L) (\bar e_R \gamma_\mu \tau_R)
+    VdeLR_2213:
+      tex: (\bar s_L \gamma^\mu s_L) (\bar e_R \gamma_\mu \tau_R)
+    SeuRL_1311:
+      tex: (\bar e_L \tau_R) (\bar u_R u_L)
+    SeuRL_1322:
+      tex: (\bar e_L \tau_R) (\bar c_R c_L)
+    SeuRL_3111:
+      tex: (\bar \tau_L e_R) (\bar u_R u_L)
+    SeuRL_3122:
+      tex: (\bar \tau_L e_R) (\bar c_R c_L)
+    SedRL_1311:
+      tex: (\bar e_L \tau_R) (\bar d_R d_L)
+    SedRL_1322:
+      tex: (\bar e_L \tau_R) (\bar s_R s_L)
+    SedRL_3111:
+      tex: (\bar \tau_L e_R) (\bar d_R d_L)
+    SedRL_3122:
+      tex: (\bar \tau_L e_R) (\bar s_R s_L)
+    SeeRR_1113:
+      tex: (\bar e_L e_R) (\bar e_L \tau_R)
+    SeeRR_1131:
+      tex: (\bar e_L e_R) (\bar \tau_L e_R)
+    SeeRR_1223:
+      tex: (\bar e_L \mu_R) (\bar \mu_L \tau_R)
+    SeeRR_1322:
+      tex: (\bar e_L \tau_R) (\bar \mu_L \mu_R)
+    SeeRR_1333:
+      tex: (\bar e_L \tau_R) (\bar \tau_L \tau_R)
+    SeeRR_2132:
+      tex: (\bar \mu_L e_R) (\bar \tau_L \mu_R)
+    SeeRR_2231:
+      tex: (\bar \mu_L \mu_R) (\bar \tau_L e_R)
+    SeeRR_3133:
+      tex: (\bar \tau_L e_R) (\bar \tau_L \tau_R)
+    SeuRR_1311:
+      tex: (\bar e_L \tau_R) (\bar u_L u_R)
+    SeuRR_1322:
+      tex: (\bar e_L \tau_R) (\bar c_L c_R)
+    SeuRR_3111:
+      tex: (\bar \tau_L e_R) (\bar u_L u_R)
+    SeuRR_3122:
+      tex: (\bar \tau_L e_R) (\bar c_L c_R)
+    TeuRR_1311:
+      tex: (\bar e_L \sigma^{\mu \nu} \tau_R) (\bar u_L \sigma_{\mu \nu} u_R)
+    TeuRR_1322:
+      tex: (\bar e_L \sigma^{\mu \nu} \tau_R) (\bar c_L \sigma_{\mu \nu} c_R)
+    TeuRR_3111:
+      tex: (\bar \tau_L \sigma^{\mu \nu} e_R) (\bar u_L \sigma_{\mu \nu} u_R)
+    TeuRR_3122:
+      tex: (\bar \tau_L \sigma^{\mu \nu} e_R) (\bar c_L \sigma_{\mu \nu} c_R)
+    SedRR_1311:
+      tex: (\bar e_L \tau_R)(\bar d_L d_R)
+    SedRR_1322:
+      tex: (\bar e_L \tau_R)(\bar s_L s_R)
+    SedRR_3111:
+      tex: (\bar \tau_L e_R)(\bar d_L d_R)
+    SedRR_3122:
+      tex: (\bar \tau_L e_R)(\bar s_L s_R)
+    TedRR_1311:
+      tex: (\bar e_L \sigma^{\mu \nu} \tau_R) (\bar d_L \sigma_{\mu \nu} d_R)
+    TedRR_1322:
+      tex: (\bar e_L \sigma^{\mu \nu} \tau_R) (\bar s_L \sigma_{\mu \nu} s_R)
+    TedRR_3111:
+      tex: (\bar \tau_L \sigma^{\mu \nu} e_R) (\bar d_L \sigma_{\mu \nu} d_R)
+    TedRR_3122:
+      tex: (\bar \tau_L \sigma^{\mu \nu} e_R) (\bar s_L \sigma_{\mu \nu} s_R)
+  tauetaue:
+    VeeLL_1313:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar e_L \gamma_\mu \tau_L)
+    VeeRR_1313:
+      tex: (\bar e_R \gamma^\mu \tau_R)(\bar e_R \gamma_\mu \tau_R)
+    VeeLR_1313:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar e_R \gamma_\mu \tau_R)
+    SeeRR_1313:
+      tex: (\bar e_L \tau_R) (\bar e_L \tau_R)
+    SeeRR_3131:
+      tex: (\bar \tau_L e_R) (\bar \tau_L e_R)
+  taumutaumu:
+    VeeLL_2323:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar \mu_L \gamma_\mu \tau_L)
+    VeeRR_2323:
+      tex: (\bar \mu_R \gamma^\mu \tau_R)(\bar \mu_R \gamma_\mu \tau_R)
+    VeeLR_2323:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar \mu_R \gamma_\mu \tau_R)
+    SeeRR_2323:
+      tex: (\bar \mu_L \tau_R) (\bar \mu_L \tau_R)
+    SeeRR_3232:
+      tex: (\bar \tau_L \mu_R) (\bar \tau_L \mu_R)
+  muemue:
+    VeeLL_1212:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar e_L \gamma_\mu \mu_L)
+    VeeRR_1212:
+      tex: (\bar e_R \gamma^\mu \mu_R)(\bar e_R \gamma_\mu \mu_R)
+    VeeLR_1212:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar e_R \gamma_\mu \mu_R)
+    SeeRR_1212:
+      tex: (\bar e_L \mu_R) (\bar e_L \mu_R)
+    SeeRR_2121:
+      tex: (\bar \mu_L e_R) (\bar \mu_L e_R)
+  muemutau:
+    VeeLL_1232:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar \tau_L \gamma_\mu \mu_L)
+    VeeRR_1232:
+      tex: (\bar e_R \gamma^\mu \mu_R)(\bar \tau_R \gamma_\mu \mu_R)
+    VeeLR_1232:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar \tau_R \gamma_\mu \mu_R)
+    VeeLR_2321:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar \mu_R \gamma_\mu e_R)
+    SeeRR_1232:
+      tex: (\bar e_L \mu_R) (\bar \tau_L \mu_R)
+    SeeRR_2123:
+      tex: (\bar \mu_L e_R) (\bar \mu_L \tau_R)
+  etauemu:
+    VeeLL_1213:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar e_L \gamma_\mu \tau_L)
+    VeeRR_1213:
+      tex: (\bar e_R \gamma^\mu \mu_R)(\bar e_R \gamma_\mu \tau_R)
+    VeeLR_1213:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar e_R \gamma_\mu \tau_R)
+    VeeLR_1312:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar e_R \gamma_\mu \mu_R)
+    SeeRR_1213:
+      tex: (\bar e_L \mu_R) (\bar e_L \tau_R)
+    SeeRR_2131:
+      tex: (\bar \mu_L e_R) (\bar \tau_L e_R)
+  tauetaumu:
+    VeeLL_1323:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar \mu_L \gamma_\mu \tau_L)
+    VeeRR_1323:
+      tex: (\bar e_R \gamma^\mu \tau_R)(\bar \mu_R \gamma_\mu \tau_R)
+    VeeLR_1323:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar \mu_R \gamma_\mu \tau_R)
+    VeeLR_2313:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar e_R \gamma_\mu \tau_R)
+    SeeRR_1323:
+      tex: (\bar e_L \tau_R) (\bar \mu_L \tau_R)
+    SeeRR_3132:
+      tex: (\bar \tau_L e_R) (\bar \tau_L \mu_R)
+  nunununu:
+    VnunuLL_1112:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar \nu_{L1} \gamma_\mu \nu_{L2})
+    VnunuLL_1222:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar \nu_{L2} \gamma_\mu \nu_{L2})
+    VnunuLL_1233:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar \nu_{L3} \gamma_\mu \nu_{L3})
+    VnunuLL_1113:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar \nu_{L1} \gamma_\mu \nu_{L3})
+    VnunuLL_1223:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar \nu_{L2} \gamma_\mu \nu_{L3})
+    VnunuLL_1333:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar \nu_{L3} \gamma_\mu \nu_{L3})
+    VnunuLL_1123:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar \nu_{L2} \gamma_\mu \nu_{L3})
+    VnunuLL_2223:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar \nu_{L2} \gamma_\mu \nu_{L3})
+    VnunuLL_2333:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar \nu_{L3} \gamma_\mu \nu_{L3})
+    VnunuLL_1232:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar \nu_{L3} \gamma_\mu \nu_{L2})
+    VnunuLL_1323:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar \nu_{L2} \gamma_\mu \nu_{L3})
+    VnunuLL_1213:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar \nu_{L1} \gamma_\mu \nu_{L3})
+    VnunuLL_1212:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar \nu_{L1} \gamma_\mu \nu_{L2})
+    VnunuLL_1313:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar \nu_{L1} \gamma_\mu \nu_{L3})
+    VnunuLL_2323:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar \nu_{L2} \gamma_\mu \nu_{L3})
+  nunuemu:
+    VnueLL_1212:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar e_L \gamma_\mu \mu_L)
+    VnueLR_1212:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar e_R \gamma_\mu \mu_R)
+    VnueLL_1312:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar e_L \gamma_\mu \mu_L)
+    VnueLR_1312:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar e_R \gamma_\mu \mu_R)
+    VnueLL_2321:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar \mu_L \gamma_\mu e_L)
+    VnueLR_2321:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar \mu_R \gamma_\mu e_R)
+  nunumue:
+    VnueLL_1221:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar \mu_L \gamma_\mu e_L)
+    VnueLR_1221:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar \mu_R \gamma_\mu e_R)
+    VnueLL_1321:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar \mu_L \gamma_\mu e_L)
+    VnueLR_1321:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar \mu_R \gamma_\mu e_R)
+    VnueLL_2312:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar e_L \gamma_\mu \mu_L)
+    VnueLR_2312:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar e_R \gamma_\mu \mu_R)
+  nunutaumu:
+    VnueLL_1232:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar \tau_L \gamma_\mu \mu_L)
+    VnueLR_1232:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar \tau_R \gamma_\mu \mu_R)
+    VnueLL_1332:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar \tau_L \gamma_\mu \mu_L)
+    VnueLR_1332:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar \tau_R \gamma_\mu \mu_R)
+    VnueLL_2323:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar \mu_L \gamma_\mu \tau_L)
+    VnueLR_2323:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar \mu_R \gamma_\mu \tau_R)
+  nunumutau:
+    VnueLL_1223:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar \mu_L \gamma_\mu \tau_L)
+    VnueLR_1223:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar \mu_R \gamma_\mu \tau_R)
+    VnueLL_1323:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar \mu_L \gamma_\mu \tau_L)
+    VnueLR_1323:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar \mu_R \gamma_\mu \tau_R)
+    VnueLL_2332:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar \tau_L \gamma_\mu \mu_L)
+    VnueLR_2332:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar \tau_R \gamma_\mu \mu_R)
+  nunutaue:
+    VnueLL_1231:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar \tau_L \gamma_\mu e_L)
+    VnueLR_1231:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar \tau_R \gamma_\mu e_R)
+    VnueLL_1331:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar \tau_L \gamma_\mu e_L)
+    VnueLR_1331:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar \tau_R \gamma_\mu e_R)
+    VnueLL_2313:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar e_L \gamma_\mu \tau_L)
+    VnueLR_2313:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar e_R \gamma_\mu \tau_R)
+  nunuetau:
+    VnueLL_1213:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar e_L \gamma_\mu \tau_L)
+    VnueLR_1213:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar e_R \gamma_\mu \tau_R)
+    VnueLL_1313:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar e_L \gamma_\mu \tau_L)
+    VnueLR_1313:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar e_R \gamma_\mu \tau_R)
+    VnueLL_2331:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar \tau_L \gamma_\mu e_L)
+    VnueLR_2331:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar \tau_R \gamma_\mu e_R)
+  dF=0:
+    egamma_11:
+      tex: \bar e_L \sigma^{\mu \nu} e_R\, F_{\mu \nu}
+    egamma_22:
+      tex: \bar \mu_L \sigma^{\mu \nu} \mu_R\, F_{\mu \nu}
+    egamma_33:
+      tex: \bar \tau_L \sigma^{\mu \nu} \tau_R\, F_{\mu \nu}
+    ugamma_11:
+      tex: \bar u_L \sigma^{\mu \nu} u_R\, F_{\mu \nu}
+    ugamma_22:
+      tex: \bar c_L \sigma^{\mu \nu} c_R\, F_{\mu \nu}
+    dgamma_11:
+      tex: \bar d_L \sigma^{\mu \nu} d_R\, F_{\mu \nu}
+    dgamma_22:
+      tex: \bar s_L \sigma^{\mu \nu} s_R\, F_{\mu \nu}
+    uG_11:
+      tex: \bar u_L \sigma^{\mu \nu} T^A u_R\, G_{\mu \nu}^A
+    uG_22:
+      tex: \bar c_L \sigma^{\mu \nu} T^A c_R\, G_{\mu \nu}^A
+    dG_11:
+      tex: \bar d_L \sigma^{\mu \nu} T^A d_R\, G_{\mu \nu}^A
+    dG_22:
+      tex: \bar s_L \sigma^{\mu \nu} T^A s_R\, G_{\mu \nu}^A
+    G:
+      real: true
+      tex: f^{ABC} G_\mu^{A\nu} G_\nu^{B\rho} G_\rho^{C\mu}
+    Gtilde:
+      real: true
+      tex: f^{ABC} \widetilde G_\mu^{A\nu} G_\nu^{B\rho} G_\rho^{C\mu}
+    VnunuLL_1111:
+      real: true
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar \nu_{L1} \gamma_\mu \nu_{L1})
+    VnunuLL_1122:
+      real: true
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar \nu_{L2} \gamma_\mu \nu_{L2})
+    VnunuLL_1133:
+      real: true
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar \nu_{L3} \gamma_\mu \nu_{L3})
+    VnunuLL_2222:
+      real: true
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar \nu_{L2} \gamma_\mu \nu_{L2})
+    VnunuLL_2233:
+      real: true
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar \nu_{L3} \gamma_\mu \nu_{L3})
+    VnunuLL_3333:
+      real: true
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar \nu_{L3} \gamma_\mu \nu_{L3})
+    VeeLL_1111:
+      real: true
+      tex: (\bar e_L \gamma^\mu e_L)(\bar e_L \gamma_\mu e_L)
+    VeeLL_1122:
+      real: true
+      tex: (\bar e_L \gamma^\mu e_L)(\bar \mu_L \gamma_\mu \mu_L)
+    VeeLL_1133:
+      real: true
+      tex: (\bar e_L \gamma^\mu e_L)(\bar \tau_L \gamma_\mu \tau_L)
+    VeeLL_2222:
+      real: true
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar \mu_L \gamma_\mu \mu_L)
+    VeeLL_2233:
+      real: true
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar \tau_L \gamma_\mu \tau_L)
+    VeeLL_3333:
+      real: true
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar \tau_L \gamma_\mu \tau_L)
+    VnueLL_1111:
+      real: true
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar e_L \gamma_\mu e_L)
+    VnueLL_1122:
+      real: true
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar \mu_L \gamma_\mu \mu_L)
+    VnueLL_1133:
+      real: true
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar \tau_L \gamma_\mu \tau_L)
+    VnueLL_2211:
+      real: true
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar e_L \gamma_\mu e_L)
+    VnueLL_2222:
+      real: true
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar \mu_L \gamma_\mu \mu_L)
+    VnueLL_2233:
+      real: true
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar \tau_L \gamma_\mu \tau_L)
+    VnueLL_3311:
+      real: true
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar e_L \gamma_\mu e_L)
+    VnueLL_3322:
+      real: true
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar \mu_L \gamma_\mu \mu_L)
+    VnueLL_3333:
+      real: true
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar \tau_L \gamma_\mu \tau_L)
+    VnuuLL_1111:
+      real: true
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1}) (\bar u_L \gamma_\mu u_L)
+    VnuuLL_1122:
+      real: true
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1}) (\bar c_L \gamma_\mu c_L)
+    VnuuLL_2211:
+      real: true
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2}) (\bar u_L \gamma_\mu u_L)
+    VnuuLL_2222:
+      real: true
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2}) (\bar c_L \gamma_\mu c_L)
+    VnuuLL_3311:
+      real: true
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3}) (\bar u_L \gamma_\mu u_L)
+    VnuuLL_3322:
+      real: true
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3}) (\bar c_L \gamma_\mu c_L)
+    VnudLL_1111:
+      real: true
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar d_L \gamma_\mu d_L)
+    VnudLL_1122:
+      real: true
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar s_L \gamma_\mu s_L)
+    VnudLL_2211:
+      real: true
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar d_L \gamma_\mu d_L)
+    VnudLL_2222:
+      real: true
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar s_L \gamma_\mu s_L)
+    VnudLL_3311:
+      real: true
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar d_L \gamma_\mu d_L)
+    VnudLL_3322:
+      real: true
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar s_L \gamma_\mu s_L)
+    VeuLL_1111:
+      real: true
+      tex: (\bar e_L \gamma^\mu e_L)(\bar u_L \gamma_\mu u_L)
+    VeuLL_1122:
+      real: true
+      tex: (\bar e_L \gamma^\mu e_L)(\bar c_L \gamma_\mu c_L)
+    VeuLL_2211:
+      real: true
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar u_L \gamma_\mu u_L)
+    VeuLL_2222:
+      real: true
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar c_L \gamma_\mu c_L)
+    VeuLL_3311:
+      real: true
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar u_L \gamma_\mu u_L)
+    VeuLL_3322:
+      real: true
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar c_L \gamma_\mu c_L)
+    VedLL_1111:
+      real: true
+      tex: (\bar e_L \gamma^\mu e_L)(\bar d_L \gamma_\mu d_L)
+    VedLL_1122:
+      real: true
+      tex: (\bar e_L \gamma^\mu e_L)(\bar s_L \gamma_\mu s_L)
+    VedLL_2211:
+      real: true
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar d_L \gamma_\mu d_L)
+    VedLL_2222:
+      real: true
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar s_L \gamma_\mu s_L)
+    VedLL_3311:
+      real: true
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar d_L \gamma_\mu d_L)
+    VedLL_3322:
+      real: true
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar s_L \gamma_\mu s_L)
+    VuuLL_1111:
+      real: true
+      tex: (\bar u_L \gamma^\mu u_L)(\bar u_L \gamma_\mu u_L)
+    VuuLL_1122:
+      real: true
+      tex: (\bar u_L \gamma^\mu u_L)(\bar c_L \gamma_\mu c_L)
+    VuuLL_1221:
+      real: true
+      tex: (\bar u_L \gamma^\mu c_L)(\bar c_L \gamma_\mu u_L)
+    VuuLL_2222:
+      real: true
+      tex: (\bar c_L \gamma^\mu c_L)(\bar c_L \gamma_\mu c_L)
+    VddLL_1111:
+      real: true
+      tex: (\bar d_L \gamma^\mu d_L)(\bar d_L \gamma_\mu d_L)
+    VddLL_1122:
+      real: true
+      tex: (\bar d_L \gamma^\mu d_L)(\bar s_L \gamma_\mu s_L)
+    VddLL_1221:
+      real: true
+      tex: (\bar d_L \gamma^\mu s_L)(\bar s_L \gamma_\mu d_L)
+    VddLL_2222:
+      real: true
+      tex: (\bar s_L \gamma^\mu s_L)(\bar s_L \gamma_\mu s_L)
+    V1udLL_1111:
+      real: true
+      tex: (\bar u_L \gamma^\mu u_L) (\bar d_L \gamma_\mu d_L)
+    V1udLL_1122:
+      real: true
+      tex: (\bar u_L \gamma^\mu u_L) (\bar s_L \gamma_\mu s_L)
+    V1udLL_2211:
+      real: true
+      tex: (\bar c_L \gamma^\mu c_L) (\bar d_L \gamma_\mu d_L)
+    V1udLL_2222:
+      real: true
+      tex: (\bar c_L \gamma^\mu c_L) (\bar s_L \gamma_\mu s_L)
+    V8udLL_1111:
+      real: true
+      tex: (\bar u_L \gamma^\mu T^A u_L) (\bar d_L \gamma_\mu T^A d_L)
+    V8udLL_1122:
+      real: true
+      tex: (\bar u_L \gamma^\mu T^A u_L) (\bar s_L \gamma_\mu T^A s_L)
+    V8udLL_2211:
+      real: true
+      tex: (\bar c_L \gamma^\mu T^A c_L) (\bar d_L \gamma_\mu T^A d_L)
+    V8udLL_2222:
+      real: true
+      tex: (\bar c_L \gamma^\mu T^A c_L) (\bar s_L \gamma_\mu T^A s_L)
+    VeeRR_1111:
+      real: true
+      tex: (\bar e_R \gamma^\mu e_R)(\bar e_R \gamma_\mu e_R)
+    VeeRR_1122:
+      real: true
+      tex: (\bar e_R \gamma^\mu e_R)(\bar \mu_R \gamma_\mu \mu_R)
+    VeeRR_1133:
+      real: true
+      tex: (\bar e_R \gamma^\mu e_R)(\bar \tau_R \gamma_\mu \tau_R)
+    VeeRR_2222:
+      real: true
+      tex: (\bar \mu_R \gamma^\mu \mu_R)(\bar \mu_R \gamma_\mu \mu_R)
+    VeeRR_2233:
+      real: true
+      tex: (\bar \mu_R \gamma^\mu \mu_R)(\bar \tau_R \gamma_\mu \tau_R)
+    VeeRR_3333:
+      real: true
+      tex: (\bar \tau_R \gamma^\mu \tau_R)(\bar \tau_R \gamma_\mu \tau_R)
+    VeuRR_1111:
+      real: true
+      tex: (\bar e_R \gamma^\mu e_R)(\bar u_R \gamma_\mu u_R)
+    VeuRR_1122:
+      real: true
+      tex: (\bar e_R \gamma^\mu e_R)(\bar c_R \gamma_\mu c_R)
+    VeuRR_2211:
+      real: true
+      tex: (\bar \mu_R \gamma^\mu \mu_R)(\bar u_R \gamma_\mu u_R)
+    VeuRR_2222:
+      real: true
+      tex: (\bar \mu_R \gamma^\mu \mu_R)(\bar c_R \gamma_\mu c_R)
+    VeuRR_3311:
+      real: true
+      tex: (\bar \tau_R \gamma^\mu \tau_R)(\bar u_R \gamma_\mu u_R)
+    VeuRR_3322:
+      real: true
+      tex: (\bar \tau_R \gamma^\mu \tau_R)(\bar c_R \gamma_\mu c_R)
+    VedRR_1111:
+      real: true
+      tex: (\bar e_R \gamma^\mu e_R) (\bar d_R \gamma_\mu d_R)
+    VedRR_1122:
+      real: true
+      tex: (\bar e_R \gamma^\mu e_R) (\bar s_R \gamma_\mu s_R)
+    VedRR_2211:
+      real: true
+      tex: (\bar \mu_R \gamma^\mu \mu_R) (\bar d_R \gamma_\mu d_R)
+    VedRR_2222:
+      real: true
+      tex: (\bar \mu_R \gamma^\mu \mu_R) (\bar s_R \gamma_\mu s_R)
+    VedRR_3311:
+      real: true
+      tex: (\bar \tau_R \gamma^\mu \tau_R) (\bar d_R \gamma_\mu d_R)
+    VedRR_3322:
+      real: true
+      tex: (\bar \tau_R \gamma^\mu \tau_R) (\bar s_R \gamma_\mu s_R)
+    VuuRR_1111:
+      real: true
+      tex: (\bar u_R \gamma^\mu u_R)(\bar u_R \gamma_\mu u_R)
+    VuuRR_1122:
+      real: true
+      tex: (\bar u_R \gamma^\mu u_R)(\bar c_R \gamma_\mu c_R)
+    VuuRR_1221:
+      real: true
+      tex: (\bar u_R \gamma^\mu c_R)(\bar c_R \gamma_\mu u_R)
+    VuuRR_2222:
+      real: true
+      tex: (\bar c_R \gamma^\mu c_R)(\bar c_R \gamma_\mu c_R)
+    VddRR_1111:
+      real: true
+      tex: (\bar d_R \gamma^\mu d_R)(\bar d_R \gamma_\mu d_R)
+    VddRR_1122:
+      real: true
+      tex: (\bar d_R \gamma^\mu d_R)(\bar s_R \gamma_\mu s_R)
+    VddRR_1221:
+      real: true
+      tex: (\bar d_R \gamma^\mu s_R)(\bar s_R \gamma_\mu d_R)
+    VddRR_2222:
+      real: true
+      tex: (\bar s_R \gamma^\mu s_R)(\bar s_R \gamma_\mu s_R)
+    V1udRR_1111:
+      real: true
+      tex: (\bar u_R \gamma^\mu u_R) (\bar d_R \gamma_\mu d_R)
+    V1udRR_1122:
+      real: true
+      tex: (\bar u_R \gamma^\mu u_R) (\bar s_R \gamma_\mu s_R)
+    V1udRR_2211:
+      real: true
+      tex: (\bar c_R \gamma^\mu c_R) (\bar d_R \gamma_\mu d_R)
+    V1udRR_2222:
+      real: true
+      tex: (\bar c_R \gamma^\mu c_R) (\bar s_R \gamma_\mu s_R)
+    V8udRR_1111:
+      real: true
+      tex: (\bar u_R \gamma^\mu T^A u_R) (\bar d_R \gamma_\mu T^A d_R)
+    V8udRR_1122:
+      real: true
+      tex: (\bar u_R \gamma^\mu T^A u_R) (\bar s_R \gamma_\mu T^A s_R)
+    V8udRR_2211:
+      real: true
+      tex: (\bar c_R \gamma^\mu T^A c_R) (\bar d_R \gamma_\mu T^A d_R)
+    V8udRR_2222:
+      real: true
+      tex: (\bar c_R \gamma^\mu T^A c_R) (\bar s_R \gamma_\mu T^A s_R)
+    VnueLR_1111:
+      real: true
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar e_R \gamma_\mu e_R)
+    VnueLR_1122:
+      real: true
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar \mu_R \gamma_\mu \mu_R)
+    VnueLR_1133:
+      real: true
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar \tau_R \gamma_\mu \tau_R)
+    VnueLR_2211:
+      real: true
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar e_R \gamma_\mu e_R)
+    VnueLR_2222:
+      real: true
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar \mu_R \gamma_\mu \mu_R)
+    VnueLR_2233:
+      real: true
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar \tau_R \gamma_\mu \tau_R)
+    VnueLR_3311:
+      real: true
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar e_R \gamma_\mu e_R)
+    VnueLR_3322:
+      real: true
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar \mu_R \gamma_\mu \mu_R)
+    VnueLR_3333:
+      real: true
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar \tau_R \gamma_\mu \tau_R)
+    VeeLR_1111:
+      real: true
+      tex: (\bar e_L \gamma^\mu e_L)(\bar e_R \gamma_\mu e_R)
+    VeeLR_1122:
+      real: true
+      tex: (\bar e_L \gamma^\mu e_L)(\bar \mu_R \gamma_\mu \mu_R)
+    VeeLR_1133:
+      real: true
+      tex: (\bar e_L \gamma^\mu e_L)(\bar \tau_R \gamma_\mu \tau_R)
+    VeeLR_1221:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar \mu_R \gamma_\mu e_R)
+    VeeLR_1331:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar \tau_R \gamma_\mu e_R)
+    VeeLR_2211:
+      real: true
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar e_R \gamma_\mu e_R)
+    VeeLR_2222:
+      real: true
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar \mu_R \gamma_\mu \mu_R)
+    VeeLR_2233:
+      real: true
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar \tau_R \gamma_\mu \tau_R)
+    VeeLR_2332:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar \tau_R \gamma_\mu \mu_R)
+    VeeLR_3311:
+      real: true
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar e_R \gamma_\mu e_R)
+    VeeLR_3322:
+      real: true
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar \mu_R \gamma_\mu \mu_R)
+    VeeLR_3333:
+      real: true
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar \tau_R \gamma_\mu \tau_R)
+    VnuuLR_1111:
+      real: true
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar u_R \gamma_\mu u_R)
+    VnuuLR_1122:
+      real: true
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar c_R \gamma_\mu c_R)
+    VnuuLR_2211:
+      real: true
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar u_R \gamma_\mu u_R)
+    VnuuLR_2222:
+      real: true
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar c_R \gamma_\mu c_R)
+    VnuuLR_3311:
+      real: true
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar u_R \gamma_\mu u_R)
+    VnuuLR_3322:
+      real: true
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar c_R \gamma_\mu c_R)
+    VnudLR_1111:
+      real: true
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar d_R \gamma_\mu d_R)
+    VnudLR_1122:
+      real: true
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar s_R \gamma_\mu s_R)
+    VnudLR_2211:
+      real: true
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar d_R \gamma_\mu d_R)
+    VnudLR_2222:
+      real: true
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar s_R \gamma_\mu s_R)
+    VnudLR_3311:
+      real: true
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar d_R \gamma_\mu d_R)
+    VnudLR_3322:
+      real: true
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar s_R \gamma_\mu s_R)
+    VeuLR_1111:
+      real: true
+      tex: (\bar e_L \gamma^\mu e_L)(\bar u_R \gamma_\mu u_R)
+    VeuLR_1122:
+      real: true
+      tex: (\bar e_L \gamma^\mu e_L)(\bar c_R \gamma_\mu c_R)
+    VeuLR_2211:
+      real: true
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar u_R \gamma_\mu u_R)
+    VeuLR_2222:
+      real: true
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar c_R \gamma_\mu c_R)
+    VeuLR_3311:
+      real: true
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar u_R \gamma_\mu u_R)
+    VeuLR_3322:
+      real: true
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar c_R \gamma_\mu c_R)
+    VedLR_1111:
+      real: true
+      tex: (\bar e_L \gamma^\mu e_L)(\bar d_R \gamma_\mu d_R)
+    VedLR_1122:
+      real: true
+      tex: (\bar e_L \gamma^\mu e_L)(\bar s_R \gamma_\mu s_R)
+    VedLR_2211:
+      real: true
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar d_R \gamma_\mu d_R)
+    VedLR_2222:
+      real: true
+      tex: (\bar \mu_L \gamma^\mu \mu_L)(\bar s_R \gamma_\mu s_R)
+    VedLR_3311:
+      real: true
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar d_R \gamma_\mu d_R)
+    VedLR_3322:
+      real: true
+      tex: (\bar \tau_L \gamma^\mu \tau_L)(\bar s_R \gamma_\mu s_R)
+    VueLR_1111:
+      real: true
+      tex: (\bar u_L \gamma^\mu u_L)(\bar e_R \gamma_\mu e_R)
+    VueLR_1122:
+      real: true
+      tex: (\bar u_L \gamma^\mu u_L)(\bar \mu_R \gamma_\mu \mu_R)
+    VueLR_1133:
+      real: true
+      tex: (\bar u_L \gamma^\mu u_L)(\bar \tau_R \gamma_\mu \tau_R)
+    VueLR_2211:
+      real: true
+      tex: (\bar c_L \gamma^\mu c_L)(\bar e_R \gamma_\mu e_R)
+    VueLR_2222:
+      real: true
+      tex: (\bar c_L \gamma^\mu c_L)(\bar \mu_R \gamma_\mu \mu_R)
+    VueLR_2233:
+      real: true
+      tex: (\bar c_L \gamma^\mu c_L)(\bar \tau_R \gamma_\mu \tau_R)
+    VdeLR_1111:
+      real: true
+      tex: (\bar d_L \gamma^\mu d_L) (\bar e_R \gamma_\mu e_R)
+    VdeLR_1122:
+      real: true
+      tex: (\bar d_L \gamma^\mu d_L) (\bar \mu_R \gamma_\mu \mu_R)
+    VdeLR_1133:
+      real: true
+      tex: (\bar d_L \gamma^\mu d_L) (\bar \tau_R \gamma_\mu \tau_R)
+    VdeLR_2211:
+      real: true
+      tex: (\bar s_L \gamma^\mu s_L) (\bar e_R \gamma_\mu e_R)
+    VdeLR_2222:
+      real: true
+      tex: (\bar s_L \gamma^\mu s_L) (\bar \mu_R \gamma_\mu \mu_R)
+    VdeLR_2233:
+      real: true
+      tex: (\bar s_L \gamma^\mu s_L) (\bar \tau_R \gamma_\mu \tau_R)
+    V1uuLR_1111:
+      real: true
+      tex: (\bar u_L \gamma^\mu u_L)(\bar u_R \gamma_\mu u_R)
+    V1uuLR_1122:
+      real: true
+      tex: (\bar u_L \gamma^\mu u_L)(\bar c_R \gamma_\mu c_R)
+    V1uuLR_1221:
+      tex: (\bar u_L \gamma^\mu c_L)(\bar c_R \gamma_\mu u_R)
+    V1uuLR_2211:
+      real: true
+      tex: (\bar c_L \gamma^\mu c_L)(\bar u_R \gamma_\mu u_R)
+    V1uuLR_2222:
+      real: true
+      tex: (\bar c_L \gamma^\mu c_L)(\bar c_R \gamma_\mu c_R)
+    V8uuLR_1111:
+      real: true
+      tex: (\bar u_L \gamma^\mu T^A u_L)(\bar u_R \gamma_\mu T^A u_R)
+    V8uuLR_1122:
+      real: true
+      tex: (\bar u_L \gamma^\mu T^A u_L)(\bar c_R \gamma_\mu T^A c_R)
+    V8uuLR_1221:
+      tex: (\bar u_L \gamma^\mu T^A c_L)(\bar c_R \gamma_\mu T^A u_R)
+    V8uuLR_2211:
+      real: true
+      tex: (\bar c_L \gamma^\mu T^A c_L)(\bar u_R \gamma_\mu T^A u_R)
+    V8uuLR_2222:
+      real: true
+      tex: (\bar c_L \gamma^\mu T^A c_L)(\bar c_R \gamma_\mu T^A c_R)
+    V1udLR_1111:
+      real: true
+      tex: (\bar u_L \gamma^\mu u_L) (\bar d_R \gamma_\mu d_R)
+    V1udLR_1122:
+      real: true
+      tex: (\bar u_L \gamma^\mu u_L) (\bar s_R \gamma_\mu s_R)
+    V1udLR_2211:
+      real: true
+      tex: (\bar c_L \gamma^\mu c_L) (\bar d_R \gamma_\mu d_R)
+    V1udLR_2222:
+      real: true
+      tex: (\bar c_L \gamma^\mu c_L) (\bar s_R \gamma_\mu s_R)
+    V8udLR_1111:
+      real: true
+      tex: (\bar u_L \gamma^\mu T^A u_L) (\bar d_R \gamma_\mu T^A d_R)
+    V8udLR_1122:
+      real: true
+      tex: (\bar u_L \gamma^\mu T^A u_L) (\bar s_R \gamma_\mu T^A s_R)
+    V8udLR_2211:
+      real: true
+      tex: (\bar c_L \gamma^\mu T^A c_L) (\bar d_R \gamma_\mu T^A d_R)
+    V8udLR_2222:
+      real: true
+      tex: (\bar c_L \gamma^\mu T^A c_L) (\bar s_R \gamma_\mu T^A s_R)
+    V1duLR_1111:
+      real: true
+      tex: (\bar d_L \gamma^\mu d_L)(\bar u_R \gamma_\mu u_R)
+    V1duLR_1122:
+      real: true
+      tex: (\bar d_L \gamma^\mu d_L)(\bar c_R \gamma_\mu c_R)
+    V1duLR_2211:
+      real: true
+      tex: (\bar s_L \gamma^\mu s_L)(\bar u_R \gamma_\mu u_R)
+    V1duLR_2222:
+      real: true
+      tex: (\bar s_L \gamma^\mu s_L)(\bar c_R \gamma_\mu c_R)
+    V8duLR_1111:
+      real: true
+      tex: (\bar d_L \gamma^\mu T^A d_L)(\bar u_R \gamma_\mu T^A u_R)
+    V8duLR_1122:
+      real: true
+      tex: (\bar d_L \gamma^\mu T^A d_L)(\bar c_R \gamma_\mu T^A c_R)
+    V8duLR_2211:
+      real: true
+      tex: (\bar s_L \gamma^\mu T^A s_L)(\bar u_R \gamma_\mu T^A u_R)
+    V8duLR_2222:
+      real: true
+      tex: (\bar s_L \gamma^\mu T^A s_L)(\bar c_R \gamma_\mu T^A c_R)
+    V1ddLR_1111:
+      real: true
+      tex: (\bar d_L \gamma^\mu d_L)(\bar d_R \gamma_\mu d_R)
+    V1ddLR_1122:
+      real: true
+      tex: (\bar d_L \gamma^\mu d_L)(\bar s_R \gamma_\mu s_R)
+    V1ddLR_1221:
+      tex: (\bar d_L \gamma^\mu s_L)(\bar s_R \gamma_\mu d_R)
+    V1ddLR_2211:
+      real: true
+      tex: (\bar s_L \gamma^\mu s_L)(\bar d_R \gamma_\mu d_R)
+    V1ddLR_2222:
+      real: true
+      tex: (\bar s_L \gamma^\mu s_L)(\bar s_R \gamma_\mu s_R)
+    V8ddLR_1111:
+      real: true
+      tex: (\bar d_L \gamma^\mu T^A d_L)(\bar d_R \gamma_\mu T^A d_R)
+    V8ddLR_1122:
+      real: true
+      tex: (\bar d_L \gamma^\mu T^A d_L)(\bar s_R \gamma_\mu T^A s_R)
+    V8ddLR_1221:
+      tex: (\bar d_L \gamma^\mu T^A s_L)(\bar s_R \gamma_\mu T^A d_R)
+    V8ddLR_2211:
+      real: true
+      tex: (\bar s_L \gamma^\mu T^A s_L)(\bar d_R \gamma_\mu T^A d_R)
+    V8ddLR_2222:
+      real: true
+      tex: (\bar s_L \gamma^\mu T^A s_L)(\bar s_R \gamma_\mu T^A s_R)
+    V1udduLR_1111:
+      tex: (\bar u_L \gamma^\mu d_L)(\bar d_R \gamma_\mu u_R)
+    V1udduLR_1221:
+      tex: (\bar u_L \gamma^\mu s_L)(\bar s_R \gamma_\mu u_R)
+    V1udduLR_2112:
+      tex: (\bar c_L \gamma^\mu d_L)(\bar d_R \gamma_\mu c_R)
+    V1udduLR_2222:
+      tex: (\bar c_L \gamma^\mu s_L)(\bar s_R \gamma_\mu c_R)
+    V8udduLR_1111:
+      tex: (\bar u_L \gamma^\mu T^A d_L)(\bar d_R \gamma_\mu T^A u_R)
+    V8udduLR_1221:
+      tex: (\bar u_L \gamma^\mu T^A s_L)(\bar s_R \gamma_\mu T^A u_R)
+    V8udduLR_2112:
+      tex: (\bar c_L \gamma^\mu T^A d_L)(\bar d_R \gamma_\mu T^A c_R)
+    V8udduLR_2222:
+      tex: (\bar c_L \gamma^\mu T^A s_L)(\bar s_R \gamma_\mu T^A c_R)
+    SeuRL_1111:
+      tex: (\bar e_L e_R) (\bar u_R u_L)
+    SeuRL_1122:
+      tex: (\bar e_L e_R) (\bar c_R c_L)
+    SeuRL_2211:
+      tex: (\bar \mu_L \mu_R) (\bar u_R u_L)
+    SeuRL_2222:
+      tex: (\bar \mu_L \mu_R) (\bar c_R c_L)
+    SeuRL_3311:
+      tex: (\bar \tau_L \tau_R) (\bar u_R u_L)
+    SeuRL_3322:
+      tex: (\bar \tau_L \tau_R) (\bar c_R c_L)
+    SedRL_1111:
+      tex: (\bar e_L e_R) (\bar d_R d_L)
+    SedRL_1122:
+      tex: (\bar e_L e_R) (\bar s_R s_L)
+    SedRL_2211:
+      tex: (\bar \mu_L \mu_R) (\bar d_R d_L)
+    SedRL_2222:
+      tex: (\bar \mu_L \mu_R) (\bar s_R s_L)
+    SedRL_3311:
+      tex: (\bar \tau_L \tau_R) (\bar d_R d_L)
+    SedRL_3322:
+      tex: (\bar \tau_L \tau_R) (\bar s_R s_L)
+    SeeRR_1111:
+      tex: (\bar e_L e_R) (\bar e_L e_R)
+    SeeRR_1122:
+      tex: (\bar e_L e_R) (\bar \mu_L \mu_R)
+    SeeRR_1133:
+      tex: (\bar e_L e_R) (\bar \tau_L \tau_R)
+    SeeRR_1221:
+      tex: (\bar e_L \mu_R) (\bar \mu_L e_R)
+    SeeRR_1331:
+      tex: (\bar e_L \tau_R) (\bar \tau_L e_R)
+    SeeRR_2222:
+      tex: (\bar \mu_L \mu_R) (\bar \mu_L \mu_R)
+    SeeRR_2233:
+      tex: (\bar \mu_L \mu_R) (\bar \tau_L \tau_R)
+    SeeRR_2332:
+      tex: (\bar \mu_L \tau_R) (\bar \tau_L \mu_R)
+    SeeRR_3333:
+      tex: (\bar \tau_L \tau_R) (\bar \tau_L \tau_R)
+    SeuRR_1111:
+      tex: (\bar e_L e_R) (\bar u_L u_R)
+    SeuRR_1122:
+      tex: (\bar e_L e_R) (\bar c_L c_R)
+    SeuRR_2211:
+      tex: (\bar \mu_L \mu_R) (\bar u_L u_R)
+    SeuRR_2222:
+      tex: (\bar \mu_L \mu_R) (\bar c_L c_R)
+    SeuRR_3311:
+      tex: (\bar \tau_L \tau_R) (\bar u_L u_R)
+    SeuRR_3322:
+      tex: (\bar \tau_L \tau_R) (\bar c_L c_R)
+    TeuRR_1111:
+      tex: (\bar e_L \sigma^{\mu \nu} e_R) (\bar u_L \sigma_{\mu \nu} u_R)
+    TeuRR_1122:
+      tex: (\bar e_L \sigma^{\mu \nu} e_R) (\bar c_L \sigma_{\mu \nu} c_R)
+    TeuRR_2211:
+      tex: (\bar \mu_L \sigma^{\mu \nu} \mu_R) (\bar u_L \sigma_{\mu \nu} u_R)
+    TeuRR_2222:
+      tex: (\bar \mu_L \sigma^{\mu \nu} \mu_R) (\bar c_L \sigma_{\mu \nu} c_R)
+    TeuRR_3311:
+      tex: (\bar \tau_L \sigma^{\mu \nu} \tau_R) (\bar u_L \sigma_{\mu \nu} u_R)
+    TeuRR_3322:
+      tex: (\bar \tau_L \sigma^{\mu \nu} \tau_R) (\bar c_L \sigma_{\mu \nu} c_R)
+    SedRR_1111:
+      tex: (\bar e_L e_R)(\bar d_L d_R)
+    SedRR_1122:
+      tex: (\bar e_L e_R)(\bar s_L s_R)
+    SedRR_2211:
+      tex: (\bar \mu_L \mu_R)(\bar d_L d_R)
+    SedRR_2222:
+      tex: (\bar \mu_L \mu_R)(\bar s_L s_R)
+    SedRR_3311:
+      tex: (\bar \tau_L \tau_R)(\bar d_L d_R)
+    SedRR_3322:
+      tex: (\bar \tau_L \tau_R)(\bar s_L s_R)
+    TedRR_1111:
+      tex: (\bar e_L \sigma^{\mu \nu} e_R) (\bar d_L \sigma_{\mu \nu} d_R)
+    TedRR_1122:
+      tex: (\bar e_L \sigma^{\mu \nu} e_R) (\bar s_L \sigma_{\mu \nu} s_R)
+    TedRR_2211:
+      tex: (\bar \mu_L \sigma^{\mu \nu} \mu_R) (\bar d_L \sigma_{\mu \nu} d_R)
+    TedRR_2222:
+      tex: (\bar \mu_L \sigma^{\mu \nu} \mu_R) (\bar s_L \sigma_{\mu \nu} s_R)
+    TedRR_3311:
+      tex: (\bar \tau_L \sigma^{\mu \nu} \tau_R) (\bar d_L \sigma_{\mu \nu} d_R)
+    TedRR_3322:
+      tex: (\bar \tau_L \sigma^{\mu \nu} \tau_R) (\bar s_L \sigma_{\mu \nu} s_R)
+    S1uuRR_1111:
+      tex: (\bar u_L u_R) (\bar u_L u_R)
+    S1uuRR_1122:
+      tex: (\bar u_L u_R) (\bar c_L c_R)
+    S1uuRR_1221:
+      tex: (\bar u_L c_R) (\bar c_L u_R)
+    S1uuRR_2222:
+      tex: (\bar c_L c_R) (\bar c_L c_R)
+    S8uuRR_1111:
+      tex: (\bar u_L T^A u_R) (\bar u_L T^A u_R)
+    S8uuRR_1122:
+      tex: (\bar u_L T^A u_R) (\bar c_L T^A c_R)
+    S8uuRR_1221:
+      tex: (\bar u_L T^A c_R) (\bar c_L T^A u_R)
+    S8uuRR_2222:
+      tex: (\bar c_L T^A c_R) (\bar c_L T^A c_R)
+    S1udRR_1111:
+      tex: (\bar u_L u_R) (\bar d_L d_R)
+    S1udRR_1122:
+      tex: (\bar u_L u_R) (\bar s_L s_R)
+    S1udRR_2211:
+      tex: (\bar c_L c_R) (\bar d_L d_R)
+    S1udRR_2222:
+      tex: (\bar c_L c_R) (\bar s_L s_R)
+    S8udRR_1111:
+      tex: (\bar u_L T^A u_R) (\bar d_L T^A d_R)
+    S8udRR_1122:
+      tex: (\bar u_L T^A u_R) (\bar s_L T^A s_R)
+    S8udRR_2211:
+      tex: (\bar c_L T^A c_R) (\bar d_L T^A d_R)
+    S8udRR_2222:
+      tex: (\bar c_L T^A c_R) (\bar s_L T^A s_R)
+    S1ddRR_1111:
+      tex: (\bar d_L d_R) (\bar d_L d_R)
+    S1ddRR_1122:
+      tex: (\bar d_L d_R) (\bar s_L s_R)
+    S1ddRR_1221:
+      tex: (\bar d_L s_R) (\bar s_L d_R)
+    S1ddRR_2222:
+      tex: (\bar s_L s_R) (\bar s_L s_R)
+    S8ddRR_1111:
+      tex: (\bar d_L T^A d_R) (\bar d_L T^A d_R)
+    S8ddRR_1122:
+      tex: (\bar d_L T^A d_R) (\bar s_L T^A s_R)
+    S8ddRR_1221:
+      tex: (\bar d_L T^A s_R) (\bar s_L T^A d_R)
+    S8ddRR_2222:
+      tex: (\bar s_L T^A s_R) (\bar s_L T^A s_R)
+    S1udduRR_1111:
+      tex: (\bar u_L d_R) (\bar d_L u_R)
+    S1udduRR_1221:
+      tex: (\bar u_L s_R) (\bar s_L u_R)
+    S1udduRR_2112:
+      tex: (\bar c_L d_R) (\bar d_L c_R)
+    S1udduRR_2222:
+      tex: (\bar c_L s_R) (\bar s_L c_R)
+    S8udduRR_1111:
+      tex: (\bar u_L T^A d_R) (\bar d_L T^A u_R)
+    S8udduRR_1221:
+      tex: (\bar u_L T^A s_R) (\bar s_L T^A u_R)
+    S8udduRR_2112:
+      tex: (\bar c_L T^A d_R) (\bar d_L T^A c_R)
+    S8udduRR_2222:
+      tex: (\bar c_L T^A s_R) (\bar s_L T^A c_R)
+    VnueLL_1211:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar e_L \gamma_\mu e_L)
+    VnueLL_1222:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar \mu_L \gamma_\mu \mu_L)
+    VnueLL_1233:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar \tau_L \gamma_\mu \tau_L)
+    VnuuLL_1211:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2}) (\bar u_L \gamma_\mu u_L)
+    VnuuLL_1222:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2}) (\bar c_L \gamma_\mu c_L)
+    VnudLL_1211:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar d_L \gamma_\mu d_L)
+    VnudLL_1222:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar s_L \gamma_\mu s_L)
+    VnueLR_1211:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar e_R \gamma_\mu e_R)
+    VnueLR_1222:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar \mu_R \gamma_\mu \mu_R)
+    VnueLR_1233:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar \tau_R \gamma_\mu \tau_R)
+    VnuuLR_1211:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar u_R \gamma_\mu u_R)
+    VnuuLR_1222:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar c_R \gamma_\mu c_R)
+    VnudLR_1211:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar d_R \gamma_\mu d_R)
+    VnudLR_1222:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar s_R \gamma_\mu s_R)
+    VnueLL_1311:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar e_L \gamma_\mu e_L)
+    VnueLL_1322:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar \mu_L \gamma_\mu \mu_L)
+    VnueLL_1333:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar \tau_L \gamma_\mu \tau_L)
+    VnuuLL_1311:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3}) (\bar u_L \gamma_\mu u_L)
+    VnuuLL_1322:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3}) (\bar c_L \gamma_\mu c_L)
+    VnudLL_1311:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar d_L \gamma_\mu d_L)
+    VnudLL_1322:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar s_L \gamma_\mu s_L)
+    VnueLR_1311:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar e_R \gamma_\mu e_R)
+    VnueLR_1322:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar \mu_R \gamma_\mu \mu_R)
+    VnueLR_1333:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar \tau_R \gamma_\mu \tau_R)
+    VnuuLR_1311:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar u_R \gamma_\mu u_R)
+    VnuuLR_1322:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar c_R \gamma_\mu c_R)
+    VnudLR_1311:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar d_R \gamma_\mu d_R)
+    VnudLR_1322:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar s_R \gamma_\mu s_R)
+    VnueLL_2311:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar e_L \gamma_\mu e_L)
+    VnueLL_2322:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar \mu_L \gamma_\mu \mu_L)
+    VnueLL_2333:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar \tau_L \gamma_\mu \tau_L)
+    VnuuLL_2311:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3}) (\bar u_L \gamma_\mu u_L)
+    VnuuLL_2322:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3}) (\bar c_L \gamma_\mu c_L)
+    VnudLL_2311:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar d_L \gamma_\mu d_L)
+    VnudLL_2322:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar s_L \gamma_\mu s_L)
+    VnueLR_2311:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar e_R \gamma_\mu e_R)
+    VnueLR_2322:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar \mu_R \gamma_\mu \mu_R)
+    VnueLR_2333:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar \tau_R \gamma_\mu \tau_R)
+    VnuuLR_2311:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar u_R \gamma_\mu u_R)
+    VnuuLR_2322:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar c_R \gamma_\mu c_R)
+    VnudLR_2311:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar d_R \gamma_\mu d_R)
+    VnudLR_2322:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar s_R \gamma_\mu s_R)
+  usenu:
+    VnueduLL_1121:
+      tex: (\bar \nu_{L1} \gamma^\mu e_L) (\bar s_L \gamma_\mu u_L)
+    VnueduLR_1121:
+      tex: (\bar \nu_{L1} \gamma^\mu e_L)(\bar s_R \gamma_\mu u_R)
+    SnueduRL_1121:
+      tex: (\bar \nu_{L1} e_R) (\bar s_R u_L)
+    SnueduRR_1121:
+      tex: (\bar \nu_{L1} e_R) (\bar s_L u_R)
+    TnueduRR_1121:
+      tex: (\bar \nu_{L1} \sigma^{\mu \nu} e_R) (\bar s_L \sigma_{\mu \nu} u_R)
+    VnueduLL_2121:
+      tex: (\bar \nu_{L2} \gamma^\mu e_L) (\bar s_L \gamma_\mu u_L)
+    VnueduLR_2121:
+      tex: (\bar \nu_{L2} \gamma^\mu e_L)(\bar s_R \gamma_\mu u_R)
+    SnueduRL_2121:
+      tex: (\bar \nu_{L2} e_R) (\bar s_R u_L)
+    SnueduRR_2121:
+      tex: (\bar \nu_{L2} e_R) (\bar s_L u_R)
+    TnueduRR_2121:
+      tex: (\bar \nu_{L2} \sigma^{\mu \nu} e_R) (\bar s_L \sigma_{\mu \nu} u_R)
+    VnueduLL_3121:
+      tex: (\bar \nu_{L3} \gamma^\mu e_L) (\bar s_L \gamma_\mu u_L)
+    VnueduLR_3121:
+      tex: (\bar \nu_{L3} \gamma^\mu e_L)(\bar s_R \gamma_\mu u_R)
+    SnueduRL_3121:
+      tex: (\bar \nu_{L3} e_R) (\bar s_R u_L)
+    SnueduRR_3121:
+      tex: (\bar \nu_{L3} e_R) (\bar s_L u_R)
+    TnueduRR_3121:
+      tex: (\bar \nu_{L3} \sigma^{\mu \nu} e_R) (\bar s_L \sigma_{\mu \nu} u_R)
+  usmunu:
+    VnueduLL_1221:
+      tex: (\bar \nu_{L1} \gamma^\mu \mu_L) (\bar s_L \gamma_\mu u_L)
+    VnueduLR_1221:
+      tex: (\bar \nu_{L1} \gamma^\mu \mu_L)(\bar s_R \gamma_\mu u_R)
+    SnueduRL_1221:
+      tex: (\bar \nu_{L1} \mu_R) (\bar s_R u_L)
+    SnueduRR_1221:
+      tex: (\bar \nu_{L1} \mu_R) (\bar s_L u_R)
+    TnueduRR_1221:
+      tex: (\bar \nu_{L1} \sigma^{\mu \nu} \mu_R) (\bar s_L \sigma_{\mu \nu} u_R)
+    VnueduLL_2221:
+      tex: (\bar \nu_{L2} \gamma^\mu \mu_L) (\bar s_L \gamma_\mu u_L)
+    VnueduLR_2221:
+      tex: (\bar \nu_{L2} \gamma^\mu \mu_L)(\bar s_R \gamma_\mu u_R)
+    SnueduRL_2221:
+      tex: (\bar \nu_{L2} \mu_R) (\bar s_R u_L)
+    SnueduRR_2221:
+      tex: (\bar \nu_{L2} \mu_R) (\bar s_L u_R)
+    TnueduRR_2221:
+      tex: (\bar \nu_{L2} \sigma^{\mu \nu} \mu_R) (\bar s_L \sigma_{\mu \nu} u_R)
+    VnueduLL_3221:
+      tex: (\bar \nu_{L3} \gamma^\mu \mu_L) (\bar s_L \gamma_\mu u_L)
+    VnueduLR_3221:
+      tex: (\bar \nu_{L3} \gamma^\mu \mu_L)(\bar s_R \gamma_\mu u_R)
+    SnueduRL_3221:
+      tex: (\bar \nu_{L3} \mu_R) (\bar s_R u_L)
+    SnueduRR_3221:
+      tex: (\bar \nu_{L3} \mu_R) (\bar s_L u_R)
+    TnueduRR_3221:
+      tex: (\bar \nu_{L3} \sigma^{\mu \nu} \mu_R) (\bar s_L \sigma_{\mu \nu} u_R)
+  ustaunu:
+    VnueduLL_1321:
+      tex: (\bar \nu_{L1} \gamma^\mu \tau_L) (\bar s_L \gamma_\mu u_L)
+    VnueduLR_1321:
+      tex: (\bar \nu_{L1} \gamma^\mu \tau_L)(\bar s_R \gamma_\mu u_R)
+    SnueduRL_1321:
+      tex: (\bar \nu_{L1} \tau_R) (\bar s_R u_L)
+    SnueduRR_1321:
+      tex: (\bar \nu_{L1} \tau_R) (\bar s_L u_R)
+    TnueduRR_1321:
+      tex: (\bar \nu_{L1} \sigma^{\mu \nu} \tau_R) (\bar s_L \sigma_{\mu \nu} u_R)
+    VnueduLL_2321:
+      tex: (\bar \nu_{L2} \gamma^\mu \tau_L) (\bar s_L \gamma_\mu u_L)
+    VnueduLR_2321:
+      tex: (\bar \nu_{L2} \gamma^\mu \tau_L)(\bar s_R \gamma_\mu u_R)
+    SnueduRL_2321:
+      tex: (\bar \nu_{L2} \tau_R) (\bar s_R u_L)
+    SnueduRR_2321:
+      tex: (\bar \nu_{L2} \tau_R) (\bar s_L u_R)
+    TnueduRR_2321:
+      tex: (\bar \nu_{L2} \sigma^{\mu \nu} \tau_R) (\bar s_L \sigma_{\mu \nu} u_R)
+    VnueduLL_3321:
+      tex: (\bar \nu_{L3} \gamma^\mu \tau_L) (\bar s_L \gamma_\mu u_L)
+    VnueduLR_3321:
+      tex: (\bar \nu_{L3} \gamma^\mu \tau_L)(\bar s_R \gamma_\mu u_R)
+    SnueduRL_3321:
+      tex: (\bar \nu_{L3} \tau_R) (\bar s_R u_L)
+    SnueduRR_3321:
+      tex: (\bar \nu_{L3} \tau_R) (\bar s_L u_R)
+    TnueduRR_3321:
+      tex: (\bar \nu_{L3} \sigma^{\mu \nu} \tau_R) (\bar s_L \sigma_{\mu \nu} u_R)
+  csenu:
+    VnueduLL_1122:
+      tex: (\bar \nu_{L1} \gamma^\mu e_L) (\bar s_L \gamma_\mu c_L)
+    VnueduLR_1122:
+      tex: (\bar \nu_{L1} \gamma^\mu e_L)(\bar s_R \gamma_\mu c_R)
+    SnueduRL_1122:
+      tex: (\bar \nu_{L1} e_R) (\bar s_R c_L)
+    SnueduRR_1122:
+      tex: (\bar \nu_{L1} e_R) (\bar s_L c_R)
+    TnueduRR_1122:
+      tex: (\bar \nu_{L1} \sigma^{\mu \nu} e_R) (\bar s_L \sigma_{\mu \nu} c_R)
+    VnueduLL_2122:
+      tex: (\bar \nu_{L2} \gamma^\mu e_L) (\bar s_L \gamma_\mu c_L)
+    VnueduLR_2122:
+      tex: (\bar \nu_{L2} \gamma^\mu e_L)(\bar s_R \gamma_\mu c_R)
+    SnueduRL_2122:
+      tex: (\bar \nu_{L2} e_R) (\bar s_R c_L)
+    SnueduRR_2122:
+      tex: (\bar \nu_{L2} e_R) (\bar s_L c_R)
+    TnueduRR_2122:
+      tex: (\bar \nu_{L2} \sigma^{\mu \nu} e_R) (\bar s_L \sigma_{\mu \nu} c_R)
+    VnueduLL_3122:
+      tex: (\bar \nu_{L3} \gamma^\mu e_L) (\bar s_L \gamma_\mu c_L)
+    VnueduLR_3122:
+      tex: (\bar \nu_{L3} \gamma^\mu e_L)(\bar s_R \gamma_\mu c_R)
+    SnueduRL_3122:
+      tex: (\bar \nu_{L3} e_R) (\bar s_R c_L)
+    SnueduRR_3122:
+      tex: (\bar \nu_{L3} e_R) (\bar s_L c_R)
+    TnueduRR_3122:
+      tex: (\bar \nu_{L3} \sigma^{\mu \nu} e_R) (\bar s_L \sigma_{\mu \nu} c_R)
+  csmunu:
+    VnueduLL_1222:
+      tex: (\bar \nu_{L1} \gamma^\mu \mu_L) (\bar s_L \gamma_\mu c_L)
+    VnueduLR_1222:
+      tex: (\bar \nu_{L1} \gamma^\mu \mu_L)(\bar s_R \gamma_\mu c_R)
+    SnueduRL_1222:
+      tex: (\bar \nu_{L1} \mu_R) (\bar s_R c_L)
+    SnueduRR_1222:
+      tex: (\bar \nu_{L1} \mu_R) (\bar s_L c_R)
+    TnueduRR_1222:
+      tex: (\bar \nu_{L1} \sigma^{\mu \nu} \mu_R) (\bar s_L \sigma_{\mu \nu} c_R)
+    VnueduLL_2222:
+      tex: (\bar \nu_{L2} \gamma^\mu \mu_L) (\bar s_L \gamma_\mu c_L)
+    VnueduLR_2222:
+      tex: (\bar \nu_{L2} \gamma^\mu \mu_L)(\bar s_R \gamma_\mu c_R)
+    SnueduRL_2222:
+      tex: (\bar \nu_{L2} \mu_R) (\bar s_R c_L)
+    SnueduRR_2222:
+      tex: (\bar \nu_{L2} \mu_R) (\bar s_L c_R)
+    TnueduRR_2222:
+      tex: (\bar \nu_{L2} \sigma^{\mu \nu} \mu_R) (\bar s_L \sigma_{\mu \nu} c_R)
+    VnueduLL_3222:
+      tex: (\bar \nu_{L3} \gamma^\mu \mu_L) (\bar s_L \gamma_\mu c_L)
+    VnueduLR_3222:
+      tex: (\bar \nu_{L3} \gamma^\mu \mu_L)(\bar s_R \gamma_\mu c_R)
+    SnueduRL_3222:
+      tex: (\bar \nu_{L3} \mu_R) (\bar s_R c_L)
+    SnueduRR_3222:
+      tex: (\bar \nu_{L3} \mu_R) (\bar s_L c_R)
+    TnueduRR_3222:
+      tex: (\bar \nu_{L3} \sigma^{\mu \nu} \mu_R) (\bar s_L \sigma_{\mu \nu} c_R)
+  cstaunu:
+    VnueduLL_1322:
+      tex: (\bar \nu_{L1} \gamma^\mu \tau_L) (\bar s_L \gamma_\mu c_L)
+    VnueduLR_1322:
+      tex: (\bar \nu_{L1} \gamma^\mu \tau_L)(\bar s_R \gamma_\mu c_R)
+    SnueduRL_1322:
+      tex: (\bar \nu_{L1} \tau_R) (\bar s_R c_L)
+    SnueduRR_1322:
+      tex: (\bar \nu_{L1} \tau_R) (\bar s_L c_R)
+    TnueduRR_1322:
+      tex: (\bar \nu_{L1} \sigma^{\mu \nu} \tau_R) (\bar s_L \sigma_{\mu \nu} c_R)
+    VnueduLL_2322:
+      tex: (\bar \nu_{L2} \gamma^\mu \tau_L) (\bar s_L \gamma_\mu c_L)
+    VnueduLR_2322:
+      tex: (\bar \nu_{L2} \gamma^\mu \tau_L)(\bar s_R \gamma_\mu c_R)
+    SnueduRL_2322:
+      tex: (\bar \nu_{L2} \tau_R) (\bar s_R c_L)
+    SnueduRR_2322:
+      tex: (\bar \nu_{L2} \tau_R) (\bar s_L c_R)
+    TnueduRR_2322:
+      tex: (\bar \nu_{L2} \sigma^{\mu \nu} \tau_R) (\bar s_L \sigma_{\mu \nu} c_R)
+    VnueduLL_3322:
+      tex: (\bar \nu_{L3} \gamma^\mu \tau_L) (\bar s_L \gamma_\mu c_L)
+    VnueduLR_3322:
+      tex: (\bar \nu_{L3} \gamma^\mu \tau_L)(\bar s_R \gamma_\mu c_R)
+    SnueduRL_3322:
+      tex: (\bar \nu_{L3} \tau_R) (\bar s_R c_L)
+    SnueduRR_3322:
+      tex: (\bar \nu_{L3} \tau_R) (\bar s_L c_R)
+    TnueduRR_3322:
+      tex: (\bar \nu_{L3} \sigma^{\mu \nu} \tau_R) (\bar s_L \sigma_{\mu \nu} c_R)
+  udenu:
+    VnueduLL_1111:
+      tex: (\bar \nu_{L1} \gamma^\mu e_L) (\bar d_L \gamma_\mu u_L)
+    VnueduLR_1111:
+      tex: (\bar \nu_{L1} \gamma^\mu e_L)(\bar d_R \gamma_\mu u_R)
+    SnueduRL_1111:
+      tex: (\bar \nu_{L1} e_R) (\bar d_R u_L)
+    SnueduRR_1111:
+      tex: (\bar \nu_{L1} e_R) (\bar d_L u_R)
+    TnueduRR_1111:
+      tex: (\bar \nu_{L1} \sigma^{\mu \nu} e_R) (\bar d_L \sigma_{\mu \nu} u_R)
+    VnueduLL_2111:
+      tex: (\bar \nu_{L2} \gamma^\mu e_L) (\bar d_L \gamma_\mu u_L)
+    VnueduLR_2111:
+      tex: (\bar \nu_{L2} \gamma^\mu e_L)(\bar d_R \gamma_\mu u_R)
+    SnueduRL_2111:
+      tex: (\bar \nu_{L2} e_R) (\bar d_R u_L)
+    SnueduRR_2111:
+      tex: (\bar \nu_{L2} e_R) (\bar d_L u_R)
+    TnueduRR_2111:
+      tex: (\bar \nu_{L2} \sigma^{\mu \nu} e_R) (\bar d_L \sigma_{\mu \nu} u_R)
+    VnueduLL_3111:
+      tex: (\bar \nu_{L3} \gamma^\mu e_L) (\bar d_L \gamma_\mu u_L)
+    VnueduLR_3111:
+      tex: (\bar \nu_{L3} \gamma^\mu e_L)(\bar d_R \gamma_\mu u_R)
+    SnueduRL_3111:
+      tex: (\bar \nu_{L3} e_R) (\bar d_R u_L)
+    SnueduRR_3111:
+      tex: (\bar \nu_{L3} e_R) (\bar d_L u_R)
+    TnueduRR_3111:
+      tex: (\bar \nu_{L3} \sigma^{\mu \nu} e_R) (\bar d_L \sigma_{\mu \nu} u_R)
+  udmunu:
+    VnueduLL_1211:
+      tex: (\bar \nu_{L1} \gamma^\mu \mu_L) (\bar d_L \gamma_\mu u_L)
+    VnueduLR_1211:
+      tex: (\bar \nu_{L1} \gamma^\mu \mu_L)(\bar d_R \gamma_\mu u_R)
+    SnueduRL_1211:
+      tex: (\bar \nu_{L1} \mu_R) (\bar d_R u_L)
+    SnueduRR_1211:
+      tex: (\bar \nu_{L1} \mu_R) (\bar d_L u_R)
+    TnueduRR_1211:
+      tex: (\bar \nu_{L1} \sigma^{\mu \nu} \mu_R) (\bar d_L \sigma_{\mu \nu} u_R)
+    VnueduLL_2211:
+      tex: (\bar \nu_{L2} \gamma^\mu \mu_L) (\bar d_L \gamma_\mu u_L)
+    VnueduLR_2211:
+      tex: (\bar \nu_{L2} \gamma^\mu \mu_L)(\bar d_R \gamma_\mu u_R)
+    SnueduRL_2211:
+      tex: (\bar \nu_{L2} \mu_R) (\bar d_R u_L)
+    SnueduRR_2211:
+      tex: (\bar \nu_{L2} \mu_R) (\bar d_L u_R)
+    TnueduRR_2211:
+      tex: (\bar \nu_{L2} \sigma^{\mu \nu} \mu_R) (\bar d_L \sigma_{\mu \nu} u_R)
+    VnueduLL_3211:
+      tex: (\bar \nu_{L3} \gamma^\mu \mu_L) (\bar d_L \gamma_\mu u_L)
+    VnueduLR_3211:
+      tex: (\bar \nu_{L3} \gamma^\mu \mu_L)(\bar d_R \gamma_\mu u_R)
+    SnueduRL_3211:
+      tex: (\bar \nu_{L3} \mu_R) (\bar d_R u_L)
+    SnueduRR_3211:
+      tex: (\bar \nu_{L3} \mu_R) (\bar d_L u_R)
+    TnueduRR_3211:
+      tex: (\bar \nu_{L3} \sigma^{\mu \nu} \mu_R) (\bar d_L \sigma_{\mu \nu} u_R)
+  udtaunu:
+    VnueduLL_1311:
+      tex: (\bar \nu_{L1} \gamma^\mu \tau_L) (\bar d_L \gamma_\mu u_L)
+    VnueduLR_1311:
+      tex: (\bar \nu_{L1} \gamma^\mu \tau_L)(\bar d_R \gamma_\mu u_R)
+    SnueduRL_1311:
+      tex: (\bar \nu_{L1} \tau_R) (\bar d_R u_L)
+    SnueduRR_1311:
+      tex: (\bar \nu_{L1} \tau_R) (\bar d_L u_R)
+    TnueduRR_1311:
+      tex: (\bar \nu_{L1} \sigma^{\mu \nu} \tau_R) (\bar d_L \sigma_{\mu \nu} u_R)
+    VnueduLL_2311:
+      tex: (\bar \nu_{L2} \gamma^\mu \tau_L) (\bar d_L \gamma_\mu u_L)
+    VnueduLR_2311:
+      tex: (\bar \nu_{L2} \gamma^\mu \tau_L)(\bar d_R \gamma_\mu u_R)
+    SnueduRL_2311:
+      tex: (\bar \nu_{L2} \tau_R) (\bar d_R u_L)
+    SnueduRR_2311:
+      tex: (\bar \nu_{L2} \tau_R) (\bar d_L u_R)
+    TnueduRR_2311:
+      tex: (\bar \nu_{L2} \sigma^{\mu \nu} \tau_R) (\bar d_L \sigma_{\mu \nu} u_R)
+    VnueduLL_3311:
+      tex: (\bar \nu_{L3} \gamma^\mu \tau_L) (\bar d_L \gamma_\mu u_L)
+    VnueduLR_3311:
+      tex: (\bar \nu_{L3} \gamma^\mu \tau_L)(\bar d_R \gamma_\mu u_R)
+    SnueduRL_3311:
+      tex: (\bar \nu_{L3} \tau_R) (\bar d_R u_L)
+    SnueduRR_3311:
+      tex: (\bar \nu_{L3} \tau_R) (\bar d_L u_R)
+    TnueduRR_3311:
+      tex: (\bar \nu_{L3} \sigma^{\mu \nu} \tau_R) (\bar d_L \sigma_{\mu \nu} u_R)
+  cdenu:
+    VnueduLL_1112:
+      tex: (\bar \nu_{L1} \gamma^\mu e_L) (\bar d_L \gamma_\mu c_L)
+    VnueduLR_1112:
+      tex: (\bar \nu_{L1} \gamma^\mu e_L)(\bar d_R \gamma_\mu c_R)
+    SnueduRL_1112:
+      tex: (\bar \nu_{L1} e_R) (\bar d_R c_L)
+    SnueduRR_1112:
+      tex: (\bar \nu_{L1} e_R) (\bar d_L c_R)
+    TnueduRR_1112:
+      tex: (\bar \nu_{L1} \sigma^{\mu \nu} e_R) (\bar d_L \sigma_{\mu \nu} c_R)
+    VnueduLL_2112:
+      tex: (\bar \nu_{L2} \gamma^\mu e_L) (\bar d_L \gamma_\mu c_L)
+    VnueduLR_2112:
+      tex: (\bar \nu_{L2} \gamma^\mu e_L)(\bar d_R \gamma_\mu c_R)
+    SnueduRL_2112:
+      tex: (\bar \nu_{L2} e_R) (\bar d_R c_L)
+    SnueduRR_2112:
+      tex: (\bar \nu_{L2} e_R) (\bar d_L c_R)
+    TnueduRR_2112:
+      tex: (\bar \nu_{L2} \sigma^{\mu \nu} e_R) (\bar d_L \sigma_{\mu \nu} c_R)
+    VnueduLL_3112:
+      tex: (\bar \nu_{L3} \gamma^\mu e_L) (\bar d_L \gamma_\mu c_L)
+    VnueduLR_3112:
+      tex: (\bar \nu_{L3} \gamma^\mu e_L)(\bar d_R \gamma_\mu c_R)
+    SnueduRL_3112:
+      tex: (\bar \nu_{L3} e_R) (\bar d_R c_L)
+    SnueduRR_3112:
+      tex: (\bar \nu_{L3} e_R) (\bar d_L c_R)
+    TnueduRR_3112:
+      tex: (\bar \nu_{L3} \sigma^{\mu \nu} e_R) (\bar d_L \sigma_{\mu \nu} c_R)
+  cdmunu:
+    VnueduLL_1212:
+      tex: (\bar \nu_{L1} \gamma^\mu \mu_L) (\bar d_L \gamma_\mu c_L)
+    VnueduLR_1212:
+      tex: (\bar \nu_{L1} \gamma^\mu \mu_L)(\bar d_R \gamma_\mu c_R)
+    SnueduRL_1212:
+      tex: (\bar \nu_{L1} \mu_R) (\bar d_R c_L)
+    SnueduRR_1212:
+      tex: (\bar \nu_{L1} \mu_R) (\bar d_L c_R)
+    TnueduRR_1212:
+      tex: (\bar \nu_{L1} \sigma^{\mu \nu} \mu_R) (\bar d_L \sigma_{\mu \nu} c_R)
+    VnueduLL_2212:
+      tex: (\bar \nu_{L2} \gamma^\mu \mu_L) (\bar d_L \gamma_\mu c_L)
+    VnueduLR_2212:
+      tex: (\bar \nu_{L2} \gamma^\mu \mu_L)(\bar d_R \gamma_\mu c_R)
+    SnueduRL_2212:
+      tex: (\bar \nu_{L2} \mu_R) (\bar d_R c_L)
+    SnueduRR_2212:
+      tex: (\bar \nu_{L2} \mu_R) (\bar d_L c_R)
+    TnueduRR_2212:
+      tex: (\bar \nu_{L2} \sigma^{\mu \nu} \mu_R) (\bar d_L \sigma_{\mu \nu} c_R)
+    VnueduLL_3212:
+      tex: (\bar \nu_{L3} \gamma^\mu \mu_L) (\bar d_L \gamma_\mu c_L)
+    VnueduLR_3212:
+      tex: (\bar \nu_{L3} \gamma^\mu \mu_L)(\bar d_R \gamma_\mu c_R)
+    SnueduRL_3212:
+      tex: (\bar \nu_{L3} \mu_R) (\bar d_R c_L)
+    SnueduRR_3212:
+      tex: (\bar \nu_{L3} \mu_R) (\bar d_L c_R)
+    TnueduRR_3212:
+      tex: (\bar \nu_{L3} \sigma^{\mu \nu} \mu_R) (\bar d_L \sigma_{\mu \nu} c_R)
+  cdtaunu:
+    VnueduLL_1312:
+      tex: (\bar \nu_{L1} \gamma^\mu \tau_L) (\bar d_L \gamma_\mu c_L)
+    VnueduLR_1312:
+      tex: (\bar \nu_{L1} \gamma^\mu \tau_L)(\bar d_R \gamma_\mu c_R)
+    SnueduRL_1312:
+      tex: (\bar \nu_{L1} \tau_R) (\bar d_R c_L)
+    SnueduRR_1312:
+      tex: (\bar \nu_{L1} \tau_R) (\bar d_L c_R)
+    TnueduRR_1312:
+      tex: (\bar \nu_{L1} \sigma^{\mu \nu} \tau_R) (\bar d_L \sigma_{\mu \nu} c_R)
+    VnueduLL_2312:
+      tex: (\bar \nu_{L2} \gamma^\mu \tau_L) (\bar d_L \gamma_\mu c_L)
+    VnueduLR_2312:
+      tex: (\bar \nu_{L2} \gamma^\mu \tau_L)(\bar d_R \gamma_\mu c_R)
+    SnueduRL_2312:
+      tex: (\bar \nu_{L2} \tau_R) (\bar d_R c_L)
+    SnueduRR_2312:
+      tex: (\bar \nu_{L2} \tau_R) (\bar d_L c_R)
+    TnueduRR_2312:
+      tex: (\bar \nu_{L2} \sigma^{\mu \nu} \tau_R) (\bar d_L \sigma_{\mu \nu} c_R)
+    VnueduLL_3312:
+      tex: (\bar \nu_{L3} \gamma^\mu \tau_L) (\bar d_L \gamma_\mu c_L)
+    VnueduLR_3312:
+      tex: (\bar \nu_{L3} \gamma^\mu \tau_L)(\bar d_R \gamma_\mu c_R)
+    SnueduRL_3312:
+      tex: (\bar \nu_{L3} \tau_R) (\bar d_R c_L)
+    SnueduRR_3312:
+      tex: (\bar \nu_{L3} \tau_R) (\bar d_L c_R)
+    TnueduRR_3312:
+      tex: (\bar \nu_{L3} \sigma^{\mu \nu} \tau_R) (\bar d_L \sigma_{\mu \nu} c_R)
+  sdnunu:
+    VnudLL_1112:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar d_L \gamma_\mu s_L)
+    VnudLL_2212:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar d_L \gamma_\mu s_L)
+    VnudLL_3312:
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar d_L \gamma_\mu s_L)
+    VnudLR_1112:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar d_R \gamma_\mu s_R)
+    VnudLR_2212:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar d_R \gamma_\mu s_R)
+    VnudLR_3312:
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar d_R \gamma_\mu s_R)
+    VnudLL_1221:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar s_L \gamma_\mu d_L)
+    VnudLR_1221:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar s_R \gamma_\mu d_R)
+    VnudLL_1321:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar s_L \gamma_\mu d_L)
+    VnudLR_1321:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar s_R \gamma_\mu d_R)
+    VnudLL_1212:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar d_L \gamma_\mu s_L)
+    VnudLR_1212:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar d_R \gamma_\mu s_R)
+    VnudLL_2321:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar s_L \gamma_\mu d_L)
+    VnudLR_2321:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar s_R \gamma_\mu d_R)
+    VnudLL_1312:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar d_L \gamma_\mu s_L)
+    VnudLR_1312:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar d_R \gamma_\mu s_R)
+    VnudLL_2312:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar d_L \gamma_\mu s_L)
+    VnudLR_2312:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar d_R \gamma_\mu s_R)
+  cununu:
+    VnuuLL_1112:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1}) (\bar u_L \gamma_\mu c_L)
+    VnuuLL_2212:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2}) (\bar u_L \gamma_\mu c_L)
+    VnuuLL_3312:
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3}) (\bar u_L \gamma_\mu c_L)
+    VnuuLR_1112:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L1})(\bar u_R \gamma_\mu c_R)
+    VnuuLR_2212:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L2})(\bar u_R \gamma_\mu c_R)
+    VnuuLR_3312:
+      tex: (\bar \nu_{L3} \gamma^\mu \nu_{L3})(\bar u_R \gamma_\mu c_R)
+    VnuuLL_1221:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2}) (\bar c_L \gamma_\mu u_L)
+    VnuuLR_1221:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar c_R \gamma_\mu u_R)
+    VnuuLL_1321:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3}) (\bar c_L \gamma_\mu u_L)
+    VnuuLR_1321:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar c_R \gamma_\mu u_R)
+    VnuuLL_1212:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2}) (\bar u_L \gamma_\mu c_L)
+    VnuuLR_1212:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L2})(\bar u_R \gamma_\mu c_R)
+    VnuuLL_2321:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3}) (\bar c_L \gamma_\mu u_L)
+    VnuuLR_2321:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar c_R \gamma_\mu u_R)
+    VnuuLL_1312:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3}) (\bar u_L \gamma_\mu c_L)
+    VnuuLR_1312:
+      tex: (\bar \nu_{L1} \gamma^\mu \nu_{L3})(\bar u_R \gamma_\mu c_R)
+    VnuuLL_2312:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3}) (\bar u_L \gamma_\mu c_L)
+    VnuuLR_2312:
+      tex: (\bar \nu_{L2} \gamma^\mu \nu_{L3})(\bar u_R \gamma_\mu c_R)

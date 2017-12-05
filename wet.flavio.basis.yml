@@ -53,46 +53,6 @@ sectors:
     CSLR_sdsd:
       tex: (\bar d_R  s_L)(\bar d_L  s_R)
   sb:
-    C1_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_L \gamma^\mu T^a c_L)(\bar c_L \gamma_\mu T^a b_L)
-    C1p_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_R \gamma^\mu T^a c_R)(\bar c_R \gamma_\mu T^a b_R)
-    C2_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_L \gamma^\mu c_L)(\bar c_L \gamma_\mu b_L)
-    C2p_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_R \gamma^\mu c_R)(\bar c_R \gamma_\mu b_R)
-    C3_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_L \gamma^\mu b_L)\sum_q(\bar q \gamma_\mu q)
-    C3p_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_R \gamma^\mu b_R)\sum_q(\bar q \gamma_\mu q)
-    C4_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_L \gamma^\mu T^a b_L)\sum_q(\bar q \gamma_\mu T^a q)
-    C4p_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_R \gamma^\mu T^a b_R)\sum_q(\bar q \gamma_\mu T^a q)
-    C5_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_L \gamma^{\mu_1}\gamma^{\mu_2}\gamma^{\mu_3} b_L)\sum_q(\bar q \gamma_{\mu_1}\gamma_{\mu_2}\gamma_{\mu_3} q)
-    C5p_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_R \gamma^{\mu_1}\gamma^{\mu_2}\gamma^{\mu_3} b_R)\sum_q(\bar q \gamma_{\mu_1}\gamma_{\mu_2}\gamma_{\mu_3} q)
-    C6_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_L \gamma^{\mu_1}\gamma^{\mu_2}\gamma^{\mu_3} T^a b_L)\sum_q(\bar q \gamma_{\mu_1}\gamma_{\mu_2}\gamma_{\mu_3} T^a q)
-    C6p_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_R \gamma^{\mu_1}\gamma^{\mu_2}\gamma^{\mu_3} T^a b_R)\sum_q(\bar q \gamma_{\mu_1}\gamma_{\mu_2}\gamma_{\mu_3} T^a q)
-    C3Q_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_L \gamma^\mu b_L)\sum_q Q_q (\bar q \gamma_\mu q)
-    C3Qp_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_R \gamma^\mu b_R)\sum_q Q_q (\bar q \gamma_\mu q)
-    C4Q_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_L \gamma^\mu T^a b_L)\sum_q Q_q (\bar q \gamma_\mu T^a q)
-    C4Qp_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_R \gamma^\mu T^a b_R)\sum_q Q_q (\bar q \gamma_\mu T^a q)
-    C5Q_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_L \gamma^{\mu_1}\gamma^{\mu_2}\gamma^{\mu_3} b_L)\sum_q Q_q (\bar q \gamma_{\mu_1}\gamma_{\mu_2}\gamma_{\mu_3} q)
-    C5Qp_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_R \gamma^{\mu_1}\gamma^{\mu_2}\gamma^{\mu_3} b_R)\sum_q Q_q (\bar q \gamma_{\mu_1}\gamma_{\mu_2}\gamma_{\mu_3} q)
-    C6Q_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_L \gamma^{\mu_1}\gamma^{\mu_2}\gamma^{\mu_3} T^a b_L)\sum_q Q_q (\bar q \gamma_{\mu_1}\gamma_{\mu_2}\gamma_{\mu_3} T^a q)
-    C6Qp_bs:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_R \gamma^{\mu_1}\gamma^{\mu_2}\gamma^{\mu_3} T^a b_R)\sum_q Q_q (\bar q \gamma_{\mu_1}\gamma_{\mu_2}\gamma_{\mu_3} T^a q)
     C9_bsee:
       tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* \frac{e^2}{16\pi^2}(\bar s_L \gamma^\mu b_L)(\bar e \gamma_\mu e)
     C9p_bsee:
@@ -187,46 +147,6 @@ sectors:
     CR_bsnutaunue:
       tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* \frac{e^2}{16\pi^2}(\bar s_R \gamma^\mu b_R)(\bar \nu_e \gamma_\mu(1-\gamma_5) \nu_\tau)
   db:
-    C1_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_L \gamma^\mu T^a c_L)(\bar c_L \gamma_\mu T^a b_L)
-    C1p_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_R \gamma^\mu T^a c_R)(\bar c_R \gamma_\mu T^a b_R)
-    C2_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_L \gamma^\mu c_L)(\bar c_L \gamma_\mu b_L)
-    C2p_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_R \gamma^\mu c_R)(\bar c_R \gamma_\mu b_R)
-    C3_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_L \gamma^\mu b_L)\sum_q(\bar q \gamma_\mu q)
-    C3p_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_R \gamma^\mu b_R)\sum_q(\bar q \gamma_\mu q)
-    C4_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_L \gamma^\mu T^a b_L)\sum_q(\bar q \gamma_\mu T^a q)
-    C4p_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_R \gamma^\mu T^a b_R)\sum_q(\bar q \gamma_\mu T^a q)
-    C5_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_L \gamma^{\mu_1}\gamma^{\mu_2}\gamma^{\mu_3} b_L)\sum_q(\bar q \gamma_{\mu_1}\gamma_{\mu_2}\gamma_{\mu_3} q)
-    C5p_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_R \gamma^{\mu_1}\gamma^{\mu_2}\gamma^{\mu_3} b_R)\sum_q(\bar q \gamma_{\mu_1}\gamma_{\mu_2}\gamma_{\mu_3} q)
-    C6_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_L \gamma^{\mu_1}\gamma^{\mu_2}\gamma^{\mu_3} T^a b_L)\sum_q(\bar q \gamma_{\mu_1}\gamma_{\mu_2}\gamma_{\mu_3} T^a q)
-    C6p_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_R \gamma^{\mu_1}\gamma^{\mu_2}\gamma^{\mu_3} T^a b_R)\sum_q(\bar q \gamma_{\mu_1}\gamma_{\mu_2}\gamma_{\mu_3} T^a q)
-    C3Q_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_L \gamma^\mu b_L)\sum_q Q_q (\bar q \gamma_\mu q)
-    C3Qp_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_R \gamma^\mu b_R)\sum_q Q_q (\bar q \gamma_\mu q)
-    C4Q_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_L \gamma^\mu T^a b_L)\sum_q Q_q (\bar q \gamma_\mu T^a q)
-    C4Qp_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_R \gamma^\mu T^a b_R)\sum_q Q_q (\bar q \gamma_\mu T^a q)
-    C5Q_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_L \gamma^{\mu_1}\gamma^{\mu_2}\gamma^{\mu_3} b_L)\sum_q Q_q (\bar q \gamma_{\mu_1}\gamma_{\mu_2}\gamma_{\mu_3} q)
-    C5Qp_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_R \gamma^{\mu_1}\gamma^{\mu_2}\gamma^{\mu_3} b_R)\sum_q Q_q (\bar q \gamma_{\mu_1}\gamma_{\mu_2}\gamma_{\mu_3} q)
-    C6Q_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_L \gamma^{\mu_1}\gamma^{\mu_2}\gamma^{\mu_3} T^a b_L)\sum_q Q_q (\bar q \gamma_{\mu_1}\gamma_{\mu_2}\gamma_{\mu_3} T^a q)
-    C6Qp_bd:
-      tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* (\bar d_R \gamma^{\mu_1}\gamma^{\mu_2}\gamma^{\mu_3} T^a b_R)\sum_q Q_q (\bar q \gamma_{\mu_1}\gamma_{\mu_2}\gamma_{\mu_3} T^a q)
     C9_bdee:
       tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_L \gamma^\mu b_L)(\bar e \gamma_\mu e)
     C9p_bdee:

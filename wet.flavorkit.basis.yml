@@ -74,455 +74,455 @@ sectors:
     DSRR_2131:
       tex: (\bar d P_R s)(\bar d P_R b)
   ubenu:
-    GVLL_1311:
-      tex: (\bar t P_L d)(\bar e P_L \nu_1)
-    GVLL_1312:
-      tex: (\bar t P_L d)(\bar \mu P_L \nu_1)
-    GVLL_1313:
-      tex: (\bar t P_L d)(\bar \tau P_L \nu_1)
-    GVRL_1311:
-      tex: (\bar t P_R d)(\bar e P_L \nu_1)
-    GVRL_1312:
-      tex: (\bar t P_R d)(\bar \mu P_L \nu_1)
-    GVRL_1313:
-      tex: (\bar t P_R d)(\bar \tau P_L \nu_1)
-    GSLR_1311:
-      tex: (\bar t P_L d)(\bar e P_R \nu_1)
-    GSLR_1312:
-      tex: (\bar t P_L d)(\bar \mu P_R \nu_1)
-    GSLR_1313:
-      tex: (\bar t P_L d)(\bar \tau P_R \nu_1)
-    GSRR_1311:
-      tex: (\bar t P_R d)(\bar e P_R \nu_1)
-    GSRR_1312:
-      tex: (\bar t P_R d)(\bar \mu P_R \nu_1)
-    GSRR_1313:
-      tex: (\bar t P_R d)(\bar \tau P_R \nu_1)
+    GVLL_3111:
+      tex: (\bar u \gamma^\mu P_L b)(\bar e \gamma_\mu P_L \nu_1)
+    GVLL_3121:
+      tex: (\bar u \gamma^\mu P_L b)(\bar e \gamma_\mu P_L \nu_2)
+    GVLL_3131:
+      tex: (\bar u \gamma^\mu P_L b)(\bar e \gamma_\mu P_L \nu_3)
+    GVRL_3111:
+      tex: (\bar u \gamma^\mu P_R b)(\bar e \gamma_\mu P_L \nu_1)
+    GVRL_3121:
+      tex: (\bar u \gamma^\mu P_R b)(\bar e \gamma_\mu P_L \nu_2)
+    GVRL_3131:
+      tex: (\bar u \gamma^\mu P_R b)(\bar e \gamma_\mu P_L \nu_3)
+    GSLR_3111:
+      tex: (\bar u P_L b)(\bar e P_R \nu_1)
+    GSLR_3121:
+      tex: (\bar u P_L b)(\bar e P_R \nu_2)
+    GSLR_3131:
+      tex: (\bar u P_L b)(\bar e P_R \nu_3)
+    GSRR_3111:
+      tex: (\bar u P_R b)(\bar e P_R \nu_1)
+    GSRR_3121:
+      tex: (\bar u P_R b)(\bar e P_R \nu_2)
+    GSRR_3131:
+      tex: (\bar u P_R b)(\bar e P_R \nu_3)
   cbenu:
-    GVLL_2311:
-      tex: (\bar t P_L s)(\bar e P_L \nu_1)
-    GVLL_2312:
-      tex: (\bar t P_L s)(\bar \mu P_L \nu_1)
-    GVLL_2313:
-      tex: (\bar t P_L s)(\bar \tau P_L \nu_1)
-    GVRL_2311:
-      tex: (\bar t P_R s)(\bar e P_L \nu_1)
-    GVRL_2312:
-      tex: (\bar t P_R s)(\bar \mu P_L \nu_1)
-    GVRL_2313:
-      tex: (\bar t P_R s)(\bar \tau P_L \nu_1)
-    GSLR_2311:
-      tex: (\bar t P_L s)(\bar e P_R \nu_1)
-    GSLR_2312:
-      tex: (\bar t P_L s)(\bar \mu P_R \nu_1)
-    GSLR_2313:
-      tex: (\bar t P_L s)(\bar \tau P_R \nu_1)
-    GSRR_2311:
-      tex: (\bar t P_R s)(\bar e P_R \nu_1)
-    GSRR_2312:
-      tex: (\bar t P_R s)(\bar \mu P_R \nu_1)
-    GSRR_2313:
-      tex: (\bar t P_R s)(\bar \tau P_R \nu_1)
+    GVLL_3211:
+      tex: (\bar c \gamma^\mu P_L b)(\bar e \gamma_\mu P_L \nu_1)
+    GVLL_3221:
+      tex: (\bar c \gamma^\mu P_L b)(\bar e \gamma_\mu P_L \nu_2)
+    GVLL_3231:
+      tex: (\bar c \gamma^\mu P_L b)(\bar e \gamma_\mu P_L \nu_3)
+    GVRL_3211:
+      tex: (\bar c \gamma^\mu P_R b)(\bar e \gamma_\mu P_L \nu_1)
+    GVRL_3221:
+      tex: (\bar c \gamma^\mu P_R b)(\bar e \gamma_\mu P_L \nu_2)
+    GVRL_3231:
+      tex: (\bar c \gamma^\mu P_R b)(\bar e \gamma_\mu P_L \nu_3)
+    GSLR_3211:
+      tex: (\bar c P_L b)(\bar e P_R \nu_1)
+    GSLR_3221:
+      tex: (\bar c P_L b)(\bar e P_R \nu_2)
+    GSLR_3231:
+      tex: (\bar c P_L b)(\bar e P_R \nu_3)
+    GSRR_3211:
+      tex: (\bar c P_R b)(\bar e P_R \nu_1)
+    GSRR_3221:
+      tex: (\bar c P_R b)(\bar e P_R \nu_2)
+    GSRR_3231:
+      tex: (\bar c P_R b)(\bar e P_R \nu_3)
   usenu:
-    GVLL_1211:
-      tex: (\bar c P_L d)(\bar e P_L \nu_1)
-    GVLL_1212:
-      tex: (\bar c P_L d)(\bar \mu P_L \nu_1)
-    GVLL_1213:
-      tex: (\bar c P_L d)(\bar \tau P_L \nu_1)
-    GVRL_1211:
-      tex: (\bar c P_R d)(\bar e P_L \nu_1)
-    GVRL_1212:
-      tex: (\bar c P_R d)(\bar \mu P_L \nu_1)
-    GVRL_1213:
-      tex: (\bar c P_R d)(\bar \tau P_L \nu_1)
-    GSLR_1211:
-      tex: (\bar c P_L d)(\bar e P_R \nu_1)
-    GSLR_1212:
-      tex: (\bar c P_L d)(\bar \mu P_R \nu_1)
-    GSLR_1213:
-      tex: (\bar c P_L d)(\bar \tau P_R \nu_1)
-    GSRR_1211:
-      tex: (\bar c P_R d)(\bar e P_R \nu_1)
-    GSRR_1212:
-      tex: (\bar c P_R d)(\bar \mu P_R \nu_1)
-    GSRR_1213:
-      tex: (\bar c P_R d)(\bar \tau P_R \nu_1)
-  csenu:
-    GVLL_2211:
-      tex: (\bar c P_L s)(\bar e P_L \nu_1)
-    GVLL_2212:
-      tex: (\bar c P_L s)(\bar \mu P_L \nu_1)
-    GVLL_2213:
-      tex: (\bar c P_L s)(\bar \tau P_L \nu_1)
-    GVRL_2211:
-      tex: (\bar c P_R s)(\bar e P_L \nu_1)
-    GVRL_2212:
-      tex: (\bar c P_R s)(\bar \mu P_L \nu_1)
-    GVRL_2213:
-      tex: (\bar c P_R s)(\bar \tau P_L \nu_1)
-    GSLR_2211:
-      tex: (\bar c P_L s)(\bar e P_R \nu_1)
-    GSLR_2212:
-      tex: (\bar c P_L s)(\bar \mu P_R \nu_1)
-    GSLR_2213:
-      tex: (\bar c P_L s)(\bar \tau P_R \nu_1)
-    GSRR_2211:
-      tex: (\bar c P_R s)(\bar e P_R \nu_1)
-    GSRR_2212:
-      tex: (\bar c P_R s)(\bar \mu P_R \nu_1)
-    GSRR_2213:
-      tex: (\bar c P_R s)(\bar \tau P_R \nu_1)
-  udenu:
-    GVLL_1111:
-      tex: (\bar u P_L d)(\bar e P_L \nu_1)
-    GVLL_1112:
-      tex: (\bar u P_L d)(\bar \mu P_L \nu_1)
-    GVLL_1113:
-      tex: (\bar u P_L d)(\bar \tau P_L \nu_1)
-    GVRL_1111:
-      tex: (\bar u P_R d)(\bar e P_L \nu_1)
-    GVRL_1112:
-      tex: (\bar u P_R d)(\bar \mu P_L \nu_1)
-    GVRL_1113:
-      tex: (\bar u P_R d)(\bar \tau P_L \nu_1)
-    GSLR_1111:
-      tex: (\bar u P_L d)(\bar e P_R \nu_1)
-    GSLR_1112:
-      tex: (\bar u P_L d)(\bar \mu P_R \nu_1)
-    GSLR_1113:
-      tex: (\bar u P_L d)(\bar \tau P_R \nu_1)
-    GSRR_1111:
-      tex: (\bar u P_R d)(\bar e P_R \nu_1)
-    GSRR_1112:
-      tex: (\bar u P_R d)(\bar \mu P_R \nu_1)
-    GSRR_1113:
-      tex: (\bar u P_R d)(\bar \tau P_R \nu_1)
-  cdenu:
     GVLL_2111:
-      tex: (\bar u P_L s)(\bar e P_L \nu_1)
-    GVLL_2112:
-      tex: (\bar u P_L s)(\bar \mu P_L \nu_1)
-    GVLL_2113:
-      tex: (\bar u P_L s)(\bar \tau P_L \nu_1)
+      tex: (\bar u \gamma^\mu P_L s)(\bar e \gamma_\mu P_L \nu_1)
+    GVLL_2121:
+      tex: (\bar u \gamma^\mu P_L s)(\bar e \gamma_\mu P_L \nu_2)
+    GVLL_2131:
+      tex: (\bar u \gamma^\mu P_L s)(\bar e \gamma_\mu P_L \nu_3)
     GVRL_2111:
-      tex: (\bar u P_R s)(\bar e P_L \nu_1)
-    GVRL_2112:
-      tex: (\bar u P_R s)(\bar \mu P_L \nu_1)
-    GVRL_2113:
-      tex: (\bar u P_R s)(\bar \tau P_L \nu_1)
+      tex: (\bar u \gamma^\mu P_R s)(\bar e \gamma_\mu P_L \nu_1)
+    GVRL_2121:
+      tex: (\bar u \gamma^\mu P_R s)(\bar e \gamma_\mu P_L \nu_2)
+    GVRL_2131:
+      tex: (\bar u \gamma^\mu P_R s)(\bar e \gamma_\mu P_L \nu_3)
     GSLR_2111:
       tex: (\bar u P_L s)(\bar e P_R \nu_1)
-    GSLR_2112:
-      tex: (\bar u P_L s)(\bar \mu P_R \nu_1)
-    GSLR_2113:
-      tex: (\bar u P_L s)(\bar \tau P_R \nu_1)
-    GSRR_2111:
-      tex: (\bar u P_R s)(\bar e P_R \nu_1)
-    GSRR_2112:
-      tex: (\bar u P_R s)(\bar \mu P_R \nu_1)
-    GSRR_2113:
-      tex: (\bar u P_R s)(\bar \tau P_R \nu_1)
-  ubmunu:
-    GVLL_1321:
-      tex: (\bar t P_L d)(\bar e P_L \nu_2)
-    GVLL_1322:
-      tex: (\bar t P_L d)(\bar \mu P_L \nu_2)
-    GVLL_1323:
-      tex: (\bar t P_L d)(\bar \tau P_L \nu_2)
-    GVRL_1321:
-      tex: (\bar t P_R d)(\bar e P_L \nu_2)
-    GVRL_1322:
-      tex: (\bar t P_R d)(\bar \mu P_L \nu_2)
-    GVRL_1323:
-      tex: (\bar t P_R d)(\bar \tau P_L \nu_2)
-    GSLR_1321:
-      tex: (\bar t P_L d)(\bar e P_R \nu_2)
-    GSLR_1322:
-      tex: (\bar t P_L d)(\bar \mu P_R \nu_2)
-    GSLR_1323:
-      tex: (\bar t P_L d)(\bar \tau P_R \nu_2)
-    GSRR_1321:
-      tex: (\bar t P_R d)(\bar e P_R \nu_2)
-    GSRR_1322:
-      tex: (\bar t P_R d)(\bar \mu P_R \nu_2)
-    GSRR_1323:
-      tex: (\bar t P_R d)(\bar \tau P_R \nu_2)
-  cbmunu:
-    GVLL_2321:
-      tex: (\bar t P_L s)(\bar e P_L \nu_2)
-    GVLL_2322:
-      tex: (\bar t P_L s)(\bar \mu P_L \nu_2)
-    GVLL_2323:
-      tex: (\bar t P_L s)(\bar \tau P_L \nu_2)
-    GVRL_2321:
-      tex: (\bar t P_R s)(\bar e P_L \nu_2)
-    GVRL_2322:
-      tex: (\bar t P_R s)(\bar \mu P_L \nu_2)
-    GVRL_2323:
-      tex: (\bar t P_R s)(\bar \tau P_L \nu_2)
-    GSLR_2321:
-      tex: (\bar t P_L s)(\bar e P_R \nu_2)
-    GSLR_2322:
-      tex: (\bar t P_L s)(\bar \mu P_R \nu_2)
-    GSLR_2323:
-      tex: (\bar t P_L s)(\bar \tau P_R \nu_2)
-    GSRR_2321:
-      tex: (\bar t P_R s)(\bar e P_R \nu_2)
-    GSRR_2322:
-      tex: (\bar t P_R s)(\bar \mu P_R \nu_2)
-    GSRR_2323:
-      tex: (\bar t P_R s)(\bar \tau P_R \nu_2)
-  usmunu:
-    GVLL_1221:
-      tex: (\bar c P_L d)(\bar e P_L \nu_2)
-    GVLL_1222:
-      tex: (\bar c P_L d)(\bar \mu P_L \nu_2)
-    GVLL_1223:
-      tex: (\bar c P_L d)(\bar \tau P_L \nu_2)
-    GVRL_1221:
-      tex: (\bar c P_R d)(\bar e P_L \nu_2)
-    GVRL_1222:
-      tex: (\bar c P_R d)(\bar \mu P_L \nu_2)
-    GVRL_1223:
-      tex: (\bar c P_R d)(\bar \tau P_L \nu_2)
-    GSLR_1221:
-      tex: (\bar c P_L d)(\bar e P_R \nu_2)
-    GSLR_1222:
-      tex: (\bar c P_L d)(\bar \mu P_R \nu_2)
-    GSLR_1223:
-      tex: (\bar c P_L d)(\bar \tau P_R \nu_2)
-    GSRR_1221:
-      tex: (\bar c P_R d)(\bar e P_R \nu_2)
-    GSRR_1222:
-      tex: (\bar c P_R d)(\bar \mu P_R \nu_2)
-    GSRR_1223:
-      tex: (\bar c P_R d)(\bar \tau P_R \nu_2)
-  csmunu:
-    GVLL_2221:
-      tex: (\bar c P_L s)(\bar e P_L \nu_2)
-    GVLL_2222:
-      tex: (\bar c P_L s)(\bar \mu P_L \nu_2)
-    GVLL_2223:
-      tex: (\bar c P_L s)(\bar \tau P_L \nu_2)
-    GVRL_2221:
-      tex: (\bar c P_R s)(\bar e P_L \nu_2)
-    GVRL_2222:
-      tex: (\bar c P_R s)(\bar \mu P_L \nu_2)
-    GVRL_2223:
-      tex: (\bar c P_R s)(\bar \tau P_L \nu_2)
-    GSLR_2221:
-      tex: (\bar c P_L s)(\bar e P_R \nu_2)
-    GSLR_2222:
-      tex: (\bar c P_L s)(\bar \mu P_R \nu_2)
-    GSLR_2223:
-      tex: (\bar c P_L s)(\bar \tau P_R \nu_2)
-    GSRR_2221:
-      tex: (\bar c P_R s)(\bar e P_R \nu_2)
-    GSRR_2222:
-      tex: (\bar c P_R s)(\bar \mu P_R \nu_2)
-    GSRR_2223:
-      tex: (\bar c P_R s)(\bar \tau P_R \nu_2)
-  udmunu:
-    GVLL_1121:
-      tex: (\bar u P_L d)(\bar e P_L \nu_2)
-    GVLL_1122:
-      tex: (\bar u P_L d)(\bar \mu P_L \nu_2)
-    GVLL_1123:
-      tex: (\bar u P_L d)(\bar \tau P_L \nu_2)
-    GVRL_1121:
-      tex: (\bar u P_R d)(\bar e P_L \nu_2)
-    GVRL_1122:
-      tex: (\bar u P_R d)(\bar \mu P_L \nu_2)
-    GVRL_1123:
-      tex: (\bar u P_R d)(\bar \tau P_L \nu_2)
-    GSLR_1121:
-      tex: (\bar u P_L d)(\bar e P_R \nu_2)
-    GSLR_1122:
-      tex: (\bar u P_L d)(\bar \mu P_R \nu_2)
-    GSLR_1123:
-      tex: (\bar u P_L d)(\bar \tau P_R \nu_2)
-    GSRR_1121:
-      tex: (\bar u P_R d)(\bar e P_R \nu_2)
-    GSRR_1122:
-      tex: (\bar u P_R d)(\bar \mu P_R \nu_2)
-    GSRR_1123:
-      tex: (\bar u P_R d)(\bar \tau P_R \nu_2)
-  cdmunu:
-    GVLL_2121:
-      tex: (\bar u P_L s)(\bar e P_L \nu_2)
-    GVLL_2122:
-      tex: (\bar u P_L s)(\bar \mu P_L \nu_2)
-    GVLL_2123:
-      tex: (\bar u P_L s)(\bar \tau P_L \nu_2)
-    GVRL_2121:
-      tex: (\bar u P_R s)(\bar e P_L \nu_2)
-    GVRL_2122:
-      tex: (\bar u P_R s)(\bar \mu P_L \nu_2)
-    GVRL_2123:
-      tex: (\bar u P_R s)(\bar \tau P_L \nu_2)
     GSLR_2121:
       tex: (\bar u P_L s)(\bar e P_R \nu_2)
-    GSLR_2122:
-      tex: (\bar u P_L s)(\bar \mu P_R \nu_2)
-    GSLR_2123:
-      tex: (\bar u P_L s)(\bar \tau P_R \nu_2)
+    GSLR_2131:
+      tex: (\bar u P_L s)(\bar e P_R \nu_3)
+    GSRR_2111:
+      tex: (\bar u P_R s)(\bar e P_R \nu_1)
     GSRR_2121:
       tex: (\bar u P_R s)(\bar e P_R \nu_2)
-    GSRR_2122:
-      tex: (\bar u P_R s)(\bar \mu P_R \nu_2)
-    GSRR_2123:
-      tex: (\bar u P_R s)(\bar \tau P_R \nu_2)
-  ubtaunu:
-    GVLL_1331:
-      tex: (\bar t P_L d)(\bar e P_L \nu_3)
-    GVLL_1332:
-      tex: (\bar t P_L d)(\bar \mu P_L \nu_3)
-    GVLL_1333:
-      tex: (\bar t P_L d)(\bar \tau P_L \nu_3)
-    GVRL_1331:
-      tex: (\bar t P_R d)(\bar e P_L \nu_3)
-    GVRL_1332:
-      tex: (\bar t P_R d)(\bar \mu P_L \nu_3)
-    GVRL_1333:
-      tex: (\bar t P_R d)(\bar \tau P_L \nu_3)
-    GSLR_1331:
-      tex: (\bar t P_L d)(\bar e P_R \nu_3)
-    GSLR_1332:
-      tex: (\bar t P_L d)(\bar \mu P_R \nu_3)
-    GSLR_1333:
-      tex: (\bar t P_L d)(\bar \tau P_R \nu_3)
-    GSRR_1331:
-      tex: (\bar t P_R d)(\bar e P_R \nu_3)
-    GSRR_1332:
-      tex: (\bar t P_R d)(\bar \mu P_R \nu_3)
-    GSRR_1333:
-      tex: (\bar t P_R d)(\bar \tau P_R \nu_3)
-  cbtaunu:
-    GVLL_2331:
-      tex: (\bar t P_L s)(\bar e P_L \nu_3)
-    GVLL_2332:
-      tex: (\bar t P_L s)(\bar \mu P_L \nu_3)
-    GVLL_2333:
-      tex: (\bar t P_L s)(\bar \tau P_L \nu_3)
-    GVRL_2331:
-      tex: (\bar t P_R s)(\bar e P_L \nu_3)
-    GVRL_2332:
-      tex: (\bar t P_R s)(\bar \mu P_L \nu_3)
-    GVRL_2333:
-      tex: (\bar t P_R s)(\bar \tau P_L \nu_3)
-    GSLR_2331:
-      tex: (\bar t P_L s)(\bar e P_R \nu_3)
-    GSLR_2332:
-      tex: (\bar t P_L s)(\bar \mu P_R \nu_3)
-    GSLR_2333:
-      tex: (\bar t P_L s)(\bar \tau P_R \nu_3)
-    GSRR_2331:
-      tex: (\bar t P_R s)(\bar e P_R \nu_3)
-    GSRR_2332:
-      tex: (\bar t P_R s)(\bar \mu P_R \nu_3)
-    GSRR_2333:
-      tex: (\bar t P_R s)(\bar \tau P_R \nu_3)
-  ustaunu:
-    GVLL_1231:
-      tex: (\bar c P_L d)(\bar e P_L \nu_3)
-    GVLL_1232:
-      tex: (\bar c P_L d)(\bar \mu P_L \nu_3)
-    GVLL_1233:
-      tex: (\bar c P_L d)(\bar \tau P_L \nu_3)
-    GVRL_1231:
-      tex: (\bar c P_R d)(\bar e P_L \nu_3)
-    GVRL_1232:
-      tex: (\bar c P_R d)(\bar \mu P_L \nu_3)
-    GVRL_1233:
-      tex: (\bar c P_R d)(\bar \tau P_L \nu_3)
-    GSLR_1231:
-      tex: (\bar c P_L d)(\bar e P_R \nu_3)
-    GSLR_1232:
-      tex: (\bar c P_L d)(\bar \mu P_R \nu_3)
-    GSLR_1233:
-      tex: (\bar c P_L d)(\bar \tau P_R \nu_3)
-    GSRR_1231:
-      tex: (\bar c P_R d)(\bar e P_R \nu_3)
-    GSRR_1232:
-      tex: (\bar c P_R d)(\bar \mu P_R \nu_3)
-    GSRR_1233:
-      tex: (\bar c P_R d)(\bar \tau P_R \nu_3)
-  cstaunu:
+    GSRR_2131:
+      tex: (\bar u P_R s)(\bar e P_R \nu_3)
+  csenu:
+    GVLL_2211:
+      tex: (\bar c \gamma^\mu P_L s)(\bar e \gamma_\mu P_L \nu_1)
+    GVLL_2221:
+      tex: (\bar c \gamma^\mu P_L s)(\bar e \gamma_\mu P_L \nu_2)
     GVLL_2231:
-      tex: (\bar c P_L s)(\bar e P_L \nu_3)
-    GVLL_2232:
-      tex: (\bar c P_L s)(\bar \mu P_L \nu_3)
-    GVLL_2233:
-      tex: (\bar c P_L s)(\bar \tau P_L \nu_3)
+      tex: (\bar c \gamma^\mu P_L s)(\bar e \gamma_\mu P_L \nu_3)
+    GVRL_2211:
+      tex: (\bar c \gamma^\mu P_R s)(\bar e \gamma_\mu P_L \nu_1)
+    GVRL_2221:
+      tex: (\bar c \gamma^\mu P_R s)(\bar e \gamma_\mu P_L \nu_2)
     GVRL_2231:
-      tex: (\bar c P_R s)(\bar e P_L \nu_3)
-    GVRL_2232:
-      tex: (\bar c P_R s)(\bar \mu P_L \nu_3)
-    GVRL_2233:
-      tex: (\bar c P_R s)(\bar \tau P_L \nu_3)
+      tex: (\bar c \gamma^\mu P_R s)(\bar e \gamma_\mu P_L \nu_3)
+    GSLR_2211:
+      tex: (\bar c P_L s)(\bar e P_R \nu_1)
+    GSLR_2221:
+      tex: (\bar c P_L s)(\bar e P_R \nu_2)
     GSLR_2231:
       tex: (\bar c P_L s)(\bar e P_R \nu_3)
-    GSLR_2232:
-      tex: (\bar c P_L s)(\bar \mu P_R \nu_3)
-    GSLR_2233:
-      tex: (\bar c P_L s)(\bar \tau P_R \nu_3)
+    GSRR_2211:
+      tex: (\bar c P_R s)(\bar e P_R \nu_1)
+    GSRR_2221:
+      tex: (\bar c P_R s)(\bar e P_R \nu_2)
     GSRR_2231:
       tex: (\bar c P_R s)(\bar e P_R \nu_3)
+  udenu:
+    GVLL_1111:
+      tex: (\bar u \gamma^\mu P_L d)(\bar e \gamma_\mu P_L \nu_1)
+    GVLL_1121:
+      tex: (\bar u \gamma^\mu P_L d)(\bar e \gamma_\mu P_L \nu_2)
+    GVLL_1131:
+      tex: (\bar u \gamma^\mu P_L d)(\bar e \gamma_\mu P_L \nu_3)
+    GVRL_1111:
+      tex: (\bar u \gamma^\mu P_R d)(\bar e \gamma_\mu P_L \nu_1)
+    GVRL_1121:
+      tex: (\bar u \gamma^\mu P_R d)(\bar e \gamma_\mu P_L \nu_2)
+    GVRL_1131:
+      tex: (\bar u \gamma^\mu P_R d)(\bar e \gamma_\mu P_L \nu_3)
+    GSLR_1111:
+      tex: (\bar u P_L d)(\bar e P_R \nu_1)
+    GSLR_1121:
+      tex: (\bar u P_L d)(\bar e P_R \nu_2)
+    GSLR_1131:
+      tex: (\bar u P_L d)(\bar e P_R \nu_3)
+    GSRR_1111:
+      tex: (\bar u P_R d)(\bar e P_R \nu_1)
+    GSRR_1121:
+      tex: (\bar u P_R d)(\bar e P_R \nu_2)
+    GSRR_1131:
+      tex: (\bar u P_R d)(\bar e P_R \nu_3)
+  cdenu:
+    GVLL_1211:
+      tex: (\bar c \gamma^\mu P_L d)(\bar e \gamma_\mu P_L \nu_1)
+    GVLL_1221:
+      tex: (\bar c \gamma^\mu P_L d)(\bar e \gamma_\mu P_L \nu_2)
+    GVLL_1231:
+      tex: (\bar c \gamma^\mu P_L d)(\bar e \gamma_\mu P_L \nu_3)
+    GVRL_1211:
+      tex: (\bar c \gamma^\mu P_R d)(\bar e \gamma_\mu P_L \nu_1)
+    GVRL_1221:
+      tex: (\bar c \gamma^\mu P_R d)(\bar e \gamma_\mu P_L \nu_2)
+    GVRL_1231:
+      tex: (\bar c \gamma^\mu P_R d)(\bar e \gamma_\mu P_L \nu_3)
+    GSLR_1211:
+      tex: (\bar c P_L d)(\bar e P_R \nu_1)
+    GSLR_1221:
+      tex: (\bar c P_L d)(\bar e P_R \nu_2)
+    GSLR_1231:
+      tex: (\bar c P_L d)(\bar e P_R \nu_3)
+    GSRR_1211:
+      tex: (\bar c P_R d)(\bar e P_R \nu_1)
+    GSRR_1221:
+      tex: (\bar c P_R d)(\bar e P_R \nu_2)
+    GSRR_1231:
+      tex: (\bar c P_R d)(\bar e P_R \nu_3)
+  ubmunu:
+    GVLL_3112:
+      tex: (\bar u \gamma^\mu P_L b)(\bar \mu \gamma_\mu P_L \nu_1)
+    GVLL_3122:
+      tex: (\bar u \gamma^\mu P_L b)(\bar \mu \gamma_\mu P_L \nu_2)
+    GVLL_3132:
+      tex: (\bar u \gamma^\mu P_L b)(\bar \mu \gamma_\mu P_L \nu_3)
+    GVRL_3112:
+      tex: (\bar u \gamma^\mu P_R b)(\bar \mu \gamma_\mu P_L \nu_1)
+    GVRL_3122:
+      tex: (\bar u \gamma^\mu P_R b)(\bar \mu \gamma_\mu P_L \nu_2)
+    GVRL_3132:
+      tex: (\bar u \gamma^\mu P_R b)(\bar \mu \gamma_\mu P_L \nu_3)
+    GSLR_3112:
+      tex: (\bar u P_L b)(\bar \mu P_R \nu_1)
+    GSLR_3122:
+      tex: (\bar u P_L b)(\bar \mu P_R \nu_2)
+    GSLR_3132:
+      tex: (\bar u P_L b)(\bar \mu P_R \nu_3)
+    GSRR_3112:
+      tex: (\bar u P_R b)(\bar \mu P_R \nu_1)
+    GSRR_3122:
+      tex: (\bar u P_R b)(\bar \mu P_R \nu_2)
+    GSRR_3132:
+      tex: (\bar u P_R b)(\bar \mu P_R \nu_3)
+  cbmunu:
+    GVLL_3212:
+      tex: (\bar c \gamma^\mu P_L b)(\bar \mu \gamma_\mu P_L \nu_1)
+    GVLL_3222:
+      tex: (\bar c \gamma^\mu P_L b)(\bar \mu \gamma_\mu P_L \nu_2)
+    GVLL_3232:
+      tex: (\bar c \gamma^\mu P_L b)(\bar \mu \gamma_\mu P_L \nu_3)
+    GVRL_3212:
+      tex: (\bar c \gamma^\mu P_R b)(\bar \mu \gamma_\mu P_L \nu_1)
+    GVRL_3222:
+      tex: (\bar c \gamma^\mu P_R b)(\bar \mu \gamma_\mu P_L \nu_2)
+    GVRL_3232:
+      tex: (\bar c \gamma^\mu P_R b)(\bar \mu \gamma_\mu P_L \nu_3)
+    GSLR_3212:
+      tex: (\bar c P_L b)(\bar \mu P_R \nu_1)
+    GSLR_3222:
+      tex: (\bar c P_L b)(\bar \mu P_R \nu_2)
+    GSLR_3232:
+      tex: (\bar c P_L b)(\bar \mu P_R \nu_3)
+    GSRR_3212:
+      tex: (\bar c P_R b)(\bar \mu P_R \nu_1)
+    GSRR_3222:
+      tex: (\bar c P_R b)(\bar \mu P_R \nu_2)
+    GSRR_3232:
+      tex: (\bar c P_R b)(\bar \mu P_R \nu_3)
+  usmunu:
+    GVLL_2112:
+      tex: (\bar u \gamma^\mu P_L s)(\bar \mu \gamma_\mu P_L \nu_1)
+    GVLL_2122:
+      tex: (\bar u \gamma^\mu P_L s)(\bar \mu \gamma_\mu P_L \nu_2)
+    GVLL_2132:
+      tex: (\bar u \gamma^\mu P_L s)(\bar \mu \gamma_\mu P_L \nu_3)
+    GVRL_2112:
+      tex: (\bar u \gamma^\mu P_R s)(\bar \mu \gamma_\mu P_L \nu_1)
+    GVRL_2122:
+      tex: (\bar u \gamma^\mu P_R s)(\bar \mu \gamma_\mu P_L \nu_2)
+    GVRL_2132:
+      tex: (\bar u \gamma^\mu P_R s)(\bar \mu \gamma_\mu P_L \nu_3)
+    GSLR_2112:
+      tex: (\bar u P_L s)(\bar \mu P_R \nu_1)
+    GSLR_2122:
+      tex: (\bar u P_L s)(\bar \mu P_R \nu_2)
+    GSLR_2132:
+      tex: (\bar u P_L s)(\bar \mu P_R \nu_3)
+    GSRR_2112:
+      tex: (\bar u P_R s)(\bar \mu P_R \nu_1)
+    GSRR_2122:
+      tex: (\bar u P_R s)(\bar \mu P_R \nu_2)
+    GSRR_2132:
+      tex: (\bar u P_R s)(\bar \mu P_R \nu_3)
+  csmunu:
+    GVLL_2212:
+      tex: (\bar c \gamma^\mu P_L s)(\bar \mu \gamma_\mu P_L \nu_1)
+    GVLL_2222:
+      tex: (\bar c \gamma^\mu P_L s)(\bar \mu \gamma_\mu P_L \nu_2)
+    GVLL_2232:
+      tex: (\bar c \gamma^\mu P_L s)(\bar \mu \gamma_\mu P_L \nu_3)
+    GVRL_2212:
+      tex: (\bar c \gamma^\mu P_R s)(\bar \mu \gamma_\mu P_L \nu_1)
+    GVRL_2222:
+      tex: (\bar c \gamma^\mu P_R s)(\bar \mu \gamma_\mu P_L \nu_2)
+    GVRL_2232:
+      tex: (\bar c \gamma^\mu P_R s)(\bar \mu \gamma_\mu P_L \nu_3)
+    GSLR_2212:
+      tex: (\bar c P_L s)(\bar \mu P_R \nu_1)
+    GSLR_2222:
+      tex: (\bar c P_L s)(\bar \mu P_R \nu_2)
+    GSLR_2232:
+      tex: (\bar c P_L s)(\bar \mu P_R \nu_3)
+    GSRR_2212:
+      tex: (\bar c P_R s)(\bar \mu P_R \nu_1)
+    GSRR_2222:
+      tex: (\bar c P_R s)(\bar \mu P_R \nu_2)
     GSRR_2232:
       tex: (\bar c P_R s)(\bar \mu P_R \nu_3)
+  udmunu:
+    GVLL_1112:
+      tex: (\bar u \gamma^\mu P_L d)(\bar \mu \gamma_\mu P_L \nu_1)
+    GVLL_1122:
+      tex: (\bar u \gamma^\mu P_L d)(\bar \mu \gamma_\mu P_L \nu_2)
+    GVLL_1132:
+      tex: (\bar u \gamma^\mu P_L d)(\bar \mu \gamma_\mu P_L \nu_3)
+    GVRL_1112:
+      tex: (\bar u \gamma^\mu P_R d)(\bar \mu \gamma_\mu P_L \nu_1)
+    GVRL_1122:
+      tex: (\bar u \gamma^\mu P_R d)(\bar \mu \gamma_\mu P_L \nu_2)
+    GVRL_1132:
+      tex: (\bar u \gamma^\mu P_R d)(\bar \mu \gamma_\mu P_L \nu_3)
+    GSLR_1112:
+      tex: (\bar u P_L d)(\bar \mu P_R \nu_1)
+    GSLR_1122:
+      tex: (\bar u P_L d)(\bar \mu P_R \nu_2)
+    GSLR_1132:
+      tex: (\bar u P_L d)(\bar \mu P_R \nu_3)
+    GSRR_1112:
+      tex: (\bar u P_R d)(\bar \mu P_R \nu_1)
+    GSRR_1122:
+      tex: (\bar u P_R d)(\bar \mu P_R \nu_2)
+    GSRR_1132:
+      tex: (\bar u P_R d)(\bar \mu P_R \nu_3)
+  cdmunu:
+    GVLL_1212:
+      tex: (\bar c \gamma^\mu P_L d)(\bar \mu \gamma_\mu P_L \nu_1)
+    GVLL_1222:
+      tex: (\bar c \gamma^\mu P_L d)(\bar \mu \gamma_\mu P_L \nu_2)
+    GVLL_1232:
+      tex: (\bar c \gamma^\mu P_L d)(\bar \mu \gamma_\mu P_L \nu_3)
+    GVRL_1212:
+      tex: (\bar c \gamma^\mu P_R d)(\bar \mu \gamma_\mu P_L \nu_1)
+    GVRL_1222:
+      tex: (\bar c \gamma^\mu P_R d)(\bar \mu \gamma_\mu P_L \nu_2)
+    GVRL_1232:
+      tex: (\bar c \gamma^\mu P_R d)(\bar \mu \gamma_\mu P_L \nu_3)
+    GSLR_1212:
+      tex: (\bar c P_L d)(\bar \mu P_R \nu_1)
+    GSLR_1222:
+      tex: (\bar c P_L d)(\bar \mu P_R \nu_2)
+    GSLR_1232:
+      tex: (\bar c P_L d)(\bar \mu P_R \nu_3)
+    GSRR_1212:
+      tex: (\bar c P_R d)(\bar \mu P_R \nu_1)
+    GSRR_1222:
+      tex: (\bar c P_R d)(\bar \mu P_R \nu_2)
+    GSRR_1232:
+      tex: (\bar c P_R d)(\bar \mu P_R \nu_3)
+  ubtaunu:
+    GVLL_3113:
+      tex: (\bar u \gamma^\mu P_L b)(\bar \tau \gamma_\mu P_L \nu_1)
+    GVLL_3123:
+      tex: (\bar u \gamma^\mu P_L b)(\bar \tau \gamma_\mu P_L \nu_2)
+    GVLL_3133:
+      tex: (\bar u \gamma^\mu P_L b)(\bar \tau \gamma_\mu P_L \nu_3)
+    GVRL_3113:
+      tex: (\bar u \gamma^\mu P_R b)(\bar \tau \gamma_\mu P_L \nu_1)
+    GVRL_3123:
+      tex: (\bar u \gamma^\mu P_R b)(\bar \tau \gamma_\mu P_L \nu_2)
+    GVRL_3133:
+      tex: (\bar u \gamma^\mu P_R b)(\bar \tau \gamma_\mu P_L \nu_3)
+    GSLR_3113:
+      tex: (\bar u P_L b)(\bar \tau P_R \nu_1)
+    GSLR_3123:
+      tex: (\bar u P_L b)(\bar \tau P_R \nu_2)
+    GSLR_3133:
+      tex: (\bar u P_L b)(\bar \tau P_R \nu_3)
+    GSRR_3113:
+      tex: (\bar u P_R b)(\bar \tau P_R \nu_1)
+    GSRR_3123:
+      tex: (\bar u P_R b)(\bar \tau P_R \nu_2)
+    GSRR_3133:
+      tex: (\bar u P_R b)(\bar \tau P_R \nu_3)
+  cbtaunu:
+    GVLL_3213:
+      tex: (\bar c \gamma^\mu P_L b)(\bar \tau \gamma_\mu P_L \nu_1)
+    GVLL_3223:
+      tex: (\bar c \gamma^\mu P_L b)(\bar \tau \gamma_\mu P_L \nu_2)
+    GVLL_3233:
+      tex: (\bar c \gamma^\mu P_L b)(\bar \tau \gamma_\mu P_L \nu_3)
+    GVRL_3213:
+      tex: (\bar c \gamma^\mu P_R b)(\bar \tau \gamma_\mu P_L \nu_1)
+    GVRL_3223:
+      tex: (\bar c \gamma^\mu P_R b)(\bar \tau \gamma_\mu P_L \nu_2)
+    GVRL_3233:
+      tex: (\bar c \gamma^\mu P_R b)(\bar \tau \gamma_\mu P_L \nu_3)
+    GSLR_3213:
+      tex: (\bar c P_L b)(\bar \tau P_R \nu_1)
+    GSLR_3223:
+      tex: (\bar c P_L b)(\bar \tau P_R \nu_2)
+    GSLR_3233:
+      tex: (\bar c P_L b)(\bar \tau P_R \nu_3)
+    GSRR_3213:
+      tex: (\bar c P_R b)(\bar \tau P_R \nu_1)
+    GSRR_3223:
+      tex: (\bar c P_R b)(\bar \tau P_R \nu_2)
+    GSRR_3233:
+      tex: (\bar c P_R b)(\bar \tau P_R \nu_3)
+  ustaunu:
+    GVLL_2113:
+      tex: (\bar u \gamma^\mu P_L s)(\bar \tau \gamma_\mu P_L \nu_1)
+    GVLL_2123:
+      tex: (\bar u \gamma^\mu P_L s)(\bar \tau \gamma_\mu P_L \nu_2)
+    GVLL_2133:
+      tex: (\bar u \gamma^\mu P_L s)(\bar \tau \gamma_\mu P_L \nu_3)
+    GVRL_2113:
+      tex: (\bar u \gamma^\mu P_R s)(\bar \tau \gamma_\mu P_L \nu_1)
+    GVRL_2123:
+      tex: (\bar u \gamma^\mu P_R s)(\bar \tau \gamma_\mu P_L \nu_2)
+    GVRL_2133:
+      tex: (\bar u \gamma^\mu P_R s)(\bar \tau \gamma_\mu P_L \nu_3)
+    GSLR_2113:
+      tex: (\bar u P_L s)(\bar \tau P_R \nu_1)
+    GSLR_2123:
+      tex: (\bar u P_L s)(\bar \tau P_R \nu_2)
+    GSLR_2133:
+      tex: (\bar u P_L s)(\bar \tau P_R \nu_3)
+    GSRR_2113:
+      tex: (\bar u P_R s)(\bar \tau P_R \nu_1)
+    GSRR_2123:
+      tex: (\bar u P_R s)(\bar \tau P_R \nu_2)
+    GSRR_2133:
+      tex: (\bar u P_R s)(\bar \tau P_R \nu_3)
+  cstaunu:
+    GVLL_2213:
+      tex: (\bar c \gamma^\mu P_L s)(\bar \tau \gamma_\mu P_L \nu_1)
+    GVLL_2223:
+      tex: (\bar c \gamma^\mu P_L s)(\bar \tau \gamma_\mu P_L \nu_2)
+    GVLL_2233:
+      tex: (\bar c \gamma^\mu P_L s)(\bar \tau \gamma_\mu P_L \nu_3)
+    GVRL_2213:
+      tex: (\bar c \gamma^\mu P_R s)(\bar \tau \gamma_\mu P_L \nu_1)
+    GVRL_2223:
+      tex: (\bar c \gamma^\mu P_R s)(\bar \tau \gamma_\mu P_L \nu_2)
+    GVRL_2233:
+      tex: (\bar c \gamma^\mu P_R s)(\bar \tau \gamma_\mu P_L \nu_3)
+    GSLR_2213:
+      tex: (\bar c P_L s)(\bar \tau P_R \nu_1)
+    GSLR_2223:
+      tex: (\bar c P_L s)(\bar \tau P_R \nu_2)
+    GSLR_2233:
+      tex: (\bar c P_L s)(\bar \tau P_R \nu_3)
+    GSRR_2213:
+      tex: (\bar c P_R s)(\bar \tau P_R \nu_1)
+    GSRR_2223:
+      tex: (\bar c P_R s)(\bar \tau P_R \nu_2)
     GSRR_2233:
       tex: (\bar c P_R s)(\bar \tau P_R \nu_3)
   udtaunu:
-    GVLL_1131:
-      tex: (\bar u P_L d)(\bar e P_L \nu_3)
-    GVLL_1132:
-      tex: (\bar u P_L d)(\bar \mu P_L \nu_3)
+    GVLL_1113:
+      tex: (\bar u \gamma^\mu P_L d)(\bar \tau \gamma_\mu P_L \nu_1)
+    GVLL_1123:
+      tex: (\bar u \gamma^\mu P_L d)(\bar \tau \gamma_\mu P_L \nu_2)
     GVLL_1133:
-      tex: (\bar u P_L d)(\bar \tau P_L \nu_3)
-    GVRL_1131:
-      tex: (\bar u P_R d)(\bar e P_L \nu_3)
-    GVRL_1132:
-      tex: (\bar u P_R d)(\bar \mu P_L \nu_3)
+      tex: (\bar u \gamma^\mu P_L d)(\bar \tau \gamma_\mu P_L \nu_3)
+    GVRL_1113:
+      tex: (\bar u \gamma^\mu P_R d)(\bar \tau \gamma_\mu P_L \nu_1)
+    GVRL_1123:
+      tex: (\bar u \gamma^\mu P_R d)(\bar \tau \gamma_\mu P_L \nu_2)
     GVRL_1133:
-      tex: (\bar u P_R d)(\bar \tau P_L \nu_3)
-    GSLR_1131:
-      tex: (\bar u P_L d)(\bar e P_R \nu_3)
-    GSLR_1132:
-      tex: (\bar u P_L d)(\bar \mu P_R \nu_3)
+      tex: (\bar u \gamma^\mu P_R d)(\bar \tau \gamma_\mu P_L \nu_3)
+    GSLR_1113:
+      tex: (\bar u P_L d)(\bar \tau P_R \nu_1)
+    GSLR_1123:
+      tex: (\bar u P_L d)(\bar \tau P_R \nu_2)
     GSLR_1133:
       tex: (\bar u P_L d)(\bar \tau P_R \nu_3)
-    GSRR_1131:
-      tex: (\bar u P_R d)(\bar e P_R \nu_3)
-    GSRR_1132:
-      tex: (\bar u P_R d)(\bar \mu P_R \nu_3)
+    GSRR_1113:
+      tex: (\bar u P_R d)(\bar \tau P_R \nu_1)
+    GSRR_1123:
+      tex: (\bar u P_R d)(\bar \tau P_R \nu_2)
     GSRR_1133:
       tex: (\bar u P_R d)(\bar \tau P_R \nu_3)
   cdtaunu:
-    GVLL_2131:
-      tex: (\bar u P_L s)(\bar e P_L \nu_3)
-    GVLL_2132:
-      tex: (\bar u P_L s)(\bar \mu P_L \nu_3)
-    GVLL_2133:
-      tex: (\bar u P_L s)(\bar \tau P_L \nu_3)
-    GVRL_2131:
-      tex: (\bar u P_R s)(\bar e P_L \nu_3)
-    GVRL_2132:
-      tex: (\bar u P_R s)(\bar \mu P_L \nu_3)
-    GVRL_2133:
-      tex: (\bar u P_R s)(\bar \tau P_L \nu_3)
-    GSLR_2131:
-      tex: (\bar u P_L s)(\bar e P_R \nu_3)
-    GSLR_2132:
-      tex: (\bar u P_L s)(\bar \mu P_R \nu_3)
-    GSLR_2133:
-      tex: (\bar u P_L s)(\bar \tau P_R \nu_3)
-    GSRR_2131:
-      tex: (\bar u P_R s)(\bar e P_R \nu_3)
-    GSRR_2132:
-      tex: (\bar u P_R s)(\bar \mu P_R \nu_3)
-    GSRR_2133:
-      tex: (\bar u P_R s)(\bar \tau P_R \nu_3)
+    GVLL_1213:
+      tex: (\bar c \gamma^\mu P_L d)(\bar \tau \gamma_\mu P_L \nu_1)
+    GVLL_1223:
+      tex: (\bar c \gamma^\mu P_L d)(\bar \tau \gamma_\mu P_L \nu_2)
+    GVLL_1233:
+      tex: (\bar c \gamma^\mu P_L d)(\bar \tau \gamma_\mu P_L \nu_3)
+    GVRL_1213:
+      tex: (\bar c \gamma^\mu P_R d)(\bar \tau \gamma_\mu P_L \nu_1)
+    GVRL_1223:
+      tex: (\bar c \gamma^\mu P_R d)(\bar \tau \gamma_\mu P_L \nu_2)
+    GVRL_1233:
+      tex: (\bar c \gamma^\mu P_R d)(\bar \tau \gamma_\mu P_L \nu_3)
+    GSLR_1213:
+      tex: (\bar c P_L d)(\bar \tau P_R \nu_1)
+    GSLR_1223:
+      tex: (\bar c P_L d)(\bar \tau P_R \nu_2)
+    GSLR_1233:
+      tex: (\bar c P_L d)(\bar \tau P_R \nu_3)
+    GSRR_1213:
+      tex: (\bar c P_R d)(\bar \tau P_R \nu_1)
+    GSRR_1223:
+      tex: (\bar c P_R d)(\bar \tau P_R \nu_2)
+    GSRR_1233:
+      tex: (\bar c P_R d)(\bar \tau P_R \nu_3)
   sbnunu:
     FVLL_2311:
       tex: (\bar b \gamma^\mu P_L s)(\bar \nu_1 \gamma_\mu P_L \nu_1)

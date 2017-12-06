@@ -98,12 +98,6 @@ sectors:
       tex: (\bar t P_R d)(\bar \mu P_R \nu_1)
     GSRR_1313:
       tex: (\bar t P_R d)(\bar \tau P_R \nu_1)
-    GTRR_1311:
-      tex: (\bar t P_R d)(\bar e P_R \nu_1)
-    GTRR_1312:
-      tex: (\bar t P_R d)(\bar \mu P_R \nu_1)
-    GTRR_1313:
-      tex: (\bar t P_R d)(\bar \tau P_R \nu_1)
   cbenu:
     GVLL_2311:
       tex: (\bar t P_L s)(\bar e P_L \nu_1)
@@ -128,12 +122,6 @@ sectors:
     GSRR_2312:
       tex: (\bar t P_R s)(\bar \mu P_R \nu_1)
     GSRR_2313:
-      tex: (\bar t P_R s)(\bar \tau P_R \nu_1)
-    GTRR_2311:
-      tex: (\bar t P_R s)(\bar e P_R \nu_1)
-    GTRR_2312:
-      tex: (\bar t P_R s)(\bar \mu P_R \nu_1)
-    GTRR_2313:
       tex: (\bar t P_R s)(\bar \tau P_R \nu_1)
   usenu:
     GVLL_1211:
@@ -160,12 +148,6 @@ sectors:
       tex: (\bar c P_R d)(\bar \mu P_R \nu_1)
     GSRR_1213:
       tex: (\bar c P_R d)(\bar \tau P_R \nu_1)
-    GTRR_1211:
-      tex: (\bar c P_R d)(\bar e P_R \nu_1)
-    GTRR_1212:
-      tex: (\bar c P_R d)(\bar \mu P_R \nu_1)
-    GTRR_1213:
-      tex: (\bar c P_R d)(\bar \tau P_R \nu_1)
   csenu:
     GVLL_2211:
       tex: (\bar c P_L s)(\bar e P_L \nu_1)
@@ -190,12 +172,6 @@ sectors:
     GSRR_2212:
       tex: (\bar c P_R s)(\bar \mu P_R \nu_1)
     GSRR_2213:
-      tex: (\bar c P_R s)(\bar \tau P_R \nu_1)
-    GTRR_2211:
-      tex: (\bar c P_R s)(\bar e P_R \nu_1)
-    GTRR_2212:
-      tex: (\bar c P_R s)(\bar \mu P_R \nu_1)
-    GTRR_2213:
       tex: (\bar c P_R s)(\bar \tau P_R \nu_1)
   udenu:
     GVLL_1111:
@@ -222,12 +198,6 @@ sectors:
       tex: (\bar u P_R d)(\bar \mu P_R \nu_1)
     GSRR_1113:
       tex: (\bar u P_R d)(\bar \tau P_R \nu_1)
-    GTRR_1111:
-      tex: (\bar u P_R d)(\bar e P_R \nu_1)
-    GTRR_1112:
-      tex: (\bar u P_R d)(\bar \mu P_R \nu_1)
-    GTRR_1113:
-      tex: (\bar u P_R d)(\bar \tau P_R \nu_1)
   cdenu:
     GVLL_2111:
       tex: (\bar u P_L s)(\bar e P_L \nu_1)
@@ -252,12 +222,6 @@ sectors:
     GSRR_2112:
       tex: (\bar u P_R s)(\bar \mu P_R \nu_1)
     GSRR_2113:
-      tex: (\bar u P_R s)(\bar \tau P_R \nu_1)
-    GTRR_2111:
-      tex: (\bar u P_R s)(\bar e P_R \nu_1)
-    GTRR_2112:
-      tex: (\bar u P_R s)(\bar \mu P_R \nu_1)
-    GTRR_2113:
       tex: (\bar u P_R s)(\bar \tau P_R \nu_1)
   ubmunu:
     GVLL_1321:
@@ -284,12 +248,6 @@ sectors:
       tex: (\bar t P_R d)(\bar \mu P_R \nu_2)
     GSRR_1323:
       tex: (\bar t P_R d)(\bar \tau P_R \nu_2)
-    GTRR_1321:
-      tex: (\bar t P_R d)(\bar e P_R \nu_2)
-    GTRR_1322:
-      tex: (\bar t P_R d)(\bar \mu P_R \nu_2)
-    GTRR_1323:
-      tex: (\bar t P_R d)(\bar \tau P_R \nu_2)
   cbmunu:
     GVLL_2321:
       tex: (\bar t P_L s)(\bar e P_L \nu_2)
@@ -314,12 +272,6 @@ sectors:
     GSRR_2322:
       tex: (\bar t P_R s)(\bar \mu P_R \nu_2)
     GSRR_2323:
-      tex: (\bar t P_R s)(\bar \tau P_R \nu_2)
-    GTRR_2321:
-      tex: (\bar t P_R s)(\bar e P_R \nu_2)
-    GTRR_2322:
-      tex: (\bar t P_R s)(\bar \mu P_R \nu_2)
-    GTRR_2323:
       tex: (\bar t P_R s)(\bar \tau P_R \nu_2)
   usmunu:
     GVLL_1221:
@@ -346,12 +298,6 @@ sectors:
       tex: (\bar c P_R d)(\bar \mu P_R \nu_2)
     GSRR_1223:
       tex: (\bar c P_R d)(\bar \tau P_R \nu_2)
-    GTRR_1221:
-      tex: (\bar c P_R d)(\bar e P_R \nu_2)
-    GTRR_1222:
-      tex: (\bar c P_R d)(\bar \mu P_R \nu_2)
-    GTRR_1223:
-      tex: (\bar c P_R d)(\bar \tau P_R \nu_2)
   csmunu:
     GVLL_2221:
       tex: (\bar c P_L s)(\bar e P_L \nu_2)
@@ -376,12 +322,6 @@ sectors:
     GSRR_2222:
       tex: (\bar c P_R s)(\bar \mu P_R \nu_2)
     GSRR_2223:
-      tex: (\bar c P_R s)(\bar \tau P_R \nu_2)
-    GTRR_2221:
-      tex: (\bar c P_R s)(\bar e P_R \nu_2)
-    GTRR_2222:
-      tex: (\bar c P_R s)(\bar \mu P_R \nu_2)
-    GTRR_2223:
       tex: (\bar c P_R s)(\bar \tau P_R \nu_2)
   udmunu:
     GVLL_1121:
@@ -408,12 +348,6 @@ sectors:
       tex: (\bar u P_R d)(\bar \mu P_R \nu_2)
     GSRR_1123:
       tex: (\bar u P_R d)(\bar \tau P_R \nu_2)
-    GTRR_1121:
-      tex: (\bar u P_R d)(\bar e P_R \nu_2)
-    GTRR_1122:
-      tex: (\bar u P_R d)(\bar \mu P_R \nu_2)
-    GTRR_1123:
-      tex: (\bar u P_R d)(\bar \tau P_R \nu_2)
   cdmunu:
     GVLL_2121:
       tex: (\bar u P_L s)(\bar e P_L \nu_2)
@@ -438,12 +372,6 @@ sectors:
     GSRR_2122:
       tex: (\bar u P_R s)(\bar \mu P_R \nu_2)
     GSRR_2123:
-      tex: (\bar u P_R s)(\bar \tau P_R \nu_2)
-    GTRR_2121:
-      tex: (\bar u P_R s)(\bar e P_R \nu_2)
-    GTRR_2122:
-      tex: (\bar u P_R s)(\bar \mu P_R \nu_2)
-    GTRR_2123:
       tex: (\bar u P_R s)(\bar \tau P_R \nu_2)
   ubtaunu:
     GVLL_1331:
@@ -470,12 +398,6 @@ sectors:
       tex: (\bar t P_R d)(\bar \mu P_R \nu_3)
     GSRR_1333:
       tex: (\bar t P_R d)(\bar \tau P_R \nu_3)
-    GTRR_1331:
-      tex: (\bar t P_R d)(\bar e P_R \nu_3)
-    GTRR_1332:
-      tex: (\bar t P_R d)(\bar \mu P_R \nu_3)
-    GTRR_1333:
-      tex: (\bar t P_R d)(\bar \tau P_R \nu_3)
   cbtaunu:
     GVLL_2331:
       tex: (\bar t P_L s)(\bar e P_L \nu_3)
@@ -500,12 +422,6 @@ sectors:
     GSRR_2332:
       tex: (\bar t P_R s)(\bar \mu P_R \nu_3)
     GSRR_2333:
-      tex: (\bar t P_R s)(\bar \tau P_R \nu_3)
-    GTRR_2331:
-      tex: (\bar t P_R s)(\bar e P_R \nu_3)
-    GTRR_2332:
-      tex: (\bar t P_R s)(\bar \mu P_R \nu_3)
-    GTRR_2333:
       tex: (\bar t P_R s)(\bar \tau P_R \nu_3)
   ustaunu:
     GVLL_1231:
@@ -532,12 +448,6 @@ sectors:
       tex: (\bar c P_R d)(\bar \mu P_R \nu_3)
     GSRR_1233:
       tex: (\bar c P_R d)(\bar \tau P_R \nu_3)
-    GTRR_1231:
-      tex: (\bar c P_R d)(\bar e P_R \nu_3)
-    GTRR_1232:
-      tex: (\bar c P_R d)(\bar \mu P_R \nu_3)
-    GTRR_1233:
-      tex: (\bar c P_R d)(\bar \tau P_R \nu_3)
   cstaunu:
     GVLL_2231:
       tex: (\bar c P_L s)(\bar e P_L \nu_3)
@@ -562,12 +472,6 @@ sectors:
     GSRR_2232:
       tex: (\bar c P_R s)(\bar \mu P_R \nu_3)
     GSRR_2233:
-      tex: (\bar c P_R s)(\bar \tau P_R \nu_3)
-    GTRR_2231:
-      tex: (\bar c P_R s)(\bar e P_R \nu_3)
-    GTRR_2232:
-      tex: (\bar c P_R s)(\bar \mu P_R \nu_3)
-    GTRR_2233:
       tex: (\bar c P_R s)(\bar \tau P_R \nu_3)
   udtaunu:
     GVLL_1131:
@@ -594,12 +498,6 @@ sectors:
       tex: (\bar u P_R d)(\bar \mu P_R \nu_3)
     GSRR_1133:
       tex: (\bar u P_R d)(\bar \tau P_R \nu_3)
-    GTRR_1131:
-      tex: (\bar u P_R d)(\bar e P_R \nu_3)
-    GTRR_1132:
-      tex: (\bar u P_R d)(\bar \mu P_R \nu_3)
-    GTRR_1133:
-      tex: (\bar u P_R d)(\bar \tau P_R \nu_3)
   cdtaunu:
     GVLL_2131:
       tex: (\bar u P_L s)(\bar e P_L \nu_3)
@@ -624,12 +522,6 @@ sectors:
     GSRR_2132:
       tex: (\bar u P_R s)(\bar \mu P_R \nu_3)
     GSRR_2133:
-      tex: (\bar u P_R s)(\bar \tau P_R \nu_3)
-    GTRR_2131:
-      tex: (\bar u P_R s)(\bar e P_R \nu_3)
-    GTRR_2132:
-      tex: (\bar u P_R s)(\bar \mu P_R \nu_3)
-    GTRR_2133:
       tex: (\bar u P_R s)(\bar \tau P_R \nu_3)
   sbnunu:
     FVLL_2311:

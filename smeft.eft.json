@@ -1,0 +1,20 @@
+{
+  "eft": "SMEFT",
+  "metadata": {
+    "description": "Standard Model Effective Field Theory with linearly realized electroweak symmetry breaking.\n"
+  },
+  "sectors": {
+    "dB=dL=0": {
+      "tex": "\\Delta B=\\Delta L=0",
+      "description": "Baryon and lepton number conserving operators"
+    },
+    "dB=dL=1": {
+      "tex": "\\Delta B=\\Delta L=1",
+      "description": "Baryon number violating operators that conserve $B-L$"
+    },
+    "dL=2": {
+      "tex": "\\Delta L=2",
+      "description": "Operators violating lepton number by two units"
+    }
+  }
+}

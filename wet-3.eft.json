@@ -1,0 +1,23 @@
+{
+  "eft": "WET-3",
+  "metadata": {
+    "description": "Weak effective theory with three dynamical quark flavours and two charged lepton flavours valid between the strange and charm quark mass scales.\n"
+  },
+  "sectors": {
+    "sdsd": null,
+    "usenu": null,
+    "udenu": null,
+    "usmunu": null,
+    "udmunu": null,
+    "sdnunu": null,
+    "sd": null,
+    "sdemu": null,
+    "sdmue": null,
+    "mue": null,
+    "muemue": null,
+    "nunununu": null,
+    "nunuemu": null,
+    "nunumue": null,
+    "dF=0": null
+  }
+}

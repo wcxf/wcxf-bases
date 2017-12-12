@@ -1,0 +1,9 @@
+{
+  "eft": "SMEFT",
+  "basis": "Warsaw up",
+  "parent": "Warsaw",
+  "metadata": {
+    "description": "Variant of the Warsaw basis where the up-type quark mass matrix (rather than the down-type quark) is diagonal.\n"
+  },
+  "sectors": {}
+}

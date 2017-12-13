@@ -1,6 +1,9 @@
 {
   "eft": "WET",
   "basis": "EOS",
+  "metadata": {
+    "description": "Basis used by the EOS package"
+  },
   "sectors": {
     "sb": {
       "b->s::c1": {

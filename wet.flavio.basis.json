@@ -1,6 +1,9 @@
 {
   "eft": "WET",
   "basis": "flavio",
+  "metadata": {
+    "description": "Basis used by the flavio package. Neutrinos are in the flavour basis."
+  },
   "sectors": {
     "sbsb": {
       "CVLL_bsbs": {

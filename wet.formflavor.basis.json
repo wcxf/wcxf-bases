@@ -1,6 +1,9 @@
 {
   "eft": "WET",
   "basis": "formflavor",
+  "metadata": {
+    "description": "Basis used by the FormFlavor package"
+  },
   "sectors": {
     "sbsb": {
       "CVLL_bsbs": {

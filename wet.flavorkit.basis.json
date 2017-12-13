@@ -1,6 +1,9 @@
 {
   "eft": "WET",
   "basis": "FlavorKit",
+  "metadata": {
+    "description": "Basis used by the FlavorKit and SPheno packages"
+  },
   "sectors": {
     "sbsb": {
       "DVLL_2323": {

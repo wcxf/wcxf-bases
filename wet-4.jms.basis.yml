@@ -1,5 +1,8 @@
 basis: JMS
 eft: WET-4
+metadata:
+  description: Variant of the basis suggested by Jenkins, Manohar, and Stoffer
+    (arXiv:1709.04486) with only four dynamical quark flavors.
 sectors:
   sdsd:
     VddLL_1212:

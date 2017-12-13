@@ -1,5 +1,8 @@
 basis: JMS
 eft: WET-2
+metadata:
+  description: Variant of the basis suggested by Jenkins, Manohar, and Stoffer
+    (arXiv:1709.04486) with only two dynamical quark flavors.
 sectors:
   nunununu:
     VnunuLL_1112:

@@ -1,5 +1,7 @@
 eft: WET
 basis: EOS
+metadata:
+  description: Basis used by the EOS package
 sectors:
   sb:
     b->s::c1:
@@ -41,7 +43,7 @@ sectors:
     b->see::cT:
       tex: \frac{4G_F}{\sqrt{2}} V_{ub} \frac{e^2}{16\pi^2} (\bar s \sigma_{\mu\nu} b)(\bar e \sigma_{\mu\nu} e)
     b->see::cT5:
-      tex: \frac{4G_F}{\sqrt{2}} V_{ub} \frac{e^2}{16\pi^2} (\bar s \sigma_{\mu\nu} b)(\bar e \sigma_{\mu\nu} \gamma_5 e)      
+      tex: \frac{4G_F}{\sqrt{2}} V_{ub} \frac{e^2}{16\pi^2} (\bar s \sigma_{\mu\nu} b)(\bar e \sigma_{\mu\nu} \gamma_5 e)
     b->smumu::c9:
       tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* \frac{e^2}{16\pi^2}(\bar s_L \gamma^\mu b_L)(\bar \mu \gamma_\mu \mu)
     b->smumu::c9':

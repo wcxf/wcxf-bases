@@ -2074,10 +2074,10 @@
     },
     "mue": {
       "K2R_21": {
-        "tex": "i e m_d (\\bar e \\sigma_{\\mu \\nu} q_\\nu P_R \\mu) A^\\mu"
+        "tex": "\\frac{1}{2} e m_e (\\bar e \\sigma_{\\mu \\nu} P_R \\mu) F^{\\mu \\nu}"
       },
       "K2R_12": {
-        "tex": "i e m_\\mu (\\bar \\mu \\sigma_{\\mu \\nu} q_\\nu P_R e) A^\\mu"
+        "tex": "\\frac{1}{2} e m_\\mu (\\bar \\mu \\sigma_{\\mu \\nu} P_R e) F^{\\mu \\nu}"
       },
       "AVLL_1121": {
         "tex": "(\\bar e \\gamma^\\mu P_L e)(\\bar e \\gamma_\\mu P_L \\mu)"
@@ -2292,10 +2292,10 @@
     },
     "taue": {
       "K2R_31": {
-        "tex": "i e m_e (\\bar e \\sigma_{\\mu \\nu} q_\\nu P_R \\tau) A^\\mu"
+        "tex": "\\frac{1}{2} e m_e (\\bar e \\sigma_{\\mu \\nu} P_R \\tau) F^{\\mu \\nu}"
       },
       "K2R_13": {
-        "tex": "i e m_\\tau (\\bar \\tau \\sigma_{\\mu \\nu} q_\\nu P_R e) A^\\mu"
+        "tex": "\\frac{1}{2} e m_\\tau (\\bar \\tau \\sigma_{\\mu \\nu} P_R e) F^{\\mu \\nu}"
       },
       "AVLL_1131": {
         "tex": "(\\bar e \\gamma^\\mu P_L e)(\\bar e \\gamma_\\mu P_L \\tau)"
@@ -2510,10 +2510,10 @@
     },
     "mutau": {
       "K2R_23": {
-        "tex": "i e m_\\tau (\\bar \\tau \\sigma_{\\mu \\nu} q_\\nu P_R \\mu) A^\\mu"
+        "tex": "\\frac{1}{2} e m_\\tau (\\bar \\tau \\sigma_{\\mu \\nu} P_R \\mu) F^{\\mu \\nu}"
       },
       "K2R_32": {
-        "tex": "i e m_\\mu (\\bar \\mu \\sigma_{\\mu \\nu} q_\\nu P_R \\tau) A^\\mu"
+        "tex": "\\frac{1}{2} e m_\\mu (\\bar \\mu \\sigma_{\\mu \\nu} P_R \\tau) F^{\\mu \\nu}"
       },
       "AVLL_1123": {
         "tex": "(\\bar e \\gamma^\\mu P_L e)(\\bar \\tau \\gamma_\\mu P_L \\mu)"

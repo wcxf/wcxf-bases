@@ -93,13 +93,13 @@ sectors:
     CTRR_bsmm:
       tex: (\bar s_L \sigma^{\mu\nu} b_R)(\bar \mu_L \sigma_{\mu\nu} \mu_R)
     CAR_sb:
-      tex: (\bar s_L \sigma^{\mu\nu} b_R) F_{\mu\nu}
+      tex: e (\bar s_L \sigma^{\mu\nu} b_R) F_{\mu\nu}
     CAL_sb:
-      tex: (\bar s_R \sigma^{\mu\nu} b_L) F_{\mu\nu}
+      tex: e (\bar s_R \sigma^{\mu\nu} b_L) F_{\mu\nu}
     CGR_sb:
-      tex: (\bar s_L \sigma^{\mu\nu} b_R) G_{\mu\nu}
+      tex: g_s (\bar s_L \sigma^{\mu\nu} b_R) G_{\mu\nu}
     CGL_sb:
-      tex: (\bar s_R \sigma^{\mu\nu} b_L) G_{\mu\nu}
+      tex: g_s (\bar s_R \sigma^{\mu\nu} b_L) G_{\mu\nu}
   db:
     CVLL_bdmm:
       tex: (\bar d_L \gamma^\mu b_L)(\bar \mu_L \gamma_\mu \mu_L)
@@ -122,13 +122,13 @@ sectors:
     CTRR_bdmm:
       tex: (\bar d_L \sigma^{\mu\nu} b_R)(\bar \mu_L \sigma_{\mu\nu} \mu_R)
     CAR_db:
-      tex: (\bar d_L \sigma^{\mu\nu} b_R) F_{\mu\nu}
+      tex: e (\bar d_L \sigma^{\mu\nu} b_R) F_{\mu\nu}
     CAL_db:
-      tex: (\bar d_R \sigma^{\mu\nu} b_L) F_{\mu\nu}
+      tex: e (\bar d_R \sigma^{\mu\nu} b_L) F_{\mu\nu}
     CGR_db:
-      tex: (\bar d_L \sigma^{\mu\nu} b_R) G_{\mu\nu}
+      tex: g_s (\bar d_L \sigma^{\mu\nu} b_R) G_{\mu\nu}
     CGL_db:
-      tex: (\bar d_R \sigma^{\mu\nu} b_L) G_{\mu\nu}
+      tex: g_s (\bar d_R \sigma^{\mu\nu} b_L) G_{\mu\nu}
   sdnunu:
     CVLL_sdnn:
       tex: (\bar d_L \gamma^\mu s_L)(\bar \nu_L \gamma_\mu \nu_L)
@@ -136,33 +136,33 @@ sectors:
       tex: (\bar d_R \gamma^\mu s_R)(\bar \nu_L \gamma_\mu \nu_L)
   dF=0:
     CAR_dd:
-      tex: (\bar d_L \sigma^{\mu\nu} d_R) F_{\mu\nu}
+      tex: e (\bar d_L \sigma^{\mu\nu} d_R) F_{\mu\nu}
     CAL_dd:
-      tex: (\bar d_R \sigma^{\mu\nu} d_L) F_{\mu\nu}
+      tex: e (\bar d_R \sigma^{\mu\nu} d_L) F_{\mu\nu}
     CGR_dd:
-      tex: (\bar d_L \sigma^{\mu\nu} d_R) G_{\mu\nu}
+      tex: g_s (\bar d_L \sigma^{\mu\nu} d_R) G_{\mu\nu}
     CGL_dd:
-      tex: (\bar d_R \sigma^{\mu\nu} d_L) G_{\mu\nu}
+      tex: g_s (\bar d_R \sigma^{\mu\nu} d_L) G_{\mu\nu}
     CAR_uu:
-      tex: (\bar u_L \sigma^{\mu\nu} u_R) F_{\mu\nu}
+      tex: e (\bar u_L \sigma^{\mu\nu} u_R) F_{\mu\nu}
     CAL_uu:
-      tex: (\bar u_R \sigma^{\mu\nu} u_L) F_{\mu\nu}
+      tex: e (\bar u_R \sigma^{\mu\nu} u_L) F_{\mu\nu}
     CGR_uu:
-      tex: (\bar u_L \sigma^{\mu\nu} u_R) G_{\mu\nu}
+      tex: g_s (\bar u_L \sigma^{\mu\nu} u_R) G_{\mu\nu}
     CGL_uu:
-      tex: (\bar u_R \sigma^{\mu\nu} u_L) G_{\mu\nu}
+      tex: g_s (\bar u_R \sigma^{\mu\nu} u_L) G_{\mu\nu}
   mue:
     CAR_em:
-      tex: (\bar e_L \sigma^{\mu\nu} \mu_R) F_{\mu\nu}
+      tex: e (\bar e_L \sigma^{\mu\nu} \mu_R) F_{\mu\nu}
     CAL_em:
-      tex: (\bar e_R \sigma^{\mu\nu} \mu_L) F_{\mu\nu}
+      tex: e (\bar e_R \sigma^{\mu\nu} \mu_L) F_{\mu\nu}
   mutau:
     CAR_mt:
-      tex: (\bar \mu_L \sigma^{\mu\nu} \tau_R) F_{\mu\nu}
+      tex: e (\bar \mu_L \sigma^{\mu\nu} \tau_R) F_{\mu\nu}
     CAL_mt:
-      tex: (\bar \mu_R \sigma^{\mu\nu} \tau_L) F_{\mu\nu}
+      tex: e (\bar \mu_R \sigma^{\mu\nu} \tau_L) F_{\mu\nu}
   taue:
     CAR_et:
-      tex: (\bar e_L \sigma^{\mu\nu} \tau_R) F_{\mu\nu}
+      tex: e (\bar e_L \sigma^{\mu\nu} \tau_R) F_{\mu\nu}
     CAL_et:
-      tex: (\bar e_R \sigma^{\mu\nu} \tau_L) F_{\mu\nu}
+      tex: e (\bar e_R \sigma^{\mu\nu} \tau_L) F_{\mu\nu}

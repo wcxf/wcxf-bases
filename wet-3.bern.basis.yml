@@ -1,6 +1,68 @@
 basis: Bern
 eft: WET-3
 sectors:
+  udenu:
+    1udee:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_R \gamma^\mu d)(\bar{e} \gamma_\mu \nu_{e})
+    5udee:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_R d)(\bar{e} \nu_{e})
+    1pudee:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_L \gamma^\mu d)(\bar{e} \gamma_\mu \nu_{e})
+    5pudee:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_L d)(\bar{e} \nu_{e})
+    7pudee:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_L \sigma^{\mu\nu}d)(\bar{e} \sigma_{\mu\nu} \nu_{e})
+    1udemu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_R \gamma^\mu d)(\bar{e} \gamma_\mu \nu_{\mu})
+    5udemu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_R d)(\bar{e} \nu_{\mu})
+    1pudemu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_L \gamma^\mu d)(\bar{e} \gamma_\mu \nu_{\mu})
+    5pudemu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_L d)(\bar{e} \nu_{\mu})
+    7pudemu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_L \sigma^{\mu\nu}d)(\bar{e} \sigma_{\mu\nu} \nu_{\mu})
+    1udetau:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_R \gamma^\mu d)(\bar{e} \gamma_\mu \nu_{\tau})
+    5udetau:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_R d)(\bar{e} \nu_{\tau})
+    1pudetau:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_L \gamma^\mu d)(\bar{e} \gamma_\mu \nu_{\tau})
+    5pudetau:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_L d)(\bar{e} \nu_{\tau})
+    7pudetau:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_L \sigma^{\mu\nu}d)(\bar{e} \sigma_{\mu\nu} \nu_{\tau})
+  udmunu:
+    1udmue:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_R \gamma^\mu d)(\bar{\mu} \gamma_\mu \nu_{e})
+    5udmue:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_R d)(\bar{\mu} \nu_{e})
+    1pudmue:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_L \gamma^\mu d)(\bar{\mu} \gamma_\mu \nu_{e})
+    5pudmue:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_L d)(\bar{\mu} \nu_{e})
+    7pudmue:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_L \sigma^{\mu\nu}d)(\bar{\mu} \sigma_{\mu\nu} \nu_{e})
+    1udmumu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_R \gamma^\mu d)(\bar{\mu} \gamma_\mu \nu_{\mu})
+    5udmumu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_R d)(\bar{\mu} \nu_{\mu})
+    1pudmumu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_L \gamma^\mu d)(\bar{\mu} \gamma_\mu \nu_{\mu})
+    5pudmumu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_L d)(\bar{\mu} \nu_{\mu})
+    7pudmumu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_L \sigma^{\mu\nu}d)(\bar{\mu} \sigma_{\mu\nu} \nu_{\mu})
+    1udmutau:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_R \gamma^\mu d)(\bar{\mu} \gamma_\mu \nu_{\tau})
+    5udmutau:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_R d)(\bar{\mu} \nu_{\tau})
+    1pudmutau:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_L \gamma^\mu d)(\bar{\mu} \gamma_\mu \nu_{\tau})
+    5pudmutau:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_L d)(\bar{\mu} \nu_{\tau})
+    7pudmutau:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar{u} P_L \sigma^{\mu\nu}d)(\bar{\mu} \sigma_{\mu\nu} \nu_{\tau})
   sdsd:
     1dsds:
       tex: \frac{4G_F}{\sqrt{2}} ({\bar d} \gamma_{\mu} P_{L} s)({\bar d} \gamma^{\mu} P_{L} s)

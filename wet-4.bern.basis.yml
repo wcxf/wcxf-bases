@@ -390,7 +390,7 @@ sectors:
       tex: \frac{4G_F}{\sqrt{2}} (\bar{c} P_L s)(\bar{\tau} \nu_{\tau})
     7pcstautau:
       tex: \frac{4G_F}{\sqrt{2}} (\bar{c} P_L \sigma^{\mu\nu}s)(\bar{\tau} \sigma_{\mu\nu} \nu_{\tau})
-  sduc:
+  sdcu:
     1dsuc:
       tex: \frac{4G_F}{\sqrt{2}} (\bar{d} P_R \gamma_\mu s)(\bar{u} \gamma^\mu c)
     2dsuc:
@@ -431,7 +431,7 @@ sectors:
       tex: \frac{4G_F}{\sqrt{2}} (\bar{d} P_L \gamma_{\mu\nu\rho\sigma} s)(\bar{u} \gamma^{\mu\nu\rho\sigma} c)
     10pdsuc:
       tex: \frac{4G_F}{\sqrt{2}} (\bar{d} P_L \gamma_{\mu\nu\rho\sigma} T^{A} s)(\bar{u} \gamma^{\mu\nu\rho\sigma} T^{A} c)
-  sdcu:
+  sduc:
     1dscu:
       tex: \frac{4G_F}{\sqrt{2}} (\bar{d} P_R \gamma_\mu s)(\bar{c} \gamma^\mu u)
     2dscu:

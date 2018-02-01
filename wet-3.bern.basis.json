@@ -410,7 +410,7 @@
         "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d}P_L\\gamma_{\\mu\\nu\\rho\\sigma} s)(\\bar{\\mu} \\gamma^{\\mu\\nu\\rho\\sigma} \\mu)"
       }
     },
-    "sdemu": {
+    "sdmue": {
       "1dsemu": {
         "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d} P_R \\gamma_\\mu s)(\\bar{e} \\gamma^\\mu \\mu)"
       },
@@ -442,7 +442,7 @@
         "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d}P_L\\gamma_{\\mu\\nu\\rho\\sigma} s)(\\bar{e} \\gamma^{\\mu\\nu\\rho\\sigma} \\mu)"
       }
     },
-    "sdmue": {
+    "sdemu": {
       "1dsmue": {
         "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d} P_R \\gamma_\\mu s)(\\bar{\\mu} \\gamma^\\mu e)"
       },

@@ -474,13 +474,13 @@ sectors:
       tex: \frac{4G_F}{\sqrt{2}} (\bar{d} P_L \gamma_{\mu\nu\rho\sigma} T^{A} s)(\bar{c} \gamma^{\mu\nu\rho\sigma} T^{A} u)
   sd:
     7gammads:
-      tex: \frac{4G_F}{\sqrt{2}} \frac{e}{g_d^2} m_s (\bar{d} P_R \sigma_{\mu\nu} s) F^{\mu\nu}
+      tex: \frac{4G_F}{\sqrt{2}} \frac{e}{g_s^2} m_s (\bar{d} P_R \sigma_{\mu\nu} s) F^{\mu\nu}
     8gds:
-      tex: \frac{4G_F}{\sqrt{2}} \frac{1}{g_d} m_s (\bar{d} P_R \sigma_{\mu\nu} T^{ A} s) G^{\mu\nu}_A
+      tex: \frac{4G_F}{\sqrt{2}} \frac{1}{g_s} m_s (\bar{d} P_R \sigma_{\mu\nu} T^{ A} s) G^{\mu\nu}_A
     7pgammads:
-      tex: \frac{4G_F}{\sqrt{2}} \frac{e}{g_d^2} m_s (\bar{d} P_L \sigma_{\mu\nu} s) F^{\mu\nu}
+      tex: \frac{4G_F}{\sqrt{2}} \frac{e}{g_s^2} m_s (\bar{d} P_L \sigma_{\mu\nu} s) F^{\mu\nu}
     8pgds:
-      tex: \frac{4G_F}{\sqrt{2}} \frac{1}{g_d} m_s (\bar{d} P_L \sigma_{\mu\nu} T^{ A} s) G^{\mu\nu}_A
+      tex: \frac{4G_F}{\sqrt{2}} \frac{1}{g_s} m_s (\bar{d} P_L \sigma_{\mu\nu} T^{ A} s) G^{\mu\nu}_A
     1dsuu:
       tex: \frac{4G_F}{\sqrt{2}} (\bar{d}P_R \gamma_\mu s)(\bar{u} \gamma^\mu u)
     2dsuu:

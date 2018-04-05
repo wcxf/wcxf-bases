@@ -2737,15 +2737,6 @@
       "VeeLL_2333": {
         "tex": "(\\bar \\mu_L \\gamma^\\mu \\tau_L)(\\bar \\tau_L \\gamma_\\mu \\tau_L)"
       },
-      "VnueLL_1123": {
-        "tex": "(\\bar \\nu_{eL} \\gamma^\\mu \\nu_{eL})(\\bar \\mu_L \\gamma_\\mu \\tau_L)"
-      },
-      "VnueLL_2223": {
-        "tex": "(\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\mu L})(\\bar \\mu_L \\gamma_\\mu \\tau_L)"
-      },
-      "VnueLL_3323": {
-        "tex": "(\\bar \\nu_{\\tau L} \\gamma^\\mu \\nu_{\\tau L})(\\bar \\mu_L \\gamma_\\mu \\tau_L)"
-      },
       "VeuLL_2311": {
         "tex": "(\\bar \\mu_L \\gamma^\\mu \\tau_L)(\\bar u_L \\gamma_\\mu u_L)"
       },
@@ -2784,15 +2775,6 @@
       },
       "VedRR_2333": {
         "tex": "(\\bar \\mu_R \\gamma^\\mu \\tau_R) (\\bar b_R \\gamma_\\mu b_R)"
-      },
-      "VnueLR_1123": {
-        "tex": "(\\bar \\nu_{eL} \\gamma^\\mu \\nu_{eL})(\\bar \\mu_R \\gamma_\\mu \\tau_R)"
-      },
-      "VnueLR_2223": {
-        "tex": "(\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\mu L})(\\bar \\mu_R \\gamma_\\mu \\tau_R)"
-      },
-      "VnueLR_3323": {
-        "tex": "(\\bar \\nu_{\\tau L} \\gamma^\\mu \\nu_{\\tau L})(\\bar \\mu_R \\gamma_\\mu \\tau_R)"
       },
       "VeeLR_1123": {
         "tex": "(\\bar e_L \\gamma^\\mu e_L)(\\bar \\mu_R \\gamma_\\mu \\tau_R)"
@@ -2979,15 +2961,6 @@
       "VeeLL_1233": {
         "tex": "(\\bar e_L \\gamma^\\mu \\mu_L)(\\bar \\tau_L \\gamma_\\mu \\tau_L)"
       },
-      "VnueLL_1112": {
-        "tex": "(\\bar \\nu_{eL} \\gamma^\\mu \\nu_{eL})(\\bar e_L \\gamma_\\mu \\mu_L)"
-      },
-      "VnueLL_2212": {
-        "tex": "(\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\mu L})(\\bar e_L \\gamma_\\mu \\mu_L)"
-      },
-      "VnueLL_3312": {
-        "tex": "(\\bar \\nu_{\\tau L} \\gamma^\\mu \\nu_{\\tau L})(\\bar e_L \\gamma_\\mu \\mu_L)"
-      },
       "VeuLL_1211": {
         "tex": "(\\bar e_L \\gamma^\\mu \\mu_L)(\\bar u_L \\gamma_\\mu u_L)"
       },
@@ -3026,15 +2999,6 @@
       },
       "VedRR_1233": {
         "tex": "(\\bar e_R \\gamma^\\mu \\mu_R) (\\bar b_R \\gamma_\\mu b_R)"
-      },
-      "VnueLR_1112": {
-        "tex": "(\\bar \\nu_{eL} \\gamma^\\mu \\nu_{eL})(\\bar e_R \\gamma_\\mu \\mu_R)"
-      },
-      "VnueLR_2212": {
-        "tex": "(\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\mu L})(\\bar e_R \\gamma_\\mu \\mu_R)"
-      },
-      "VnueLR_3312": {
-        "tex": "(\\bar \\nu_{\\tau L} \\gamma^\\mu \\nu_{\\tau L})(\\bar e_R \\gamma_\\mu \\mu_R)"
       },
       "VeeLR_1112": {
         "tex": "(\\bar e_L \\gamma^\\mu e_L)(\\bar e_R \\gamma_\\mu \\mu_R)"
@@ -3221,15 +3185,6 @@
       "VeeLL_1333": {
         "tex": "(\\bar e_L \\gamma^\\mu \\tau_L)(\\bar \\tau_L \\gamma_\\mu \\tau_L)"
       },
-      "VnueLL_1113": {
-        "tex": "(\\bar \\nu_{eL} \\gamma^\\mu \\nu_{eL})(\\bar e_L \\gamma_\\mu \\tau_L)"
-      },
-      "VnueLL_2213": {
-        "tex": "(\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\mu L})(\\bar e_L \\gamma_\\mu \\tau_L)"
-      },
-      "VnueLL_3313": {
-        "tex": "(\\bar \\nu_{\\tau L} \\gamma^\\mu \\nu_{\\tau L})(\\bar e_L \\gamma_\\mu \\tau_L)"
-      },
       "VeuLL_1311": {
         "tex": "(\\bar e_L \\gamma^\\mu \\tau_L)(\\bar u_L \\gamma_\\mu u_L)"
       },
@@ -3268,15 +3223,6 @@
       },
       "VedRR_1333": {
         "tex": "(\\bar e_R \\gamma^\\mu \\tau_R) (\\bar b_R \\gamma_\\mu b_R)"
-      },
-      "VnueLR_1113": {
-        "tex": "(\\bar \\nu_{eL} \\gamma^\\mu \\nu_{eL})(\\bar e_R \\gamma_\\mu \\tau_R)"
-      },
-      "VnueLR_2213": {
-        "tex": "(\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\mu L})(\\bar e_R \\gamma_\\mu \\tau_R)"
-      },
-      "VnueLR_3313": {
-        "tex": "(\\bar \\nu_{\\tau L} \\gamma^\\mu \\nu_{\\tau L})(\\bar e_R \\gamma_\\mu \\tau_R)"
       },
       "VeeLR_1113": {
         "tex": "(\\bar e_L \\gamma^\\mu e_L)(\\bar e_R \\gamma_\\mu \\tau_R)"
@@ -3605,7 +3551,25 @@
         "tex": "(\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\tau L})(\\bar \\nu_{\\mu L} \\gamma_\\mu \\nu_{\\tau L})"
       }
     },
-    "nunuemu": {
+    "nunumue": {
+      "VnueLL_1112": {
+        "tex": "(\\bar \\nu_{eL} \\gamma^\\mu \\nu_{eL})(\\bar e_L \\gamma_\\mu \\mu_L)"
+      },
+      "VnueLL_2212": {
+        "tex": "(\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\mu L})(\\bar e_L \\gamma_\\mu \\mu_L)"
+      },
+      "VnueLL_3312": {
+        "tex": "(\\bar \\nu_{\\tau L} \\gamma^\\mu \\nu_{\\tau L})(\\bar e_L \\gamma_\\mu \\mu_L)"
+      },
+      "VnueLR_1112": {
+        "tex": "(\\bar \\nu_{eL} \\gamma^\\mu \\nu_{eL})(\\bar e_R \\gamma_\\mu \\mu_R)"
+      },
+      "VnueLR_2212": {
+        "tex": "(\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\mu L})(\\bar e_R \\gamma_\\mu \\mu_R)"
+      },
+      "VnueLR_3312": {
+        "tex": "(\\bar \\nu_{\\tau L} \\gamma^\\mu \\nu_{\\tau L})(\\bar e_R \\gamma_\\mu \\mu_R)"
+      },
       "VnueLL_1212": {
         "tex": "(\\bar \\nu_{eL} \\gamma^\\mu \\nu_{\\mu L})(\\bar e_L \\gamma_\\mu \\mu_L)"
       },
@@ -3623,9 +3587,7 @@
       },
       "VnueLR_2321": {
         "tex": "(\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\tau L})(\\bar \\mu_R \\gamma_\\mu e_R)"
-      }
-    },
-    "nunumue": {
+      },
       "VnueLL_1221": {
         "tex": "(\\bar \\nu_{eL} \\gamma^\\mu \\nu_{\\mu L})(\\bar \\mu_L \\gamma_\\mu e_L)"
       },
@@ -3645,7 +3607,25 @@
         "tex": "(\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\tau L})(\\bar e_R \\gamma_\\mu \\mu_R)"
       }
     },
-    "nunutaumu": {
+    "nunumutau": {
+      "VnueLL_1123": {
+        "tex": "(\\bar \\nu_{eL} \\gamma^\\mu \\nu_{eL})(\\bar \\mu_L \\gamma_\\mu \\tau_L)"
+      },
+      "VnueLL_2223": {
+        "tex": "(\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\mu L})(\\bar \\mu_L \\gamma_\\mu \\tau_L)"
+      },
+      "VnueLL_3323": {
+        "tex": "(\\bar \\nu_{\\tau L} \\gamma^\\mu \\nu_{\\tau L})(\\bar \\mu_L \\gamma_\\mu \\tau_L)"
+      },
+      "VnueLR_1123": {
+        "tex": "(\\bar \\nu_{eL} \\gamma^\\mu \\nu_{eL})(\\bar \\mu_R \\gamma_\\mu \\tau_R)"
+      },
+      "VnueLR_2223": {
+        "tex": "(\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\mu L})(\\bar \\mu_R \\gamma_\\mu \\tau_R)"
+      },
+      "VnueLR_3323": {
+        "tex": "(\\bar \\nu_{\\tau L} \\gamma^\\mu \\nu_{\\tau L})(\\bar \\mu_R \\gamma_\\mu \\tau_R)"
+      },
       "VnueLL_1232": {
         "tex": "(\\bar \\nu_{eL} \\gamma^\\mu \\nu_{\\mu L})(\\bar \\tau_L \\gamma_\\mu \\mu_L)"
       },
@@ -3663,9 +3643,7 @@
       },
       "VnueLR_2323": {
         "tex": "(\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\tau L})(\\bar \\mu_R \\gamma_\\mu \\tau_R)"
-      }
-    },
-    "nunumutau": {
+      },
       "VnueLL_1223": {
         "tex": "(\\bar \\nu_{eL} \\gamma^\\mu \\nu_{\\mu L})(\\bar \\mu_L \\gamma_\\mu \\tau_L)"
       },
@@ -3686,6 +3664,24 @@
       }
     },
     "nunutaue": {
+      "VnueLL_1113": {
+        "tex": "(\\bar \\nu_{eL} \\gamma^\\mu \\nu_{eL})(\\bar e_L \\gamma_\\mu \\tau_L)"
+      },
+      "VnueLL_2213": {
+        "tex": "(\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\mu L})(\\bar e_L \\gamma_\\mu \\tau_L)"
+      },
+      "VnueLL_3313": {
+        "tex": "(\\bar \\nu_{\\tau L} \\gamma^\\mu \\nu_{\\tau L})(\\bar e_L \\gamma_\\mu \\tau_L)"
+      },
+      "VnueLR_1113": {
+        "tex": "(\\bar \\nu_{eL} \\gamma^\\mu \\nu_{eL})(\\bar e_R \\gamma_\\mu \\tau_R)"
+      },
+      "VnueLR_2213": {
+        "tex": "(\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\mu L})(\\bar e_R \\gamma_\\mu \\tau_R)"
+      },
+      "VnueLR_3313": {
+        "tex": "(\\bar \\nu_{\\tau L} \\gamma^\\mu \\nu_{\\tau L})(\\bar e_R \\gamma_\\mu \\tau_R)"
+      },
       "VnueLL_1231": {
         "tex": "(\\bar \\nu_{eL} \\gamma^\\mu \\nu_{\\mu L})(\\bar \\tau_L \\gamma_\\mu e_L)"
       },
@@ -3703,9 +3699,7 @@
       },
       "VnueLR_2313": {
         "tex": "(\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\tau L})(\\bar e_R \\gamma_\\mu \\tau_R)"
-      }
-    },
-    "nunuetau": {
+      },
       "VnueLL_1213": {
         "tex": "(\\bar \\nu_{eL} \\gamma^\\mu \\nu_{\\mu L})(\\bar e_L \\gamma_\\mu \\tau_L)"
       },

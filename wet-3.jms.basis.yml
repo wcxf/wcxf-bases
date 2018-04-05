@@ -201,12 +201,6 @@ sectors:
       tex: (\bar e_L \gamma^\mu e_L)(\bar e_L \gamma_\mu \mu_L)
     VeeLL_1222:
       tex: (\bar e_L \gamma^\mu \mu_L)(\bar \mu_L \gamma_\mu \mu_L)
-    VnueLL_1112:
-      tex: (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar e_L \gamma_\mu \mu_L)
-    VnueLL_2212:
-      tex: (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar e_L \gamma_\mu \mu_L)
-    VnueLL_3312:
-      tex: (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar e_L \gamma_\mu \mu_L)
     VeuLL_1211:
       tex: (\bar e_L \gamma^\mu \mu_L)(\bar u_L \gamma_\mu u_L)
     VedLL_1211:
@@ -223,12 +217,6 @@ sectors:
       tex: (\bar e_R \gamma^\mu \mu_R) (\bar d_R \gamma_\mu d_R)
     VedRR_1222:
       tex: (\bar e_R \gamma^\mu \mu_R) (\bar s_R \gamma_\mu s_R)
-    VnueLR_1112:
-      tex: (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar e_R \gamma_\mu \mu_R)
-    VnueLR_2212:
-      tex: (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar e_R \gamma_\mu \mu_R)
-    VnueLR_3312:
-      tex: (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar e_R \gamma_\mu \mu_R)
     VeeLR_1112:
       tex: (\bar e_L \gamma^\mu e_L)(\bar e_R \gamma_\mu \mu_R)
     VeeLR_1211:
@@ -335,7 +323,19 @@ sectors:
       tex: (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar \nu_{eL} \gamma_\mu \nu_{\tau L})
     VnunuLL_2323:
       tex: (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar \nu_{\mu L} \gamma_\mu \nu_{\tau L})
-  nunuemu:
+  nunumue:
+    VnueLL_1112:
+      tex: (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar e_L \gamma_\mu \mu_L)
+    VnueLL_2212:
+      tex: (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar e_L \gamma_\mu \mu_L)
+    VnueLL_3312:
+      tex: (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar e_L \gamma_\mu \mu_L)
+    VnueLR_1112:
+      tex: (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar e_R \gamma_\mu \mu_R)
+    VnueLR_2212:
+      tex: (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar e_R \gamma_\mu \mu_R)
+    VnueLR_3312:
+      tex: (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar e_R \gamma_\mu \mu_R)
     VnueLL_1212:
       tex: (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar e_L \gamma_\mu \mu_L)
     VnueLR_1212:
@@ -348,7 +348,6 @@ sectors:
       tex: (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar \mu_L \gamma_\mu e_L)
     VnueLR_2321:
       tex: (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar \mu_R \gamma_\mu e_R)
-  nunumue:
     VnueLL_1221:
       tex: (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar \mu_L \gamma_\mu e_L)
     VnueLR_1221:

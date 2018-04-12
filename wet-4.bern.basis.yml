@@ -841,3 +841,114 @@ sectors:
       tex: \frac{4G_F}{\sqrt{2}} ({\bar c} P_{L} u)({\bar c} P_{R} u)
     3pcucu:
       tex: \frac{4G_F}{\sqrt{2}} ({\bar c}_{\alpha} P_{R} u_{\beta})({\bar c}_{\beta} P_{R} u_{\alpha})
+  dF=0:
+    G:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} \frac{1}{g_s} f^{ABC} G_\mu^{A\nu} G_\nu^{B\rho} G_\rho^{C\mu}
+    Gtilde:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} \frac{1}{g_s} f^{ABC} \widetilde G_\mu^{A\nu} G_\nu^{B\rho} G_\rho^{C\mu}
+    ugamma_11:
+      tex: \frac{4G_F}{\sqrt{2}} \frac{e}{g_s^2} m_u \bar u_L \sigma^{\mu \nu} u_R\, F_{\mu \nu}
+    ugamma_22:
+      tex: \frac{4G_F}{\sqrt{2}} \frac{e}{g_s^2} m_c \bar c_L \sigma^{\mu \nu} c_R\, F_{\mu \nu}
+    dgamma_11:
+      tex: \frac{4G_F}{\sqrt{2}} \frac{e}{g_s^2} m_d \bar d_L \sigma^{\mu \nu} d_R\, F_{\mu \nu}
+    dgamma_22:
+      tex: \frac{4G_F}{\sqrt{2}} \frac{e}{g_s^2} m_s \bar s_L \sigma^{\mu \nu} s_R\, F_{\mu \nu}
+    uG_11:
+      tex: \frac{4G_F}{\sqrt{2}} \frac{1}{g_s} m_u \bar u_L \sigma^{\mu \nu} T^A u_R\, G_{\mu \nu}^A
+    uG_22:
+      tex: \frac{4G_F}{\sqrt{2}} \frac{1}{g_s} m_c \bar c_L \sigma^{\mu \nu} T^A c_R\, G_{\mu \nu}^A
+    dG_11:
+      tex: \frac{4G_F}{\sqrt{2}} \frac{1}{g_s} m_d \bar d_L \sigma^{\mu \nu} T^A d_R\, G_{\mu \nu}^A
+    dG_22:
+      tex: \frac{4G_F}{\sqrt{2}} \frac{1}{g_s} m_s \bar s_L \sigma^{\mu \nu} T^A s_R\, G_{\mu \nu}^A
+    TeuRR_1111:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar e_L \sigma^{\mu \nu} e_R) (\bar u_L \sigma_{\mu \nu} u_R)
+    TeuRR_1122:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar e_L \sigma^{\mu \nu} e_R) (\bar c_L \sigma_{\mu \nu} c_R)
+    TeuRR_2211:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \mu_L \sigma^{\mu \nu} \mu_R) (\bar u_L \sigma_{\mu \nu} u_R)
+    TeuRR_2222:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \mu_L \sigma^{\mu \nu} \mu_R) (\bar c_L \sigma_{\mu \nu} c_R)
+    TeuRR_3311:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \tau_L \sigma^{\mu \nu} \tau_R) (\bar u_L \sigma_{\mu \nu} u_R)
+    TeuRR_3322:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \tau_L \sigma^{\mu \nu} \tau_R) (\bar c_L \sigma_{\mu \nu} c_R)
+    TedRR_1111:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar e_L \sigma^{\mu \nu} e_R) (\bar d_L \sigma_{\mu \nu} d_R)
+    TedRR_1122:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar e_L \sigma^{\mu \nu} e_R) (\bar s_L \sigma_{\mu \nu} s_R)
+    TedRR_2211:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \mu_L \sigma^{\mu \nu} \mu_R) (\bar d_L \sigma_{\mu \nu} d_R)
+    TedRR_2222:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \mu_L \sigma^{\mu \nu} \mu_R) (\bar s_L \sigma_{\mu \nu} s_R)
+    TedRR_3311:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \tau_L \sigma^{\mu \nu} \tau_R) (\bar d_L \sigma_{\mu \nu} d_R)
+    TedRR_3322:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \tau_L \sigma^{\mu \nu} \tau_R) (\bar s_L \sigma_{\mu \nu} s_R)
+    S1uuRR_1111:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar u_L u_R) (\bar u_L u_R)
+    S1uuRR_1122:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar u_L u_R) (\bar c_L c_R)
+    S1uuRR_1221:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar u_L c_R) (\bar c_L u_R)
+    S1uuRR_2222:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar c_L c_R) (\bar c_L c_R)
+    S8uuRR_1111:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar u_L T^A u_R) (\bar u_L T^A u_R)
+    S8uuRR_1122:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar u_L T^A u_R) (\bar c_L T^A c_R)
+    S8uuRR_1221:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar u_L T^A c_R) (\bar c_L T^A u_R)
+    S8uuRR_2222:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar c_L T^A c_R) (\bar c_L T^A c_R)
+    S1udRR_1111:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar u_L u_R) (\bar d_L d_R)
+    S1udRR_1122:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar u_L u_R) (\bar s_L s_R)
+    S1udRR_2211:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar c_L c_R) (\bar d_L d_R)
+    S1udRR_2222:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar c_L c_R) (\bar s_L s_R)
+    S8udRR_1111:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar u_L T^A u_R) (\bar d_L T^A d_R)
+    S8udRR_1122:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar u_L T^A u_R) (\bar s_L T^A s_R)
+    S8udRR_2211:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar c_L T^A c_R) (\bar d_L T^A d_R)
+    S8udRR_2222:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar c_L T^A c_R) (\bar s_L T^A s_R)
+    S1ddRR_1111:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar d_L d_R) (\bar d_L d_R)
+    S1ddRR_1122:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar d_L d_R) (\bar s_L s_R)
+    S1ddRR_1221:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar d_L s_R) (\bar s_L d_R)
+    S1ddRR_2222:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar s_L s_R) (\bar s_L s_R)
+    S8ddRR_1111:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar d_L T^A d_R) (\bar d_L T^A d_R)
+    S8ddRR_1122:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar d_L T^A d_R) (\bar s_L T^A s_R)
+    S8ddRR_1221:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar d_L T^A s_R) (\bar s_L T^A d_R)
+    S8ddRR_2222:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar s_L T^A s_R) (\bar s_L T^A s_R)
+    S1udduRR_1111:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar u_L d_R) (\bar d_L u_R)
+    S1udduRR_1221:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar u_L s_R) (\bar s_L u_R)
+    S1udduRR_2112:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar c_L d_R) (\bar d_L c_R)
+    S1udduRR_2222:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar c_L s_R) (\bar s_L c_R)
+    S8udduRR_1111:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar u_L T^A d_R) (\bar d_L T^A u_R)
+    S8udduRR_1221:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar u_L T^A s_R) (\bar s_L T^A u_R)
+    S8udduRR_2112:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar c_L T^A d_R) (\bar d_L T^A c_R)
+    S8udduRR_2222:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar c_L T^A s_R) (\bar s_L T^A c_R)

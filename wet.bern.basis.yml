@@ -2077,3 +2077,20 @@ sectors:
       tex: \frac{4G_F}{\sqrt{2}} (\bar{d}P_R \gamma_\mu s)(\bar{\nu}_\mu \gamma^\mu \nu_{\tau})
     nu1pdsmutau:
       tex: \frac{4G_F}{\sqrt{2}} (\bar{d} P_L \gamma_\mu s)(\bar{\nu}_\mu \gamma^\mu \nu_{\tau})
+  cucu:
+    1cucu:
+      tex: \frac{4G_F}{\sqrt{2}} ({\bar c} \gamma_{\mu} P_{L} u)({\bar c} \gamma^{\mu} P_{L} u)
+    5cucu:
+      tex: \frac{4G_F}{\sqrt{2}} ({\bar c}_{\alpha} P_{L} u_{\beta})({\bar c}_{\beta} P_{R} u_{\alpha})
+    2cucu:
+      tex: \frac{4G_F}{\sqrt{2}} ({\bar c}P_{L} u)({\bar c} P_{L} u)
+    1pcucu:
+      tex: \frac{4G_F}{\sqrt{2}} ({\bar c} \gamma_{\mu} P_{R} u)({\bar c} \gamma^{\mu} P_{R} u)
+    3cucu:
+      tex: \frac{4G_F}{\sqrt{2}} ({\bar c}_{\alpha} P_{L} u_{\beta})({\bar c}_{\beta} P_{L} u_{\alpha})
+    2pcucu:
+      tex: \frac{4G_F}{\sqrt{2}} ({\bar c}P_{R} u)({\bar c} P_{R} u)
+    4cucu:
+      tex: \frac{4G_F}{\sqrt{2}} ({\bar c} P_{L} u)({\bar c} P_{R} u)
+    3pcucu:
+      tex: \frac{4G_F}{\sqrt{2}} ({\bar c}_{\alpha} P_{R} u_{\beta})({\bar c}_{\beta} P_{R} u_{\alpha})

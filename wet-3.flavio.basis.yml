@@ -376,12 +376,6 @@ sectors:
       tex: (\bar e_L \gamma^\mu e_L)(\bar e_L \gamma_\mu \mu_L)
     CVLL_muemumu:
       tex: (\bar e_L \gamma^\mu \mu_L)(\bar \mu_L \gamma_\mu \mu_L)
-    CVLL_nuenuemue:
-      tex: (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar e_L \gamma_\mu \mu_L)
-    CVLL_numunumumue:
-      tex: (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar e_L \gamma_\mu \mu_L)
-    CVLL_nutaunutaumue:
-      tex: (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar e_L \gamma_\mu \mu_L)
     CVLL_mueuu:
       tex: (\bar e_L \gamma^\mu \mu_L)(\bar u_L \gamma_\mu u_L)
     CVLL_muedd:
@@ -398,12 +392,6 @@ sectors:
       tex: (\bar e_R \gamma^\mu \mu_R) (\bar d_R \gamma_\mu d_R)
     CVRR_muess:
       tex: (\bar e_R \gamma^\mu \mu_R) (\bar s_R \gamma_\mu s_R)
-    CVLR_nuenuemue:
-      tex: (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar e_R \gamma_\mu \mu_R)
-    CVLR_numunumumue:
-      tex: (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar e_R \gamma_\mu \mu_R)
-    CVLR_nutaunutaumue:
-      tex: (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar e_R \gamma_\mu \mu_R)
     CVLR_eemue:
       tex: (\bar e_L \gamma^\mu e_L)(\bar e_R \gamma_\mu \mu_R)
     CVLR_mueee:

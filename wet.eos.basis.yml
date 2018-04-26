@@ -64,6 +64,28 @@ sectors:
       tex: \frac{4G_F}{\sqrt{2}} V_{ub} \frac{e^2}{16\pi^2} (\bar s \sigma_{\mu\nu} b)(\bar \mu \sigma_{\mu\nu} \mu)
     b->smumu::cT5:
       tex: \frac{4G_F}{\sqrt{2}} V_{ub} \frac{e^2}{16\pi^2} (\bar s \sigma_{\mu\nu} b)(\bar \mu \sigma_{\mu\nu} \gamma_5 \mu)
+  cbenu:
+    b->cenue::cVL:
+      tex: -\frac{4G_F}{\sqrt{2}} V_{cb} (\bar c_L \gamma^\mu b_L)(\bar e_L \gamma_\mu \nu_{e L})
+    b->cenue::cVR:
+      tex: -\frac{4G_F}{\sqrt{2}} V_{cb} (\bar c_R \gamma^\mu b_R)(\bar e_L \gamma_\mu \nu_{e L})
+    b->cenue::cSR:
+      tex: -\frac{4G_F}{\sqrt{2}} V_{cb} (\bar c_L b_R)(\bar e_R \nu_{e L})
+    b->cenue::cSL:
+      tex: -\frac{4G_F}{\sqrt{2}} V_{cb} (\bar c_R b_L)(\bar e_R \nu_{e L})
+    b->cenue::cT:
+      tex: -\frac{4G_F}{\sqrt{2}} V_{cb} (\bar c_R \sigma^{\mu\nu} b_L)(\bar e_R \sigma_{\mu\nu}\nu_{e L})
+  cbmunu:
+    b->cmunumu::cVL:
+      tex: -\frac{4G_F}{\sqrt{2}} V_{ub} (\bar c_L \gamma^\mu b_L)(\bar \mu_L \gamma_\mu \nu_{\mu L})
+    b->cmunumu::cVR:
+      tex: -\frac{4G_F}{\sqrt{2}} V_{ub} (\bar c_R \gamma^\mu b_R)(\bar \mu_L \gamma_\mu \nu_{\mu L})
+    b->cmunumu::cSR:
+      tex: -\frac{4G_F}{\sqrt{2}} V_{ub} (\bar c_L b_R)(\bar \mu_R \nu_{\mu L})
+    b->cmunumu::cSL:
+      tex: -\frac{4G_F}{\sqrt{2}} V_{ub} (\bar c_R b_L)(\bar \mu_R \nu_{\mu L})
+    b->cmunumu::cT:
+      tex: -\frac{4G_F}{\sqrt{2}} V_{ub} (\bar c_R \sigma^{\mu\nu} b_L)(\bar \mu_R \sigma_{\mu\nu}\nu_{\mu L})
   ubenu:
     b->uenue::cVL:
       tex: -\frac{4G_F}{\sqrt{2}} V_{ub} (\bar u_L \gamma^\mu b_L)(\bar e_L \gamma_\mu \nu_{e L})

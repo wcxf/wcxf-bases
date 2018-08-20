@@ -3237,18 +3237,6 @@
         "real": true,
         "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar \\nu_{eL} \\gamma^\\mu \\nu_{eL})(\\bar \\mu_L \\gamma_\\mu \\mu_L)"
       },
-      "CVLL_nuenuenuenue": {
-        "real": true,
-        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar \\nu_{eL} \\gamma^\\mu \\nu_{eL})(\\bar \\nu_{eL} \\gamma_\\mu \\nu_{eL})"
-      },
-      "CVLL_nuenuenumunumu": {
-        "real": true,
-        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar \\nu_{eL} \\gamma^\\mu \\nu_{eL})(\\bar \\nu_{\\mu L} \\gamma_\\mu \\nu_{\\mu L})"
-      },
-      "CVLL_nuenuenutaunutau": {
-        "real": true,
-        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar \\nu_{eL} \\gamma^\\mu \\nu_{eL})(\\bar \\nu_{\\tau L} \\gamma_\\mu \\nu_{\\tau L})"
-      },
       "CVLL_nuenuess": {
         "real": true,
         "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar \\nu_{eL} \\gamma^\\mu \\nu_{eL})(\\bar s_L \\gamma_\\mu s_L)"
@@ -3329,14 +3317,6 @@
         "real": true,
         "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\mu L})(\\bar \\mu_L \\gamma_\\mu \\mu_L)"
       },
-      "CVLL_numunumunumunumu": {
-        "real": true,
-        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\mu L})(\\bar \\nu_{\\mu L} \\gamma_\\mu \\nu_{\\mu L})"
-      },
-      "CVLL_numunumunutaunutau": {
-        "real": true,
-        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\mu L})(\\bar \\nu_{\\tau L} \\gamma_\\mu \\nu_{\\tau L})"
-      },
       "CVLL_numunumuss": {
         "real": true,
         "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar \\nu_{\\mu L} \\gamma^\\mu \\nu_{\\mu L})(\\bar s_L \\gamma_\\mu s_L)"
@@ -3392,10 +3372,6 @@
       "CVLL_nutaunutaumumu": {
         "real": true,
         "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar \\nu_{\\tau L} \\gamma^\\mu \\nu_{\\tau L})(\\bar \\mu_L \\gamma_\\mu \\mu_L)"
-      },
-      "CVLL_nutaunutaunutaunutau": {
-        "real": true,
-        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar \\nu_{\\tau L} \\gamma^\\mu \\nu_{\\tau L})(\\bar \\nu_{\\tau L} \\gamma_\\mu \\nu_{\\tau L})"
       },
       "CVLL_nutaunutauss": {
         "real": true,

@@ -2322,6 +2322,24 @@ sectors:
     SeeRR_3132:
       tex: (\bar \tau_L e_R) (\bar \tau_L \mu_R)
   nunununu:
+    VnunuLL_1111:
+      real: true
+      tex: (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar \nu_{eL} \gamma_\mu \nu_{eL})
+    VnunuLL_1122:
+      real: true
+      tex: (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar \nu_{\mu L} \gamma_\mu \nu_{\mu L})
+    VnunuLL_1133:
+      real: true
+      tex: (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar \nu_{\tau L} \gamma_\mu \nu_{\tau L})
+    VnunuLL_2222:
+      real: true
+      tex: (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar \nu_{\mu L} \gamma_\mu \nu_{\mu L})
+    VnunuLL_2233:
+      real: true
+      tex: (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar \nu_{\tau L} \gamma_\mu \nu_{\tau L})
+    VnunuLL_3333:
+      real: true
+      tex: (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar \nu_{\tau L} \gamma_\mu \nu_{\tau L})
     VnunuLL_1112:
       tex: (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar \nu_{eL} \gamma_\mu \nu_{\mu L})
     VnunuLL_1222:
@@ -2496,24 +2514,6 @@ sectors:
     Gtilde:
       real: true
       tex: f^{ABC} \widetilde G_\mu^{A\nu} G_\nu^{B\rho} G_\rho^{C\mu}
-    VnunuLL_1111:
-      real: true
-      tex: (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar \nu_{eL} \gamma_\mu \nu_{eL})
-    VnunuLL_1122:
-      real: true
-      tex: (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar \nu_{\mu L} \gamma_\mu \nu_{\mu L})
-    VnunuLL_1133:
-      real: true
-      tex: (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar \nu_{\tau L} \gamma_\mu \nu_{\tau L})
-    VnunuLL_2222:
-      real: true
-      tex: (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar \nu_{\mu L} \gamma_\mu \nu_{\mu L})
-    VnunuLL_2233:
-      real: true
-      tex: (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar \nu_{\tau L} \gamma_\mu \nu_{\tau L})
-    VnunuLL_3333:
-      real: true
-      tex: (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar \nu_{\tau L} \gamma_\mu \nu_{\tau L})
     VeeLL_1111:
       real: true
       tex: (\bar e_L \gamma^\mu e_L)(\bar e_L \gamma_\mu e_L)

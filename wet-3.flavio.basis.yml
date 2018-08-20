@@ -529,81 +529,6 @@ sectors:
     CVLL_mumuuu:
       real: true
       tex: \frac{4G_F}{\sqrt{2}} (\bar \mu_L \gamma^\mu \mu_L)(\bar u_L \gamma_\mu u_L)
-    CVLL_nuenuedd:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar d_L \gamma_\mu d_L)
-    CVLL_nuenueee:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar e_L \gamma_\mu e_L)
-    CVLL_nuenuemumu:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar \mu_L \gamma_\mu \mu_L)
-    CVLL_nuenuess:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar s_L \gamma_\mu s_L)
-    CVLL_nuenueuu:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL}) (\bar u_L \gamma_\mu u_L)
-    CVLL_nuenumudd:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar d_L \gamma_\mu d_L)
-    CVLL_nuenumuee:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar e_L \gamma_\mu e_L)
-    CVLL_nuenumumumu:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar \mu_L \gamma_\mu \mu_L)
-    CVLL_nuenumuss:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar s_L \gamma_\mu s_L)
-    CVLL_nuenumuuu:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L}) (\bar u_L \gamma_\mu u_L)
-    CVLL_nuenutaudd:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar d_L \gamma_\mu d_L)
-    CVLL_nuenutauee:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar e_L \gamma_\mu e_L)
-    CVLL_nuenutaumumu:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar \mu_L \gamma_\mu \mu_L)
-    CVLL_nuenutauss:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar s_L \gamma_\mu s_L)
-    CVLL_nuenutauuu:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L}) (\bar u_L \gamma_\mu u_L)
-    CVLL_numunumudd:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar d_L \gamma_\mu d_L)
-    CVLL_numunumuee:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar e_L \gamma_\mu e_L)
-    CVLL_numunumumumu:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar \mu_L \gamma_\mu \mu_L)
-    CVLL_numunumuss:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar s_L \gamma_\mu s_L)
-    CVLL_numunumuuu:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L}) (\bar u_L \gamma_\mu u_L)
-    CVLL_numunutaudd:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar d_L \gamma_\mu d_L)
-    CVLL_numunutauee:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar e_L \gamma_\mu e_L)
-    CVLL_numunutaumumu:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar \mu_L \gamma_\mu \mu_L)
-    CVLL_numunutauss:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar s_L \gamma_\mu s_L)
-    CVLL_numunutauuu:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L}) (\bar u_L \gamma_\mu u_L)
-    CVLL_nutaunutaudd:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar d_L \gamma_\mu d_L)
-    CVLL_nutaunutauee:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar e_L \gamma_\mu e_L)
-    CVLL_nutaunutaumumu:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar \mu_L \gamma_\mu \mu_L)
-    CVLL_nutaunutauss:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar s_L \gamma_\mu s_L)
-    CVLL_nutaunutauuu:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L}) (\bar u_L \gamma_\mu u_L)
     CVLL_ssss:
       real: true
       tex: \frac{4G_F}{\sqrt{2}} (\bar s_L \gamma^\mu s_L)(\bar s_L \gamma_\mu s_L)
@@ -648,81 +573,6 @@ sectors:
     CVLR_mumuuu:
       real: true
       tex: \frac{4G_F}{\sqrt{2}} (\bar \mu_L \gamma^\mu \mu_L)(\bar u_R \gamma_\mu u_R)
-    CVLR_nuenuedd:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar d_R \gamma_\mu d_R)
-    CVLR_nuenueee:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar e_R \gamma_\mu e_R)
-    CVLR_nuenuemumu:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar \mu_R \gamma_\mu \mu_R)
-    CVLR_nuenuess:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar s_R \gamma_\mu s_R)
-    CVLR_nuenueuu:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar u_R \gamma_\mu u_R)
-    CVLR_nuenumudd:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar d_R \gamma_\mu d_R)
-    CVLR_nuenumuee:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar e_R \gamma_\mu e_R)
-    CVLR_nuenumumumu:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar \mu_R \gamma_\mu \mu_R)
-    CVLR_nuenumuss:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar s_R \gamma_\mu s_R)
-    CVLR_nuenumuuu:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar u_R \gamma_\mu u_R)
-    CVLR_nuenutaudd:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar d_R \gamma_\mu d_R)
-    CVLR_nuenutauee:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar e_R \gamma_\mu e_R)
-    CVLR_nuenutaumumu:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar \mu_R \gamma_\mu \mu_R)
-    CVLR_nuenutauss:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar s_R \gamma_\mu s_R)
-    CVLR_nuenutauuu:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar u_R \gamma_\mu u_R)
-    CVLR_numunumudd:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar d_R \gamma_\mu d_R)
-    CVLR_numunumuee:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar e_R \gamma_\mu e_R)
-    CVLR_numunumumumu:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar \mu_R \gamma_\mu \mu_R)
-    CVLR_numunumuss:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar s_R \gamma_\mu s_R)
-    CVLR_numunumuuu:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar u_R \gamma_\mu u_R)
-    CVLR_numunutaudd:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar d_R \gamma_\mu d_R)
-    CVLR_numunutauee:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar e_R \gamma_\mu e_R)
-    CVLR_numunutaumumu:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar \mu_R \gamma_\mu \mu_R)
-    CVLR_numunutauss:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar s_R \gamma_\mu s_R)
-    CVLR_numunutauuu:
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar u_R \gamma_\mu u_R)
-    CVLR_nutaunutaudd:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar d_R \gamma_\mu d_R)
-    CVLR_nutaunutauee:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar e_R \gamma_\mu e_R)
-    CVLR_nutaunutaumumu:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar \mu_R \gamma_\mu \mu_R)
-    CVLR_nutaunutauss:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar s_R \gamma_\mu s_R)
-    CVLR_nutaunutauuu:
-      real: true
-      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar u_R \gamma_\mu u_R)
     CVLR_ssee:
       real: true
       tex: \frac{4G_F}{\sqrt{2}} (\bar s_L \gamma^\mu s_L) (\bar e_R \gamma_\mu e_R)
@@ -903,3 +753,154 @@ sectors:
       tex: (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar e_R \gamma_\mu \mu_R)
     CVLR_nutaunutaumue:
       tex: (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar e_R \gamma_\mu \mu_R)
+  ffnunu:
+    CVLL_nuenuedd:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar d_L \gamma_\mu d_L)
+    CVLL_nuenueee:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar e_L \gamma_\mu e_L)
+    CVLL_nuenuemumu:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar \mu_L \gamma_\mu \mu_L)
+    CVLL_nuenuess:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar s_L \gamma_\mu s_L)
+    CVLL_nuenueuu:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL}) (\bar u_L \gamma_\mu u_L)
+    CVLL_nuenumudd:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar d_L \gamma_\mu d_L)
+    CVLL_nuenumuee:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar e_L \gamma_\mu e_L)
+    CVLL_nuenumumumu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar \mu_L \gamma_\mu \mu_L)
+    CVLL_nuenumuss:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar s_L \gamma_\mu s_L)
+    CVLL_nuenumuuu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L}) (\bar u_L \gamma_\mu u_L)
+    CVLL_nuenutaudd:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar d_L \gamma_\mu d_L)
+    CVLL_nuenutauee:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar e_L \gamma_\mu e_L)
+    CVLL_nuenutaumumu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar \mu_L \gamma_\mu \mu_L)
+    CVLL_nuenutauss:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar s_L \gamma_\mu s_L)
+    CVLL_nuenutauuu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L}) (\bar u_L \gamma_\mu u_L)
+    CVLL_numunumudd:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar d_L \gamma_\mu d_L)
+    CVLL_numunumuee:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar e_L \gamma_\mu e_L)
+    CVLL_numunumumumu:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar \mu_L \gamma_\mu \mu_L)
+    CVLL_numunumuss:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar s_L \gamma_\mu s_L)
+    CVLL_numunumuuu:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L}) (\bar u_L \gamma_\mu u_L)
+    CVLL_numunutaudd:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar d_L \gamma_\mu d_L)
+    CVLL_numunutauee:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar e_L \gamma_\mu e_L)
+    CVLL_numunutaumumu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar \mu_L \gamma_\mu \mu_L)
+    CVLL_numunutauss:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar s_L \gamma_\mu s_L)
+    CVLL_numunutauuu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L}) (\bar u_L \gamma_\mu u_L)
+    CVLL_nutaunutaudd:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar d_L \gamma_\mu d_L)
+    CVLL_nutaunutauee:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar e_L \gamma_\mu e_L)
+    CVLL_nutaunutaumumu:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar \mu_L \gamma_\mu \mu_L)
+    CVLL_nutaunutauss:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar s_L \gamma_\mu s_L)
+    CVLL_nutaunutauuu:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L}) (\bar u_L \gamma_\mu u_L)
+    CVLR_nuenuedd:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar d_R \gamma_\mu d_R)
+    CVLR_nuenueee:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar e_R \gamma_\mu e_R)
+    CVLR_nuenuemumu:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar \mu_R \gamma_\mu \mu_R)
+    CVLR_nuenuess:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar s_R \gamma_\mu s_R)
+    CVLR_nuenueuu:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{eL})(\bar u_R \gamma_\mu u_R)
+    CVLR_nuenumudd:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar d_R \gamma_\mu d_R)
+    CVLR_nuenumuee:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar e_R \gamma_\mu e_R)
+    CVLR_nuenumumumu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar \mu_R \gamma_\mu \mu_R)
+    CVLR_nuenumuss:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar s_R \gamma_\mu s_R)
+    CVLR_nuenumuuu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\mu L})(\bar u_R \gamma_\mu u_R)
+    CVLR_nuenutaudd:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar d_R \gamma_\mu d_R)
+    CVLR_nuenutauee:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar e_R \gamma_\mu e_R)
+    CVLR_nuenutaumumu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar \mu_R \gamma_\mu \mu_R)
+    CVLR_nuenutauss:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar s_R \gamma_\mu s_R)
+    CVLR_nuenutauuu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{eL} \gamma^\mu \nu_{\tau L})(\bar u_R \gamma_\mu u_R)
+    CVLR_numunumudd:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar d_R \gamma_\mu d_R)
+    CVLR_numunumuee:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar e_R \gamma_\mu e_R)
+    CVLR_numunumumumu:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar \mu_R \gamma_\mu \mu_R)
+    CVLR_numunumuss:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar s_R \gamma_\mu s_R)
+    CVLR_numunumuuu:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\mu L})(\bar u_R \gamma_\mu u_R)
+    CVLR_numunutaudd:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar d_R \gamma_\mu d_R)
+    CVLR_numunutauee:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar e_R \gamma_\mu e_R)
+    CVLR_numunutaumumu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar \mu_R \gamma_\mu \mu_R)
+    CVLR_numunutauss:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar s_R \gamma_\mu s_R)
+    CVLR_numunutauuu:
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar u_R \gamma_\mu u_R)
+    CVLR_nutaunutaudd:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar d_R \gamma_\mu d_R)
+    CVLR_nutaunutauee:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar e_R \gamma_\mu e_R)
+    CVLR_nutaunutaumumu:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar \mu_R \gamma_\mu \mu_R)
+    CVLR_nutaunutauss:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar s_R \gamma_\mu s_R)
+    CVLR_nutaunutauuu:
+      real: true
+      tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar u_R \gamma_\mu u_R)

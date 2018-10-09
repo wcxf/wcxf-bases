@@ -1017,3 +1017,96 @@ sectors:
       tex: (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar d_R \gamma_\mu d_R)
     VnudLR_2322:
       tex: (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar s_R \gamma_\mu s_R)
+  uddnu:
+    SdudRL_1111:
+      tex: \epsilon_{\alpha\beta\gamma} (d_R^{\alpha T} C u_R^{\beta}) (d_L^{\gamma T} C \nu_{e L})
+    SdudRL_1112:
+      tex: \epsilon_{\alpha\beta\gamma} (d_R^{\alpha T} C u_R^{\beta}) (d_L^{\gamma T} C \nu_{\mu L})
+    SdudRL_1113:
+      tex: \epsilon_{\alpha\beta\gamma} (d_R^{\alpha T} C u_R^{\beta}) (d_L^{\gamma T} C \nu_{\tau L})
+    SuddLL_1111:
+      tex: \epsilon_{\alpha\beta\gamma} (u_L^{\alpha T} C d_L^{\beta}) (d_L^{\gamma T} C \nu_{e L})
+    SuddLL_1112:
+      tex: \epsilon_{\alpha\beta\gamma} (u_L^{\alpha T} C d_L^{\beta}) (d_L^{\gamma T} C \nu_{\mu L})
+    SuddLL_1113:
+      tex: \epsilon_{\alpha\beta\gamma} (u_L^{\alpha T} C d_L^{\beta}) (d_L^{\gamma T} C \nu_{\tau L})
+  udsnu:
+    SdduRL_1211:
+      tex: \epsilon_{\alpha\beta\gamma} (d_R^{\alpha T} C s_R^{\beta}) (u_L^{\gamma T} C \nu_{e L})
+    SdduRL_1212:
+      tex: \epsilon_{\alpha\beta\gamma} (d_R^{\alpha T} C s_R^{\beta}) (u_L^{\gamma T} C \nu_{\mu L})
+    SdduRL_1213:
+      tex: \epsilon_{\alpha\beta\gamma} (d_R^{\alpha T} C s_R^{\beta}) (u_L^{\gamma T} C \nu_{\tau L})
+    SdudRL_1121:
+      tex: \epsilon_{\alpha\beta\gamma} (d_R^{\alpha T} C u_R^{\beta}) (s_L^{\gamma T} C \nu_{e L})
+    SdudRL_1122:
+      tex: \epsilon_{\alpha\beta\gamma} (d_R^{\alpha T} C u_R^{\beta}) (s_L^{\gamma T} C \nu_{\mu L})
+    SdudRL_1123:
+      tex: \epsilon_{\alpha\beta\gamma} (d_R^{\alpha T} C u_R^{\beta}) (s_L^{\gamma T} C \nu_{\tau L})
+    SdudRL_2111:
+      tex: \epsilon_{\alpha\beta\gamma} (s_R^{\alpha T} C u_R^{\beta}) (d_L^{\gamma T} C \nu_{e L})
+    SdudRL_2112:
+      tex: \epsilon_{\alpha\beta\gamma} (s_R^{\alpha T} C u_R^{\beta}) (d_L^{\gamma T} C \nu_{\mu L})
+    SdudRL_2113:
+      tex: \epsilon_{\alpha\beta\gamma} (s_R^{\alpha T} C u_R^{\beta}) (d_L^{\gamma T} C \nu_{\tau L})
+    SuddLL_1121:
+      tex: \epsilon_{\alpha\beta\gamma} (u_L^{\alpha T} C d_L^{\beta}) (s_L^{\gamma T} C \nu_{e L})
+    SuddLL_1122:
+      tex: \epsilon_{\alpha\beta\gamma} (u_L^{\alpha T} C d_L^{\beta}) (s_L^{\gamma T} C \nu_{\mu L})
+    SuddLL_1123:
+      tex: \epsilon_{\alpha\beta\gamma} (u_L^{\alpha T} C d_L^{\beta}) (s_L^{\gamma T} C \nu_{\tau L})
+    SuddLL_1211:
+      tex: \epsilon_{\alpha\beta\gamma} (u_L^{\alpha T} C s_L^{\beta}) (d_L^{\gamma T} C \nu_{e L})
+    SuddLL_1212:
+      tex: \epsilon_{\alpha\beta\gamma} (u_L^{\alpha T} C s_L^{\beta}) (d_L^{\gamma T} C \nu_{\mu L})
+    SuddLL_1213:
+      tex: \epsilon_{\alpha\beta\gamma} (u_L^{\alpha T} C s_L^{\beta}) (d_L^{\gamma T} C \nu_{\tau L})
+  ussnu:
+    SdudRL_2121:
+      tex: \epsilon_{\alpha\beta\gamma} (s_R^{\alpha T} C u_R^{\beta}) (s_L^{\gamma T} C \nu_{e L})
+    SdudRL_2122:
+      tex: \epsilon_{\alpha\beta\gamma} (s_R^{\alpha T} C u_R^{\beta}) (s_L^{\gamma T} C \nu_{\mu L})
+    SdudRL_2123:
+      tex: \epsilon_{\alpha\beta\gamma} (s_R^{\alpha T} C u_R^{\beta}) (s_L^{\gamma T} C \nu_{\tau L})
+    SuddLL_1221:
+      tex: \epsilon_{\alpha\beta\gamma} (u_L^{\alpha T} C s_L^{\beta}) (s_L^{\gamma T} C \nu_{e L})
+    SuddLL_1222:
+      tex: \epsilon_{\alpha\beta\gamma} (u_L^{\alpha T} C s_L^{\beta}) (s_L^{\gamma T} C \nu_{\mu L})
+    SuddLL_1223:
+      tex: \epsilon_{\alpha\beta\gamma} (u_L^{\alpha T} C s_L^{\beta}) (s_L^{\gamma T} C \nu_{\tau L})
+  uude:
+    SduuLL_1111:
+      tex: \epsilon_{\alpha\beta\gamma} (d_L^{\alpha T} C u_L^{\beta}) (u_L^{\gamma T} C e_L)
+    SduuLR_1111:
+      tex: \epsilon_{\alpha\beta\gamma} (d_L^{\alpha T} C u_L^{\beta}) (u_R^{\gamma T} C e_R)
+    SduuRL_1111:
+      tex: \epsilon_{\alpha\beta\gamma} (d_R^{\alpha T} C u_R^{\beta}) (u_L^{\gamma T} C e_L)
+    SduuRR_1111:
+      tex: \epsilon_{\alpha\beta\gamma} (d_R^{\alpha T} C u_R^{\beta}) (u_R^{\gamma T} C e_R)
+  uudmu:
+    SduuLL_1112:
+      tex: \epsilon_{\alpha\beta\gamma} (d_L^{\alpha T} C u_L^{\beta}) (u_L^{\gamma T} C \mu_L)
+    SduuLR_1112:
+      tex: \epsilon_{\alpha\beta\gamma} (d_L^{\alpha T} C u_L^{\beta}) (u_R^{\gamma T} C \mu_R)
+    SduuRL_1112:
+      tex: \epsilon_{\alpha\beta\gamma} (d_R^{\alpha T} C u_R^{\beta}) (u_L^{\gamma T} C \mu_L)
+    SduuRR_1112:
+      tex: \epsilon_{\alpha\beta\gamma} (d_R^{\alpha T} C u_R^{\beta}) (u_R^{\gamma T} C \mu_R)
+  uuse:
+    SduuLL_2111:
+      tex: \epsilon_{\alpha\beta\gamma} (s_L^{\alpha T} C u_L^{\beta}) (u_L^{\gamma T} C e_L)
+    SduuLR_2111:
+      tex: \epsilon_{\alpha\beta\gamma} (s_L^{\alpha T} C u_L^{\beta}) (u_R^{\gamma T} C e_R)
+    SduuRL_2111:
+      tex: \epsilon_{\alpha\beta\gamma} (s_R^{\alpha T} C u_R^{\beta}) (u_L^{\gamma T} C e_L)
+    SduuRR_2111:
+      tex: \epsilon_{\alpha\beta\gamma} (s_R^{\alpha T} C u_R^{\beta}) (u_R^{\gamma T} C e_R)
+  uusmu:
+    SduuLL_2112:
+      tex: \epsilon_{\alpha\beta\gamma} (s_L^{\alpha T} C u_L^{\beta}) (u_L^{\gamma T} C \mu_L)
+    SduuLR_2112:
+      tex: \epsilon_{\alpha\beta\gamma} (s_L^{\alpha T} C u_L^{\beta}) (u_R^{\gamma T} C \mu_R)
+    SduuRL_2112:
+      tex: \epsilon_{\alpha\beta\gamma} (s_R^{\alpha T} C u_R^{\beta}) (u_L^{\gamma T} C \mu_L)
+    SduuRR_2112:
+      tex: \epsilon_{\alpha\beta\gamma} (s_R^{\alpha T} C u_R^{\beta}) (u_R^{\gamma T} C \mu_R)

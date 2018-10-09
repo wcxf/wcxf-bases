@@ -276,3 +276,25 @@ sectors:
       tex: (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar u_R \gamma_\mu u_R)
     VnudLR_2311:
       tex: (\bar \nu_{\mu L} \gamma^\mu \nu_{\tau L})(\bar d_R \gamma_\mu d_R)
+  uddnu:
+    SdudRL_1111:
+      tex: \epsilon_{\alpha\beta\gamma} (d_R^{\alpha T} C u_R^{\beta}) (d_L^{\gamma T} C \nu_{e L})
+    SdudRL_1112:
+      tex: \epsilon_{\alpha\beta\gamma} (d_R^{\alpha T} C u_R^{\beta}) (d_L^{\gamma T} C \nu_{\mu L})
+    SdudRL_1113:
+      tex: \epsilon_{\alpha\beta\gamma} (d_R^{\alpha T} C u_R^{\beta}) (d_L^{\gamma T} C \nu_{\tau L})
+    SuddLL_1111:
+      tex: \epsilon_{\alpha\beta\gamma} (u_L^{\alpha T} C d_L^{\beta}) (d_L^{\gamma T} C \nu_{e L})
+    SuddLL_1112:
+      tex: \epsilon_{\alpha\beta\gamma} (u_L^{\alpha T} C d_L^{\beta}) (d_L^{\gamma T} C \nu_{\mu L})
+    SuddLL_1113:
+      tex: \epsilon_{\alpha\beta\gamma} (u_L^{\alpha T} C d_L^{\beta}) (d_L^{\gamma T} C \nu_{\tau L})
+  uude:
+    SduuLL_1111:
+      tex: \epsilon_{\alpha\beta\gamma} (d_L^{\alpha T} C u_L^{\beta}) (u_L^{\gamma T} C e_L)
+    SduuLR_1111:
+      tex: \epsilon_{\alpha\beta\gamma} (d_L^{\alpha T} C u_L^{\beta}) (u_R^{\gamma T} C e_R)
+    SduuRL_1111:
+      tex: \epsilon_{\alpha\beta\gamma} (d_R^{\alpha T} C u_R^{\beta}) (u_L^{\gamma T} C e_L)
+    SduuRR_1111:
+      tex: \epsilon_{\alpha\beta\gamma} (d_R^{\alpha T} C u_R^{\beta}) (u_R^{\gamma T} C e_R)

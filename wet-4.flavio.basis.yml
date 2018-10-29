@@ -249,6 +249,108 @@ sectors:
       tex: \frac{4G_F}{\sqrt{2}} V_{td} V_{ts}^* \frac{e^2}{16\pi^2}(\bar s_R \gamma^\mu d_R)(\bar \nu_\tau \gamma_\mu(1-\gamma_5) \nu_e)
     CR_sdnutaunue:
       tex: \frac{4G_F}{\sqrt{2}} V_{td} V_{ts}^* \frac{e^2}{16\pi^2}(\bar s_R \gamma^\mu d_R)(\bar \nu_e \gamma_\mu(1-\gamma_5) \nu_\tau)
+  sdemu:
+    C9_sdemu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_L \gamma^\mu s_L)(\bar \mu \gamma_\mu e)
+    C9p_sdemu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_R \gamma^\mu s_R)(\bar \mu \gamma_\mu e)
+    C10_sdemu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_L \gamma^\mu s_L)(\bar \mu \gamma_\mu \gamma_5 e)
+    C10p_sdemu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_R \gamma^\mu s_R)(\bar \mu \gamma_\mu \gamma_5 e)
+    CS_sdemu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_L s_R)(\bar \mu e)
+    CSp_sdemu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_R s_L)(\bar \mu e)
+    CP_sdemu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_L s_R)(\bar \mu \gamma_5 e)
+    CPp_sdemu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_R s_L)(\bar \mu \gamma_5 e)
+  sdmue:
+    C9_sdmue:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_L \gamma^\mu s_L)(\bar e \gamma_\mu \mu)
+    C9p_sdmue:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_R \gamma^\mu s_R)(\bar e \gamma_\mu \mu)
+    C10_sdmue:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_L \gamma^\mu s_L)(\bar e \gamma_\mu\gamma_5 \mu)
+    C10p_sdmue:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_R \gamma^\mu s_R)(\bar e \gamma_\mu\gamma_5 \mu)
+    CS_sdmue:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_L s_R)(\bar e \mu)
+    CSp_sdmue:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_R s_L)(\bar e \mu)
+    CP_sdmue:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_L s_R)(\bar e \gamma_5 \mu)
+    CPp_sdmue:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_R s_L)(\bar e \gamma_5 \mu)
+  sdetau:
+    C9_sdetau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_L \gamma^\mu s_L)(\bar \tau \gamma_\mu e)
+    C9p_sdetau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_R \gamma^\mu s_R)(\bar \tau \gamma_\mu e)
+    C10_sdetau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_L \gamma^\mu s_L)(\bar \tau \gamma_\mu \gamma_5 e)
+    C10p_sdetau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_R \gamma^\mu s_R)(\bar \tau \gamma_\mu \gamma_5 e)
+    CS_sdetau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_L s_R)(\bar \tau e)
+    CSp_sdetau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_R s_L)(\bar \tau e)
+    CP_sdetau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_L s_R)(\bar \tau \gamma_5 e)
+    CPp_sdetau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_R s_L)(\bar \tau \gamma_5 e)
+  sdtaue:
+    C9_sdtaue:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_L \gamma^\mu s_L)(\bar e \gamma_\mu \tau)
+    C9p_sdtaue:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_R \gamma^\mu s_R)(\bar e \gamma_\mu \tau)
+    C10_sdtaue:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_L \gamma^\mu s_L)(\bar e \gamma_\mu\gamma_5 \tau)
+    C10p_sdtaue:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_R \gamma^\mu s_R)(\bar e \gamma_\mu\gamma_5 \tau)
+    CS_sdtaue:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_L s_R)(\bar e \tau)
+    CSp_sdtaue:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_R s_L)(\bar e \tau)
+    CP_sdtaue:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_L s_R)(\bar e \gamma_5 \tau)
+    CPp_sdtaue:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_R s_L)(\bar e \gamma_5 \tau)
+  sdmutau:
+    C9_sdmutau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_L \gamma^\mu s_L)(\bar \tau \gamma_\mu \mu)
+    C9p_sdmutau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_R \gamma^\mu s_R)(\bar \tau \gamma_\mu \mu)
+    C10_sdmutau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_L \gamma^\mu s_L)(\bar \tau \gamma_\mu \gamma_5 \mu)
+    C10p_sdmutau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_R \gamma^\mu s_R)(\bar \tau \gamma_\mu \gamma_5 \mu)
+    CS_sdmutau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_L s_R)(\bar \tau \mu)
+    CSp_sdmutau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_R s_L)(\bar \tau \mu)
+    CP_sdmutau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_L s_R)(\bar \tau \gamma_5 \mu)
+    CPp_sdmutau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_R s_L)(\bar \tau \gamma_5 \mu)
+  sdtaumu:
+    C9_sdtaumu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_L \gamma^\mu s_L)(\bar \mu \gamma_\mu \tau)
+    C9p_sdtaumu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_R \gamma^\mu s_R)(\bar \mu \gamma_\mu \tau)
+    C10_sdtaumu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_L \gamma^\mu s_L)(\bar \mu \gamma_\mu \gamma_5 \tau)
+    C10p_sdtaumu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}(\bar d_R \gamma^\mu s_R)(\bar \mu \gamma_\mu \gamma_5 \tau)
+    CS_sdtaumu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_L s_R)(\bar \mu \tau)
+    CSp_sdtaumu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_R s_L)(\bar \mu \tau)
+    CP_sdtaumu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_L s_R)(\bar \mu \gamma_5 \tau)
+    CPp_sdtaumu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{ts} V_{td}^* \frac{e^2}{16\pi^2}m_b(\bar d_R s_L)(\bar \mu \gamma_5 \tau)
   usenu:
     CVL_suenue:
       tex: -\frac{4G_F}{\sqrt{2}} V_{us} (\bar u_L \gamma^\mu s_L)(\bar e_L \gamma_\mu \nu_{e L})

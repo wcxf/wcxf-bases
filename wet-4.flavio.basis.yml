@@ -2044,3 +2044,29 @@ sectors:
     CVLR_nutaunutauuu:
       real: true
       tex: \frac{4G_F}{\sqrt{2}} (\bar \nu_{\tau L} \gamma^\mu \nu_{\tau L})(\bar u_R \gamma_\mu u_R)
+  muemutau:
+    CVLL_muemutau:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar \tau_L \gamma_\mu \mu_L)
+    CVRR_muemutau:
+      tex: (\bar e_R \gamma^\mu \mu_R)(\bar \tau_R \gamma_\mu \mu_R)
+    CVLR_muemutau:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar \tau_R \gamma_\mu \mu_R)
+    CVLR_taumuemu:
+      tex: (\bar \mu_L \gamma^\mu \tau_L)(\bar \mu_R \gamma_\mu e_R)
+    CSRR_muemutau:
+      tex: (\bar e_L \mu_R) (\bar \tau_L \mu_R)
+    CSRR_emutaumu:
+      tex: (\bar \mu_L e_R) (\bar \mu_L \tau_R)
+  etauemu:
+    CVLL_muetaue:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar e_L \gamma_\mu \tau_L)
+    CVRR_muetaue:
+      tex: (\bar e_R \gamma^\mu \mu_R)(\bar e_R \gamma_\mu \tau_R)
+    CVLR_muetaue:
+      tex: (\bar e_L \gamma^\mu \mu_L)(\bar e_R \gamma_\mu \tau_R)
+    CVLR_tauemue:
+      tex: (\bar e_L \gamma^\mu \tau_L)(\bar e_R \gamma_\mu \mu_R)
+    CSRR_muetaue:
+      tex: (\bar e_L \mu_R) (\bar e_L \tau_R)
+    CSRR_emuetau:
+      tex: (\bar \mu_L e_R) (\bar \tau_L e_R)

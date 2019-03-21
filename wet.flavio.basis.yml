@@ -289,6 +289,223 @@ sectors:
       tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_R^\alpha \sigma^{\mu\nu} b_L^\beta)(\bar c_R^\beta \sigma_{\mu\nu} c_L^\alpha)
     CTRRt_bscc:
       tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* (\bar s_L^\alpha \sigma^{\mu\nu} b_R^\beta)(\bar c_L^\beta \sigma_{\mu\nu} c_R^\alpha)
+  cu:
+    C9_cuee:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}(\bar u_L \gamma^\mu c_L)(\bar e \gamma_\mu e)
+    C9p_cuee:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}(\bar u_R \gamma^\mu c_R)(\bar e \gamma_\mu e)
+    C10_cuee:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}(\bar u_L \gamma^\mu c_L)(\bar e \gamma_\mu\gamma_5 e)
+    C10p_cuee:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}(\bar u_R \gamma^\mu c_R)(\bar e \gamma_\mu\gamma_5 e)
+    CS_cuee:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}m_c(\bar u_L c_R)(\bar e e)
+    CSp_cuee:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}m_c(\bar u_R c_L)(\bar e e)
+    CP_cuee:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}m_c(\bar u_L c_R)(\bar e \gamma_5 e)
+    CPp_cuee:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}m_c(\bar u_R c_L)(\bar e \gamma_5 e)
+    C9_cumumu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}(\bar u_L \gamma^\mu c_L)(\bar \mu \gamma_\mu \mu)
+    C9p_cumumu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}(\bar u_R \gamma^\mu c_R)(\bar \mu \gamma_\mu \mu)
+    C10_cumumu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}(\bar u_L \gamma^\mu c_L)(\bar \mu \gamma_\mu\gamma_5 \mu)
+    C10p_cumumu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}(\bar u_R \gamma^\mu c_R)(\bar \mu \gamma_\mu\gamma_5 \mu)
+    CS_cumumu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}m_c(\bar u_L c_R)(\bar \mu \mu)
+    CSp_cumumu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}m_c(\bar u_R c_L)(\bar \mu \mu)
+    CP_cumumu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}m_c(\bar u_L c_R)(\bar \mu \gamma_5 \mu)
+    CPp_cumumu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}m_c(\bar u_R c_L)(\bar \mu \gamma_5 \mu)
+    C9_cutautau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}(\bar u_L \gamma^\mu c_L)(\bar \tau \gamma_\mu \tau)
+    C9p_cutautau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}(\bar u_R \gamma^\mu c_R)(\bar \tau \gamma_\mu \tau)
+    C10_cutautau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}(\bar u_L \gamma^\mu c_L)(\bar \tau \gamma_\mu\gamma_5 \tau)
+    C10p_cutautau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}(\bar u_R \gamma^\mu c_R)(\bar \tau \gamma_\mu\gamma_5 \tau)
+    CS_cutautau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}m_c(\bar u_L c_R)(\bar \tau \tau)
+    CSp_cutautau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}m_c(\bar u_R c_L)(\bar \tau \tau)
+    CP_cutautau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}m_c(\bar u_L c_R)(\bar \tau \gamma_5 \tau)
+    CPp_cutautau:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e^2}{16\pi^2}m_c(\bar u_R c_L)(\bar \tau \gamma_5 \tau)
+    C7_cu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e}{16\pi^2}m_c(\bar u_L \sigma^{\mu\nu} c_R) F_{\mu\nu}
+    C7p_cu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{e}{16\pi^2}m_c(\bar u_R \sigma^{\mu\nu} c_L) F_{\mu\nu}
+    C8_cu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{g_s}{16\pi^2}m_c(\bar u_L \sigma^{\mu\nu} T^a c_R) G_{\mu\nu}^a
+    C8p_cu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} \frac{g_s}{16\pi^2}m_c(\bar u_R \sigma^{\mu\nu} T^a c_L) G_{\mu\nu}^a
+    CVLL_cucc:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L \gamma^\mu c_L)(\bar c_L \gamma_\mu c_L)
+    CVLR_cucc:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L \gamma^\mu c_L)(\bar c_R \gamma_\mu c_R)
+    CVRL_cucc:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R \gamma^\mu c_R)(\bar c_L \gamma_\mu c_L)
+    CVRR_cucc:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R \gamma^\mu c_R)(\bar c_R \gamma_\mu c_R)
+    CSLL_cucc:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R c_L)(\bar c_R c_L)
+    CSLR_cucc:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R c_L)(\bar c_L c_R)
+    CSRL_cucc:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L c_R)(\bar c_R c_L)
+    CSRR_cucc:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L c_R)(\bar c_L c_R)
+    CTLL_cucc:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R \sigma^{\mu\nu} c_L)(\bar c_R \sigma_{\mu\nu} c_L)
+    CTRR_cucc:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L \sigma^{\mu\nu} c_R)(\bar c_L \sigma_{\mu\nu} c_R)
+    CVLL_cuuu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L \gamma^\mu c_L)(\bar u_L \gamma_\mu u_L)
+    CVLR_cuuu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L \gamma^\mu c_L)(\bar u_R \gamma_\mu u_R)
+    CVRL_cuuu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R \gamma^\mu c_R)(\bar u_L \gamma_\mu u_L)
+    CVRR_cuuu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R \gamma^\mu c_R)(\bar u_R \gamma_\mu u_R)
+    CSLL_cuuu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R c_L)(\bar u_R u_L)
+    CSLR_cuuu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R c_L)(\bar u_L u_R)
+    CSRL_cuuu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L c_R)(\bar u_R u_L)
+    CSRR_cuuu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L c_R)(\bar u_L u_R)
+    CTLL_cuuu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R \sigma^{\mu\nu} c_L)(\bar u_R \sigma_{\mu\nu} u_L)
+    CTRR_cuuu:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L \sigma^{\mu\nu} c_R)(\bar u_L \sigma_{\mu\nu} u_R)
+    CVLL_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L \gamma^\mu c_L)(\bar b_L \gamma_\mu b_L)
+    CVLR_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L \gamma^\mu c_L)(\bar b_R \gamma_\mu b_R)
+    CVRL_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R \gamma^\mu c_R)(\bar b_L \gamma_\mu b_L)
+    CVRR_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R \gamma^\mu c_R)(\bar b_R \gamma_\mu b_R)
+    CSLL_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R c_L)(\bar b_R b_L)
+    CSLR_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R c_L)(\bar b_L b_R)
+    CSRL_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L c_R)(\bar b_R b_L)
+    CSRR_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L c_R)(\bar b_L b_R)
+    CTLL_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R \sigma^{\mu\nu} c_L)(\bar b_R \sigma_{\mu\nu} b_L)
+    CTRR_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L \sigma^{\mu\nu} c_R)(\bar b_L \sigma_{\mu\nu} b_R)
+    CVLLt_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L^\alpha \gamma^\mu c_L^\beta)(\bar b_L^\beta \gamma_\mu b_L^\alpha)
+    CVLRt_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L^\alpha \gamma^\mu c_L^\beta)(\bar b_R^\beta \gamma_\mu b_R^\alpha)
+    CVRLt_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R^\alpha \gamma^\mu c_R^\beta)(\bar b_L^\beta \gamma_\mu b_L^\alpha)
+    CVRRt_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R^\alpha \gamma^\mu c_R^\beta)(\bar b_R^\beta \gamma_\mu b_R^\alpha)
+    CSLLt_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R^\alpha c_L^\beta)(\bar b_R^\beta b_L^\alpha)
+    CSLRt_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R^\alpha c_L^\beta)(\bar b_L^\beta b_R^\alpha)
+    CSRLt_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L^\alpha c_R^\beta)(\bar b_R^\beta b_L^\alpha)
+    CSRRt_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L^\alpha c_R^\beta)(\bar b_L^\beta b_R^\alpha)
+    CTLLt_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R^\alpha \sigma^{\mu\nu} c_L^\beta)(\bar b_R^\beta \sigma_{\mu\nu} b_L^\alpha)
+    CTRRt_cubb:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L^\alpha \sigma^{\mu\nu} c_R^\beta)(\bar b_L^\beta \sigma_{\mu\nu} b_R^\alpha)
+    CVLL_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L \gamma^\mu c_L)(\bar d_L \gamma_\mu d_L)
+    CVLR_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L \gamma^\mu c_L)(\bar d_R \gamma_\mu d_R)
+    CVRL_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R \gamma^\mu c_R)(\bar d_L \gamma_\mu d_L)
+    CVRR_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R \gamma^\mu c_R)(\bar d_R \gamma_\mu d_R)
+    CSLL_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R c_L)(\bar d_R d_L)
+    CSLR_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R c_L)(\bar d_L d_R)
+    CSRL_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L c_R)(\bar d_R d_L)
+    CSRR_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L c_R)(\bar d_L d_R)
+    CTLL_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R \sigma^{\mu\nu} c_L)(\bar d_R \sigma_{\mu\nu} d_L)
+    CTRR_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L \sigma^{\mu\nu} c_R)(\bar d_L \sigma_{\mu\nu} d_R)
+    CVLLt_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L^\alpha \gamma^\mu c_L^\beta)(\bar d_L^\beta \gamma_\mu d_L^\alpha)
+    CVLRt_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L^\alpha \gamma^\mu c_L^\beta)(\bar d_R^\beta \gamma_\mu d_R^\alpha)
+    CVRLt_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R^\alpha \gamma^\mu c_R^\beta)(\bar d_L^\beta \gamma_\mu d_L^\alpha)
+    CVRRt_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R^\alpha \gamma^\mu c_R^\beta)(\bar d_R^\beta \gamma_\mu d_R^\alpha)
+    CSLLt_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R^\alpha c_L^\beta)(\bar d_R^\beta d_L^\alpha)
+    CSLRt_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R^\alpha c_L^\beta)(\bar d_L^\beta d_R^\alpha)
+    CSRLt_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L^\alpha c_R^\beta)(\bar d_R^\beta d_L^\alpha)
+    CSRRt_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L^\alpha c_R^\beta)(\bar d_L^\beta d_R^\alpha)
+    CTLLt_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R^\alpha \sigma^{\mu\nu} c_L^\beta)(\bar d_R^\beta \sigma_{\mu\nu} d_L^\alpha)
+    CTRRt_cudd:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L^\alpha \sigma^{\mu\nu} c_R^\beta)(\bar d_L^\beta \sigma_{\mu\nu} d_R^\alpha)
+    CVLL_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L \gamma^\mu c_L)(\bar s_L \gamma_\mu s_L)
+    CVLR_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L \gamma^\mu c_L)(\bar s_R \gamma_\mu s_R)
+    CVRL_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R \gamma^\mu c_R)(\bar s_L \gamma_\mu s_L)
+    CVRR_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R \gamma^\mu c_R)(\bar s_R \gamma_\mu s_R)
+    CSLL_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R c_L)(\bar s_R s_L)
+    CSLR_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R c_L)(\bar s_L s_R)
+    CSRL_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L c_R)(\bar s_R s_L)
+    CSRR_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L c_R)(\bar s_L s_R)
+    CTLL_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R \sigma^{\mu\nu} c_L)(\bar s_R \sigma_{\mu\nu} s_L)
+    CTRR_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L \sigma^{\mu\nu} c_R)(\bar s_L \sigma_{\mu\nu} s_R)
+    CVLLt_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L^\alpha \gamma^\mu c_L^\beta)(\bar s_L^\beta \gamma_\mu s_L^\alpha)
+    CVLRt_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L^\alpha \gamma^\mu c_L^\beta)(\bar s_R^\beta \gamma_\mu s_R^\alpha)
+    CVRLt_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R^\alpha \gamma^\mu c_R^\beta)(\bar s_L^\beta \gamma_\mu s_L^\alpha)
+    CVRRt_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R^\alpha \gamma^\mu c_R^\beta)(\bar s_R^\beta \gamma_\mu s_R^\alpha)
+    CSLLt_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R^\alpha c_L^\beta)(\bar s_R^\beta s_L^\alpha)
+    CSLRt_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R^\alpha c_L^\beta)(\bar s_L^\beta s_R^\alpha)
+    CSRLt_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L^\alpha c_R^\beta)(\bar s_R^\beta s_L^\alpha)
+    CSRRt_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L^\alpha c_R^\beta)(\bar s_L^\beta s_R^\alpha)
+    CTLLt_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_R^\alpha \sigma^{\mu\nu} c_L^\beta)(\bar s_R^\beta \sigma_{\mu\nu} s_L^\alpha)
+    CTRRt_cuss:
+      tex: \frac{4G_F}{\sqrt{2}} V_{cb}^* V_{ub} (\bar u_L^\alpha \sigma^{\mu\nu} c_R^\beta)(\bar s_L^\beta \sigma_{\mu\nu} s_R^\alpha)
   sbnunu:
     CL_bsnuenue:
       tex: \frac{4G_F}{\sqrt{2}} V_{tb} V_{ts}^* \frac{e^2}{16\pi^2}(\bar s_L \gamma^\mu b_L)(\bar \nu_e \gamma_\mu(1-\gamma_5) \nu_e)

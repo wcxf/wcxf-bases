@@ -1,6 +1,6 @@
 """Script to convert all YAML files to JSON and vice versa."""
 
-import wcxf.converters.yamljson
+from wilson import wcxf.converters.yamljson
 import glob
 import os
 import logging

@@ -1,6 +1,6 @@
 """Script to convert all YAML files to JSON and vice versa."""
 
-from wilson import wcxf.converters.yamljson
+from wilson.wcxf.converters import yamljson
 import glob
 import os
 import logging
@@ -23,7 +23,7 @@ for b in bases_yml:
         logging.info("File {}: converting to JSON".format(b))
         with open(b, 'r') as f_in:
             with open(b_json, 'w') as f_out:
-                wcxf.converters.yamljson.convert_json(f_in, f_out)
+                yamljson.convert_json(f_in, f_out)
 
 for b in bases_json:
     b_yaml = b.replace('json', 'yml')
@@ -33,4 +33,4 @@ for b in bases_json:
         logging.info("File {}: converting to YAML".format(b))
         with open(b, 'r') as f_in:
             with open(b_yaml, 'w') as f_out:
-                wcxf.converters.yamljson.convert_yaml(f_in, f_out)
+                yamljson.convert_yaml(f_in, f_out)

@@ -386,24 +386,24 @@
       },
       "phil3_11": {
         "real": true,
-        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}Imu \\varphi \\right) \\left( \\bar \\ell_1 \\tau^I \\gamma^\\mu \\ell_1 \\right)"
+        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}^I_\\mu \\varphi \\right) \\left( \\bar \\ell_1 \\tau^I \\gamma^\\mu \\ell_1 \\right)"
       },
       "phil3_12": {
-        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}Imu \\varphi \\right) \\left( \\bar \\ell_1 \\tau^I \\gamma^\\mu \\ell_2 \\right)"
+        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}^I_\\mu \\varphi \\right) \\left( \\bar \\ell_1 \\tau^I \\gamma^\\mu \\ell_2 \\right)"
       },
       "phil3_13": {
-        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}Imu \\varphi \\right) \\left( \\bar \\ell_1 \\tau^I \\gamma^\\mu \\ell_3 \\right)"
+        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}^I_\\mu \\varphi \\right) \\left( \\bar \\ell_1 \\tau^I \\gamma^\\mu \\ell_3 \\right)"
       },
       "phil3_22": {
         "real": true,
-        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}Imu \\varphi \\right) \\left( \\bar \\ell_2 \\tau^I \\gamma^\\mu \\ell_2 \\right)"
+        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}^I_\\mu \\varphi \\right) \\left( \\bar \\ell_2 \\tau^I \\gamma^\\mu \\ell_2 \\right)"
       },
       "phil3_23": {
-        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}Imu \\varphi \\right) \\left( \\bar \\ell_2 \\tau^I \\gamma^\\mu \\ell_3 \\right)"
+        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}^I_\\mu \\varphi \\right) \\left( \\bar \\ell_2 \\tau^I \\gamma^\\mu \\ell_3 \\right)"
       },
       "phil3_33": {
         "real": true,
-        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}Imu \\varphi \\right) \\left( \\bar \\ell_3 \\tau^I \\gamma^\\mu \\ell_3 \\right)"
+        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}^I_\\mu \\varphi \\right) \\left( \\bar \\ell_3 \\tau^I \\gamma^\\mu \\ell_3 \\right)"
       },
       "phie_11": {
         "real": true,
@@ -449,24 +449,24 @@
       },
       "phiq3_11": {
         "real": true,
-        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}Imu \\varphi \\right) \\left( \\bar q_1 \\tau^I \\gamma^\\mu q_1 \\right)"
+        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}^I_\\mu \\varphi \\right) \\left( \\bar q_1 \\tau^I \\gamma^\\mu q_1 \\right)"
       },
       "phiq3_12": {
-        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}Imu \\varphi \\right) \\left( \\bar q_1 \\tau^I \\gamma^\\mu q_2 \\right)"
+        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}^I_\\mu \\varphi \\right) \\left( \\bar q_1 \\tau^I \\gamma^\\mu q_2 \\right)"
       },
       "phiq3_13": {
-        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}Imu \\varphi \\right) \\left( \\bar q_1 \\tau^I \\gamma^\\mu q_3 \\right)"
+        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}^I_\\mu \\varphi \\right) \\left( \\bar q_1 \\tau^I \\gamma^\\mu q_3 \\right)"
       },
       "phiq3_22": {
         "real": true,
-        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}Imu \\varphi \\right) \\left( \\bar q_2 \\tau^I \\gamma^\\mu q_2 \\right)"
+        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}^I_\\mu \\varphi \\right) \\left( \\bar q_2 \\tau^I \\gamma^\\mu q_2 \\right)"
       },
       "phiq3_23": {
-        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}Imu \\varphi \\right) \\left( \\bar q_2 \\tau^I \\gamma^\\mu q_3 \\right)"
+        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}^I_\\mu \\varphi \\right) \\left( \\bar q_2 \\tau^I \\gamma^\\mu q_3 \\right)"
       },
       "phiq3_33": {
         "real": true,
-        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}Imu \\varphi \\right) \\left( \\bar q_3 \\tau^I \\gamma^\\mu q_3 \\right)"
+        "tex": "\\left( \\varphi^\\dagger i \\overset\\leftrightarrow{D}^I_\\mu \\varphi \\right) \\left( \\bar q_3 \\tau^I \\gamma^\\mu q_3 \\right)"
       },
       "phiu_11": {
         "real": true,

@@ -2,9 +2,159 @@
   "eft": "WET",
   "basis": "EOS",
   "metadata": {
-    "description": "Basis used by the EOS package. Neutrinos are in the flavour basis."
+    "description": "Basis used by the EOS software as of version 0.4 or later. Neutrinos are in the flavour basis."
   },
   "sectors": {
+    "sbsb": {
+      "sbsb::c1": {
+        "tex": "-\\frac{4G_F}{\\sqrt{2}} (V_{tb} V_{ts}^*)^2 (\\bar s_L \\gamma^\\mu b_L)(\\bar s_L \\gamma_\\mu b_L)"
+      },
+      "sbsb::c1'": {
+        "tex": "-\\frac{4G_F}{\\sqrt{2}} (V_{tb} V_{ts}^*)^2 (\\bar s_R \\gamma^\\mu b_R)(\\bar s_R \\gamma_\\mu b_R)"
+      },
+      "sbsb::c2": {
+        "tex": "-\\frac{4G_F}{\\sqrt{2}} (V_{tb} V_{ts}^*)^2 (\\bar s_R b_L)(\\bar s_R b_L)"
+      },
+      "sbsb::c2'": {
+        "tex": "-\\frac{4G_F}{\\sqrt{2}} (V_{tb} V_{ts}^*)^2 (\\bar s_L b_R)(\\bar s_L b_R)"
+      },
+      "sbsb::c3": {
+        "tex": "-\\frac{4G_F}{\\sqrt{2}} (V_{tb} V_{ts}^*)^2 (\\bar s_{\\alpha R} b_{\\beta L})(\\bar s_{\\beta R} b_{\\alpha L})"
+      },
+      "sbsb::c3'": {
+        "tex": "-\\frac{4G_F}{\\sqrt{2}} (V_{tb} V_{ts}^*)^2 (\\bar s_{\\alpha L} b_{\\beta R})(\\bar s_{\\beta L} b_{\\alpha R})"
+      },
+      "sbsb::c4": {
+        "tex": "-\\frac{4G_F}{\\sqrt{2}} (V_{tb} V_{ts}^*)^2 (\\bar s_R b_L)(\\bar s_L b_R)"
+      },
+      "sbsb::c5": {
+        "tex": "-\\frac{4G_F}{\\sqrt{2}} (V_{tb} V_{ts}^*)^2 (\\bar s_{\\alpha R} b_{\\beta L})(\\bar s_{\\beta L} b_{\\alpha R})"
+      }
+    },
+    "sbcu": {
+      "sbcu::c1": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s} P_R \\gamma_\\mu b)(\\bar{c} \\gamma^\\mu u)"
+      },
+      "sbcu::c2": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s}P_R \\gamma_\\mu T^{A}b)(\\bar{c} \\gamma^\\mu T^{A} u)"
+      },
+      "sbcu::c3": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s} P_R \\gamma_{\\mu\\nu\\rho} b)(\\bar{c} \\gamma^{\\mu\\nu\\rho} u)"
+      },
+      "sbcu::c4": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s}P_R \\gamma_{\\mu\\nu\\rho} T^{A}b)(\\bar{c} \\gamma^{\\mu\\nu\\rho} T^{A} u)"
+      },
+      "sbcu::c5": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s} P_R b)(\\bar{c} u)"
+      },
+      "sbcu::c6": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s} P_R T^{A} b)(\\bar{c} T^{A}u)"
+      },
+      "sbcu::c7": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s} P_R \\sigma^{\\mu\\nu} b)(\\bar{c} \\sigma_{\\mu\\nu} u)"
+      },
+      "sbcu::c8": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s} P_R \\sigma^{\\mu\\nu} T^{A} b)(\\bar{c} \\sigma_{\\mu\\nu}T^{A} u)"
+      },
+      "sbcu::c9": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s} P_R \\gamma_{\\mu\\nu\\rho\\sigma} b)(\\bar{c} \\gamma^{\\mu\\nu\\rho\\sigma} u)"
+      },
+      "sbcu::c10": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s} P_R \\gamma_{\\mu\\nu\\rho\\sigma} T^{A} b)(\\bar{c} \\gamma^{\\mu\\nu\\rho\\sigma} T^{A} u)"
+      },
+      "sbcu::c1'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s} P_L \\gamma_\\mu b)(\\bar{c} \\gamma^\\mu u)"
+      },
+      "sbcu::c2'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s}P_L \\gamma_\\mu T^{A}b)(\\bar{c} \\gamma^\\mu T^{A} u)"
+      },
+      "sbcu::c3'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s} P_L \\gamma_{\\mu\\nu\\rho} b)(\\bar{c} \\gamma^{\\mu\\nu\\rho} u)"
+      },
+      "sbcu::c4'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s}P_L \\gamma_{\\mu\\nu\\rho} T^{A}b)(\\bar{c} \\gamma^{\\mu\\nu\\rho} T^{A} u)"
+      },
+      "sbcu::c5'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s} P_L b)(\\bar{c} u)"
+      },
+      "sbcu::c6'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s} P_L T^{A} b)(\\bar{c} T^{A}u)"
+      },
+      "sbcu::c7'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s} P_L \\sigma^{\\mu\\nu} b)(\\bar{c} \\sigma_{\\mu\\nu} u)"
+      },
+      "sbcu::c8'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s} P_L \\sigma^{\\mu\\nu} T^{A} b)(\\bar{c} \\sigma_{\\mu\\nu}T^{A} u)"
+      },
+      "sbcu::c9'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s} P_L \\gamma_{\\mu\\nu\\rho\\sigma} b)(\\bar{c} \\gamma^{\\mu\\nu\\rho\\sigma} u)"
+      },
+      "sbcu::c10'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{s} P_L \\gamma_{\\mu\\nu\\rho\\sigma} T^{A} b)(\\bar{c} \\gamma^{\\mu\\nu\\rho\\sigma} T^{A} u)"
+      }
+    },
+    "dbcu": {
+      "dbcu::c1": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d} P_R \\gamma_\\mu b)(\\bar{c} \\gamma^\\mu u)"
+      },
+      "dbcu::c2": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d}P_R \\gamma_\\mu T^{A}b)(\\bar{c} \\gamma^\\mu T^{A} u)"
+      },
+      "dbcu::c3": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d} P_R \\gamma_{\\mu\\nu\\rho} b)(\\bar{c} \\gamma^{\\mu\\nu\\rho} u)"
+      },
+      "dbcu::c4": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d}P_R \\gamma_{\\mu\\nu\\rho} T^{A}b)(\\bar{c} \\gamma^{\\mu\\nu\\rho} T^{A} u)"
+      },
+      "dbcu::c5": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d} P_R b)(\\bar{c} u)"
+      },
+      "dbcu::c6": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d} P_R T^{A} b)(\\bar{c} T^{A}u)"
+      },
+      "dbcu::c7": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d} P_R \\sigma^{\\mu\\nu} b)(\\bar{c} \\sigma_{\\mu\\nu} u)"
+      },
+      "dbcu::c8": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d} P_R \\sigma^{\\mu\\nu} T^{A} b)(\\bar{c} \\sigma_{\\mu\\nu}T^{A} u)"
+      },
+      "dbcu::c9": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d} P_R \\gamma_{\\mu\\nu\\rho\\sigma} b)(\\bar{c} \\gamma^{\\mu\\nu\\rho\\sigma} u)"
+      },
+      "dbcu::c10": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d} P_R \\gamma_{\\mu\\nu\\rho\\sigma} T^{A} b)(\\bar{c} \\gamma^{\\mu\\nu\\rho\\sigma} T^{A} u)"
+      },
+      "dbcu::c1'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d} P_L \\gamma_\\mu b)(\\bar{c} \\gamma^\\mu u)"
+      },
+      "dbcu::c2'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d}P_L \\gamma_\\mu T^{A}b)(\\bar{c} \\gamma^\\mu T^{A} u)"
+      },
+      "dbcu::c3'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d} P_L \\gamma_{\\mu\\nu\\rho} b)(\\bar{c} \\gamma^{\\mu\\nu\\rho} u)"
+      },
+      "dbcu::c4'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d}P_L \\gamma_{\\mu\\nu\\rho} T^{A}b)(\\bar{c} \\gamma^{\\mu\\nu\\rho} T^{A} u)"
+      },
+      "dbcu::c5'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d} P_L b)(\\bar{c} u)"
+      },
+      "dbcu::c6'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d} P_L T^{A} b)(\\bar{c} T^{A}u)"
+      },
+      "dbcu::c7'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d} P_L \\sigma^{\\mu\\nu} b)(\\bar{c} \\sigma_{\\mu\\nu} u)"
+      },
+      "dbcu::c8'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d} P_L \\sigma^{\\mu\\nu} T^{A} b)(\\bar{c} \\sigma_{\\mu\\nu}T^{A} u)"
+      },
+      "dbcu::c9'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d} P_L \\gamma_{\\mu\\nu\\rho\\sigma} b)(\\bar{c} \\gamma^{\\mu\\nu\\rho\\sigma} u)"
+      },
+      "dbcu::c10'": {
+        "tex": "\\frac{4G_F}{\\sqrt{2}} (\\bar{d} P_L \\gamma_{\\mu\\nu\\rho\\sigma} T^{A} b)(\\bar{c} \\gamma^{\\mu\\nu\\rho\\sigma} T^{A} u)"
+      }
+    },
     "sb": {
       "b->s::c1": {
         "real": true,
@@ -216,170 +366,105 @@
       }
     },
     "cbenu": {
-      "b->cenue::Re{cVL}": {
-        "real": true,
+      "cbenue::cVL": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_L \\gamma^\\mu b_L)(\\bar e_L \\gamma_\\mu \\nu_{e L})"
       },
-      "b->cenue::Im{cVL}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_L \\gamma^\\mu b_L)(\\bar e_L \\gamma_\\mu \\nu_{e L})"
-      },
-      "b->cenue::Re{cVR}": {
-        "real": true,
+      "cbenue::cVR": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_R \\gamma^\\mu b_R)(\\bar e_L \\gamma_\\mu \\nu_{e L})"
       },
-      "b->cenue::Im{cVR}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_R \\gamma^\\mu b_R)(\\bar e_L \\gamma_\\mu \\nu_{e L})"
-      },
-      "b->cenue::Re{cSR}": {
-        "real": true,
+      "cbenue::cSR": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_L b_R)(\\bar e_R \\nu_{e L})"
       },
-      "b->cenue::Im{cSR}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_L b_R)(\\bar e_R \\nu_{e L})"
-      },
-      "b->cenue::Re{cSL}": {
-        "real": true,
+      "cbenue::cSL": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_R b_L)(\\bar e_R \\nu_{e L})"
       },
-      "b->cenue::Im{cSL}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_R b_L)(\\bar e_R \\nu_{e L})"
-      },
-      "b->cenue::Re{cT}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_R \\sigma^{\\mu\\nu} b_L)(\\bar e_R \\sigma_{\\mu\\nu}\\nu_{e L})"
-      },
-      "b->cenue::Im{cT}": {
-        "real": true,
+      "cbenue::cT": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_R \\sigma^{\\mu\\nu} b_L)(\\bar e_R \\sigma_{\\mu\\nu}\\nu_{e L})"
       }
     },
     "cbmunu": {
-      "b->cmunumu::Re{cVL}": {
-        "real": true,
+      "cbmunumu::cVL": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_L \\gamma^\\mu b_L)(\\bar \\mu_L \\gamma_\\mu \\nu_{\\mu L})"
       },
-      "b->cmunumu::Im{cVL}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_L \\gamma^\\mu b_L)(\\bar \\mu_L \\gamma_\\mu \\nu_{\\mu L})"
-      },
-      "b->cmunumu::Re{cVR}": {
-        "real": true,
+      "cbmunumu::cVR": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_R \\gamma^\\mu b_R)(\\bar \\mu_L \\gamma_\\mu \\nu_{\\mu L})"
       },
-      "b->cmunumu::Im{cVR}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_R \\gamma^\\mu b_R)(\\bar \\mu_L \\gamma_\\mu \\nu_{\\mu L})"
-      },
-      "b->cmunumu::Re{cSR}": {
-        "real": true,
+      "cbmunumu::cSR": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_L b_R)(\\bar \\mu_R \\nu_{\\mu L})"
       },
-      "b->cmunumu::Im{cSR}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_L b_R)(\\bar \\mu_R \\nu_{\\mu L})"
-      },
-      "b->cmunumu::Re{cSL}": {
-        "real": true,
+      "cbmunumu::cSL": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_R b_L)(\\bar \\mu_R \\nu_{\\mu L})"
       },
-      "b->cmunumu::Im{cSL}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_R b_L)(\\bar \\mu_R \\nu_{\\mu L})"
-      },
-      "b->cmunumu::Re{cT}": {
-        "real": true,
+      "cbmunumu::cT": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_R \\sigma^{\\mu\\nu} b_L)(\\bar \\mu_R \\sigma_{\\mu\\nu}\\nu_{\\mu L})"
+      }
+    },
+    "cbtaunu": {
+      "cbtaunutau::cVL": {
+        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_L \\gamma^\\tau b_L)(\\bar \\tau_L \\gamma_\\tau \\nu_{\\tau L})"
       },
-      "b->cmunumu::Im{cT}": {
-        "real": true
+      "cbtaunutau::cVR": {
+        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_R \\gamma^\\tau b_R)(\\bar \\tau_L \\gamma_\\tau \\nu_{\\tau L})"
+      },
+      "cbtaunutau::cSR": {
+        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_L b_R)(\\bar \\tau_R \\nu_{\\tau L})"
+      },
+      "cbtaunutau::cSL": {
+        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_R b_L)(\\bar \\tau_R \\nu_{\\tau L})"
+      },
+      "cbtaunutau::cT": {
+        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{cb} (\\bar c_R \\sigma^{\\mu\\nu} b_L)(\\bar \\tau_R \\sigma_{\\mu\\nu}\\nu_{\\tau L})"
       }
     },
     "ubenu": {
-      "b->uenue::Re{cVL}": {
-        "real": true,
+      "ubenue::cVL": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_L \\gamma^\\mu b_L)(\\bar e_L \\gamma_\\mu \\nu_{e L})"
       },
-      "b->uenue::Im{cVL}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_L \\gamma^\\mu b_L)(\\bar e_L \\gamma_\\mu \\nu_{e L})"
-      },
-      "b->uenue::Re{cVR}": {
-        "real": true,
+      "ubenue::cVR": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_R \\gamma^\\mu b_R)(\\bar e_L \\gamma_\\mu \\nu_{e L})"
       },
-      "b->uenue::Im{cVR}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_R \\gamma^\\mu b_R)(\\bar e_L \\gamma_\\mu \\nu_{e L})"
-      },
-      "b->uenue::Re{cSR}": {
-        "real": true,
+      "ubenue::cSR": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_L b_R)(\\bar e_R \\nu_{e L})"
       },
-      "b->uenue::Im{cSR}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_L b_R)(\\bar e_R \\nu_{e L})"
-      },
-      "b->uenue::Re{cSL}": {
-        "real": true,
+      "ubenue::cSL": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_R b_L)(\\bar e_R \\nu_{e L})"
       },
-      "b->uenue::Im{cSL}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_R b_L)(\\bar e_R \\nu_{e L})"
-      },
-      "b->uenue::Re{cT}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_R \\sigma^{\\mu\\nu} b_L)(\\bar e_R \\sigma_{\\mu\\nu}\\nu_{e L})"
-      },
-      "b->uenue::Im{cT}": {
-        "real": true,
+      "ubenue::cT": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_R \\sigma^{\\mu\\nu} b_L)(\\bar e_R \\sigma_{\\mu\\nu}\\nu_{e L})"
       }
     },
     "ubmunu": {
-      "b->umunumu::Re{cVL}": {
-        "real": true,
+      "ubmunumu::cVL": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_L \\gamma^\\mu b_L)(\\bar \\mu_L \\gamma_\\mu \\nu_{\\mu L})"
       },
-      "b->umunumu::Im{cVL}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_L \\gamma^\\mu b_L)(\\bar \\mu_L \\gamma_\\mu \\nu_{\\mu L})"
-      },
-      "b->umunumu::Re{cVR}": {
-        "real": true,
+      "ubmunumu::cVR": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_R \\gamma^\\mu b_R)(\\bar \\mu_L \\gamma_\\mu \\nu_{\\mu L})"
       },
-      "b->umunumu::Im{cVR}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_R \\gamma^\\mu b_R)(\\bar \\mu_L \\gamma_\\mu \\nu_{\\mu L})"
-      },
-      "b->umunumu::Re{cSR}": {
-        "real": true,
+      "ubmunumu::cSR": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_L b_R)(\\bar \\mu_R \\nu_{\\mu L})"
       },
-      "b->umunumu::Im{cSR}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_L b_R)(\\bar \\mu_R \\nu_{\\mu L})"
-      },
-      "b->umunumu::Re{cSL}": {
-        "real": true,
+      "ubmunumu::cSL": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_R b_L)(\\bar \\mu_R \\nu_{\\mu L})"
       },
-      "b->umunumu::Im{cSL}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_R b_L)(\\bar \\mu_R \\nu_{\\mu L})"
-      },
-      "b->umunumu::Re{cT}": {
-        "real": true,
+      "ubmunumu::cT": {
         "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_R \\sigma^{\\mu\\nu} b_L)(\\bar \\mu_R \\sigma_{\\mu\\nu}\\nu_{\\mu L})"
+      }
+    },
+    "ubtaunu": {
+      "ubtaunutau::cVL": {
+        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_L \\gamma^\\tau b_L)(\\bar \\tau_L \\gamma_\\tau \\nu_{\\tau L})"
       },
-      "b->umunumu::Im{cT}": {
-        "real": true,
-        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_R \\sigma^{\\mu\\nu} b_L)(\\bar \\mu_R \\sigma_{\\mu\\nu}\\nu_{\\mu L})"
+      "ubtaunutau::cVR": {
+        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_R \\gamma^\\tau b_R)(\\bar \\tau_L \\gamma_\\tau \\nu_{\\tau L})"
+      },
+      "ubtaunutau::cSR": {
+        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_L b_R)(\\bar \\tau_R \\nu_{\\tau L})"
+      },
+      "ubtaunutau::cSL": {
+        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_R b_L)(\\bar \\tau_R \\nu_{\\tau L})"
+      },
+      "ubtaunutau::cT": {
+        "tex": "-\\frac{4G_F}{\\sqrt{2}} V_{ub} (\\bar u_R \\sigma^{\\mu\\nu} b_L)(\\bar \\tau_R \\sigma_{\\mu\\nu}\\nu_{\\tau L})"
       }
     }
   }

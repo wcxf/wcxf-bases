@@ -27,7 +27,7 @@ for b in bases_yml:
 
 for b in bases_json:
     b_yaml = b.replace('json', 'yml')
-    if os.path.isfile(b_json):
+    if os.path.isfile(b_yaml):
         logging.info("File {} already has a YAML file".format(b))
     else:
         logging.info("File {}: converting to YAML".format(b))

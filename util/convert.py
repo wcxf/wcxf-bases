@@ -1,5 +1,8 @@
 """Script to convert all YAML files to JSON and vice versa."""
 
+# Note that this script does NOT automatically regenerate json files if the corresponding yaml files have changed (or vice versa).
+# You have to delete the existing file, and then run this script
+
 from wilson.wcxf.converters import yamljson
 import glob
 import os

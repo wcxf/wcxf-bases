@@ -1,0 +1,739 @@
+{
+  "eft": "SMEFT",
+  "basis": "SMEFTsim-topU3l",
+  "metadata": {
+    "description": "Basis used in the SMEFTsim_topU3l UFO models, version 3.0.0 or later. Implements Warsaw basis with $U(2)^3$ flavor symmetry in the quarks sector and $U(3)^2$ in the leptons sector. $Q,t,b$ are left- and right-handed 3rd gen quarks, $q,u,d$ are the left- and right-handed quark fields containing only the first two generations, and transforming as $U(2)$-flavor doublets. $\\ell, e$ are left- and right-handed lepton fields. $Y_u,Y_d$ are the 2x2 Yukawas of up and down quarks in the first two generations. $Y_l$ is the 3x3 lepton Yukawa. Yukawas defined by $L_{SM} \\supset \\bar d Y_d H^\\dagger q$ and analogously for the others. Spurions connecting the first two quark generations with the 3rd are absent. Flavor indices are indicated with $p,r,s,t$ with Einstein conventions on repeated indices. They run over 1,2 for quarks ans 1,2,3 for leptons. Notation and conventions can vary compared to the Warsaw basis paper, see arXiv:2012.11343 for all definitions."
+  },
+  "sectors": {
+     "dB=dL=0": {
+       "cG": {
+          "real": true,
+          "tex": "f^{ABC} G_\\mu^{A \\nu} G_\\nu^{B \\rho} G_\\rho^{C \\mu}"
+       },
+       "cGtil": {
+          "real": true,
+          "tex": "f^{ABC} \\widetilde  G_\\mu^{A \\nu} G_\\nu^{B \\rho} G_\\rho^{C \\mu}"
+       },
+       "cW": {
+          "real": true,
+          "tex": "\\varepsilon^{IJK} W_\\mu^{I \\nu} W_\\nu^{J \\rho} W_\\rho^{K \\mu}"
+       },
+       "cWtil": {
+          "real": true,
+          "tex": "\\varepsilon^{IJK} \\widetilde W_\\mu^{I \\nu} W_\\nu^{J \\rho} W_\\rho^{K \\mu}"
+       },
+       "cH": {
+          "real": true,
+          "tex": "(H^\\dagger H)^3"
+       },
+       "cHbox": {
+          "real": true,
+          "tex": "(H^\\dagger H) \\Box ( H^\\dagger H )"
+       },
+       "cHDD": {
+          "real": true,
+          "tex": "(D_\\mu H^\\dagger H) (H^\\dagger D^\\mu H)"
+       },
+       "cHG": {
+          "real": true,
+          "tex": "G_{\\mu\\nu}^A G^{A \\mu\\nu} H^\\dagger H"
+       },
+       "cHGtil": {
+          "real": true,
+          "tex": "\\widetilde G_{\\mu\\nu}^A G^{A \\mu\\nu} H^\\dagger H"
+       },
+       "cHW": {
+          "real": true,
+          "tex": "W_{\\mu\\nu}^I W^{I \\mu\\nu} H^\\dagger H"
+       },
+       "cHWtil": {
+          "real": true,
+          "tex": "\\widetilde W_{\\mu\\nu}^I W^{I \\mu\\nu} H^\\dagger H"
+       },
+       "cHB": {
+          "real": true,
+          "tex": "B_{\\mu\\nu} B^{\\mu\\nu} H^\\dagger H"
+       },
+       "cHBtil": {
+          "real": true,
+          "tex": "\\widetilde B_{\\mu\\nu} B^{\\mu\\nu} H^\\dagger H"
+       },
+       "cHWB": {
+          "real": true,
+          "tex": "B_{\\mu\\nu} W^{I \\mu\\nu} H^\\dagger \\sigma^I H"
+       },
+       "cHWBtil": {
+          "real": true,
+          "tex": "B_{\\mu\\nu} \\widetilde W^{I \\mu\\nu} H^\\dagger \\sigma^I H"
+       },
+       "ceHRe": {
+          "real": true,
+          "tex": "(Y_l^\\dagger)_{pr} (\\bar \\ell_p H e_r) (H^\\dagger H) + hc"
+       },
+       "ceHIm": {
+          "real": true,
+          "tex": "i (Y_l^\\dagger)_{pr} (\\bar \\ell_p H e_r) (H^\\dagger H) + hc"
+       },
+       "cuHRe": {
+          "real": true,
+          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H u_r) (H^\\dagger H) + hc"
+       },
+       "cuHIm": {
+          "real": true,
+          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H u_r) (H^\\dagger H) + hc"
+       },
+       "ctHRe": {
+          "real": true,
+          "tex": "(\\bar Q \\tilde H t) (H^\\dagger H) + hc"
+       },
+       "ctHIm": {
+          "real": true,
+          "tex": "i (\\bar Q \\tilde H t) (H^\\dagger H) + hc"
+       },
+       "cdHRe": {
+          "real": true,
+          "tex": "(Y_d^\\dagger)_{pr} (\\bar q_p H  d_r) (H^\\dagger H) + hc"
+       },
+       "cdHIm": {
+          "real": true,
+          "tex": "i (Y_d^\\dagger)_{pr} (\\bar q_p H  d_r) (H^\\dagger H) + hc"
+       },
+       "cbHRe": {
+          "real": true,
+          "tex": "(\\bar Q H b) (H^\\dagger H) + hc"
+       },
+       "cbHIm": {
+          "real": true,
+          "tex": "i (\\bar Q H b) (H^\\dagger H) + hc"
+       },
+       "ceWRe": {
+          "real": true,
+          "tex": "(Y_l^\\dagger)_{pr} (\\bar \\ell_p \\sigma^I H \\sigma^{\\mu\\nu} e_r) W^I_{\\mu\\nu} + hc"
+       },
+       "ceWIm": {
+          "real": true,
+          "tex": "i (Y_l^\\dagger)_{pr} (\\bar \\ell_p \\sigma^I H \\sigma^{\\mu\\nu} e_r)  W^I_{\\mu\\nu} + hc"
+       },
+       "ceBRe": {
+          "real": true,
+          "tex": "(Y_l^\\dagger)_{pr} (\\bar \\ell_p H  \\sigma^{\\mu\\nu} e_r) B_{\\mu\\nu} + hc"
+       },
+       "ceBIm": {
+          "real": true,
+          "tex": "i (Y_l^\\dagger)_{pr} (\\bar \\ell_p H  \\sigma^{\\mu\\nu} e_r) B_{\\mu\\nu} + hc"
+       },
+       "cuGRe": {
+          "real": true,
+          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H \\sigma^{\\mu\\nu} T^A u_r) G^A_{\\mu\\nu} + hc"
+       },
+       "cuGIm": {
+          "real": true,
+          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H \\sigma^{\\mu\\nu} T^A  u_r) G^A_{\\mu\\nu} + hc"
+       },
+       "ctGRe": {
+          "real": true,
+          "tex": "(\\bar Q \\tilde H \\sigma^{\\mu\\nu} T^A t) G^A_{\\mu\\nu} + hc"
+       },
+       "ctGIm": {
+          "real": true,
+          "tex": "i (\\bar Q \\tilde H  \\sigma^{\\mu\\nu} T^A t) G^A_{\\mu\\nu} + hc"
+       },
+       "cuWRe": {
+          "real": true,
+          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p \\sigma^I  \\tilde H \\sigma^{\\mu\\nu} u_r) W^I_{\\mu\\nu} + hc"
+       },
+       "cuWIm": {
+          "real": true,
+          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p \\sigma^I \\tilde H \\sigma^{\\mu\\nu} u_r) W^I_{\\mu\\nu} + hc"
+       },
+       "ctWRe": {
+          "real": true,
+          "tex": "(\\bar Q \\sigma^I \\tilde H \\sigma^{\\mu\\nu} t) W^I_{\\mu\\nu} + hc"
+       },
+       "ctWIm": {
+          "real": true,
+          "tex": "i (\\bar Q \\sigma^I \\tilde H  \\sigma^{\\mu\\nu} t) W^I_{\\mu\\nu} + hc"
+       },
+       "cuBRe": {
+          "real": true,
+          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H \\sigma^{\\mu\\nu} u_r) B_{\\mu\\nu} + hc"
+       },
+       "cuBIm": {
+          "real": true,
+          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H \\sigma^{\\mu\\nu} u_r) B_{\\mu\\nu} + hc"
+       },
+       "ctBRe": {
+          "real": true,
+          "tex": "(\\bar Q \\tilde H \\sigma^{\\mu\\nu} t) B_{\\mu\\nu} + hc"
+       },
+       "ctBIm": {
+          "real": true,
+          "tex": "i (\\bar Q \\tilde H  \\sigma^{\\mu\\nu} t) B_{\\mu\\nu} + hc"
+       },
+	   "cdGRe": {
+          "real": true,
+          "tex": "(Y_d^\\dagger)_{pr} (\\bar q_p H \\sigma^{\\mu\\nu} T^A d_r) G^A_{\\mu\\nu} + hc"
+       },
+       "cdGIm": {
+          "real": true,
+          "tex": "i (Y_d^\\dagger)_{pr} (\\bar q_p H \\sigma^{\\mu\\nu} T^A d_r) G^A_{\\mu\\nu} + hc"
+       },
+       "cbGRe": {
+          "real": true,
+          "tex": "(\\bar Q H \\sigma^{\\mu\\nu} T^A b) G^A_{\\mu\\nu} + hc"
+       },
+       "cbGIm": {
+          "real": true,
+          "tex": "i (\\bar Q H  \\sigma^{\\mu\\nu} T^A b) G^A_{\\mu\\nu} + hc"
+       },
+       "cdWRe": {
+          "real": true,
+          "tex": "(Y_d^\\dagger)_{pr} (\\bar q_p \\sigma^I H \\sigma^{\\mu\\nu} d_r) W^I_{\\mu\\nu} + hc"
+       },
+       "cdWIm": {
+          "real": true,
+          "tex": "i (Y_d^\\dagger)_{pr} (\\bar q_p \\sigma^I H \\sigma^{\\mu\\nu} d_r) W^I_{\\mu\\nu} + hc"
+       },
+       "cbWRe": {
+          "real": true,
+          "tex": "(\\bar Q \\sigma^I H \\sigma^{\\mu\\nu} b) W^I_{\\mu\\nu} + hc"
+       },
+       "cbWIm": {
+          "real": true,
+          "tex": "i (\\bar Q \\sigma^I H  \\sigma^{\\mu\\nu} b) W^I_{\\mu\\nu} + hc"
+       },
+       "cdBRe": {
+          "real": true,
+          "tex": "(Y_d^\\dagger)_{pr} (\\bar q_p H \\sigma^{\\mu\\nu} d_r) B_{\\mu\\nu} + hc"
+       },
+       "cdBIm": {
+          "real": true,
+          "tex": "i (Y_d^\\dagger)_{pr} (\\bar q_p H \\sigma^{\\mu\\nu} d_r) B_{\\mu\\nu} + hc"
+       },
+       "cbBRe": {
+          "real": true,
+          "tex": "(\\bar Q H \\sigma^{\\mu\\nu} b) B_{\\mu\\nu} + hc"
+       },
+       "cbBIm": {
+          "real": true,
+          "tex": "i (\\bar Q H  \\sigma^{\\mu\\nu} b) B_{\\mu\\nu} + hc"
+       },
+       "cHl1": {
+          "real": true,
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar \\ell_p \\gamma^\\mu \\ell_p)"
+       },
+       "cHl3": {
+          "real": true,
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu^I H) (\\bar \\ell_p \\gamma^\\mu \\sigma^I \\ell_p)"
+       },
+       "cHj1": {
+          "real": true,
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar q_p \\gamma^\\mu q_p)"
+       },
+       "cHj3": {
+          "real": true,
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu^I H) (\\bar q_p \\gamma^\\mu \\sigma^I q_p)"
+       },
+       "cHQ1": {
+          "real": true,
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar Q \\gamma^\\mu Q)"
+       },
+       "cHQ3": {
+          "real": true,
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu^I H) (\\bar Q \\gamma^\\mu \\sigma^I Q)"
+       },
+       "cHe": {
+          "real": true,
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar e_p \\gamma^\\mu e_p)"
+       },
+       "cHu": {
+          "real": true,
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar u_p \\gamma^\\mu u_p)"
+       },
+       "cHt": {
+          "real": true,
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu^I H) (\\bar t \\gamma^\\mu t)"
+       },
+       "cHd": {
+          "real": true,
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar d_p \\gamma^\\mu d_p)"
+       },
+       "cHbq": {
+          "real": true,
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar b \\gamma^\\mu b)"
+       },
+       "cHudRe": {
+          "real": true,
+          "tex": "(Y_u Y_d^\\dagger)_{pr} (\\tilde H^\\dagger i D_\\mu H) (\\bar u_p \\gamma^\\mu d_r) + hc"
+       },
+       "cHudIm": {
+          "real": true,
+          "tex": "i (Y_u Y_d^\\dagger)_{pr} (\\tilde H^\\dagger i D_\\mu H) (\\bar u_p \\gamma^\\mu d_r) + hc"
+       },
+       "cHtbRe": {
+          "real": true,
+          "tex": "(\\tilde H^\\dagger i D_\\mu H) (\\bar t \\gamma^\\mu b) + hc"
+       },
+       "cHtbIm": {
+          "real": true,
+          "tex": "i (\\tilde H^\\dagger i D_\\mu H) (\\bar t \\gamma^\\mu b) + hc"
+       },
+       "cll": {
+          "real": true,
+          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar \\ell_r \\gamma^\\mu \\ell_r)"
+       },
+       "cll1": {
+          "real": true,
+          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_r)(\\bar \\ell_r \\gamma^\\mu \\ell_p)"
+       },
+       "clj1": {
+          "real": true,
+          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar q_r \\gamma^\\mu q_r)"
+       },
+       "clj3": {
+          "real": true,
+          "tex": "(\\bar \\ell_p \\gamma_\\mu \\sigma^I \\ell_p)(\\bar q_r \\gamma^\\mu \\sigma^I q_r)"
+       },
+       "cQl1": {
+          "real": true,
+          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar \\ell_p \\gamma^\\mu \\ell_p)"
+       },
+       "cQl3": {
+          "real": true,
+          "tex": "(\\bar Q \\gamma_\\mu \\sigma^I Q)(\\bar \\ell_p \\gamma^\\mu \\sigma^I \\ell_p)"
+       },
+       "cjj11": {
+          "real": true,
+          "tex": "(\\bar q_p \\gamma_\\mu q_p)(\\bar q_r \\gamma^\\mu q_r)"
+       },
+       "cjj18": {
+          "real": true,
+          "tex": "(\\bar q_p \\gamma_\\mu T^A q_p)(\\bar q_r \\gamma^\\mu T^A q_r)"
+       },
+       "cjj31": {
+          "real": true,
+          "tex": "(\\bar q_p \\gamma_\\mu \\sigma^I q_p)(\\bar q_r \\gamma^\\mu \\sigma^I q_r)"
+       },
+       "cjj38": {
+          "real": true,
+          "tex": "(\\bar q_p \\gamma_\\mu \\sigma^I T^A q_p)(\\bar q_r \\gamma^\\mu \\sigma^I T^A q_r)"
+       },
+       "cQQ1": {
+          "real": true,
+          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar Q \\gamma^\\mu Q)"
+       },
+       "cQQ8": {
+          "real": true,
+          "tex": "(\\bar Q \\gamma_\\mu T^A Q)(\\bar Q \\gamma^\\mu T^A Q)"
+       },
+       "cQj11": {
+          "real": true,
+          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar q_p \\gamma^\\mu q_p)"
+       },
+       "cQj18": {
+          "real": true,
+          "tex": "(\\bar Q \\gamma_\\mu T^A Q)(\\bar q_p \\gamma^\\mu T^A q_p)"
+       },
+       "cQj31": {
+          "real": true,
+          "tex": "(\\bar Q \\gamma_\\mu \\sigma^I Q)(\\bar q_p \\gamma^\\mu \\sigma^I q_p)"
+       },
+       "cQj38": {
+          "real": true,
+          "tex": "(\\bar Q \\gamma_\\mu \\sigma^I T^A Q)(\\bar q_p \\gamma^\\mu \\sigma^I T^A q_p)"
+       },
+       "cee": {
+          "real": true,
+          "tex": "(\\bar e_p \\gamma_\\mu e_p)(\\bar e_r \\gamma^\\mu e_r)"
+       },
+       "cuu1": {
+          "real": true,
+          "tex": "(\\bar u_p \\gamma_\\mu u_p)(\\bar u_r \\gamma^\\mu u_r)"
+       },
+       "cuu8": {
+          "real": true,
+          "tex": "(\\bar u_p \\gamma_\\mu T^A u_p)(\\bar u_r \\gamma^\\mu T^A u_r)"
+       },
+       "ctt": {
+          "real": true,
+          "tex": "(\\bar t \\gamma_\\mu t)(\\bar t \\gamma^\\mu t)"
+       },
+       "ctu1": {
+          "real": true,
+          "tex": "(\\bar t \\gamma_\\mu t)(\\bar u_p \\gamma^\\mu u_p)"
+       },
+       "ctu8": {
+          "real": true,
+          "tex": "(\\bar t \\gamma_\\mu T^A t)(\\bar u_p \\gamma^\\mu T^A u_p)"
+       },
+       "cdd1": {
+          "real": true,
+          "tex": "(\\bar d_p \\gamma_\\mu d_p)(\\bar d_r \\gamma^\\mu d_r)"
+       },
+       "cdd8": {
+          "real": true,
+          "tex": "(\\bar d_p \\gamma_\\mu T^A d_p)(\\bar d_r \\gamma^\\mu T^A d_r)"
+       },
+       "cbb": {
+          "real": true,
+          "tex": "(\\bar b \\gamma_\\mu b)(\\bar b \\gamma^\\mu b)"
+       },
+       "cbd1": {
+          "real": true,
+          "tex": "(\\bar b \\gamma_\\mu b)(\\bar d_p \\gamma^\\mu d_p)"
+       },
+       "cbd8": {
+          "real": true,
+          "tex": "(\\bar b \\gamma_\\mu T^A b)(\\bar d_p \\gamma^\\mu T^A d_p)"
+       },
+       "ceu": {
+          "real": true,
+          "tex": "(\\bar e_p \\gamma_\\mu e_p)(\\bar u_r \\gamma^\\mu u_r)"
+       },
+       "cte": {
+          "real": true,
+          "tex": "(\\bar e_p \\gamma_\\mu e_p)(\\bar t \\gamma^\\mu t)"
+       },
+       "ced": {
+          "real": true,
+          "tex": "(\\bar e_p \\gamma_\\mu e_p)(\\bar d_r \\gamma^\\mu d_r)"
+       },
+       "cbe": {
+          "real": true,
+          "tex": "(\\bar e_p \\gamma_\\mu e_p)(\\bar b \\gamma^\\mu b)"
+       },
+       "cud1": {
+          "real": true,
+          "tex": "(\\bar u_p \\gamma_\\mu u_p)(\\bar d_r \\gamma^\\mu d_r)"
+       },
+       "ctd1": {
+          "real": true,
+          "tex": "(\\bar t \\gamma_\\mu t)(\\bar d_p \\gamma^\\mu d_p)"
+       },
+       "cbu1": {
+          "real": true,
+          "tex": "(\\bar u_p \\gamma_\\mu u_p)(\\bar b \\gamma^\\mu b)"
+       },
+       "ctb1": {
+          "real": true,
+          "tex": "(\\bar t \\gamma_\\mu t)(\\bar b \\gamma^\\mu b)"
+       },
+       "cud8": {
+          "real": true,
+          "tex": "(\\bar u_p \\gamma_\\mu T^A u_p)(\\bar d_r \\gamma^\\mu T^A d_r)"
+       },
+       "ctd8": {
+          "real": true,
+          "tex": "(\\bar t \\gamma_\\mu T^A t)(\\bar d_p \\gamma^\\mu T^A d_p)"
+       },
+       "cbu8": {
+          "real": true,
+          "tex": "(\\bar u_p \\gamma_\\mu T^A u_p)(\\bar b \\gamma^\\mu T^A b)"
+       },
+       "ctb8": {
+          "real": true,
+          "tex": "(\\bar t \\gamma_\\mu T^A t)(\\bar b \\gamma^\\mu T^A b)"
+       },
+       "cutbd1Re": {
+          "real": true,
+          "tex": "(Y_u Y_d^\\dagger)_{pr} (\\bar u_p \\gamma_\\mu t)(\\bar b \\gamma^\\mu d_r) + hc"
+       },
+       "cutbd1Im": {
+          "real": true,
+          "tex": "i (Y_u Y_d^\\dagger)_{pr} (\\bar u_p \\gamma_\\mu t)(\\bar b \\gamma^\\mu d_r) + hc"
+       },
+       "cutbd8Re": {
+          "real": true,
+          "tex": "(Y_u Y_d^\\dagger)_{pr} (\\bar u_p \\gamma_\\mu T^A t)(\\bar b \\gamma^\\mu T^A d_r) + hc"
+       },
+       "cutbd8Im": {
+          "real": true,
+          "tex": "i (Y_u Y_d^\\dagger)_{pr} (\\bar u_p \\gamma_\\mu T^A t)(\\bar b \\gamma^\\mu T^A d_r)  + hc"
+       },
+       "cle": {
+          "real": true,
+          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar e_r \\gamma^\\mu e_r)"
+       },
+       "clu": {
+          "real": true,
+          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar u_r \\gamma^\\mu u_r)"
+       },
+       "ctl": {
+          "real": true,
+          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar t \\gamma^\\mu t)"
+       },
+       "cld": {
+          "real": true,
+          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar d_r \\gamma^\\mu d_r)"
+       },
+       "cbl": {
+          "real": true,
+          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar b \\gamma^\\mu b)"
+       },
+       "cje": {
+          "real": true,
+          "tex": "(\\bar q_p \\gamma_\\mu q_p)(\\bar e_r \\gamma^\\mu e_r)"
+       },
+       "cQe": {
+          "real": true,
+          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar e_r \\gamma^\\mu e_r)"
+       },
+       "cju1": {
+          "real": true,
+          "tex": "(\\bar q_p \\gamma_\\mu q_p)(\\bar u_r \\gamma^\\mu u_r)"
+       },
+       "cQu1": {
+          "real": true,
+          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar u_r \\gamma^\\mu u_r)"
+       },
+       "ctj1": {
+          "real": true,
+          "tex": "(\\bar q_p \\gamma_\\mu q_p)(\\bar t \\gamma^\\mu t)"
+       },
+       "cQt1": {
+          "real": true,
+          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar t \\gamma^\\mu t)"
+       },
+       "cju8": {
+          "real": true,
+          "tex": "(\\bar q_p \\gamma_\\mu T^A q_p)(\\bar u_r \\gamma^\\mu T^A u_r)"
+       },
+       "cQu8": {
+          "real": true,
+          "tex": "(\\bar Q \\gamma_\\mu T^A Q)(\\bar u_r \\gamma^\\mu T^A u_r)"
+       },
+       "ctj8": {
+          "real": true,
+          "tex": "(\\bar q_p \\gamma_\\mu T^A q_p)(\\bar t \\gamma^\\mu T^A t)"
+       },
+       "cQt8": {
+          "real": true,
+          "tex": "(\\bar Q \\gamma_\\mu T^A Q)(\\bar t \\gamma^\\mu T^A t)"
+       },
+       "cjd1": {
+          "real": true,
+          "tex": "(\\bar q_p \\gamma_\\mu q_p)(\\bar d_r \\gamma^\\mu d_r)"
+       },
+       "cQd1": {
+          "real": true,
+          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar d_r \\gamma^\\mu d_r)"
+       },
+       "cbj1": {
+          "real": true,
+          "tex": "(\\bar q_p \\gamma_\\mu q_p)(\\bar b \\gamma^\\mu b)"
+       },
+       "cQb1": {
+          "real": true,
+          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar b \\gamma^\\mu b)"
+       },
+       "cjd8": {
+          "real": true,
+          "tex": "(\\bar q_p \\gamma_\\mu T^A q_p)(\\bar d_r \\gamma^\\mu T^A d_r)"
+       },
+       "cQd8": {
+          "real": true,
+          "tex": "(\\bar Q \\gamma_\\mu T^A Q)(\\bar d_r \\gamma^\\mu T^A d_r)"
+       },
+       "cbj8": {
+          "real": true,
+          "tex": "(\\bar q_p \\gamma_\\mu T^A q_p)(\\bar b \\gamma^\\mu T^A b)"
+       },
+       "cQb8": {
+          "real": true,
+          "tex": "(\\bar Q \\gamma_\\mu T^A Q)(\\bar b \\gamma^\\mu T^A b)"
+       },
+       "cjQtu1Re": {
+          "real": true,
+          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu Q)(\\bar t \\gamma^\\mu u_r) + hc"
+       },
+       "cjQtu1Im": {
+          "real": true,
+          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu Q)(\\bar t \\gamma^\\mu u_r) + hc"
+       },
+       "cjQtu8Re": {
+          "real": true,
+          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu T^A Q)(\\bar t \\gamma^\\mu T^A u_r) + hc"
+       },
+       "cjQtu8Im": {
+          "real": true,
+          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu T^A Q)(\\bar t \\gamma^\\mu T^A u_r) + hc"
+       },
+       "cjQbd1Re": {
+          "real": true,
+          "tex": "(Y_d^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu Q)(\\bar b \\gamma^\\mu d_r) + hc"
+       },
+       "cjQbd1Im": {
+          "real": true,
+          "tex": "i (Y_d^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu Q)(\\bar b \\gamma^\\mu d_r) + hc"
+       },
+       "cjQbd8Re": {
+          "real": true,
+          "tex": "(Y_d^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu T^A Q)(\\bar b \\gamma^\\mu T^A d_r) + hc"
+       },
+       "cjQbd8Im": {
+          "real": true,
+          "tex": "i (Y_d^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu T^A Q)(\\bar b \\gamma^\\mu T^A d_r) + hc"
+       },
+       "cledjRe": {
+          "real": true,
+          "tex": "(Y_l^\\dagger)_{pr} Y_{d,st} (\\bar \\ell_p^I e_r)(\\bar d_s q_t^I) + hc"
+       },
+       "cledjIm": {
+          "real": true,
+          "tex": "i (Y_l^\\dagger)_{pr} Y_{d,st} (\\bar \\ell_p^I e_r)(\\bar d_s q_t^I) + hc"
+       },
+       "clebQRe": {
+          "real": true,
+          "tex": "(Y_l^\\dagger)_{pr} (\\bar \\ell_p^I e_r)(\\bar b Q^I) + hc"
+       },
+       "clebQIm": {
+          "real": true,
+          "tex": "i (Y_l^\\dagger)_{pr} (\\bar \\ell_p^I e_r)(\\bar b Q^I) + hc"
+       },
+       "cjujd1Re": {
+          "real": true,
+          "tex": "(Y_u^\\dagger)_{pr} (Y_d^\\dagger)_{st} (\\bar q_p^I u_r)(\\bar q_s^J d_t) \\varepsilon_{IJ} + hc"
+       },
+       "cjujd1Im": {
+          "real": true,
+          "tex": "i (Y_u^\\dagger)_{pr} (Y_d^\\dagger)_{st} (\\bar q_p^I u_r)(\\bar q_s^J d_t) \\varepsilon_{IJ} + hc"
+       },
+       "cjujd11Re": {
+          "real": true,
+          "tex": "(Y_u^\\dagger)_{sr} (Y_d^\\dagger)_{pt} (\\bar q_p^I u_r)(\\bar q_s^J d_t) \\varepsilon_{IJ} + hc"
+       },
+       "cjujd11Im": {
+          "real": true,
+          "tex": "i (Y_u^\\dagger)_{sr} (Y_d^\\dagger)_{pt} (\\bar q_p^I u_r)(\\bar q_s^J d_t) \\varepsilon_{IJ} + hc"
+       },
+       "cQtjd1Re": {
+          "real": true,
+          "tex": "(Y_d^\\dagger)_{st} (\\bar Q^I t)(\\bar q_s^J d_t) \\varepsilon_{IJ} + hc"
+       },
+       "cQtjd1Im": {
+          "real": true,
+          "tex": "i (Y_d^\\dagger)_{st} (\\bar Q^I t)(\\bar q_s^J d_t) \\varepsilon_{IJ} + hc"
+       },
+       "cjuQb1Re": {
+          "real": true,
+          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p^I u_r)(\\bar Q^J b) \\varepsilon_{IJ} + hc"
+       },
+       "cjuQb1Im": {
+          "real": true,
+          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p^I u_r)(\\bar Q^J b) \\varepsilon_{IJ} + hc"
+       },
+       "cQujb1Re": {
+          "real": true,
+          "tex": "(Y_u^\\dagger)_{sr} (\\bar Q^I u_r)(\\bar q_s^J b) \\varepsilon_{IJ} + hc"
+       },
+       "cQujb1Im": {
+          "real": true,
+          "tex": "i (Y_u^\\dagger)_{sr} (\\bar Q^I u_r)(\\bar q_s^J b) \\varepsilon_{IJ} + hc"
+       },
+       "cjtQd1Re": {
+          "real": true,
+          "tex": "(Y_d^\\dagger)_{pt} (\\bar q_p^I t)(\\bar Q^J d_t) \\varepsilon_{IJ} + hc"
+       },
+       "cjtQd1Im": {
+          "real": true,
+          "tex": "i (Y_d^\\dagger)_{pt} (\\bar q_p^I t)(\\bar Q^J d_t) \\varepsilon_{IJ} + hc"
+       },
+       "cQtQb1Re": {
+          "real": true,
+          "tex": "(\\bar Q^I t)(\\bar Q^J b) \\varepsilon_{IJ} + hc"
+       },
+       "cQtQb1Im": {
+          "real": true,
+          "tex": "i (\\bar Q^I t)(\\bar Q^J b) \\varepsilon_{IJ} + hc"
+       },
+       "cjujd8Re": {
+          "real": true,
+          "tex": "(Y_u^\\dagger)_{pr} (Y_d^\\dagger)_{st} (\\bar q_p^I T^A u_r)(\\bar q_s^J T^A d_t) \\varepsilon_{IJ} + hc"
+       },
+       "cjujd8Im": {
+          "real": true,
+          "tex": "i (Y_u^\\dagger)_{pr} (Y_d^\\dagger)_{st} (\\bar q_p^I T^A u_r)(\\bar q_s^J T^A d_t) \\varepsilon_{IJ} + hc"
+       },
+       "cjujd81Re": {
+          "real": true,
+          "tex": "(Y_u^\\dagger)_{sr} (Y_d^\\dagger)_{pt} (\\bar q_p^I T^A u_r)(\\bar q_s^J T^A d_t) \\varepsilon_{IJ} + hc"
+       },
+       "cjujd81Im": {
+          "real": true,
+          "tex": "i (Y_u^\\dagger)_{sr} (Y_d^\\dagger)_{pt} (\\bar q_p^I T^A u_r)(\\bar q_s^J T^A d_t) \\varepsilon_{IJ} + hc"
+       },
+       "cQtjd8Re": {
+          "real": true,
+          "tex": "(Y_d^\\dagger)_{st} (\\bar Q^I T^A t)(\\bar q_s^J T^A d_t) \\varepsilon_{IJ} + hc"
+       },
+       "cQtjd8Im": {
+          "real": true,
+          "tex": "i (Y_d^\\dagger)_{st} (\\bar Q^I T^A t)(\\bar q_s^J T^A d_t) \\varepsilon_{IJ} + hc"
+       },
+       "cjuQb8Re": {
+          "real": true,
+          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p^I T^A u_r)(\\bar Q^J T^A b) \\varepsilon_{IJ} + hc"
+       },
+       "cjuQb8Im": {
+          "real": true,
+          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p^I T^A u_r)(\\bar Q^J T^A b) \\varepsilon_{IJ} + hc"
+       },
+       "cQujb8Re": {
+          "real": true,
+          "tex": "(Y_u^\\dagger)_{sr} (\\bar Q^I T^A u_r)(\\bar q_s^J T^A b) \\varepsilon_{IJ} + hc"
+       },
+       "cQujb8Im": {
+          "real": true,
+          "tex": "i (Y_u^\\dagger)_{sr} (\\bar Q^I T^A u_r)(\\bar q_s^J T^A b) \\varepsilon_{IJ} + hc"
+       },
+       "cjtQd8Re": {
+          "real": true,
+          "tex": "(Y_d^\\dagger)_{pt} (\\bar q_p^I T^A t)(\\bar Q^J T^A d_t) \\varepsilon_{IJ} + hc"
+       },
+       "cjtQd8Im": {
+          "real": true,
+          "tex": "i (Y_d^\\dagger)_{pt} (\\bar q_p^I T^A t)(\\bar Q^J T^A d_t) \\varepsilon_{IJ} + hc"
+       },
+       "cQtQb8Re": {
+          "real": true,
+          "tex": "(\\bar Q^I T^A t)(\\bar Q^J T^A b) \\varepsilon_{IJ} + hc"
+       },
+       "cQtQb8Im": {
+          "real": true,
+          "tex": "i (\\bar Q^I T^A t)(\\bar Q^J T^A b) \\varepsilon_{IJ} + hc"
+       },
+       "cleju1Re": {
+          "real": true,
+          "tex": "(Y_l^\\dagger)_{pr} (Y_u^\\dagger)_{st} (\\bar \\ell_p^I e_r)(\\bar q_s^J u_t) \\varepsilon_{IJ} + hc"
+       },
+       "cleju1Im": {
+          "real": true,
+          "tex": "i (Y_l^\\dagger)_{pr} (Y_u^\\dagger)_{st} (\\bar \\ell_p^I e_r)(\\bar q_s^J u_t) \\varepsilon_{IJ} + hc"
+       },
+       "cleQt1Re": {
+          "real": true,
+          "tex": "(Y_l^\\dagger)_{pr} (\\bar \\ell_p^I e_r)(\\bar Q^J  t) \\varepsilon_{IJ} + hc"
+       },
+       "cleQt1Im": {
+          "real": true,
+          "tex": "i (Y_l^\\dagger)_{pr} (\\bar \\ell_p^I e_r)(\\bar Q^J t) \\varepsilon_{IJ} + hc"
+       },
+       "cleju3Re": {
+          "real": true,
+          "tex": "(Y_l^\\dagger)_{pr} (Y_u^\\dagger)_{st} (\\bar \\ell_p^I \\sigma_{\\mu\\nu} e_r)(\\bar q^J_s \\sigma^{\\mu\\nu} u_t) \\varepsilon_{IJ} + hc"
+       },
+       "cleju3Im": {
+          "real": true,
+          "tex": "i (Y_l^\\dagger)_{pr} (Y_u^\\dagger)_{st} (\\bar \\ell_p^I \\sigma_{\\mu\\nu} e_r)(\\bar q^J_s \\sigma^{\\mu\\nu} u_t) \\varepsilon_{IJ} + hc"
+       },
+       "cleQt3Re": {
+          "real": true,
+          "tex": "(Y_l^\\dagger)_{pr} (\\bar \\ell_p^I \\sigma_{\\mu\\nu} e_r)(\\bar Q^J \\sigma^{\\mu\\nu} t) \\varepsilon_{IJ} + hc"
+       },
+       "cleQt3Im": {
+          "real": true,
+          "tex": "i (Y_l^\\dagger)_{pr} (\\bar \\ell_p^I \\sigma_{\\mu\\nu} e_r)(\\bar Q^J \\sigma^{\\mu\\nu} t) \\varepsilon_{IJ} + hc"
+       }
+     }
+  }
+}

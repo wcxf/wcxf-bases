@@ -2,7 +2,7 @@ eft: SMEFT
 basis: SMEFTsim-general
 metadata: 
   description: >
-  Basis used in the SMEFTsim_general UFO models, version 3.0.0 or later. Implements Warsaw basis with generic flavor indices for all fermions. $q,u,d$ are the left- and right-handed quark fields. $\ell, e$ are left- and right-handed lepton fields. Notation and conventions can vary compared to the Warsaw basis paper, see arXiv:2012.11343 for all definitions.
+  Basis used in the SMEFTsim_general UFO models, version 3.0.0 or later. Implements Warsaw basis with generic flavor indices for all fermions. $q,u,d$ are the left- and right-handed quark fields. $\ell, e$ are left- and right-handed lepton fields. Quark fields are in the up-aligned basis. Notation and conventions can vary compared to the Warsaw basis paper, see arXiv:2012.11343 for all definitions.
 sectors: 
   dB=dL=0: 
     cG: 

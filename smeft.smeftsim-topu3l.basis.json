@@ -8,731 +8,731 @@
      "dB=dL=0": {
        "cG": {
           "real": true,
-          "tex": "f^{ABC} G_\\mu^{A \\nu} G_\\nu^{B \\rho} G_\\rho^{C \\mu} / TeV^2"
+          "tex": "f^{ABC} G_\\mu^{A \\nu} G_\\nu^{B \\rho} G_\\rho^{C \\mu} / \\text{TeV}^2"
        },
        "cGtil": {
           "real": true,
-          "tex": "f^{ABC} \\widetilde  G_\\mu^{A \\nu} G_\\nu^{B \\rho} G_\\rho^{C \\mu} / TeV^2"
+          "tex": "f^{ABC} \\widetilde  G_\\mu^{A \\nu} G_\\nu^{B \\rho} G_\\rho^{C \\mu} / \\text{TeV}^2"
        },
        "cW": {
           "real": true,
-          "tex": "\\varepsilon^{IJK} W_\\mu^{I \\nu} W_\\nu^{J \\rho} W_\\rho^{K \\mu} / TeV^2"
+          "tex": "\\varepsilon^{IJK} W_\\mu^{I \\nu} W_\\nu^{J \\rho} W_\\rho^{K \\mu} / \\text{TeV}^2"
        },
        "cWtil": {
           "real": true,
-          "tex": "\\varepsilon^{IJK} \\widetilde W_\\mu^{I \\nu} W_\\nu^{J \\rho} W_\\rho^{K \\mu} / TeV^2"
+          "tex": "\\varepsilon^{IJK} \\widetilde W_\\mu^{I \\nu} W_\\nu^{J \\rho} W_\\rho^{K \\mu} / \\text{TeV}^2"
        },
        "cH": {
           "real": true,
-          "tex": "(H^\\dagger H)^3 / TeV^2"
+          "tex": "(H^\\dagger H)^3 / \\text{TeV}^2"
        },
        "cHbox": {
           "real": true,
-          "tex": "(H^\\dagger H) \\Box ( H^\\dagger H ) / TeV^2"
+          "tex": "(H^\\dagger H) \\Box ( H^\\dagger H ) / \\text{TeV}^2"
        },
        "cHDD": {
           "real": true,
-          "tex": "(D_\\mu H^\\dagger H) (H^\\dagger D^\\mu H) / TeV^2"
+          "tex": "(D_\\mu H^\\dagger H) (H^\\dagger D^\\mu H) / \\text{TeV}^2"
        },
        "cHG": {
           "real": true,
-          "tex": "G_{\\mu\\nu}^A G^{A \\mu\\nu} H^\\dagger H / TeV^2"
+          "tex": "G_{\\mu\\nu}^A G^{A \\mu\\nu} H^\\dagger H / \\text{TeV}^2"
        },
        "cHGtil": {
           "real": true,
-          "tex": "\\widetilde G_{\\mu\\nu}^A G^{A \\mu\\nu} H^\\dagger H / TeV^2"
+          "tex": "\\widetilde G_{\\mu\\nu}^A G^{A \\mu\\nu} H^\\dagger H / \\text{TeV}^2"
        },
        "cHW": {
           "real": true,
-          "tex": "W_{\\mu\\nu}^I W^{I \\mu\\nu} H^\\dagger H / TeV^2"
+          "tex": "W_{\\mu\\nu}^I W^{I \\mu\\nu} H^\\dagger H / \\text{TeV}^2"
        },
        "cHWtil": {
           "real": true,
-          "tex": "\\widetilde W_{\\mu\\nu}^I W^{I \\mu\\nu} H^\\dagger H / TeV^2"
+          "tex": "\\widetilde W_{\\mu\\nu}^I W^{I \\mu\\nu} H^\\dagger H / \\text{TeV}^2"
        },
        "cHB": {
           "real": true,
-          "tex": "B_{\\mu\\nu} B^{\\mu\\nu} H^\\dagger H / TeV^2"
+          "tex": "B_{\\mu\\nu} B^{\\mu\\nu} H^\\dagger H / \\text{TeV}^2"
        },
        "cHBtil": {
           "real": true,
-          "tex": "\\widetilde B_{\\mu\\nu} B^{\\mu\\nu} H^\\dagger H / TeV^2"
+          "tex": "\\widetilde B_{\\mu\\nu} B^{\\mu\\nu} H^\\dagger H / \\text{TeV}^2"
        },
        "cHWB": {
           "real": true,
-          "tex": "B_{\\mu\\nu} W^{I \\mu\\nu} H^\\dagger \\sigma^I H / TeV^2"
+          "tex": "B_{\\mu\\nu} W^{I \\mu\\nu} H^\\dagger \\sigma^I H / \\text{TeV}^2"
        },
        "cHWBtil": {
           "real": true,
-          "tex": "B_{\\mu\\nu} \\widetilde W^{I \\mu\\nu} H^\\dagger \\sigma^I H / TeV^2"
+          "tex": "B_{\\mu\\nu} \\widetilde W^{I \\mu\\nu} H^\\dagger \\sigma^I H / \\text{TeV}^2"
        },
        "ceHRe": {
           "real": true,
-          "tex": "(Y_l^\\dagger)_{pr} (\\bar \\ell_p H e_r) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "(Y_l^\\dagger)_{pr} (\\bar \\ell_p H e_r) (H^\\dagger H) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "ceHIm": {
           "real": true,
-          "tex": "i (Y_l^\\dagger)_{pr} (\\bar \\ell_p H e_r) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "i (Y_l^\\dagger)_{pr} (\\bar \\ell_p H e_r) (H^\\dagger H) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cuHRe": {
           "real": true,
-          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H u_r) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H u_r) (H^\\dagger H) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cuHIm": {
           "real": true,
-          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H u_r) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H u_r) (H^\\dagger H) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "ctHRe": {
           "real": true,
-          "tex": "(\\bar Q \\tilde H t) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "(\\bar Q \\tilde H t) (H^\\dagger H) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "ctHIm": {
           "real": true,
-          "tex": "i (\\bar Q \\tilde H t) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "i (\\bar Q \\tilde H t) (H^\\dagger H) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cdHRe": {
           "real": true,
-          "tex": "(Y_d^\\dagger)_{pr} (\\bar q_p H  d_r) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "(Y_d^\\dagger)_{pr} (\\bar q_p H  d_r) (H^\\dagger H) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cdHIm": {
           "real": true,
-          "tex": "i (Y_d^\\dagger)_{pr} (\\bar q_p H  d_r) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "i (Y_d^\\dagger)_{pr} (\\bar q_p H  d_r) (H^\\dagger H) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cbHRe": {
           "real": true,
-          "tex": "(\\bar Q H b) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "(\\bar Q H b) (H^\\dagger H) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cbHIm": {
           "real": true,
-          "tex": "i (\\bar Q H b) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "i (\\bar Q H b) (H^\\dagger H) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "ceWRe": {
           "real": true,
-          "tex": "(Y_l^\\dagger)_{pr} (\\bar \\ell_p \\sigma^I H \\sigma^{\\mu\\nu} e_r) W^I_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "(Y_l^\\dagger)_{pr} (\\bar \\ell_p \\sigma^I H \\sigma^{\\mu\\nu} e_r) W^I_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "ceWIm": {
           "real": true,
-          "tex": "i (Y_l^\\dagger)_{pr} (\\bar \\ell_p \\sigma^I H \\sigma^{\\mu\\nu} e_r)  W^I_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "i (Y_l^\\dagger)_{pr} (\\bar \\ell_p \\sigma^I H \\sigma^{\\mu\\nu} e_r)  W^I_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "ceBRe": {
           "real": true,
-          "tex": "(Y_l^\\dagger)_{pr} (\\bar \\ell_p H  \\sigma^{\\mu\\nu} e_r) B_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "(Y_l^\\dagger)_{pr} (\\bar \\ell_p H  \\sigma^{\\mu\\nu} e_r) B_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "ceBIm": {
           "real": true,
-          "tex": "i (Y_l^\\dagger)_{pr} (\\bar \\ell_p H  \\sigma^{\\mu\\nu} e_r) B_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "i (Y_l^\\dagger)_{pr} (\\bar \\ell_p H  \\sigma^{\\mu\\nu} e_r) B_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cuGRe": {
           "real": true,
-          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H \\sigma^{\\mu\\nu} T^A u_r) G^A_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H \\sigma^{\\mu\\nu} T^A u_r) G^A_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cuGIm": {
           "real": true,
-          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H \\sigma^{\\mu\\nu} T^A  u_r) G^A_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H \\sigma^{\\mu\\nu} T^A  u_r) G^A_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "ctGRe": {
           "real": true,
-          "tex": "(\\bar Q \\tilde H \\sigma^{\\mu\\nu} T^A t) G^A_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "(\\bar Q \\tilde H \\sigma^{\\mu\\nu} T^A t) G^A_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "ctGIm": {
           "real": true,
-          "tex": "i (\\bar Q \\tilde H  \\sigma^{\\mu\\nu} T^A t) G^A_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "i (\\bar Q \\tilde H  \\sigma^{\\mu\\nu} T^A t) G^A_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cuWRe": {
           "real": true,
-          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p \\sigma^I  \\tilde H \\sigma^{\\mu\\nu} u_r) W^I_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p \\sigma^I  \\tilde H \\sigma^{\\mu\\nu} u_r) W^I_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cuWIm": {
           "real": true,
-          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p \\sigma^I \\tilde H \\sigma^{\\mu\\nu} u_r) W^I_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p \\sigma^I \\tilde H \\sigma^{\\mu\\nu} u_r) W^I_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "ctWRe": {
           "real": true,
-          "tex": "(\\bar Q \\sigma^I \\tilde H \\sigma^{\\mu\\nu} t) W^I_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "(\\bar Q \\sigma^I \\tilde H \\sigma^{\\mu\\nu} t) W^I_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "ctWIm": {
           "real": true,
-          "tex": "i (\\bar Q \\sigma^I \\tilde H  \\sigma^{\\mu\\nu} t) W^I_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "i (\\bar Q \\sigma^I \\tilde H  \\sigma^{\\mu\\nu} t) W^I_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cuBRe": {
           "real": true,
-          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H \\sigma^{\\mu\\nu} u_r) B_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H \\sigma^{\\mu\\nu} u_r) B_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cuBIm": {
           "real": true,
-          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H \\sigma^{\\mu\\nu} u_r) B_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H \\sigma^{\\mu\\nu} u_r) B_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "ctBRe": {
           "real": true,
-          "tex": "(\\bar Q \\tilde H \\sigma^{\\mu\\nu} t) B_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "(\\bar Q \\tilde H \\sigma^{\\mu\\nu} t) B_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "ctBIm": {
           "real": true,
-          "tex": "i (\\bar Q \\tilde H  \\sigma^{\\mu\\nu} t) B_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "i (\\bar Q \\tilde H  \\sigma^{\\mu\\nu} t) B_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
 	   "cdGRe": {
           "real": true,
-          "tex": "(Y_d^\\dagger)_{pr} (\\bar q_p H \\sigma^{\\mu\\nu} T^A d_r) G^A_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "(Y_d^\\dagger)_{pr} (\\bar q_p H \\sigma^{\\mu\\nu} T^A d_r) G^A_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cdGIm": {
           "real": true,
-          "tex": "i (Y_d^\\dagger)_{pr} (\\bar q_p H \\sigma^{\\mu\\nu} T^A d_r) G^A_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "i (Y_d^\\dagger)_{pr} (\\bar q_p H \\sigma^{\\mu\\nu} T^A d_r) G^A_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cbGRe": {
           "real": true,
-          "tex": "(\\bar Q H \\sigma^{\\mu\\nu} T^A b) G^A_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "(\\bar Q H \\sigma^{\\mu\\nu} T^A b) G^A_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cbGIm": {
           "real": true,
-          "tex": "i (\\bar Q H  \\sigma^{\\mu\\nu} T^A b) G^A_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "i (\\bar Q H  \\sigma^{\\mu\\nu} T^A b) G^A_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cdWRe": {
           "real": true,
-          "tex": "(Y_d^\\dagger)_{pr} (\\bar q_p \\sigma^I H \\sigma^{\\mu\\nu} d_r) W^I_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "(Y_d^\\dagger)_{pr} (\\bar q_p \\sigma^I H \\sigma^{\\mu\\nu} d_r) W^I_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cdWIm": {
           "real": true,
-          "tex": "i (Y_d^\\dagger)_{pr} (\\bar q_p \\sigma^I H \\sigma^{\\mu\\nu} d_r) W^I_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "i (Y_d^\\dagger)_{pr} (\\bar q_p \\sigma^I H \\sigma^{\\mu\\nu} d_r) W^I_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cbWRe": {
           "real": true,
-          "tex": "(\\bar Q \\sigma^I H \\sigma^{\\mu\\nu} b) W^I_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "(\\bar Q \\sigma^I H \\sigma^{\\mu\\nu} b) W^I_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cbWIm": {
           "real": true,
-          "tex": "i (\\bar Q \\sigma^I H  \\sigma^{\\mu\\nu} b) W^I_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "i (\\bar Q \\sigma^I H  \\sigma^{\\mu\\nu} b) W^I_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cdBRe": {
           "real": true,
-          "tex": "(Y_d^\\dagger)_{pr} (\\bar q_p H \\sigma^{\\mu\\nu} d_r) B_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "(Y_d^\\dagger)_{pr} (\\bar q_p H \\sigma^{\\mu\\nu} d_r) B_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cdBIm": {
           "real": true,
-          "tex": "i (Y_d^\\dagger)_{pr} (\\bar q_p H \\sigma^{\\mu\\nu} d_r) B_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "i (Y_d^\\dagger)_{pr} (\\bar q_p H \\sigma^{\\mu\\nu} d_r) B_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cbBRe": {
           "real": true,
-          "tex": "(\\bar Q H \\sigma^{\\mu\\nu} b) B_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "(\\bar Q H \\sigma^{\\mu\\nu} b) B_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cbBIm": {
           "real": true,
-          "tex": "i (\\bar Q H  \\sigma^{\\mu\\nu} b) B_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "i (\\bar Q H  \\sigma^{\\mu\\nu} b) B_{\\mu\\nu} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cHl1": {
           "real": true,
-          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar \\ell_p \\gamma^\\mu \\ell_p) / TeV^2"
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar \\ell_p \\gamma^\\mu \\ell_p) / \\text{TeV}^2"
        },
        "cHl3": {
           "real": true,
-          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu^I H) (\\bar \\ell_p \\gamma^\\mu \\sigma^I \\ell_p) / TeV^2"
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu^I H) (\\bar \\ell_p \\gamma^\\mu \\sigma^I \\ell_p) / \\text{TeV}^2"
        },
        "cHj1": {
           "real": true,
-          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar q_p \\gamma^\\mu q_p) / TeV^2"
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar q_p \\gamma^\\mu q_p) / \\text{TeV}^2"
        },
        "cHj3": {
           "real": true,
-          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu^I H) (\\bar q_p \\gamma^\\mu \\sigma^I q_p) / TeV^2"
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu^I H) (\\bar q_p \\gamma^\\mu \\sigma^I q_p) / \\text{TeV}^2"
        },
        "cHQ1": {
           "real": true,
-          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar Q \\gamma^\\mu Q) / TeV^2"
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar Q \\gamma^\\mu Q) / \\text{TeV}^2"
        },
        "cHQ3": {
           "real": true,
-          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu^I H) (\\bar Q \\gamma^\\mu \\sigma^I Q) / TeV^2"
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu^I H) (\\bar Q \\gamma^\\mu \\sigma^I Q) / \\text{TeV}^2"
        },
        "cHe": {
           "real": true,
-          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar e_p \\gamma^\\mu e_p) / TeV^2"
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar e_p \\gamma^\\mu e_p) / \\text{TeV}^2"
        },
        "cHu": {
           "real": true,
-          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar u_p \\gamma^\\mu u_p) / TeV^2"
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar u_p \\gamma^\\mu u_p) / \\text{TeV}^2"
        },
        "cHt": {
           "real": true,
-          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu^I H) (\\bar t \\gamma^\\mu t) / TeV^2"
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu^I H) (\\bar t \\gamma^\\mu t) / \\text{TeV}^2"
        },
        "cHd": {
           "real": true,
-          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar d_p \\gamma^\\mu d_p) / TeV^2"
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar d_p \\gamma^\\mu d_p) / \\text{TeV}^2"
        },
        "cHbq": {
           "real": true,
-          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar b \\gamma^\\mu b) / TeV^2"
+          "tex": "(H^\\dagger i \\overleftrightarrow D_\\mu H) (\\bar b \\gamma^\\mu b) / \\text{TeV}^2"
        },
        "cHudRe": {
           "real": true,
-          "tex": "(Y_u Y_d^\\dagger)_{pr} (\\tilde H^\\dagger i D_\\mu H) (\\bar u_p \\gamma^\\mu d_r) / TeV^2 + hc"
+          "tex": "(Y_u Y_d^\\dagger)_{pr} (\\tilde H^\\dagger i D_\\mu H) (\\bar u_p \\gamma^\\mu d_r) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cHudIm": {
           "real": true,
-          "tex": "i (Y_u Y_d^\\dagger)_{pr} (\\tilde H^\\dagger i D_\\mu H) (\\bar u_p \\gamma^\\mu d_r) / TeV^2 + hc"
+          "tex": "i (Y_u Y_d^\\dagger)_{pr} (\\tilde H^\\dagger i D_\\mu H) (\\bar u_p \\gamma^\\mu d_r) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cHtbRe": {
           "real": true,
-          "tex": "(\\tilde H^\\dagger i D_\\mu H) (\\bar t \\gamma^\\mu b) / TeV^2 + hc"
+          "tex": "(\\tilde H^\\dagger i D_\\mu H) (\\bar t \\gamma^\\mu b) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cHtbIm": {
           "real": true,
-          "tex": "i (\\tilde H^\\dagger i D_\\mu H) (\\bar t \\gamma^\\mu b) / TeV^2 + hc"
+          "tex": "i (\\tilde H^\\dagger i D_\\mu H) (\\bar t \\gamma^\\mu b) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cll": {
           "real": true,
-          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar \\ell_r \\gamma^\\mu \\ell_r) / TeV^2"
+          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar \\ell_r \\gamma^\\mu \\ell_r) / \\text{TeV}^2"
        },
        "cll1": {
           "real": true,
-          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_r)(\\bar \\ell_r \\gamma^\\mu \\ell_p) / TeV^2"
+          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_r)(\\bar \\ell_r \\gamma^\\mu \\ell_p) / \\text{TeV}^2"
        },
        "clj1": {
           "real": true,
-          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar q_r \\gamma^\\mu q_r) / TeV^2"
+          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar q_r \\gamma^\\mu q_r) / \\text{TeV}^2"
        },
        "clj3": {
           "real": true,
-          "tex": "(\\bar \\ell_p \\gamma_\\mu \\sigma^I \\ell_p)(\\bar q_r \\gamma^\\mu \\sigma^I q_r) / TeV^2"
+          "tex": "(\\bar \\ell_p \\gamma_\\mu \\sigma^I \\ell_p)(\\bar q_r \\gamma^\\mu \\sigma^I q_r) / \\text{TeV}^2"
        },
        "cQl1": {
           "real": true,
-          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar \\ell_p \\gamma^\\mu \\ell_p) / TeV^2"
+          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar \\ell_p \\gamma^\\mu \\ell_p) / \\text{TeV}^2"
        },
        "cQl3": {
           "real": true,
-          "tex": "(\\bar Q \\gamma_\\mu \\sigma^I Q)(\\bar \\ell_p \\gamma^\\mu \\sigma^I \\ell_p) / TeV^2"
+          "tex": "(\\bar Q \\gamma_\\mu \\sigma^I Q)(\\bar \\ell_p \\gamma^\\mu \\sigma^I \\ell_p) / \\text{TeV}^2"
        },
        "cjj11": {
           "real": true,
-          "tex": "(\\bar q_p \\gamma_\\mu q_p)(\\bar q_r \\gamma^\\mu q_r) / TeV^2"
+          "tex": "(\\bar q_p \\gamma_\\mu q_p)(\\bar q_r \\gamma^\\mu q_r) / \\text{TeV}^2"
        },
        "cjj18": {
           "real": true,
-          "tex": "(\\bar q_p \\gamma_\\mu T^A q_p)(\\bar q_r \\gamma^\\mu T^A q_r) / TeV^2"
+          "tex": "(\\bar q_p \\gamma_\\mu T^A q_p)(\\bar q_r \\gamma^\\mu T^A q_r) / \\text{TeV}^2"
        },
        "cjj31": {
           "real": true,
-          "tex": "(\\bar q_p \\gamma_\\mu \\sigma^I q_p)(\\bar q_r \\gamma^\\mu \\sigma^I q_r) / TeV^2"
+          "tex": "(\\bar q_p \\gamma_\\mu \\sigma^I q_p)(\\bar q_r \\gamma^\\mu \\sigma^I q_r) / \\text{TeV}^2"
        },
        "cjj38": {
           "real": true,
-          "tex": "(\\bar q_p \\gamma_\\mu \\sigma^I T^A q_p)(\\bar q_r \\gamma^\\mu \\sigma^I T^A q_r) / TeV^2"
+          "tex": "(\\bar q_p \\gamma_\\mu \\sigma^I T^A q_p)(\\bar q_r \\gamma^\\mu \\sigma^I T^A q_r) / \\text{TeV}^2"
        },
        "cQQ1": {
           "real": true,
-          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar Q \\gamma^\\mu Q) / TeV^2"
+          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar Q \\gamma^\\mu Q) / \\text{TeV}^2"
        },
        "cQQ8": {
           "real": true,
-          "tex": "(\\bar Q \\gamma_\\mu T^A Q)(\\bar Q \\gamma^\\mu T^A Q) / TeV^2"
+          "tex": "(\\bar Q \\gamma_\\mu T^A Q)(\\bar Q \\gamma^\\mu T^A Q) / \\text{TeV}^2"
        },
        "cQj11": {
           "real": true,
-          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar q_p \\gamma^\\mu q_p) / TeV^2"
+          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar q_p \\gamma^\\mu q_p) / \\text{TeV}^2"
        },
        "cQj18": {
           "real": true,
-          "tex": "(\\bar Q \\gamma_\\mu T^A Q)(\\bar q_p \\gamma^\\mu T^A q_p) / TeV^2"
+          "tex": "(\\bar Q \\gamma_\\mu T^A Q)(\\bar q_p \\gamma^\\mu T^A q_p) / \\text{TeV}^2"
        },
        "cQj31": {
           "real": true,
-          "tex": "(\\bar Q \\gamma_\\mu \\sigma^I Q)(\\bar q_p \\gamma^\\mu \\sigma^I q_p) / TeV^2"
+          "tex": "(\\bar Q \\gamma_\\mu \\sigma^I Q)(\\bar q_p \\gamma^\\mu \\sigma^I q_p) / \\text{TeV}^2"
        },
        "cQj38": {
           "real": true,
-          "tex": "(\\bar Q \\gamma_\\mu \\sigma^I T^A Q)(\\bar q_p \\gamma^\\mu \\sigma^I T^A q_p) / TeV^2"
+          "tex": "(\\bar Q \\gamma_\\mu \\sigma^I T^A Q)(\\bar q_p \\gamma^\\mu \\sigma^I T^A q_p) / \\text{TeV}^2"
        },
        "cee": {
           "real": true,
-          "tex": "(\\bar e_p \\gamma_\\mu e_p)(\\bar e_r \\gamma^\\mu e_r) / TeV^2"
+          "tex": "(\\bar e_p \\gamma_\\mu e_p)(\\bar e_r \\gamma^\\mu e_r) / \\text{TeV}^2"
        },
        "cuu1": {
           "real": true,
-          "tex": "(\\bar u_p \\gamma_\\mu u_p)(\\bar u_r \\gamma^\\mu u_r) / TeV^2"
+          "tex": "(\\bar u_p \\gamma_\\mu u_p)(\\bar u_r \\gamma^\\mu u_r) / \\text{TeV}^2"
        },
        "cuu8": {
           "real": true,
-          "tex": "(\\bar u_p \\gamma_\\mu T^A u_p)(\\bar u_r \\gamma^\\mu T^A u_r) / TeV^2"
+          "tex": "(\\bar u_p \\gamma_\\mu T^A u_p)(\\bar u_r \\gamma^\\mu T^A u_r) / \\text{TeV}^2"
        },
        "ctt": {
           "real": true,
-          "tex": "(\\bar t \\gamma_\\mu t)(\\bar t \\gamma^\\mu t) / TeV^2"
+          "tex": "(\\bar t \\gamma_\\mu t)(\\bar t \\gamma^\\mu t) / \\text{TeV}^2"
        },
        "ctu1": {
           "real": true,
-          "tex": "(\\bar t \\gamma_\\mu t)(\\bar u_p \\gamma^\\mu u_p) / TeV^2"
+          "tex": "(\\bar t \\gamma_\\mu t)(\\bar u_p \\gamma^\\mu u_p) / \\text{TeV}^2"
        },
        "ctu8": {
           "real": true,
-          "tex": "(\\bar t \\gamma_\\mu T^A t)(\\bar u_p \\gamma^\\mu T^A u_p) / TeV^2"
+          "tex": "(\\bar t \\gamma_\\mu T^A t)(\\bar u_p \\gamma^\\mu T^A u_p) / \\text{TeV}^2"
        },
        "cdd1": {
           "real": true,
-          "tex": "(\\bar d_p \\gamma_\\mu d_p)(\\bar d_r \\gamma^\\mu d_r) / TeV^2"
+          "tex": "(\\bar d_p \\gamma_\\mu d_p)(\\bar d_r \\gamma^\\mu d_r) / \\text{TeV}^2"
        },
        "cdd8": {
           "real": true,
-          "tex": "(\\bar d_p \\gamma_\\mu T^A d_p)(\\bar d_r \\gamma^\\mu T^A d_r) / TeV^2"
+          "tex": "(\\bar d_p \\gamma_\\mu T^A d_p)(\\bar d_r \\gamma^\\mu T^A d_r) / \\text{TeV}^2"
        },
        "cbb": {
           "real": true,
-          "tex": "(\\bar b \\gamma_\\mu b)(\\bar b \\gamma^\\mu b) / TeV^2"
+          "tex": "(\\bar b \\gamma_\\mu b)(\\bar b \\gamma^\\mu b) / \\text{TeV}^2"
        },
        "cbd1": {
           "real": true,
-          "tex": "(\\bar b \\gamma_\\mu b)(\\bar d_p \\gamma^\\mu d_p) / TeV^2"
+          "tex": "(\\bar b \\gamma_\\mu b)(\\bar d_p \\gamma^\\mu d_p) / \\text{TeV}^2"
        },
        "cbd8": {
           "real": true,
-          "tex": "(\\bar b \\gamma_\\mu T^A b)(\\bar d_p \\gamma^\\mu T^A d_p) / TeV^2"
+          "tex": "(\\bar b \\gamma_\\mu T^A b)(\\bar d_p \\gamma^\\mu T^A d_p) / \\text{TeV}^2"
        },
        "ceu": {
           "real": true,
-          "tex": "(\\bar e_p \\gamma_\\mu e_p)(\\bar u_r \\gamma^\\mu u_r) / TeV^2"
+          "tex": "(\\bar e_p \\gamma_\\mu e_p)(\\bar u_r \\gamma^\\mu u_r) / \\text{TeV}^2"
        },
        "cte": {
           "real": true,
-          "tex": "(\\bar e_p \\gamma_\\mu e_p)(\\bar t \\gamma^\\mu t) / TeV^2"
+          "tex": "(\\bar e_p \\gamma_\\mu e_p)(\\bar t \\gamma^\\mu t) / \\text{TeV}^2"
        },
        "ced": {
           "real": true,
-          "tex": "(\\bar e_p \\gamma_\\mu e_p)(\\bar d_r \\gamma^\\mu d_r) / TeV^2"
+          "tex": "(\\bar e_p \\gamma_\\mu e_p)(\\bar d_r \\gamma^\\mu d_r) / \\text{TeV}^2"
        },
        "cbe": {
           "real": true,
-          "tex": "(\\bar e_p \\gamma_\\mu e_p)(\\bar b \\gamma^\\mu b) / TeV^2"
+          "tex": "(\\bar e_p \\gamma_\\mu e_p)(\\bar b \\gamma^\\mu b) / \\text{TeV}^2"
        },
        "cud1": {
           "real": true,
-          "tex": "(\\bar u_p \\gamma_\\mu u_p)(\\bar d_r \\gamma^\\mu d_r) / TeV^2"
+          "tex": "(\\bar u_p \\gamma_\\mu u_p)(\\bar d_r \\gamma^\\mu d_r) / \\text{TeV}^2"
        },
        "ctd1": {
           "real": true,
-          "tex": "(\\bar t \\gamma_\\mu t)(\\bar d_p \\gamma^\\mu d_p) / TeV^2"
+          "tex": "(\\bar t \\gamma_\\mu t)(\\bar d_p \\gamma^\\mu d_p) / \\text{TeV}^2"
        },
        "cbu1": {
           "real": true,
-          "tex": "(\\bar u_p \\gamma_\\mu u_p)(\\bar b \\gamma^\\mu b) / TeV^2"
+          "tex": "(\\bar u_p \\gamma_\\mu u_p)(\\bar b \\gamma^\\mu b) / \\text{TeV}^2"
        },
        "ctb1": {
           "real": true,
-          "tex": "(\\bar t \\gamma_\\mu t)(\\bar b \\gamma^\\mu b) / TeV^2"
+          "tex": "(\\bar t \\gamma_\\mu t)(\\bar b \\gamma^\\mu b) / \\text{TeV}^2"
        },
        "cud8": {
           "real": true,
-          "tex": "(\\bar u_p \\gamma_\\mu T^A u_p)(\\bar d_r \\gamma^\\mu T^A d_r) / TeV^2"
+          "tex": "(\\bar u_p \\gamma_\\mu T^A u_p)(\\bar d_r \\gamma^\\mu T^A d_r) / \\text{TeV}^2"
        },
        "ctd8": {
           "real": true,
-          "tex": "(\\bar t \\gamma_\\mu T^A t)(\\bar d_p \\gamma^\\mu T^A d_p) / TeV^2"
+          "tex": "(\\bar t \\gamma_\\mu T^A t)(\\bar d_p \\gamma^\\mu T^A d_p) / \\text{TeV}^2"
        },
        "cbu8": {
           "real": true,
-          "tex": "(\\bar u_p \\gamma_\\mu T^A u_p)(\\bar b \\gamma^\\mu T^A b) / TeV^2"
+          "tex": "(\\bar u_p \\gamma_\\mu T^A u_p)(\\bar b \\gamma^\\mu T^A b) / \\text{TeV}^2"
        },
        "ctb8": {
           "real": true,
-          "tex": "(\\bar t \\gamma_\\mu T^A t)(\\bar b \\gamma^\\mu T^A b) / TeV^2"
+          "tex": "(\\bar t \\gamma_\\mu T^A t)(\\bar b \\gamma^\\mu T^A b) / \\text{TeV}^2"
        },
        "cutbd1Re": {
           "real": true,
-          "tex": "(Y_u Y_d^\\dagger)_{pr} (\\bar u_p \\gamma_\\mu t)(\\bar b \\gamma^\\mu d_r) / TeV^2 + hc"
+          "tex": "(Y_u Y_d^\\dagger)_{pr} (\\bar u_p \\gamma_\\mu t)(\\bar b \\gamma^\\mu d_r) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cutbd1Im": {
           "real": true,
-          "tex": "i (Y_u Y_d^\\dagger)_{pr} (\\bar u_p \\gamma_\\mu t)(\\bar b \\gamma^\\mu d_r) / TeV^2 + hc"
+          "tex": "i (Y_u Y_d^\\dagger)_{pr} (\\bar u_p \\gamma_\\mu t)(\\bar b \\gamma^\\mu d_r) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cutbd8Re": {
           "real": true,
-          "tex": "(Y_u Y_d^\\dagger)_{pr} (\\bar u_p \\gamma_\\mu T^A t)(\\bar b \\gamma^\\mu T^A d_r) / TeV^2 + hc"
+          "tex": "(Y_u Y_d^\\dagger)_{pr} (\\bar u_p \\gamma_\\mu T^A t)(\\bar b \\gamma^\\mu T^A d_r) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cutbd8Im": {
           "real": true,
-          "tex": "i (Y_u Y_d^\\dagger)_{pr} (\\bar u_p \\gamma_\\mu T^A t)(\\bar b \\gamma^\\mu T^A d_r)  / TeV^2 + hc"
+          "tex": "i (Y_u Y_d^\\dagger)_{pr} (\\bar u_p \\gamma_\\mu T^A t)(\\bar b \\gamma^\\mu T^A d_r)  / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cle": {
           "real": true,
-          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar e_r \\gamma^\\mu e_r) / TeV^2"
+          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar e_r \\gamma^\\mu e_r) / \\text{TeV}^2"
        },
        "clu": {
           "real": true,
-          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar u_r \\gamma^\\mu u_r) / TeV^2"
+          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar u_r \\gamma^\\mu u_r) / \\text{TeV}^2"
        },
        "ctl": {
           "real": true,
-          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar t \\gamma^\\mu t) / TeV^2"
+          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar t \\gamma^\\mu t) / \\text{TeV}^2"
        },
        "cld": {
           "real": true,
-          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar d_r \\gamma^\\mu d_r) / TeV^2"
+          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar d_r \\gamma^\\mu d_r) / \\text{TeV}^2"
        },
        "cbl": {
           "real": true,
-          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar b \\gamma^\\mu b) / TeV^2"
+          "tex": "(\\bar \\ell_p \\gamma_\\mu \\ell_p)(\\bar b \\gamma^\\mu b) / \\text{TeV}^2"
        },
        "cje": {
           "real": true,
-          "tex": "(\\bar q_p \\gamma_\\mu q_p)(\\bar e_r \\gamma^\\mu e_r) / TeV^2"
+          "tex": "(\\bar q_p \\gamma_\\mu q_p)(\\bar e_r \\gamma^\\mu e_r) / \\text{TeV}^2"
        },
        "cQe": {
           "real": true,
-          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar e_r \\gamma^\\mu e_r) / TeV^2"
+          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar e_r \\gamma^\\mu e_r) / \\text{TeV}^2"
        },
        "cju1": {
           "real": true,
-          "tex": "(\\bar q_p \\gamma_\\mu q_p)(\\bar u_r \\gamma^\\mu u_r) / TeV^2"
+          "tex": "(\\bar q_p \\gamma_\\mu q_p)(\\bar u_r \\gamma^\\mu u_r) / \\text{TeV}^2"
        },
        "cQu1": {
           "real": true,
-          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar u_r \\gamma^\\mu u_r) / TeV^2"
+          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar u_r \\gamma^\\mu u_r) / \\text{TeV}^2"
        },
        "ctj1": {
           "real": true,
-          "tex": "(\\bar q_p \\gamma_\\mu q_p)(\\bar t \\gamma^\\mu t) / TeV^2"
+          "tex": "(\\bar q_p \\gamma_\\mu q_p)(\\bar t \\gamma^\\mu t) / \\text{TeV}^2"
        },
        "cQt1": {
           "real": true,
-          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar t \\gamma^\\mu t) / TeV^2"
+          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar t \\gamma^\\mu t) / \\text{TeV}^2"
        },
        "cju8": {
           "real": true,
-          "tex": "(\\bar q_p \\gamma_\\mu T^A q_p)(\\bar u_r \\gamma^\\mu T^A u_r) / TeV^2"
+          "tex": "(\\bar q_p \\gamma_\\mu T^A q_p)(\\bar u_r \\gamma^\\mu T^A u_r) / \\text{TeV}^2"
        },
        "cQu8": {
           "real": true,
-          "tex": "(\\bar Q \\gamma_\\mu T^A Q)(\\bar u_r \\gamma^\\mu T^A u_r) / TeV^2"
+          "tex": "(\\bar Q \\gamma_\\mu T^A Q)(\\bar u_r \\gamma^\\mu T^A u_r) / \\text{TeV}^2"
        },
        "ctj8": {
           "real": true,
-          "tex": "(\\bar q_p \\gamma_\\mu T^A q_p)(\\bar t \\gamma^\\mu T^A t) / TeV^2"
+          "tex": "(\\bar q_p \\gamma_\\mu T^A q_p)(\\bar t \\gamma^\\mu T^A t) / \\text{TeV}^2"
        },
        "cQt8": {
           "real": true,
-          "tex": "(\\bar Q \\gamma_\\mu T^A Q)(\\bar t \\gamma^\\mu T^A t) / TeV^2"
+          "tex": "(\\bar Q \\gamma_\\mu T^A Q)(\\bar t \\gamma^\\mu T^A t) / \\text{TeV}^2"
        },
        "cjd1": {
           "real": true,
-          "tex": "(\\bar q_p \\gamma_\\mu q_p)(\\bar d_r \\gamma^\\mu d_r) / TeV^2"
+          "tex": "(\\bar q_p \\gamma_\\mu q_p)(\\bar d_r \\gamma^\\mu d_r) / \\text{TeV}^2"
        },
        "cQd1": {
           "real": true,
-          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar d_r \\gamma^\\mu d_r) / TeV^2"
+          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar d_r \\gamma^\\mu d_r) / \\text{TeV}^2"
        },
        "cbj1": {
           "real": true,
-          "tex": "(\\bar q_p \\gamma_\\mu q_p)(\\bar b \\gamma^\\mu b) / TeV^2"
+          "tex": "(\\bar q_p \\gamma_\\mu q_p)(\\bar b \\gamma^\\mu b) / \\text{TeV}^2"
        },
        "cQb1": {
           "real": true,
-          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar b \\gamma^\\mu b) / TeV^2"
+          "tex": "(\\bar Q \\gamma_\\mu Q)(\\bar b \\gamma^\\mu b) / \\text{TeV}^2"
        },
        "cjd8": {
           "real": true,
-          "tex": "(\\bar q_p \\gamma_\\mu T^A q_p)(\\bar d_r \\gamma^\\mu T^A d_r) / TeV^2"
+          "tex": "(\\bar q_p \\gamma_\\mu T^A q_p)(\\bar d_r \\gamma^\\mu T^A d_r) / \\text{TeV}^2"
        },
        "cQd8": {
           "real": true,
-          "tex": "(\\bar Q \\gamma_\\mu T^A Q)(\\bar d_r \\gamma^\\mu T^A d_r) / TeV^2"
+          "tex": "(\\bar Q \\gamma_\\mu T^A Q)(\\bar d_r \\gamma^\\mu T^A d_r) / \\text{TeV}^2"
        },
        "cbj8": {
           "real": true,
-          "tex": "(\\bar q_p \\gamma_\\mu T^A q_p)(\\bar b \\gamma^\\mu T^A b) / TeV^2"
+          "tex": "(\\bar q_p \\gamma_\\mu T^A q_p)(\\bar b \\gamma^\\mu T^A b) / \\text{TeV}^2"
        },
        "cQb8": {
           "real": true,
-          "tex": "(\\bar Q \\gamma_\\mu T^A Q)(\\bar b \\gamma^\\mu T^A b) / TeV^2"
+          "tex": "(\\bar Q \\gamma_\\mu T^A Q)(\\bar b \\gamma^\\mu T^A b) / \\text{TeV}^2"
        },
        "cjQtu1Re": {
           "real": true,
-          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu Q)(\\bar t \\gamma^\\mu u_r) / TeV^2 + hc"
+          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu Q)(\\bar t \\gamma^\\mu u_r) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjQtu1Im": {
           "real": true,
-          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu Q)(\\bar t \\gamma^\\mu u_r) / TeV^2 + hc"
+          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu Q)(\\bar t \\gamma^\\mu u_r) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjQtu8Re": {
           "real": true,
-          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu T^A Q)(\\bar t \\gamma^\\mu T^A u_r) / TeV^2 + hc"
+          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu T^A Q)(\\bar t \\gamma^\\mu T^A u_r) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjQtu8Im": {
           "real": true,
-          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu T^A Q)(\\bar t \\gamma^\\mu T^A u_r) / TeV^2 + hc"
+          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu T^A Q)(\\bar t \\gamma^\\mu T^A u_r) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjQbd1Re": {
           "real": true,
-          "tex": "(Y_d^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu Q)(\\bar b \\gamma^\\mu d_r) / TeV^2 + hc"
+          "tex": "(Y_d^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu Q)(\\bar b \\gamma^\\mu d_r) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjQbd1Im": {
           "real": true,
-          "tex": "i (Y_d^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu Q)(\\bar b \\gamma^\\mu d_r) / TeV^2 + hc"
+          "tex": "i (Y_d^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu Q)(\\bar b \\gamma^\\mu d_r) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjQbd8Re": {
           "real": true,
-          "tex": "(Y_d^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu T^A Q)(\\bar b \\gamma^\\mu T^A d_r) / TeV^2 + hc"
+          "tex": "(Y_d^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu T^A Q)(\\bar b \\gamma^\\mu T^A d_r) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjQbd8Im": {
           "real": true,
-          "tex": "i (Y_d^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu T^A Q)(\\bar b \\gamma^\\mu T^A d_r) / TeV^2 + hc"
+          "tex": "i (Y_d^\\dagger)_{pr} (\\bar q_p \\gamma_\\mu T^A Q)(\\bar b \\gamma^\\mu T^A d_r) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cledjRe": {
           "real": true,
-          "tex": "(Y_l^\\dagger)_{pr} Y_{d,st} (\\bar \\ell_p^I e_r)(\\bar d_s q_t^I) / TeV^2 + hc"
+          "tex": "(Y_l^\\dagger)_{pr} Y_{d,st} (\\bar \\ell_p^I e_r)(\\bar d_s q_t^I) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cledjIm": {
           "real": true,
-          "tex": "i (Y_l^\\dagger)_{pr} Y_{d,st} (\\bar \\ell_p^I e_r)(\\bar d_s q_t^I) / TeV^2 + hc"
+          "tex": "i (Y_l^\\dagger)_{pr} Y_{d,st} (\\bar \\ell_p^I e_r)(\\bar d_s q_t^I) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "clebQRe": {
           "real": true,
-          "tex": "(Y_l^\\dagger)_{pr} (\\bar \\ell_p^I e_r)(\\bar b Q^I) / TeV^2 + hc"
+          "tex": "(Y_l^\\dagger)_{pr} (\\bar \\ell_p^I e_r)(\\bar b Q^I) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "clebQIm": {
           "real": true,
-          "tex": "i (Y_l^\\dagger)_{pr} (\\bar \\ell_p^I e_r)(\\bar b Q^I) / TeV^2 + hc"
+          "tex": "i (Y_l^\\dagger)_{pr} (\\bar \\ell_p^I e_r)(\\bar b Q^I) / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjujd1Re": {
           "real": true,
-          "tex": "(Y_u^\\dagger)_{pr} (Y_d^\\dagger)_{st} (\\bar q_p^I u_r)(\\bar q_s^J d_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "(Y_u^\\dagger)_{pr} (Y_d^\\dagger)_{st} (\\bar q_p^I u_r)(\\bar q_s^J d_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjujd1Im": {
           "real": true,
-          "tex": "i (Y_u^\\dagger)_{pr} (Y_d^\\dagger)_{st} (\\bar q_p^I u_r)(\\bar q_s^J d_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "i (Y_u^\\dagger)_{pr} (Y_d^\\dagger)_{st} (\\bar q_p^I u_r)(\\bar q_s^J d_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjujd11Re": {
           "real": true,
-          "tex": "(Y_u^\\dagger)_{sr} (Y_d^\\dagger)_{pt} (\\bar q_p^I u_r)(\\bar q_s^J d_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "(Y_u^\\dagger)_{sr} (Y_d^\\dagger)_{pt} (\\bar q_p^I u_r)(\\bar q_s^J d_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjujd11Im": {
           "real": true,
-          "tex": "i (Y_u^\\dagger)_{sr} (Y_d^\\dagger)_{pt} (\\bar q_p^I u_r)(\\bar q_s^J d_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "i (Y_u^\\dagger)_{sr} (Y_d^\\dagger)_{pt} (\\bar q_p^I u_r)(\\bar q_s^J d_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cQtjd1Re": {
           "real": true,
-          "tex": "(Y_d^\\dagger)_{st} (\\bar Q^I t)(\\bar q_s^J d_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "(Y_d^\\dagger)_{st} (\\bar Q^I t)(\\bar q_s^J d_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cQtjd1Im": {
           "real": true,
-          "tex": "i (Y_d^\\dagger)_{st} (\\bar Q^I t)(\\bar q_s^J d_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "i (Y_d^\\dagger)_{st} (\\bar Q^I t)(\\bar q_s^J d_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjuQb1Re": {
           "real": true,
-          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p^I u_r)(\\bar Q^J b) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p^I u_r)(\\bar Q^J b) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjuQb1Im": {
           "real": true,
-          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p^I u_r)(\\bar Q^J b) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p^I u_r)(\\bar Q^J b) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cQujb1Re": {
           "real": true,
-          "tex": "(Y_u^\\dagger)_{sr} (\\bar Q^I u_r)(\\bar q_s^J b) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "(Y_u^\\dagger)_{sr} (\\bar Q^I u_r)(\\bar q_s^J b) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cQujb1Im": {
           "real": true,
-          "tex": "i (Y_u^\\dagger)_{sr} (\\bar Q^I u_r)(\\bar q_s^J b) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "i (Y_u^\\dagger)_{sr} (\\bar Q^I u_r)(\\bar q_s^J b) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjtQd1Re": {
           "real": true,
-          "tex": "(Y_d^\\dagger)_{pt} (\\bar q_p^I t)(\\bar Q^J d_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "(Y_d^\\dagger)_{pt} (\\bar q_p^I t)(\\bar Q^J d_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjtQd1Im": {
           "real": true,
-          "tex": "i (Y_d^\\dagger)_{pt} (\\bar q_p^I t)(\\bar Q^J d_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "i (Y_d^\\dagger)_{pt} (\\bar q_p^I t)(\\bar Q^J d_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cQtQb1Re": {
           "real": true,
-          "tex": "(\\bar Q^I t)(\\bar Q^J b) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "(\\bar Q^I t)(\\bar Q^J b) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cQtQb1Im": {
           "real": true,
-          "tex": "i (\\bar Q^I t)(\\bar Q^J b) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "i (\\bar Q^I t)(\\bar Q^J b) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjujd8Re": {
           "real": true,
-          "tex": "(Y_u^\\dagger)_{pr} (Y_d^\\dagger)_{st} (\\bar q_p^I T^A u_r)(\\bar q_s^J T^A d_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "(Y_u^\\dagger)_{pr} (Y_d^\\dagger)_{st} (\\bar q_p^I T^A u_r)(\\bar q_s^J T^A d_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjujd8Im": {
           "real": true,
-          "tex": "i (Y_u^\\dagger)_{pr} (Y_d^\\dagger)_{st} (\\bar q_p^I T^A u_r)(\\bar q_s^J T^A d_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "i (Y_u^\\dagger)_{pr} (Y_d^\\dagger)_{st} (\\bar q_p^I T^A u_r)(\\bar q_s^J T^A d_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjujd81Re": {
           "real": true,
-          "tex": "(Y_u^\\dagger)_{sr} (Y_d^\\dagger)_{pt} (\\bar q_p^I T^A u_r)(\\bar q_s^J T^A d_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "(Y_u^\\dagger)_{sr} (Y_d^\\dagger)_{pt} (\\bar q_p^I T^A u_r)(\\bar q_s^J T^A d_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjujd81Im": {
           "real": true,
-          "tex": "i (Y_u^\\dagger)_{sr} (Y_d^\\dagger)_{pt} (\\bar q_p^I T^A u_r)(\\bar q_s^J T^A d_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "i (Y_u^\\dagger)_{sr} (Y_d^\\dagger)_{pt} (\\bar q_p^I T^A u_r)(\\bar q_s^J T^A d_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cQtjd8Re": {
           "real": true,
-          "tex": "(Y_d^\\dagger)_{st} (\\bar Q^I T^A t)(\\bar q_s^J T^A d_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "(Y_d^\\dagger)_{st} (\\bar Q^I T^A t)(\\bar q_s^J T^A d_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cQtjd8Im": {
           "real": true,
-          "tex": "i (Y_d^\\dagger)_{st} (\\bar Q^I T^A t)(\\bar q_s^J T^A d_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "i (Y_d^\\dagger)_{st} (\\bar Q^I T^A t)(\\bar q_s^J T^A d_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjuQb8Re": {
           "real": true,
-          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p^I T^A u_r)(\\bar Q^J T^A b) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "(Y_u^\\dagger)_{pr} (\\bar q_p^I T^A u_r)(\\bar Q^J T^A b) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjuQb8Im": {
           "real": true,
-          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p^I T^A u_r)(\\bar Q^J T^A b) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "i (Y_u^\\dagger)_{pr} (\\bar q_p^I T^A u_r)(\\bar Q^J T^A b) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cQujb8Re": {
           "real": true,
-          "tex": "(Y_u^\\dagger)_{sr} (\\bar Q^I T^A u_r)(\\bar q_s^J T^A b) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "(Y_u^\\dagger)_{sr} (\\bar Q^I T^A u_r)(\\bar q_s^J T^A b) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cQujb8Im": {
           "real": true,
-          "tex": "i (Y_u^\\dagger)_{sr} (\\bar Q^I T^A u_r)(\\bar q_s^J T^A b) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "i (Y_u^\\dagger)_{sr} (\\bar Q^I T^A u_r)(\\bar q_s^J T^A b) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjtQd8Re": {
           "real": true,
-          "tex": "(Y_d^\\dagger)_{pt} (\\bar q_p^I T^A t)(\\bar Q^J T^A d_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "(Y_d^\\dagger)_{pt} (\\bar q_p^I T^A t)(\\bar Q^J T^A d_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cjtQd8Im": {
           "real": true,
-          "tex": "i (Y_d^\\dagger)_{pt} (\\bar q_p^I T^A t)(\\bar Q^J T^A d_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "i (Y_d^\\dagger)_{pt} (\\bar q_p^I T^A t)(\\bar Q^J T^A d_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cQtQb8Re": {
           "real": true,
-          "tex": "(\\bar Q^I T^A t)(\\bar Q^J T^A b) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "(\\bar Q^I T^A t)(\\bar Q^J T^A b) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cQtQb8Im": {
           "real": true,
-          "tex": "i (\\bar Q^I T^A t)(\\bar Q^J T^A b) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "i (\\bar Q^I T^A t)(\\bar Q^J T^A b) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cleju1Re": {
           "real": true,
-          "tex": "(Y_l^\\dagger)_{pr} (Y_u^\\dagger)_{st} (\\bar \\ell_p^I e_r)(\\bar q_s^J u_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "(Y_l^\\dagger)_{pr} (Y_u^\\dagger)_{st} (\\bar \\ell_p^I e_r)(\\bar q_s^J u_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cleju1Im": {
           "real": true,
-          "tex": "i (Y_l^\\dagger)_{pr} (Y_u^\\dagger)_{st} (\\bar \\ell_p^I e_r)(\\bar q_s^J u_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "i (Y_l^\\dagger)_{pr} (Y_u^\\dagger)_{st} (\\bar \\ell_p^I e_r)(\\bar q_s^J u_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cleQt1Re": {
           "real": true,
-          "tex": "(Y_l^\\dagger)_{pr} (\\bar \\ell_p^I e_r)(\\bar Q^J  t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "(Y_l^\\dagger)_{pr} (\\bar \\ell_p^I e_r)(\\bar Q^J  t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cleQt1Im": {
           "real": true,
-          "tex": "i (Y_l^\\dagger)_{pr} (\\bar \\ell_p^I e_r)(\\bar Q^J t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "i (Y_l^\\dagger)_{pr} (\\bar \\ell_p^I e_r)(\\bar Q^J t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cleju3Re": {
           "real": true,
-          "tex": "(Y_l^\\dagger)_{pr} (Y_u^\\dagger)_{st} (\\bar \\ell_p^I \\sigma_{\\mu\\nu} e_r)(\\bar q^J_s \\sigma^{\\mu\\nu} u_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "(Y_l^\\dagger)_{pr} (Y_u^\\dagger)_{st} (\\bar \\ell_p^I \\sigma_{\\mu\\nu} e_r)(\\bar q^J_s \\sigma^{\\mu\\nu} u_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cleju3Im": {
           "real": true,
-          "tex": "i (Y_l^\\dagger)_{pr} (Y_u^\\dagger)_{st} (\\bar \\ell_p^I \\sigma_{\\mu\\nu} e_r)(\\bar q^J_s \\sigma^{\\mu\\nu} u_t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "i (Y_l^\\dagger)_{pr} (Y_u^\\dagger)_{st} (\\bar \\ell_p^I \\sigma_{\\mu\\nu} e_r)(\\bar q^J_s \\sigma^{\\mu\\nu} u_t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cleQt3Re": {
           "real": true,
-          "tex": "(Y_l^\\dagger)_{pr} (\\bar \\ell_p^I \\sigma_{\\mu\\nu} e_r)(\\bar Q^J \\sigma^{\\mu\\nu} t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "(Y_l^\\dagger)_{pr} (\\bar \\ell_p^I \\sigma_{\\mu\\nu} e_r)(\\bar Q^J \\sigma^{\\mu\\nu} t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        },
        "cleQt3Im": {
           "real": true,
-          "tex": "i (Y_l^\\dagger)_{pr} (\\bar \\ell_p^I \\sigma_{\\mu\\nu} e_r)(\\bar Q^J \\sigma^{\\mu\\nu} t) \\varepsilon_{IJ} / TeV^2 + hc"
+          "tex": "i (Y_l^\\dagger)_{pr} (\\bar \\ell_p^I \\sigma_{\\mu\\nu} e_r)(\\bar Q^J \\sigma^{\\mu\\nu} t) \\varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}"
        }
      }
   }

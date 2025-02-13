@@ -84,11 +84,11 @@
        },
        "DeltaucuG": {
           "real": true,
-          "tex": " (Y_u^\\dagger Y_u Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H \\sigma^{\\mu\\nu} T^A u_r) G^A_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "(Y_u^\\dagger Y_u Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H \\sigma^{\\mu\\nu} T^A u_r) G^A_{\\mu\\nu} / TeV^2 + hc"
        },
        "DeltadcuG": {
           "real": true,
-          "tex": " (Y_d^\\dagger Y_d Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H \\sigma^{\\mu\\nu} T^A u_r) G^A_{\\mu\\nu} / TeV^2 + hc"
+          "tex": "(Y_d^\\dagger Y_d Y_u^\\dagger)_{pr} (\\bar q_p \\tilde H \\sigma^{\\mu\\nu} T^A u_r) G^A_{\\mu\\nu} / TeV^2 + hc"
        },
        "cuW0": {
           "real": true,

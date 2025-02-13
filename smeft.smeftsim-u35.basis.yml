@@ -151,7 +151,7 @@ sectors:
       tex: (H^\dagger i \overleftrightarrow D_\mu H) (\bar d_p \gamma^\mu d_p) / TeV^2
     cHudRe:
       real: true
-      tex:  (Y_u Y_d^\dagger)_{pr} (\tilde H^\dagger i D_\mu H) (\bar u_p \gamma^\mu d_r) / TeV^2 + hc
+      tex: (Y_u Y_d^\dagger)_{pr} (\tilde H^\dagger i D_\mu H) (\bar u_p \gamma^\mu d_r) / TeV^2 + hc
     cHudIm:
       real: true
       tex: i (Y_u Y_d^\dagger)_{pr} (\tilde H^\dagger i D_\mu H) (\bar u_p \gamma^\mu d_r) / TeV^2 + hc

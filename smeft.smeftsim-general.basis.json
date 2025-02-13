@@ -104,39 +104,39 @@
        },
        "ceHIm11": {
           "real": true,
-          "tex": " i (\\bar \\ell_1 H e_1) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "i (\\bar \\ell_1 H e_1) (H^\\dagger H) / TeV^2 + hc"
        },
        "ceHIm22": {
           "real": true,
-          "tex": " i (\\bar \\ell_2 H e_2) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "i (\\bar \\ell_2 H e_2) (H^\\dagger H) / TeV^2 + hc"
        },
        "ceHIm33": {
           "real": true,
-          "tex": " i (\\bar \\ell_3 H e_3) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "i (\\bar \\ell_3 H e_3) (H^\\dagger H) / TeV^2 + hc"
        },
        "ceHIm12": {
           "real": true,
-          "tex": " i (\\bar \\ell_1 H e_2) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "i (\\bar \\ell_1 H e_2) (H^\\dagger H) / TeV^2 + hc"
        },
        "ceHIm13": {
           "real": true,
-          "tex": " i (\\bar \\ell_1 H e_3) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "i (\\bar \\ell_1 H e_3) (H^\\dagger H) / TeV^2 + hc"
        },
        "ceHIm21": {
           "real": true,
-          "tex": " i (\\bar \\ell_2 H e_1) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "i (\\bar \\ell_2 H e_1) (H^\\dagger H) / TeV^2 + hc"
        },
        "ceHIm23": {
           "real": true,
-          "tex": " i (\\bar \\ell_2 H e_3) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "i (\\bar \\ell_2 H e_3) (H^\\dagger H) / TeV^2 + hc"
        },
        "ceHIm31": {
           "real": true,
-          "tex": " i (\\bar \\ell_3 H e_1) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "i (\\bar \\ell_3 H e_1) (H^\\dagger H) / TeV^2 + hc"
        },
        "ceHIm32": {
           "real": true,
-          "tex": " i (\\bar \\ell_3 H e_2) (H^\\dagger H) / TeV^2 + hc"
+          "tex": "i (\\bar \\ell_3 H e_2) (H^\\dagger H) / TeV^2 + hc"
        },
        "cuHRe11": {
           "real": true,

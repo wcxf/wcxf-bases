@@ -2,7 +2,7 @@ eft: SMEFT
 basis: SMEFTsim-U35
 metadata:
   description: >
-    Basis used in the SMEFTsim_U35 UFO models, version 3.0.0 or later.
+    Basis used in the `SMEFTsim_U35` UFO models, version 3.0.0 or later.
     Implements Warsaw basis with $U(3)$ flavor symmetry for all fermions. For
     each operator, only the lowest-order flavor structure is kept. $q,u,d$ are
     the left- and right-handed quark fields. $\ell, e$ are left- and
@@ -13,7 +13,7 @@ metadata:
     $Y_d = Y_d^{diag} V_{CKM}^\dagger$. Flavor indices are indicated
     with $p,r,s,t$ with Einstein conventions on repeated indices. They run over
     1,2,3 for all fields. This basis definition corresponds to a fixed
-    LambdaSMEFT=10e+3 in the UFO models. Notation and conventions can vary
+    `LambdaSMEFT=10e+3` in the UFO models. Notation and conventions can vary
     compared to the Warsaw basis paper, see arXiv:2012.11343 for all definitions.
 sectors:
   dB=dL=0:

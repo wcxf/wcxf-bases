@@ -7,391 +7,391 @@ sectors:
   dB=dL=0:
     cG:
       real: true
-      tex: f^{ABC} G_\mu^{A \nu} G_\nu^{B \rho} G_\rho^{C \mu} / \\text{TeV}^2
+      tex: f^{ABC} G_\mu^{A \nu} G_\nu^{B \rho} G_\rho^{C \mu} / \text{TeV}^2
     cW:
       real: true
-      tex: \varepsilon^{IJK} W_\mu^{I \nu} W_\nu^{J \rho} W_\rho^{K \mu} / \\text{TeV}^2
+      tex: \varepsilon^{IJK} W_\mu^{I \nu} W_\nu^{J \rho} W_\rho^{K \mu} / \text{TeV}^2
     cH:
       real: true
-      tex: (H^\dagger H)^3 / \\text{TeV}^2
+      tex: (H^\dagger H)^3 / \text{TeV}^2
     cHbox:
       real: true
-      tex: (H^\dagger H) \Box ( H^\dagger H ) / \\text{TeV}^2
+      tex: (H^\dagger H) \Box ( H^\dagger H ) / \text{TeV}^2
     cHDD:
       real: true
-      tex: (D_\mu H^\dagger H) (H^\dagger D^\mu H) / \\text{TeV}^2
+      tex: (D_\mu H^\dagger H) (H^\dagger D^\mu H) / \text{TeV}^2
     cHG:
       real: true
-      tex: G_{\mu\nu}^A G^{A \mu\nu} H^\dagger H / \\text{TeV}^2
+      tex: G_{\mu\nu}^A G^{A \mu\nu} H^\dagger H / \text{TeV}^2
     cHW:
       real: true
-      tex: W_{\mu\nu}^I W^{I \mu\nu} H^\dagger H / \\text{TeV}^2
+      tex: W_{\mu\nu}^I W^{I \mu\nu} H^\dagger H / \text{TeV}^2
     cHB:
       real: true
-      tex: B_{\mu\nu} B^{\mu\nu} H^\dagger H / \\text{TeV}^2
+      tex: B_{\mu\nu} B^{\mu\nu} H^\dagger H / \text{TeV}^2
     cHWB:
       real: true
-      tex: B_{\mu\nu} W^{I \mu\nu} H^\dagger \sigma^I H / \\text{TeV}^2
+      tex: B_{\mu\nu} W^{I \mu\nu} H^\dagger \sigma^I H / \text{TeV}^2
     ceH:
       real: true
-      tex: (Y_l^\dagger)_{pr} (\bar \ell_p H e_r) (H^\dagger H) / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_l^\dagger)_{pr} (\bar \ell_p H e_r) (H^\dagger H) / \text{TeV}^2 + \text{h.c.}
     cuH0:
       real: true
-      tex: (Y_u^\dagger)_{pr} (\bar q_p \tilde H u_r) (H^\dagger H) / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_u^\dagger)_{pr} (\bar q_p \tilde H u_r) (H^\dagger H) / \text{TeV}^2 + \text{h.c.}
     DeltaucuH:
       real: true
-      tex: (Y_u^\dagger Y_u Y_u^\dagger)_{pr} (\bar q_p \tilde H u_r) (H^\dagger H) / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_u^\dagger Y_u Y_u^\dagger)_{pr} (\bar q_p \tilde H u_r) (H^\dagger H) / \text{TeV}^2 + \text{h.c.}
     DeltadcuH:
       real: true
-      tex: (Y_d^\dagger Y_d Y_u^\dagger)_{pr} (\bar q_p \tilde H u_r) (H^\dagger H) / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_d^\dagger Y_d Y_u^\dagger)_{pr} (\bar q_p \tilde H u_r) (H^\dagger H) / \text{TeV}^2 + \text{h.c.}
     cdH0:
       real: true
-      tex: (Y_d^\dagger)_{pr} (\bar q_p H  d_r) (H^\dagger H) / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_d^\dagger)_{pr} (\bar q_p H  d_r) (H^\dagger H) / \text{TeV}^2 + \text{h.c.}
     DeltaucdH:
       real: true
-      tex: (Y_u^\dagger Y_u Y_d^\dagger)_{pr} (\bar q_p H  d_r) (H^\dagger H) / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_u^\dagger Y_u Y_d^\dagger)_{pr} (\bar q_p H  d_r) (H^\dagger H) / \text{TeV}^2 + \text{h.c.}
     DeltadcdH:
       real: true
-      tex: (Y_d^\dagger Y_d Y_d^\dagger)_{pr} (\bar q_p H  d_r) (H^\dagger H) / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_d^\dagger Y_d Y_d^\dagger)_{pr} (\bar q_p H  d_r) (H^\dagger H) / \text{TeV}^2 + \text{h.c.}
     ceW:
       real: true
-      tex: (Y_l^\dagger)_{pr} (\bar \ell_p \sigma^I H \sigma^{\mu\nu} e_r) W^I_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_l^\dagger)_{pr} (\bar \ell_p \sigma^I H \sigma^{\mu\nu} e_r) W^I_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     ceB:
       real: true
-      tex: (Y_l^\dagger)_{pr} (\bar \ell_p H  \sigma^{\mu\nu} e_r) B_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_l^\dagger)_{pr} (\bar \ell_p H  \sigma^{\mu\nu} e_r) B_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     cuG0:
       real: true
-      tex: (Y_u^\dagger)_{pr} (\bar q_p \tilde H \sigma^{\mu\nu} T^A u_r) G^A_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_u^\dagger)_{pr} (\bar q_p \tilde H \sigma^{\mu\nu} T^A u_r) G^A_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     DeltaucuG:
       real: true
-      tex: (Y_u^\dagger Y_u Y_u^\dagger)_{pr} (\bar q_p \tilde H \sigma^{\mu\nu} T^A u_r) G^A_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_u^\dagger Y_u Y_u^\dagger)_{pr} (\bar q_p \tilde H \sigma^{\mu\nu} T^A u_r) G^A_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     DeltadcuG:
       real: true
-      tex: (Y_d^\dagger Y_d Y_u^\dagger)_{pr} (\bar q_p \tilde H \sigma^{\mu\nu} T^A u_r) G^A_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_d^\dagger Y_d Y_u^\dagger)_{pr} (\bar q_p \tilde H \sigma^{\mu\nu} T^A u_r) G^A_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     cuW0:
       real: true
-      tex: (Y_u^\dagger)_{pr} (\bar q_p \sigma^I  \tilde H \sigma^{\mu\nu} u_r) W^I_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_u^\dagger)_{pr} (\bar q_p \sigma^I  \tilde H \sigma^{\mu\nu} u_r) W^I_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     DeltaucuW:
       real: true
-      tex: (Y_u^\dagger Y_u Y_u^\dagger)_{pr} (\bar q_p \sigma^I  \tilde H \sigma^{\mu\nu} u_r) W^I_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_u^\dagger Y_u Y_u^\dagger)_{pr} (\bar q_p \sigma^I  \tilde H \sigma^{\mu\nu} u_r) W^I_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     DeltadcuW:
       real: true
-      tex: (Y_d^\dagger Y_d Y_u^\dagger)_{pr} (\bar q_p \sigma^I  \tilde H \sigma^{\mu\nu} u_r) W^I_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_d^\dagger Y_d Y_u^\dagger)_{pr} (\bar q_p \sigma^I  \tilde H \sigma^{\mu\nu} u_r) W^I_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     cuB0:
       real: true
-      tex: (Y_u^\dagger)_{pr} (\bar q_p \tilde H \sigma^{\mu\nu} u_r) B_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_u^\dagger)_{pr} (\bar q_p \tilde H \sigma^{\mu\nu} u_r) B_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     DeltaucuB:
       real: true
-      tex: (Y_u^\dagger Y_u Y_u^\dagger)_{pr} (\bar q_p \tilde H \sigma^{\mu\nu} u_r) B_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_u^\dagger Y_u Y_u^\dagger)_{pr} (\bar q_p \tilde H \sigma^{\mu\nu} u_r) B_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     DeltadcuB:
       real: true
-      tex: (Y_d^\dagger Y_d Y_u^\dagger)_{pr} (\bar q_p \tilde H \sigma^{\mu\nu} u_r) B_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_d^\dagger Y_d Y_u^\dagger)_{pr} (\bar q_p \tilde H \sigma^{\mu\nu} u_r) B_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     cdG0:
       real: true
-      tex: (Y_d^\dagger)_{pr} (\bar q_p H \sigma^{\mu\nu} T^A d_r) G^A_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_d^\dagger)_{pr} (\bar q_p H \sigma^{\mu\nu} T^A d_r) G^A_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     DeltaucdG:
       real: true
-      tex: (Y_u^\dagger Y_u Y_d^\dagger)_{pr} (\bar q_p H \sigma^{\mu\nu} T^A d_r) G^A_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_u^\dagger Y_u Y_d^\dagger)_{pr} (\bar q_p H \sigma^{\mu\nu} T^A d_r) G^A_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     DeltadcdG:
       real: true
-      tex: (Y_d^\dagger Y_d Y_d^\dagger)_{pr} (\bar q_p H \sigma^{\mu\nu} T^A d_r) G^A_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_d^\dagger Y_d Y_d^\dagger)_{pr} (\bar q_p H \sigma^{\mu\nu} T^A d_r) G^A_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     cdW0:
       real: true
-      tex: (Y_d^\dagger)_{pr} (\bar q_p \sigma^I H \sigma^{\mu\nu} d_r) W^I_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_d^\dagger)_{pr} (\bar q_p \sigma^I H \sigma^{\mu\nu} d_r) W^I_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     DeltaucdW:
       real: true
-      tex: (Y_u^\dagger Y_u Y_d^\dagger)_{pr} (\bar q_p \sigma^I H \sigma^{\mu\nu} d_r) W^I_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_u^\dagger Y_u Y_d^\dagger)_{pr} (\bar q_p \sigma^I H \sigma^{\mu\nu} d_r) W^I_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     DeltadcdW:
       real: true
-      tex: (Y_d^\dagger Y_d Y_d^\dagger)_{pr} (\bar q_p \sigma^I H \sigma^{\mu\nu} d_r) W^I_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_d^\dagger Y_d Y_d^\dagger)_{pr} (\bar q_p \sigma^I H \sigma^{\mu\nu} d_r) W^I_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     cdB0:
       real: true
-      tex: (Y_d^\dagger)_{pr} (\bar q_p H \sigma^{\mu\nu} d_r) B_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_d^\dagger)_{pr} (\bar q_p H \sigma^{\mu\nu} d_r) B_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     DeltaucdB:
       real: true
-      tex: (Y_u^\dagger Y_u Y_d^\dagger)_{pr} (\bar q_p H \sigma^{\mu\nu} d_r) B_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_u^\dagger Y_u Y_d^\dagger)_{pr} (\bar q_p H \sigma^{\mu\nu} d_r) B_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     DeltadcdB:
       real: true
-      tex: (Y_d^\dagger Y_d Y_d^\dagger)_{pr} (\bar q_p H \sigma^{\mu\nu} d_r) B_{\mu\nu} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_d^\dagger Y_d Y_d^\dagger)_{pr} (\bar q_p H \sigma^{\mu\nu} d_r) B_{\mu\nu} / \text{TeV}^2 + \text{h.c.}
     cHl1:
       real: true
-      tex: (H^\dagger i \overleftrightarrow D_\mu H) (\bar \ell_p \gamma^\mu \ell_p) / \\text{TeV}^2
+      tex: (H^\dagger i \overleftrightarrow D_\mu H) (\bar \ell_p \gamma^\mu \ell_p) / \text{TeV}^2
     cHl3:
       real: true
-      tex: (H^\dagger i \overleftrightarrow D_\mu^I H) (\bar \ell_p \gamma^\mu \sigma^I \ell_p) / \\text{TeV}^2
+      tex: (H^\dagger i \overleftrightarrow D_\mu^I H) (\bar \ell_p \gamma^\mu \sigma^I \ell_p) / \text{TeV}^2
     cHq10:
       real: true
-      tex: (H^\dagger i \overleftrightarrow D_\mu H) (\bar q_p \gamma^\mu q_p) / \\text{TeV}^2
+      tex: (H^\dagger i \overleftrightarrow D_\mu H) (\bar q_p \gamma^\mu q_p) / \text{TeV}^2
     DeltaucHq1:
       real: true
-      tex: (Y_u^\dagger Y_u)_{pr} (H^\dagger i \overleftrightarrow D_\mu H) (\bar q_p \gamma^\mu q_r) / \\text{TeV}^2
+      tex: (Y_u^\dagger Y_u)_{pr} (H^\dagger i \overleftrightarrow D_\mu H) (\bar q_p \gamma^\mu q_r) / \text{TeV}^2
     DeltadcHq1:
       real: true
-      tex: (Y_d^\dagger Y_d)_{pr} (H^\dagger i \overleftrightarrow D_\mu H) (\bar q_p \gamma^\mu q_r) / \\text{TeV}^2
+      tex: (Y_d^\dagger Y_d)_{pr} (H^\dagger i \overleftrightarrow D_\mu H) (\bar q_p \gamma^\mu q_r) / \text{TeV}^2
     cHq30:
       real: true
-      tex: (H^\dagger i \overleftrightarrow D_\mu^I H) (\bar q_p \gamma^\mu \sigma^I q_p) / \\text{TeV}^2
+      tex: (H^\dagger i \overleftrightarrow D_\mu^I H) (\bar q_p \gamma^\mu \sigma^I q_p) / \text{TeV}^2
     DeltaucHq3:
       real: true
-      tex: (Y_u^\dagger Y_u)_{pr} (H^\dagger i \overleftrightarrow D_\mu^I H) (\bar q_p \gamma^\mu \sigma^I q_r) / \\text{TeV}^2
+      tex: (Y_u^\dagger Y_u)_{pr} (H^\dagger i \overleftrightarrow D_\mu^I H) (\bar q_p \gamma^\mu \sigma^I q_r) / \text{TeV}^2
     DeltadcHq3:
       real: true
-      tex: (Y_d^\dagger Y_d)_{pr} (H^\dagger i \overleftrightarrow D_\mu^I H) (\bar q_p \gamma^\mu \sigma^I q_r) / \\text{TeV}^2
+      tex: (Y_d^\dagger Y_d)_{pr} (H^\dagger i \overleftrightarrow D_\mu^I H) (\bar q_p \gamma^\mu \sigma^I q_r) / \text{TeV}^2
     cHe:
       real: true
-      tex: (H^\dagger i \overleftrightarrow D_\mu H) (\bar e_p \gamma^\mu e_p) / \\text{TeV}^2
+      tex: (H^\dagger i \overleftrightarrow D_\mu H) (\bar e_p \gamma^\mu e_p) / \text{TeV}^2
     cHu0:
       real: true
-      tex: (H^\dagger i \overleftrightarrow D_\mu H) (\bar u_p \gamma^\mu u_p) / \\text{TeV}^2
+      tex: (H^\dagger i \overleftrightarrow D_\mu H) (\bar u_p \gamma^\mu u_p) / \text{TeV}^2
     DeltacHu:
       real: true
-      tex: (Y_u Y_u^\dagger)_{pr} (H^\dagger i \overleftrightarrow D_\mu H) (\bar u_p \gamma^\mu u_r) / \\text{TeV}^2
+      tex: (Y_u Y_u^\dagger)_{pr} (H^\dagger i \overleftrightarrow D_\mu H) (\bar u_p \gamma^\mu u_r) / \text{TeV}^2
     cHd0:
       real: true
-      tex: (H^\dagger i \overleftrightarrow D_\mu H) (\bar d_p \gamma^\mu d_p) / \\text{TeV}^2
+      tex: (H^\dagger i \overleftrightarrow D_\mu H) (\bar d_p \gamma^\mu d_p) / \text{TeV}^2
     DeltacHd:
       real: true
-      tex: (Y_d Y_d^\dagger)_{pr} (H^\dagger i \overleftrightarrow D_\mu H) (\bar d_p \gamma^\mu d_r) / \\text{TeV}^2
+      tex: (Y_d Y_d^\dagger)_{pr} (H^\dagger i \overleftrightarrow D_\mu H) (\bar d_p \gamma^\mu d_r) / \text{TeV}^2
     cHud0:
       real: true
-      tex: (Y_u Y_d^\dagger)_{pr} (\tilde i H^\dagger D_\mu H) (\bar u_p \gamma^\mu d_r) / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_u Y_d^\dagger)_{pr} (\tilde i H^\dagger D_\mu H) (\bar u_p \gamma^\mu d_r) / \text{TeV}^2 + \text{h.c.}
     cll:
       real: true
-      tex: (\bar \ell_p \gamma_\mu \ell_p)(\bar \ell_r \gamma^\mu \ell_r) / \\text{TeV}^2
+      tex: (\bar \ell_p \gamma_\mu \ell_p)(\bar \ell_r \gamma^\mu \ell_r) / \text{TeV}^2
     cll1:
       real: true
-      tex: (\bar \ell_p \gamma_\mu \ell_r)(\bar \ell_r \gamma^\mu \ell_p) / \\text{TeV}^2
+      tex: (\bar \ell_p \gamma_\mu \ell_r)(\bar \ell_r \gamma^\mu \ell_p) / \text{TeV}^2
     clq10:
       real: true
-      tex: (\bar \ell_p \gamma_\mu \ell_p)(\bar q_r \gamma^\mu q_r) / \\text{TeV}^2
+      tex: (\bar \ell_p \gamma_\mu \ell_p)(\bar q_r \gamma^\mu q_r) / \text{TeV}^2
     Deltauclq1:
       real: true
-      tex: (Y_u^\dagger Y_u)_{rs} (\bar \ell_p \gamma_\mu \ell_p)(\bar q_r \gamma^\mu q_s) / \\text{TeV}^2
+      tex: (Y_u^\dagger Y_u)_{rs} (\bar \ell_p \gamma_\mu \ell_p)(\bar q_r \gamma^\mu q_s) / \text{TeV}^2
     Deltadclq1:
       real: true
-      tex: (Y_d^\dagger Y_d)_{rs} (\bar \ell_p \gamma_\mu \ell_p)(\bar q_r \gamma^\mu q_s) / \\text{TeV}^2
+      tex: (Y_d^\dagger Y_d)_{rs} (\bar \ell_p \gamma_\mu \ell_p)(\bar q_r \gamma^\mu q_s) / \text{TeV}^2
     clq30:
       real: true
-      tex: (\bar \ell_p \gamma_\mu \sigma^I \ell_p)(\bar q_r \gamma^\mu \sigma^I q_r) / \\text{TeV}^2
+      tex: (\bar \ell_p \gamma_\mu \sigma^I \ell_p)(\bar q_r \gamma^\mu \sigma^I q_r) / \text{TeV}^2
     Deltauclq3:
       real: true
-      tex: (Y_u^\dagger Y_u)_{rs}  (\bar \ell_p \gamma_\mu \sigma^I \ell_p)(\bar q_r \gamma^\mu \sigma^I q_s) / \\text{TeV}^2
+      tex: (Y_u^\dagger Y_u)_{rs}  (\bar \ell_p \gamma_\mu \sigma^I \ell_p)(\bar q_r \gamma^\mu \sigma^I q_s) / \text{TeV}^2
     Deltadclq3:
       real: true
-      tex: (Y_d^\dagger Y_d)_{rs} (\bar \ell_p \gamma_\mu \sigma^I \ell_p)(\bar q_r \gamma^\mu \sigma^I q_s) / \\text{TeV}^2
+      tex: (Y_d^\dagger Y_d)_{rs} (\bar \ell_p \gamma_\mu \sigma^I \ell_p)(\bar q_r \gamma^\mu \sigma^I q_s) / \text{TeV}^2
     cqq10:
       real: true
-      tex: (\bar q_p \gamma_\mu q_p)(\bar q_r \gamma^\mu q_r) / \\text{TeV}^2
+      tex: (\bar q_p \gamma_\mu q_p)(\bar q_r \gamma^\mu q_r) / \text{TeV}^2
     Deltaucqq1:
       real: true
-      tex: (Y_u^\dagger Y_u)_{ps} (\bar q_p \gamma_\mu q_s)(\bar q_r \gamma^\mu q_r) / \\text{TeV}^2
+      tex: (Y_u^\dagger Y_u)_{ps} (\bar q_p \gamma_\mu q_s)(\bar q_r \gamma^\mu q_r) / \text{TeV}^2
     Deltadcqq1:
       real: true
-      tex: (Y_d^\dagger Y_d)_{ps} (\bar q_p \gamma_\mu q_s)(\bar q_r \gamma^\mu q_r) / \\text{TeV}^2
+      tex: (Y_d^\dagger Y_d)_{ps} (\bar q_p \gamma_\mu q_s)(\bar q_r \gamma^\mu q_r) / \text{TeV}^2
     cqq110:
       real: true
-      tex: (\bar q_p \gamma_\mu q_r)(\bar q_r \gamma^\mu q_p) / \\text{TeV}^2
+      tex: (\bar q_p \gamma_\mu q_r)(\bar q_r \gamma^\mu q_p) / \text{TeV}^2
     Deltaucqq11:
       real: true
-      tex: (Y_u^\dagger Y_u)_{ps} (\bar q_p \gamma_\mu q_r)(\bar q_r \gamma^\mu q_s) / \\text{TeV}^2
+      tex: (Y_u^\dagger Y_u)_{ps} (\bar q_p \gamma_\mu q_r)(\bar q_r \gamma^\mu q_s) / \text{TeV}^2
     Deltadcqq11:
       real: true
-      tex: (Y_d^\dagger Y_d)_{ps} (\bar q_p \gamma_\mu q_r)(\bar q_r \gamma^\mu q_s) / \\text{TeV}^2
+      tex: (Y_d^\dagger Y_d)_{ps} (\bar q_p \gamma_\mu q_r)(\bar q_r \gamma^\mu q_s) / \text{TeV}^2
     cqq30:
       real: true
-      tex: (\bar q_p \gamma_\mu \sigma^I q_p)(\bar q_r \gamma^\mu \sigma^I q_r) / \\text{TeV}^2
+      tex: (\bar q_p \gamma_\mu \sigma^I q_p)(\bar q_r \gamma^\mu \sigma^I q_r) / \text{TeV}^2
     Deltaucqq3:
       real: true
-      tex: (Y_u^\dagger Y_u)_{ps} (\bar q_p \gamma_\mu \sigma^I q_s)(\bar q_r \gamma^\mu \sigma^I q_r) / \\text{TeV}^2
+      tex: (Y_u^\dagger Y_u)_{ps} (\bar q_p \gamma_\mu \sigma^I q_s)(\bar q_r \gamma^\mu \sigma^I q_r) / \text{TeV}^2
     Deltadcqq3:
       real: true
-      tex: (Y_d^\dagger Y_d)_{ps} (\bar q_p \gamma_\mu \sigma^I q_s)(\bar q_r \gamma^\mu \sigma^I q_r) / \\text{TeV}^2
+      tex: (Y_d^\dagger Y_d)_{ps} (\bar q_p \gamma_\mu \sigma^I q_s)(\bar q_r \gamma^\mu \sigma^I q_r) / \text{TeV}^2
     cqq310:
       real: true
-      tex: (\bar q_p \gamma_\mu \sigma^I q_r)(\bar q_r \gamma^\mu \sigma^I q_p) / \\text{TeV}^2
+      tex: (\bar q_p \gamma_\mu \sigma^I q_r)(\bar q_r \gamma^\mu \sigma^I q_p) / \text{TeV}^2
     Deltaucqq31:
       real: true
-      tex: (Y_u^\dagger Y_u)_{ps} (\bar q_p \gamma_\mu \sigma^I q_r)(\bar q_r \gamma^\mu \sigma^I q_s) / \\text{TeV}^2
+      tex: (Y_u^\dagger Y_u)_{ps} (\bar q_p \gamma_\mu \sigma^I q_r)(\bar q_r \gamma^\mu \sigma^I q_s) / \text{TeV}^2
     Deltadcqq31:
       real: true
-      tex: (Y_d^\dagger Y_d)_{ps} (\bar q_p \gamma_\mu \sigma^I q_r)(\bar q_r \gamma^\mu \sigma^I q_s) / \\text{TeV}^2
+      tex: (Y_d^\dagger Y_d)_{ps} (\bar q_p \gamma_\mu \sigma^I q_r)(\bar q_r \gamma^\mu \sigma^I q_s) / \text{TeV}^2
     cee:
       real: true
-      tex: (\bar e_p \gamma_\mu e_p)(\bar e_r \gamma^\mu e_r) / \\text{TeV}^2
+      tex: (\bar e_p \gamma_\mu e_p)(\bar e_r \gamma^\mu e_r) / \text{TeV}^2
     cuu0:
       real: true
-      tex: (\bar u_p \gamma_\mu u_p)(\bar u_r \gamma^\mu u_r) / \\text{TeV}^2
+      tex: (\bar u_p \gamma_\mu u_p)(\bar u_r \gamma^\mu u_r) / \text{TeV}^2
     Deltacuu:
       real: true
-      tex: (Y_u Y_u^\dagger)_{ps} (\bar u_p \gamma_\mu u_s)(\bar u_r \gamma^\mu u_r) / \\text{TeV}^2
+      tex: (Y_u Y_u^\dagger)_{ps} (\bar u_p \gamma_\mu u_s)(\bar u_r \gamma^\mu u_r) / \text{TeV}^2
     cuu10:
       real: true
-      tex: (\bar u_p \gamma_\mu u_r)(\bar u_r \gamma^\mu u_p) / \\text{TeV}^2
+      tex: (\bar u_p \gamma_\mu u_r)(\bar u_r \gamma^\mu u_p) / \text{TeV}^2
     Deltacuu1:
       real: true
-      tex: (Y_u Y_u^\dagger)_{ps} (\bar u_p \gamma_\mu u_r)(\bar u_r \gamma^\mu u_s) / \\text{TeV}^2
+      tex: (Y_u Y_u^\dagger)_{ps} (\bar u_p \gamma_\mu u_r)(\bar u_r \gamma^\mu u_s) / \text{TeV}^2
     cdd0:
       real: true
-      tex: (\bar d_p \gamma_\mu d_p)(\bar d_r \gamma^\mu d_r) / \\text{TeV}^2
+      tex: (\bar d_p \gamma_\mu d_p)(\bar d_r \gamma^\mu d_r) / \text{TeV}^2
     Deltacdd:
       real: true
-      tex: (Y_d Y_d^\dagger)_{ps} (\bar d_p \gamma_\mu d_s)(\bar d_r \gamma^\mu d_r) / \\text{TeV}^2
+      tex: (Y_d Y_d^\dagger)_{ps} (\bar d_p \gamma_\mu d_s)(\bar d_r \gamma^\mu d_r) / \text{TeV}^2
     cdd10:
       real: true
-      tex: (\bar d_p \gamma_\mu d_r)(\bar d_r \gamma^\mu d_p) / \\text{TeV}^2
+      tex: (\bar d_p \gamma_\mu d_r)(\bar d_r \gamma^\mu d_p) / \text{TeV}^2
     Deltacdd1:
       real: true
-      tex: (Y_d Y_d^\dagger)_{ps} (\bar d_p \gamma_\mu d_r)(\bar d_r \gamma^\mu d_s) / \\text{TeV}^2
+      tex: (Y_d Y_d^\dagger)_{ps} (\bar d_p \gamma_\mu d_r)(\bar d_r \gamma^\mu d_s) / \text{TeV}^2
     ceu0:
       real: true
-      tex: (\bar e_p \gamma_\mu e_p)(\bar u_r \gamma^\mu u_r) / \\text{TeV}^2
+      tex: (\bar e_p \gamma_\mu e_p)(\bar u_r \gamma^\mu u_r) / \text{TeV}^2
     Deltaceu:
       real: true
-      tex: (Y_u Y_u^\dagger)_{rs} (\bar e_p \gamma_\mu e_p)(\bar u_r \gamma^\mu u_s) / \\text{TeV}^2
+      tex: (Y_u Y_u^\dagger)_{rs} (\bar e_p \gamma_\mu e_p)(\bar u_r \gamma^\mu u_s) / \text{TeV}^2
     ced0:
       real: true
-      tex: (\bar e_p \gamma_\mu e_p)(\bar d_r \gamma^\mu d_r) / \\text{TeV}^2
+      tex: (\bar e_p \gamma_\mu e_p)(\bar d_r \gamma^\mu d_r) / \text{TeV}^2
     Deltaced:
       real: true
-      tex: (Y_d Y_d^\dagger)_{rs} (\bar e_p \gamma_\mu e_p)(\bar d_r \gamma^\mu d_s) / \\text{TeV}^2
+      tex: (Y_d Y_d^\dagger)_{rs} (\bar e_p \gamma_\mu e_p)(\bar d_r \gamma^\mu d_s) / \text{TeV}^2
     cud10:
       real: true
-      tex: (\bar u_p \gamma_\mu u_p)(\bar d_r \gamma^\mu d_r) / \\text{TeV}^2
+      tex: (\bar u_p \gamma_\mu u_p)(\bar d_r \gamma^\mu d_r) / \text{TeV}^2
     Deltaucud1:
       real: true
-      tex: (Y_u Y_u^\dagger)_{ps} (\bar u_p \gamma_\mu u_s)(\bar d_r \gamma^\mu d_r) / \\text{TeV}^2
+      tex: (Y_u Y_u^\dagger)_{ps} (\bar u_p \gamma_\mu u_s)(\bar d_r \gamma^\mu d_r) / \text{TeV}^2
     Deltadcud1:
       real: true
-      tex: (Y_d Y_d^\dagger)_{rs} (\bar u_p \gamma_\mu u_p)(\bar d_r \gamma^\mu d_s) / \\text{TeV}^2
+      tex: (Y_d Y_d^\dagger)_{rs} (\bar u_p \gamma_\mu u_p)(\bar d_r \gamma^\mu d_s) / \text{TeV}^2
     cud80:
       real: true
-      tex: (\bar u_p \gamma_\mu T^A u_p)(\bar d_r \gamma^\mu T^A d_r) / \\text{TeV}^2
+      tex: (\bar u_p \gamma_\mu T^A u_p)(\bar d_r \gamma^\mu T^A d_r) / \text{TeV}^2
     Deltaucud8:
       real: true
-      tex: (Y_u Y_u^\dagger)_{ps} (\bar u_p \gamma_\mu T^A u_s)(\bar d_r \gamma^\mu T^A d_r) / \\text{TeV}^2
+      tex: (Y_u Y_u^\dagger)_{ps} (\bar u_p \gamma_\mu T^A u_s)(\bar d_r \gamma^\mu T^A d_r) / \text{TeV}^2
     Deltadcud8:
       real: true
-      tex: (Y_d Y_d^\dagger)_{rs} (\bar u_p \gamma_\mu T^A u_p)(\bar d_r \gamma^\mu T^A d_s) / \\text{TeV}^2
+      tex: (Y_d Y_d^\dagger)_{rs} (\bar u_p \gamma_\mu T^A u_p)(\bar d_r \gamma^\mu T^A d_s) / \text{TeV}^2
     cle:
       real: true
-      tex: (\bar \ell_p \gamma_\mu \ell_p)(\bar e_r \gamma^\mu e_r) / \\text{TeV}^2
+      tex: (\bar \ell_p \gamma_\mu \ell_p)(\bar e_r \gamma^\mu e_r) / \text{TeV}^2
     clu0:
       real: true
-      tex: (\bar \ell_p \gamma_\mu \ell_p)(\bar u_r \gamma^\mu u_r) / \\text{TeV}^2
+      tex: (\bar \ell_p \gamma_\mu \ell_p)(\bar u_r \gamma^\mu u_r) / \text{TeV}^2
     Deltaclu:
       real: true
-      tex: (Y_u Y_u^\dagger)_{rs} (\bar \ell_p \gamma_\mu \ell_p)(\bar u_r \gamma^\mu u_s) / \\text{TeV}^2
+      tex: (Y_u Y_u^\dagger)_{rs} (\bar \ell_p \gamma_\mu \ell_p)(\bar u_r \gamma^\mu u_s) / \text{TeV}^2
     cld0:
       real: true
-      tex: (\bar \ell_p \gamma_\mu \ell_p)(\bar d_r \gamma^\mu d_r) / \\text{TeV}^2
+      tex: (\bar \ell_p \gamma_\mu \ell_p)(\bar d_r \gamma^\mu d_r) / \text{TeV}^2
     Deltacld:
       real: true
-      tex: (Y_d Y_d^\dagger)_{rs} (\bar \ell_p \gamma_\mu \ell_p)(\bar d_r \gamma^\mu d_s) / \\text{TeV}^2
+      tex: (Y_d Y_d^\dagger)_{rs} (\bar \ell_p \gamma_\mu \ell_p)(\bar d_r \gamma^\mu d_s) / \text{TeV}^2
     cqe0:
       real: true
-      tex: (\bar q_p \gamma_\mu q_p)(\bar e_r \gamma^\mu e_r) / \\text{TeV}^2
+      tex: (\bar q_p \gamma_\mu q_p)(\bar e_r \gamma^\mu e_r) / \text{TeV}^2
     Deltaucqe:
       real: true
-      tex: (Y_u^\dagger Y_u)_{ps} (\bar q_p \gamma_\mu q_s)(\bar e_r \gamma^\mu e_r) / \\text{TeV}^2
+      tex: (Y_u^\dagger Y_u)_{ps} (\bar q_p \gamma_\mu q_s)(\bar e_r \gamma^\mu e_r) / \text{TeV}^2
     Deltadcqe:
       real: true
-      tex: (Y_d^\dagger Y_d)_{ps} (\bar q_p \gamma_\mu q_s)(\bar e_r \gamma^\mu e_r) / \\text{TeV}^2
+      tex: (Y_d^\dagger Y_d)_{ps} (\bar q_p \gamma_\mu q_s)(\bar e_r \gamma^\mu e_r) / \text{TeV}^2
     cqu10:
       real: true
-      tex: (\bar q_p \gamma_\mu q_p)(\bar u_r \gamma^\mu u_r) / \\text{TeV}^2
+      tex: (\bar q_p \gamma_\mu q_p)(\bar u_r \gamma^\mu u_r) / \text{TeV}^2
     Delta1ucqu1:
       real: true
-      tex: (Y_u^\dagger Y_u)_{ps} (\bar q_p \gamma_\mu q_s)(\bar u_r \gamma^\mu u_r) / \\text{TeV}^2
+      tex: (Y_u^\dagger Y_u)_{ps} (\bar q_p \gamma_\mu q_s)(\bar u_r \gamma^\mu u_r) / \text{TeV}^2
     Delta1dcqu1:
       real: true
-      tex: (Y_d^\dagger Y_d)_{ps} (\bar q_p \gamma_\mu q_s)(\bar u_r \gamma^\mu u_r) / \\text{TeV}^2
+      tex: (Y_d^\dagger Y_d)_{ps} (\bar q_p \gamma_\mu q_s)(\bar u_r \gamma^\mu u_r) / \text{TeV}^2
     Delta2cqu1:
       real: true
-      tex: (Y_u Y_u^\dagger)_{rs} (\bar q_p \gamma_\mu q_p)(\bar u_r \gamma^\mu u_s) / \\text{TeV}^2
+      tex: (Y_u Y_u^\dagger)_{rs} (\bar q_p \gamma_\mu q_p)(\bar u_r \gamma^\mu u_s) / \text{TeV}^2
     cqu110:
       real: true
-      tex: (Y_u^\dagger)_{pt} Y_{u,sr}(\bar q_p \gamma_\mu q_r)(\bar u_s \gamma^\mu u_t) / \\text{TeV}^2
+      tex: (Y_u^\dagger)_{pt} Y_{u,sr}(\bar q_p \gamma_\mu q_r)(\bar u_s \gamma^\mu u_t) / \text{TeV}^2
     cqu80:
       real: true
-      tex: (\bar q_p \gamma_\mu T^A q_p)(\bar u_r \gamma^\mu T^A u_r) / \\text{TeV}^2
+      tex: (\bar q_p \gamma_\mu T^A q_p)(\bar u_r \gamma^\mu T^A u_r) / \text{TeV}^2
     Delta1ucqu8:
       real: true
-      tex: (Y_u^\dagger Y_u)_{ps} (\bar q_p \gamma_\mu T^A q_s)(\bar u_r \gamma^\mu T^A u_r) / \\text{TeV}^2
+      tex: (Y_u^\dagger Y_u)_{ps} (\bar q_p \gamma_\mu T^A q_s)(\bar u_r \gamma^\mu T^A u_r) / \text{TeV}^2
     Delta1dcqu8:
       real: true
-      tex: (Y_d^\dagger Y_d)_{ps} (\bar q_p \gamma_\mu T^A q_s)(\bar u_r \gamma^\mu T^A u_r) / \\text{TeV}^2
+      tex: (Y_d^\dagger Y_d)_{ps} (\bar q_p \gamma_\mu T^A q_s)(\bar u_r \gamma^\mu T^A u_r) / \text{TeV}^2
     Delta2cqu8:
       real: true
-      tex: (Y_u Y_u^\dagger)_{rs} (\bar q_p \gamma_\mu T^A q_p)(\bar u_r \gamma^\mu T^A u_s) / \\text{TeV}^2
+      tex: (Y_u Y_u^\dagger)_{rs} (\bar q_p \gamma_\mu T^A q_p)(\bar u_r \gamma^\mu T^A u_s) / \text{TeV}^2
     cqu810:
       real: true
-      tex: (Y_u^\dagger)_{pt} Y_{u,sr}(\bar q_p \gamma_\mu T^A q_r)(\bar u_s \gamma^\mu T^A u_t) / \\text{TeV}^2
+      tex: (Y_u^\dagger)_{pt} Y_{u,sr}(\bar q_p \gamma_\mu T^A q_r)(\bar u_s \gamma^\mu T^A u_t) / \text{TeV}^2
     cqd10:
       real: true
-      tex: (\bar q_p \gamma_\mu q_p)(\bar d_r \gamma^\mu d_r) / \\text{TeV}^2
+      tex: (\bar q_p \gamma_\mu q_p)(\bar d_r \gamma^\mu d_r) / \text{TeV}^2
     Delta1ucqd1:
       real: true
-      tex: (Y_u^\dagger Y_u)_{ps} (\bar q_p \gamma_\mu q_s)(\bar d_r \gamma^\mu d_r) / \\text{TeV}^2
+      tex: (Y_u^\dagger Y_u)_{ps} (\bar q_p \gamma_\mu q_s)(\bar d_r \gamma^\mu d_r) / \text{TeV}^2
     Delta1dcqd1:
       real: true
-      tex: (Y_d^\dagger Y_d)_{ps} (\bar q_p \gamma_\mu q_s)(\bar d_r \gamma^\mu d_r) / \\text{TeV}^2
+      tex: (Y_d^\dagger Y_d)_{ps} (\bar q_p \gamma_\mu q_s)(\bar d_r \gamma^\mu d_r) / \text{TeV}^2
     Delta2cqd1:
       real: true
-      tex: (Y_d Y_d^\dagger)_{rs} (\bar q_p \gamma_\mu q_p)(\bar d_r \gamma^\mu d_s) / \\text{TeV}^2
+      tex: (Y_d Y_d^\dagger)_{rs} (\bar q_p \gamma_\mu q_p)(\bar d_r \gamma^\mu d_s) / \text{TeV}^2
     cqd110:
       real: true
-      tex: (Y_d^\dagger)_{pt} Y_{d,sr} (\bar q_p \gamma_\mu q_r)(\bar d_s \gamma^\mu d_t) / \\text{TeV}^2
+      tex: (Y_d^\dagger)_{pt} Y_{d,sr} (\bar q_p \gamma_\mu q_r)(\bar d_s \gamma^\mu d_t) / \text{TeV}^2
     cqd80:
       real: true
-      tex: (\bar q_p \gamma_\mu T^A q_p)(\bar d_r \gamma^\mu T^A d_r) / \\text{TeV}^2
+      tex: (\bar q_p \gamma_\mu T^A q_p)(\bar d_r \gamma^\mu T^A d_r) / \text{TeV}^2
     Delta1ucqd8:
       real: true
-      tex: (Y_u^\dagger Y_u)_{ps} (\bar q_p \gamma_\mu T^A q_s)(\bar d_r \gamma^\mu T^A d_r) / \\text{TeV}^2
+      tex: (Y_u^\dagger Y_u)_{ps} (\bar q_p \gamma_\mu T^A q_s)(\bar d_r \gamma^\mu T^A d_r) / \text{TeV}^2
     Delta1dcqd8:
       real: true
-      tex: (Y_d^\dagger Y_d)_{ps} (\bar q_p \gamma_\mu T^A q_s)(\bar d_r \gamma^\mu T^A d_r) / \\text{TeV}^2
+      tex: (Y_d^\dagger Y_d)_{ps} (\bar q_p \gamma_\mu T^A q_s)(\bar d_r \gamma^\mu T^A d_r) / \text{TeV}^2
     Delta2cqd8:
       real: true
-      tex: (Y_d Y_d^\dagger)_{rs} (\bar q_p \gamma_\mu T^A q_p)(\bar d_r \gamma^\mu T^A d_s) / \\text{TeV}^2
+      tex: (Y_d Y_d^\dagger)_{rs} (\bar q_p \gamma_\mu T^A q_p)(\bar d_r \gamma^\mu T^A d_s) / \text{TeV}^2
     cqd810:
       real: true
-      tex: (Y_d^\dagger)_{pt} Y_{d,sr} (\bar q_p \gamma_\mu T^A q_r)(\bar d_s \gamma^\mu T^A d_t) / \\text{TeV}^2
+      tex: (Y_d^\dagger)_{pt} Y_{d,sr} (\bar q_p \gamma_\mu T^A q_r)(\bar d_s \gamma^\mu T^A d_t) / \text{TeV}^2
     cledq0:
       real: true
-      tex: (Y_l^\dagger)_{pr} Y_{d,st} (\bar \ell_p^I e_r)(\bar d_s q_t^I) / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_l^\dagger)_{pr} Y_{d,st} (\bar \ell_p^I e_r)(\bar d_s q_t^I) / \text{TeV}^2 + \text{h.c.}
     Deltaucledq:
       real: true
-      tex: (Y_l^\dagger)_{pr} (Y_d Y_u^\dagger Y_u)_{st} (\bar \ell_p^I e_r)(\bar d_s q_t^I) / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_l^\dagger)_{pr} (Y_d Y_u^\dagger Y_u)_{st} (\bar \ell_p^I e_r)(\bar d_s q_t^I) / \text{TeV}^2 + \text{h.c.}
     Deltadcledq:
       real: true
-      tex: (Y_l^\dagger)_{pr} (Y_d Y_d^\dagger Y_d)_{st} (\bar \ell_p^I e_r)(\bar d_s q_t^I) / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_l^\dagger)_{pr} (Y_d Y_d^\dagger Y_d)_{st} (\bar \ell_p^I e_r)(\bar d_s q_t^I) / \text{TeV}^2 + \text{h.c.}
     cquqd1:
       real: true
-      tex: (Y_u^\dagger)_{pr} (Y_d^\dagger)_{st} (\bar q_p^I u_r)(\bar q_s^J d_t) \varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_u^\dagger)_{pr} (Y_d^\dagger)_{st} (\bar q_p^I u_r)(\bar q_s^J d_t) \varepsilon_{IJ} / \text{TeV}^2 + \text{h.c.}
     cquqd11:
       real: true
-      tex: (Y_u^\dagger)_{sr} (Y_d^\dagger)_{pt} (\bar q_p^I u_r)(\bar q_s^J d_t) \varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_u^\dagger)_{sr} (Y_d^\dagger)_{pt} (\bar q_p^I u_r)(\bar q_s^J d_t) \varepsilon_{IJ} / \text{TeV}^2 + \text{h.c.}
     cquqd8:
       real: true
-      tex: (Y_u^\dagger)_{pr} (Y_d^\dagger)_{st} (\bar q_p^I T^A u_r)(\bar q_s^J T^A d_t) \varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_u^\dagger)_{pr} (Y_d^\dagger)_{st} (\bar q_p^I T^A u_r)(\bar q_s^J T^A d_t) \varepsilon_{IJ} / \text{TeV}^2 + \text{h.c.}
     cquqd81:
       real: true
-      tex: (Y_u^\dagger)_{sr} (Y_d^\dagger)_{pt} (\bar q_p^I T^A u_r)(\bar q_s^J T^A d_t) \varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_u^\dagger)_{sr} (Y_d^\dagger)_{pt} (\bar q_p^I T^A u_r)(\bar q_s^J T^A d_t) \varepsilon_{IJ} / \text{TeV}^2 + \text{h.c.}
     clequ10:
       real: true
-      tex: (Y_l^\dagger)_{pr} (Y_u^\dagger)_{st} (\bar \ell_p^I e_r)(\bar q_s^J u_t) \varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_l^\dagger)_{pr} (Y_u^\dagger)_{st} (\bar \ell_p^I e_r)(\bar q_s^J u_t) \varepsilon_{IJ} / \text{TeV}^2 + \text{h.c.}
     Deltauclequ1:
       real: true
-      tex: (Y_l^\dagger)_{pr} (Y_u^\dagger Y_u Y_u^\dagger)_{st} (\bar \ell_p^I e_r)(\bar q_s^J u_t) \varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_l^\dagger)_{pr} (Y_u^\dagger Y_u Y_u^\dagger)_{st} (\bar \ell_p^I e_r)(\bar q_s^J u_t) \varepsilon_{IJ} / \text{TeV}^2 + \text{h.c.}
     Deltadclequ1:
       real: true
-      tex: (Y_l^\dagger)_{pr} (Y_d^\dagger Y_d Y_u^\dagger)_{st} (\bar \ell_p^I e_r)(\bar q_s^J u_t) \varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_l^\dagger)_{pr} (Y_d^\dagger Y_d Y_u^\dagger)_{st} (\bar \ell_p^I e_r)(\bar q_s^J u_t) \varepsilon_{IJ} / \text{TeV}^2 + \text{h.c.}
     clequ30:
       real: true
-      tex: (Y_l^\dagger)_{pr} (Y_u^\dagger)_{st} (\bar \ell_p^I \sigma_{\mu\nu} e_r)(\bar q^J_s \sigma^{\mu\nu} u_t) \varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_l^\dagger)_{pr} (Y_u^\dagger)_{st} (\bar \ell_p^I \sigma_{\mu\nu} e_r)(\bar q^J_s \sigma^{\mu\nu} u_t) \varepsilon_{IJ} / \text{TeV}^2 + \text{h.c.}
     Deltauclequ3:
       real: true
-      tex: (Y_l^\dagger)_{pr} (Y_u^\dagger Y_u Y_u^\dagger)_{st} (\bar \ell_p^I \sigma_{\mu\nu} e_r)(\bar q^J_s \sigma^{\mu\nu} u_t) \varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_l^\dagger)_{pr} (Y_u^\dagger Y_u Y_u^\dagger)_{st} (\bar \ell_p^I \sigma_{\mu\nu} e_r)(\bar q^J_s \sigma^{\mu\nu} u_t) \varepsilon_{IJ} / \text{TeV}^2 + \text{h.c.}
     Deltadclequ3:
       real: true
-      tex: (Y_l^\dagger)_{pr} (Y_d^\dagger Y_d Y_u^\dagger)_{st} (\bar \ell_p^I \sigma_{\mu\nu} e_r)(\bar q^J_s \sigma^{\mu\nu} u_t) \varepsilon_{IJ} / \\text{TeV}^2 + \\text{h.c.}
+      tex: (Y_l^\dagger)_{pr} (Y_d^\dagger Y_d Y_u^\dagger)_{st} (\bar \ell_p^I \sigma_{\mu\nu} e_r)(\bar q^J_s \sigma^{\mu\nu} u_t) \varepsilon_{IJ} / \text{TeV}^2 + \text{h.c.}

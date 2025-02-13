@@ -1,5 +1,5 @@
 eft: SMEFT
-basis: SMEFTsim-top
+basis: SMEFTsim_top
 metadata:
   description: >
     Basis used in the `SMEFTsim_top` UFO models, version 3.0.0 or later.
@@ -13,7 +13,7 @@ metadata:
     with the 3rd are absent. In the UFO models, both $Y_u$ and $Y_d$ are assumed diagonal at the
     scale of evaluation, and the CKM is taken to be the unit matrix. Flavor indices are
     indicated with $p,r,s,t$ with Einstein conventions on repeated indices. They run
-    over 1,2 for quarks. This basis definition corresponds to a fixed `LambdaSMEFT=10e+3`
+    over 1,2 for quarks. This basis definition corresponds to a fixed `LambdaSMEFT=1e+3`
     in the UFO models. Notation and conventions can vary compared to the Warsaw basis
     paper, see [arXiv:2012.11343](https://arxiv.org/abs/2012.11343) for all definitions.
 sectors:

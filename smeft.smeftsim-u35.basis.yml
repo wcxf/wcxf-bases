@@ -14,7 +14,7 @@ metadata:
     with $p,r,s,t$ with Einstein conventions on repeated indices. They run over
     1,2,3 for all fields. This basis definition corresponds to a fixed
     `LambdaSMEFT=10e+3` in the UFO models. Notation and conventions can vary
-    compared to the Warsaw basis paper, see arXiv:2012.11343 for all definitions.
+    compared to the Warsaw basis paper, see [arXiv:2012.11343](https://arxiv.org/abs/2012.11343) for all definitions.
 sectors:
   dB=dL=0:
     cG:

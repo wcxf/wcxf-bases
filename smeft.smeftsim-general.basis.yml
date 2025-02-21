@@ -899,130 +899,130 @@ sectors:
       tex: (\bar \ell_3 \gamma_\mu \ell_3)(\bar \ell_3 \gamma^\mu \ell_3) / \text{TeV}^2
     cllRe1122:
       real: true
-      tex: (\bar \ell_1 \gamma_\mu \ell_1)(\bar \ell_2 \gamma^\mu \ell_2) / \text{TeV}^2
+      tex: 2 (\bar \ell_1 \gamma_\mu \ell_1)(\bar \ell_2 \gamma^\mu \ell_2) / \text{TeV}^2
     cllRe1133:
       real: true
-      tex: (\bar \ell_1 \gamma_\mu \ell_1)(\bar \ell_3 \gamma^\mu \ell_3) / \text{TeV}^2
+      tex: 2 (\bar \ell_1 \gamma_\mu \ell_1)(\bar \ell_3 \gamma^\mu \ell_3) / \text{TeV}^2
     cllRe2233:
       real: true
-      tex: (\bar \ell_2 \gamma_\mu \ell_2)(\bar \ell_3 \gamma^\mu \ell_3) / \text{TeV}^2
+      tex: 2 (\bar \ell_2 \gamma_\mu \ell_2)(\bar \ell_3 \gamma^\mu \ell_3) / \text{TeV}^2
     cllRe1221:
       real: true
-      tex: (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_2 \gamma^\mu \ell_1) / \text{TeV}^2
+      tex: 2 (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_2 \gamma^\mu \ell_1) / \text{TeV}^2
     cllRe1331:
       real: true
-      tex: (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_3 \gamma^\mu \ell_1) / \text{TeV}^2
+      tex: 2 (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_3 \gamma^\mu \ell_1) / \text{TeV}^2
     cllRe2332:
       real: true
-      tex: (\bar \ell_2 \gamma_\mu \ell_3)(\bar \ell_3 \gamma^\mu \ell_2) / \text{TeV}^2
+      tex: 2 (\bar \ell_2 \gamma_\mu \ell_3)(\bar \ell_3 \gamma^\mu \ell_2) / \text{TeV}^2
     cllRe1112:
       real: true
-      tex: (\bar \ell_1 \gamma_\mu \ell_1)(\bar \ell_1 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar \ell_1 \gamma_\mu \ell_1)(\bar \ell_1 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
     cllRe1113:
       real: true
-      tex: (\bar \ell_1 \gamma_\mu \ell_1)(\bar \ell_1 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar \ell_1 \gamma_\mu \ell_1)(\bar \ell_1 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllRe1123:
       real: true
-      tex: (\bar \ell_1 \gamma_\mu \ell_1)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar \ell_1 \gamma_\mu \ell_1)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllRe1212:
       real: true
       tex: (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_1 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
     cllRe1213:
       real: true
-      tex: (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_1 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_1 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllRe1222:
       real: true
-      tex: (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_2 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_2 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
     cllRe1232:
       real: true
-      tex: (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_3 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_3 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
     cllRe1233:
       real: true
-      tex: (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_3 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_3 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllRe1313:
       real: true
       tex: (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_1 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllRe1322:
       real: true
-      tex: (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_2 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_2 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
     cllRe1323:
       real: true
-      tex: (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllRe1333:
       real: true
-      tex: (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_3 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_3 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllRe2223:
       real: true
-      tex: (\bar \ell_2 \gamma_\mu \ell_2)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar \ell_2 \gamma_\mu \ell_2)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllRe2323:
       real: true
       tex: (\bar \ell_2 \gamma_\mu \ell_3)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllRe3323:
       real: true
-      tex: (\bar \ell_3 \gamma_\mu \ell_3)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar \ell_3 \gamma_\mu \ell_3)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllRe1231:
       real: true
-      tex: (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_3 \gamma^\mu \ell_1) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_3 \gamma^\mu \ell_1) / \text{TeV}^2 + \text{h.c.}
     cllRe1223:
       real: true
-      tex: (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllRe1332:
       real: true
-      tex: (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_3 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_3 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
     cllIm1112:
       real: true
-      tex: i (\bar \ell_1 \gamma_\mu \ell_1)(\bar \ell_1 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar \ell_1 \gamma_\mu \ell_1)(\bar \ell_1 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
     cllIm1113:
       real: true
-      tex: i (\bar \ell_1 \gamma_\mu \ell_1)(\bar \ell_1 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar \ell_1 \gamma_\mu \ell_1)(\bar \ell_1 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllIm1123:
       real: true
-      tex: i (\bar \ell_1 \gamma_\mu \ell_1)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar \ell_1 \gamma_\mu \ell_1)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllIm1212:
       real: true
       tex: i (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_1 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
     cllIm1213:
       real: true
-      tex: i (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_1 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_1 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllIm1222:
       real: true
-      tex: i (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_2 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_2 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
     cllIm1232:
       real: true
-      tex: i (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_3 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_3 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
     cllIm1233:
       real: true
-      tex: i (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_3 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_3 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllIm1313:
       real: true
       tex: i (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_1 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllIm1322:
       real: true
-      tex: i (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_2 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_2 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
     cllIm1323:
       real: true
-      tex: i (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllIm1333:
       real: true
-      tex: i (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_3 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_3 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllIm2223:
       real: true
-      tex: i (\bar \ell_2 \gamma_\mu \ell_2)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar \ell_2 \gamma_\mu \ell_2)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllIm2323:
       real: true
       tex: i (\bar \ell_2 \gamma_\mu \ell_3)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllIm3323:
       real: true
-      tex: i (\bar \ell_3 \gamma_\mu \ell_3)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar \ell_3 \gamma_\mu \ell_3)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllIm1231:
       real: true
-      tex: i (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_3 \gamma^\mu \ell_1) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_3 \gamma^\mu \ell_1) / \text{TeV}^2 + \text{h.c.}
     cllIm1223:
       real: true
-      tex: i (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar \ell_1 \gamma_\mu \ell_2)(\bar \ell_2 \gamma^\mu \ell_3) / \text{TeV}^2 + \text{h.c.}
     cllIm1332:
       real: true
-      tex: i (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_3 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar \ell_1 \gamma_\mu \ell_3)(\bar \ell_3 \gamma^\mu \ell_2) / \text{TeV}^2 + \text{h.c.}
     clq1Re1111:
       real: true
       tex: (\bar \ell_1 \gamma_\mu \ell_1)(\bar q_1 \gamma^\mu q_1) / \text{TeV}^2
@@ -1520,130 +1520,130 @@ sectors:
       tex: (\bar q_3 \gamma_\mu q_3)(\bar q_3 \gamma^\mu q_3) / \text{TeV}^2
     cqq1Re1122:
       real: true
-      tex: (\bar q_1 \gamma_\mu q_1)(\bar q_2 \gamma^\mu q_2) / \text{TeV}^2
+      tex: 2 (\bar q_1 \gamma_\mu q_1)(\bar q_2 \gamma^\mu q_2) / \text{TeV}^2
     cqq1Re1133:
       real: true
-      tex: (\bar q_1 \gamma_\mu q_1)(\bar q_3 \gamma^\mu q_3) / \text{TeV}^2
+      tex: 2 (\bar q_1 \gamma_\mu q_1)(\bar q_3 \gamma^\mu q_3) / \text{TeV}^2
     cqq1Re2233:
       real: true
-      tex: (\bar q_2 \gamma_\mu q_2)(\bar q_3 \gamma^\mu q_3) / \text{TeV}^2
+      tex: 2 (\bar q_2 \gamma_\mu q_2)(\bar q_3 \gamma^\mu q_3) / \text{TeV}^2
     cqq1Re1221:
       real: true
-      tex: (\bar q_1 \gamma_\mu q_2)(\bar q_2 \gamma^\mu q_1) / \text{TeV}^2
+      tex: 2 (\bar q_1 \gamma_\mu q_2)(\bar q_2 \gamma^\mu q_1) / \text{TeV}^2
     cqq1Re1331:
       real: true
-      tex: (\bar q_1 \gamma_\mu q_3)(\bar q_3 \gamma^\mu q_1) / \text{TeV}^2
+      tex: 2 (\bar q_1 \gamma_\mu q_3)(\bar q_3 \gamma^\mu q_1) / \text{TeV}^2
     cqq1Re2332:
       real: true
-      tex: (\bar q_2 \gamma_\mu q_3)(\bar q_3 \gamma^\mu q_2) / \text{TeV}^2
+      tex: 2 (\bar q_2 \gamma_\mu q_3)(\bar q_3 \gamma^\mu q_2) / \text{TeV}^2
     cqq1Re1112:
       real: true
-      tex: (\bar q_1 \gamma_\mu q_1)(\bar q_1 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu q_1)(\bar q_1 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
     cqq1Re1113:
       real: true
-      tex: (\bar q_1 \gamma_\mu q_1)(\bar q_1 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu q_1)(\bar q_1 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Re1123:
       real: true
-      tex: (\bar q_1 \gamma_\mu q_1)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu q_1)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Re1212:
       real: true
       tex: (\bar q_1 \gamma_\mu q_2)(\bar q_1 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
     cqq1Re1213:
       real: true
-      tex: (\bar q_1 \gamma_\mu q_2)(\bar q_1 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu q_2)(\bar q_1 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Re1222:
       real: true
-      tex: (\bar q_1 \gamma_\mu q_2)(\bar q_2 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu q_2)(\bar q_2 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
     cqq1Re1232:
       real: true
-      tex: (\bar q_1 \gamma_\mu q_2)(\bar q_3 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu q_2)(\bar q_3 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
     cqq1Re1233:
       real: true
-      tex: (\bar q_1 \gamma_\mu q_2)(\bar q_3 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu q_2)(\bar q_3 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Re1313:
       real: true
       tex: (\bar q_1 \gamma_\mu q_3)(\bar q_1 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Re1322:
       real: true
-      tex: (\bar q_1 \gamma_\mu q_3)(\bar q_2 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu q_3)(\bar q_2 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
     cqq1Re1323:
       real: true
-      tex: (\bar q_1 \gamma_\mu q_3)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu q_3)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Re1333:
       real: true
-      tex: (\bar q_1 \gamma_\mu q_3)(\bar q_3 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu q_3)(\bar q_3 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Re2223:
       real: true
-      tex: (\bar q_2 \gamma_\mu q_2)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_2 \gamma_\mu q_2)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Re2323:
       real: true
       tex: (\bar q_2 \gamma_\mu q_3)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Re3323:
       real: true
-      tex: (\bar q_3 \gamma_\mu q_3)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_3 \gamma_\mu q_3)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Re1231:
       real: true
-      tex: (\bar q_1 \gamma_\mu q_2)(\bar q_3 \gamma^\mu q_1) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu q_2)(\bar q_3 \gamma^\mu q_1) / \text{TeV}^2 + \text{h.c.}
     cqq1Re1223:
       real: true
-      tex: (\bar q_1 \gamma_\mu q_2)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu q_2)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Re1332:
       real: true
-      tex: (\bar q_1 \gamma_\mu q_3)(\bar q_3 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu q_3)(\bar q_3 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
     cqq1Im1112:
       real: true
-      tex: i (\bar q_1 \gamma_\mu q_1)(\bar q_1 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu q_1)(\bar q_1 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
     cqq1Im1113:
       real: true
-      tex: i (\bar q_1 \gamma_\mu q_1)(\bar q_1 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu q_1)(\bar q_1 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Im1123:
       real: true
-      tex: i (\bar q_1 \gamma_\mu q_1)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu q_1)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Im1212:
       real: true
       tex: i (\bar q_1 \gamma_\mu q_2)(\bar q_1 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
     cqq1Im1213:
       real: true
-      tex: i (\bar q_1 \gamma_\mu q_2)(\bar q_1 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu q_2)(\bar q_1 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Im1222:
       real: true
-      tex: i (\bar q_1 \gamma_\mu q_2)(\bar q_2 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu q_2)(\bar q_2 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
     cqq1Im1232:
       real: true
-      tex: i (\bar q_1 \gamma_\mu q_2)(\bar q_3 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu q_2)(\bar q_3 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
     cqq1Im1233:
       real: true
-      tex: i (\bar q_1 \gamma_\mu q_2)(\bar q_3 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu q_2)(\bar q_3 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Im1313:
       real: true
       tex: i (\bar q_1 \gamma_\mu q_3)(\bar q_1 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Im1322:
       real: true
-      tex: i (\bar q_1 \gamma_\mu q_3)(\bar q_2 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu q_3)(\bar q_2 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
     cqq1Im1323:
       real: true
-      tex: i (\bar q_1 \gamma_\mu q_3)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu q_3)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Im1333:
       real: true
-      tex: i (\bar q_1 \gamma_\mu q_3)(\bar q_3 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu q_3)(\bar q_3 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Im2223:
       real: true
-      tex: i (\bar q_2 \gamma_\mu q_2)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_2 \gamma_\mu q_2)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Im2323:
       real: true
       tex: i (\bar q_2 \gamma_\mu q_3)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Im3323:
       real: true
-      tex: i (\bar q_3 \gamma_\mu q_3)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_3 \gamma_\mu q_3)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Im1231:
       real: true
-      tex: i (\bar q_1 \gamma_\mu q_2)(\bar q_3 \gamma^\mu q_1) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu q_2)(\bar q_3 \gamma^\mu q_1) / \text{TeV}^2 + \text{h.c.}
     cqq1Im1223:
       real: true
-      tex: i (\bar q_1 \gamma_\mu q_2)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu q_2)(\bar q_2 \gamma^\mu q_3) / \text{TeV}^2 + \text{h.c.}
     cqq1Im1332:
       real: true
-      tex: i (\bar q_1 \gamma_\mu q_3)(\bar q_3 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu q_3)(\bar q_3 \gamma^\mu q_2) / \text{TeV}^2 + \text{h.c.}
     cqq3Re1111:
       real: true
       tex: (\bar q_1 \gamma_\mu \sigma^I q_1)(\bar q_1 \gamma^\mu \sigma^I q_1) / \text{TeV}^2
@@ -1655,130 +1655,130 @@ sectors:
       tex: (\bar q_3 \gamma_\mu \sigma^I q_3)(\bar q_3 \gamma^\mu \sigma^I q_3) / \text{TeV}^2
     cqq3Re1122:
       real: true
-      tex: (\bar q_1 \gamma_\mu \sigma^I q_1)(\bar q_2 \gamma^\mu \sigma^I q_2) / \text{TeV}^2
+      tex: 2 (\bar q_1 \gamma_\mu \sigma^I q_1)(\bar q_2 \gamma^\mu \sigma^I q_2) / \text{TeV}^2
     cqq3Re1133:
       real: true
-      tex: (\bar q_1 \gamma_\mu \sigma^I q_1)(\bar q_3 \gamma^\mu \sigma^I q_3) / \text{TeV}^2
+      tex: 2 (\bar q_1 \gamma_\mu \sigma^I q_1)(\bar q_3 \gamma^\mu \sigma^I q_3) / \text{TeV}^2
     cqq3Re2233:
       real: true
-      tex: (\bar q_2 \gamma_\mu \sigma^I q_2)(\bar q_3 \gamma^\mu \sigma^I q_3) / \text{TeV}^2
+      tex: 2 (\bar q_2 \gamma_\mu \sigma^I q_2)(\bar q_3 \gamma^\mu \sigma^I q_3) / \text{TeV}^2
     cqq3Re1221:
       real: true
-      tex: (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_2 \gamma^\mu \sigma^I q_1) / \text{TeV}^2
+      tex: 2 (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_2 \gamma^\mu \sigma^I q_1) / \text{TeV}^2
     cqq3Re1331:
       real: true
-      tex: (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_3 \gamma^\mu \sigma^I q_1) / \text{TeV}^2
+      tex: 2 (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_3 \gamma^\mu \sigma^I q_1) / \text{TeV}^2
     cqq3Re2332:
       real: true
-      tex: (\bar q_2 \gamma_\mu \sigma^I q_3)(\bar q_3 \gamma^\mu \sigma^I q_2) / \text{TeV}^2
+      tex: 2 (\bar q_2 \gamma_\mu \sigma^I q_3)(\bar q_3 \gamma^\mu \sigma^I q_2) / \text{TeV}^2
     cqq3Re1112:
       real: true
-      tex: (\bar q_1 \gamma_\mu \sigma^I q_1)(\bar q_1 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu \sigma^I q_1)(\bar q_1 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
     cqq3Re1113:
       real: true
-      tex: (\bar q_1 \gamma_\mu \sigma^I q_1)(\bar q_1 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu \sigma^I q_1)(\bar q_1 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Re1123:
       real: true
-      tex: (\bar q_1 \gamma_\mu \sigma^I q_1)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu \sigma^I q_1)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Re1212:
       real: true
       tex: (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_1 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
     cqq3Re1213:
       real: true
-      tex: (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_1 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_1 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Re1222:
       real: true
-      tex: (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_2 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_2 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
     cqq3Re1232:
       real: true
-      tex: (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_3 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_3 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
     cqq3Re1233:
       real: true
-      tex: (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_3 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_3 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Re1313:
       real: true
       tex: (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_1 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Re1322:
       real: true
-      tex: (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_2 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_2 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
     cqq3Re1323:
       real: true
-      tex: (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Re1333:
       real: true
-      tex: (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_3 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_3 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Re2223:
       real: true
-      tex: (\bar q_2 \gamma_\mu \sigma^I q_2)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_2 \gamma_\mu \sigma^I q_2)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Re2323:
       real: true
       tex: (\bar q_2 \gamma_\mu \sigma^I q_3)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Re3323:
       real: true
-      tex: (\bar q_3 \gamma_\mu \sigma^I q_3)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_3 \gamma_\mu \sigma^I q_3)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Re1231:
       real: true
-      tex: (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_3 \gamma^\mu \sigma^I q_1) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_3 \gamma^\mu \sigma^I q_1) / \text{TeV}^2 + \text{h.c.}
     cqq3Re1223:
       real: true
-      tex: (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Re1332:
       real: true
-      tex: (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_3 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_3 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
     cqq3Im1112:
       real: true
-      tex: i (\bar q_1 \gamma_\mu \sigma^I q_1)(\bar q_1 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu \sigma^I q_1)(\bar q_1 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
     cqq3Im1113:
       real: true
-      tex: i (\bar q_1 \gamma_\mu \sigma^I q_1)(\bar q_1 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu \sigma^I q_1)(\bar q_1 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Im1123:
       real: true
-      tex: i (\bar q_1 \gamma_\mu \sigma^I q_1)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu \sigma^I q_1)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Im1212:
       real: true
       tex: i (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_1 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
     cqq3Im1213:
       real: true
-      tex: i (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_1 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_1 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Im1222:
       real: true
-      tex: i (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_2 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_2 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
     cqq3Im1232:
       real: true
-      tex: i (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_3 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_3 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
     cqq3Im1233:
       real: true
-      tex: i (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_3 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_3 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Im1313:
       real: true
       tex: i (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_1 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Im1322:
       real: true
-      tex: i (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_2 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_2 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
     cqq3Im1323:
       real: true
-      tex: i (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Im1333:
       real: true
-      tex: i (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_3 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_3 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Im2223:
       real: true
-      tex: i (\bar q_2 \gamma_\mu \sigma^I q_2)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_2 \gamma_\mu \sigma^I q_2)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Im2323:
       real: true
       tex: i (\bar q_2 \gamma_\mu \sigma^I q_3)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Im3323:
       real: true
-      tex: i (\bar q_3 \gamma_\mu \sigma^I q_3)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_3 \gamma_\mu \sigma^I q_3)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Im1231:
       real: true
-      tex: i (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_3 \gamma^\mu \sigma^I q_1) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_3 \gamma^\mu \sigma^I q_1) / \text{TeV}^2 + \text{h.c.}
     cqq3Im1223:
       real: true
-      tex: i (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu \sigma^I q_2)(\bar q_2 \gamma^\mu \sigma^I q_3) / \text{TeV}^2 + \text{h.c.}
     cqq3Im1332:
       real: true
-      tex: i (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_3 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar q_1 \gamma_\mu \sigma^I q_3)(\bar q_3 \gamma^\mu \sigma^I q_2) / \text{TeV}^2 + \text{h.c.}
     ceeRe1111:
       real: true
       tex: (\bar e_1 \gamma_\mu e_1)(\bar e_1 \gamma^\mu e_1) / \text{TeV}^2
@@ -1790,103 +1790,103 @@ sectors:
       tex: (\bar e_3 \gamma_\mu e_3)(\bar e_3 \gamma^\mu e_3) / \text{TeV}^2
     ceeRe1122:
       real: true
-      tex: (\bar e_1 \gamma_\mu e_1)(\bar e_2 \gamma^\mu e_2) / \text{TeV}^2
+      tex: 4 (\bar e_1 \gamma_\mu e_1)(\bar e_2 \gamma^\mu e_2) / \text{TeV}^2
     ceeRe1133:
       real: true
-      tex: (\bar e_1 \gamma_\mu e_1)(\bar e_3 \gamma^\mu e_3) / \text{TeV}^2
+      tex: 4 (\bar e_1 \gamma_\mu e_1)(\bar e_3 \gamma^\mu e_3) / \text{TeV}^2
     ceeRe2233:
       real: true
-      tex: (\bar e_2 \gamma_\mu e_2)(\bar e_3 \gamma^\mu e_3) / \text{TeV}^2
+      tex: 4 (\bar e_2 \gamma_\mu e_2)(\bar e_3 \gamma^\mu e_3) / \text{TeV}^2
     ceeRe1112:
       real: true
-      tex: (\bar e_1 \gamma_\mu e_1)(\bar e_1 \gamma^\mu e_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar e_1 \gamma_\mu e_1)(\bar e_1 \gamma^\mu e_2) / \text{TeV}^2 + \text{h.c.}
     ceeRe1113:
       real: true
-      tex: (\bar e_1 \gamma_\mu e_1)(\bar e_1 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar e_1 \gamma_\mu e_1)(\bar e_1 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeRe1123:
       real: true
-      tex: (\bar e_1 \gamma_\mu e_1)(\bar e_2 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 4 (\bar e_1 \gamma_\mu e_1)(\bar e_2 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeRe1212:
       real: true
       tex: (\bar e_1 \gamma_\mu e_2)(\bar e_1 \gamma^\mu e_2) / \text{TeV}^2 + \text{h.c.}
     ceeRe1213:
       real: true
-      tex: (\bar e_1 \gamma_\mu e_2)(\bar e_1 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar e_1 \gamma_\mu e_2)(\bar e_1 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeRe1222:
       real: true
-      tex: (\bar e_1 \gamma_\mu e_2)(\bar e_2 \gamma^\mu e_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar e_1 \gamma_\mu e_2)(\bar e_2 \gamma^\mu e_2) / \text{TeV}^2 + \text{h.c.}
     ceeRe1232:
       real: true
-      tex: (\bar e_1 \gamma_\mu e_2)(\bar e_3 \gamma^\mu e_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar e_1 \gamma_\mu e_2)(\bar e_3 \gamma^\mu e_2) / \text{TeV}^2 + \text{h.c.}
     ceeRe1233:
       real: true
-      tex: (\bar e_1 \gamma_\mu e_2)(\bar e_3 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 4 (\bar e_1 \gamma_\mu e_2)(\bar e_3 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeRe1313:
       real: true
       tex: (\bar e_1 \gamma_\mu e_3)(\bar e_1 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeRe1322:
       real: true
-      tex: (\bar e_1 \gamma_\mu e_3)(\bar e_2 \gamma^\mu e_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 4 (\bar e_1 \gamma_\mu e_3)(\bar e_2 \gamma^\mu e_2) / \text{TeV}^2 + \text{h.c.}
     ceeRe1323:
       real: true
-      tex: (\bar e_1 \gamma_\mu e_3)(\bar e_2 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar e_1 \gamma_\mu e_3)(\bar e_2 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeRe1333:
       real: true
-      tex: (\bar e_1 \gamma_\mu e_3)(\bar e_3 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar e_1 \gamma_\mu e_3)(\bar e_3 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeRe2223:
       real: true
-      tex: (\bar e_2 \gamma_\mu e_2)(\bar e_2 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar e_2 \gamma_\mu e_2)(\bar e_2 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeRe2323:
       real: true
       tex: (\bar e_2 \gamma_\mu e_3)(\bar e_2 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeRe3323:
       real: true
-      tex: (\bar e_3 \gamma_\mu e_3)(\bar e_2 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar e_3 \gamma_\mu e_3)(\bar e_2 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeIm1112:
       real: true
-      tex: i (\bar e_1 \gamma_\mu e_1)(\bar e_1 \gamma^\mu e_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar e_1 \gamma_\mu e_1)(\bar e_1 \gamma^\mu e_2) / \text{TeV}^2 + \text{h.c.}
     ceeIm1113:
       real: true
-      tex: i (\bar e_1 \gamma_\mu e_1)(\bar e_1 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar e_1 \gamma_\mu e_1)(\bar e_1 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeIm1123:
       real: true
-      tex: i (\bar e_1 \gamma_\mu e_1)(\bar e_2 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 4 i (\bar e_1 \gamma_\mu e_1)(\bar e_2 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeIm1212:
       real: true
       tex: i (\bar e_1 \gamma_\mu e_2)(\bar e_1 \gamma^\mu e_2) / \text{TeV}^2 + \text{h.c.}
     ceeIm1213:
       real: true
-      tex: i (\bar e_1 \gamma_\mu e_2)(\bar e_1 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar e_1 \gamma_\mu e_2)(\bar e_1 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeIm1222:
       real: true
-      tex: i (\bar e_1 \gamma_\mu e_2)(\bar e_2 \gamma^\mu e_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar e_1 \gamma_\mu e_2)(\bar e_2 \gamma^\mu e_2) / \text{TeV}^2 + \text{h.c.}
     ceeIm1232:
       real: true
-      tex: i (\bar e_1 \gamma_\mu e_2)(\bar e_3 \gamma^\mu e_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar e_1 \gamma_\mu e_2)(\bar e_3 \gamma^\mu e_2) / \text{TeV}^2 + \text{h.c.}
     ceeIm1233:
       real: true
-      tex: i (\bar e_1 \gamma_\mu e_2)(\bar e_3 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 4 i (\bar e_1 \gamma_\mu e_2)(\bar e_3 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeIm1313:
       real: true
       tex: i (\bar e_1 \gamma_\mu e_3)(\bar e_1 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeIm1322:
       real: true
-      tex: i (\bar e_1 \gamma_\mu e_3)(\bar e_2 \gamma^\mu e_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 4 i (\bar e_1 \gamma_\mu e_3)(\bar e_2 \gamma^\mu e_2) / \text{TeV}^2 + \text{h.c.}
     ceeIm1323:
       real: true
-      tex: i (\bar e_1 \gamma_\mu e_3)(\bar e_2 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar e_1 \gamma_\mu e_3)(\bar e_2 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeIm1333:
       real: true
-      tex: i (\bar e_1 \gamma_\mu e_3)(\bar e_3 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar e_1 \gamma_\mu e_3)(\bar e_3 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeIm2223:
       real: true
-      tex: i (\bar e_2 \gamma_\mu e_2)(\bar e_2 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar e_2 \gamma_\mu e_2)(\bar e_2 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeIm2323:
       real: true
       tex: i (\bar e_2 \gamma_\mu e_3)(\bar e_2 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     ceeIm3323:
       real: true
-      tex: i (\bar e_3 \gamma_\mu e_3)(\bar e_2 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar e_3 \gamma_\mu e_3)(\bar e_2 \gamma^\mu e_3) / \text{TeV}^2 + \text{h.c.}
     cuuRe1111:
       real: true
       tex: (\bar u_1 \gamma_\mu u_1)(\bar u_1 \gamma^\mu u_1) / \text{TeV}^2
@@ -1898,130 +1898,130 @@ sectors:
       tex: (\bar u_3 \gamma_\mu u_3)(\bar u_3 \gamma^\mu u_3) / \text{TeV}^2
     cuuRe1122:
       real: true
-      tex: (\bar u_1 \gamma_\mu u_1)(\bar u_2 \gamma^\mu u_2) / \text{TeV}^2
+      tex: 2 (\bar u_1 \gamma_\mu u_1)(\bar u_2 \gamma^\mu u_2) / \text{TeV}^2
     cuuRe1133:
       real: true
-      tex: (\bar u_1 \gamma_\mu u_1)(\bar u_3 \gamma^\mu u_3) / \text{TeV}^2
+      tex: 2 (\bar u_1 \gamma_\mu u_1)(\bar u_3 \gamma^\mu u_3) / \text{TeV}^2
     cuuRe2233:
       real: true
-      tex: (\bar u_2 \gamma_\mu u_2)(\bar u_3 \gamma^\mu u_3) / \text{TeV}^2
+      tex: 2 (\bar u_2 \gamma_\mu u_2)(\bar u_3 \gamma^\mu u_3) / \text{TeV}^2
     cuuRe1221:
       real: true
-      tex: (\bar u_1 \gamma_\mu u_2)(\bar u_2 \gamma^\mu u_1) / \text{TeV}^2
+      tex: 2 (\bar u_1 \gamma_\mu u_2)(\bar u_2 \gamma^\mu u_1) / \text{TeV}^2
     cuuRe1331:
       real: true
-      tex: (\bar u_1 \gamma_\mu u_3)(\bar u_3 \gamma^\mu u_1) / \text{TeV}^2
+      tex: 2 (\bar u_1 \gamma_\mu u_3)(\bar u_3 \gamma^\mu u_1) / \text{TeV}^2
     cuuRe2332:
       real: true
-      tex: (\bar u_2 \gamma_\mu u_3)(\bar u_3 \gamma^\mu u_2) / \text{TeV}^2
+      tex: 2 (\bar u_2 \gamma_\mu u_3)(\bar u_3 \gamma^\mu u_2) / \text{TeV}^2
     cuuRe1112:
       real: true
-      tex: (\bar u_1 \gamma_\mu u_1)(\bar u_1 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar u_1 \gamma_\mu u_1)(\bar u_1 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
     cuuRe1113:
       real: true
-      tex: (\bar u_1 \gamma_\mu u_1)(\bar u_1 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar u_1 \gamma_\mu u_1)(\bar u_1 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuRe1123:
       real: true
-      tex: (\bar u_1 \gamma_\mu u_1)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar u_1 \gamma_\mu u_1)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuRe1212:
       real: true
       tex: (\bar u_1 \gamma_\mu u_2)(\bar u_1 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
     cuuRe1213:
       real: true
-      tex: (\bar u_1 \gamma_\mu u_2)(\bar u_1 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar u_1 \gamma_\mu u_2)(\bar u_1 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuRe1222:
       real: true
-      tex: (\bar u_1 \gamma_\mu u_2)(\bar u_2 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar u_1 \gamma_\mu u_2)(\bar u_2 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
     cuuRe1232:
       real: true
-      tex: (\bar u_1 \gamma_\mu u_2)(\bar u_3 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar u_1 \gamma_\mu u_2)(\bar u_3 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
     cuuRe1233:
       real: true
-      tex: (\bar u_1 \gamma_\mu u_2)(\bar u_3 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar u_1 \gamma_\mu u_2)(\bar u_3 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuRe1313:
       real: true
       tex: (\bar u_1 \gamma_\mu u_3)(\bar u_1 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuRe1322:
       real: true
-      tex: (\bar u_1 \gamma_\mu u_3)(\bar u_2 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar u_1 \gamma_\mu u_3)(\bar u_2 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
     cuuRe1323:
       real: true
-      tex: (\bar u_1 \gamma_\mu u_3)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar u_1 \gamma_\mu u_3)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuRe1333:
       real: true
-      tex: (\bar u_1 \gamma_\mu u_3)(\bar u_3 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar u_1 \gamma_\mu u_3)(\bar u_3 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuRe2223:
       real: true
-      tex: (\bar u_2 \gamma_\mu u_2)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar u_2 \gamma_\mu u_2)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuRe2323:
       real: true
       tex: (\bar u_2 \gamma_\mu u_3)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuRe3323:
       real: true
-      tex: (\bar u_3 \gamma_\mu u_3)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar u_3 \gamma_\mu u_3)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuRe1231:
       real: true
-      tex: (\bar u_1 \gamma_\mu u_2)(\bar u_3 \gamma^\mu u_1) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar u_1 \gamma_\mu u_2)(\bar u_3 \gamma^\mu u_1) / \text{TeV}^2 + \text{h.c.}
     cuuRe1223:
       real: true
-      tex: (\bar u_1 \gamma_\mu u_2)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar u_1 \gamma_\mu u_2)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuRe1332:
       real: true
-      tex: (\bar u_1 \gamma_\mu u_3)(\bar u_3 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar u_1 \gamma_\mu u_3)(\bar u_3 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
     cuuIm1112:
       real: true
-      tex: i (\bar u_1 \gamma_\mu u_1)(\bar u_1 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar u_1 \gamma_\mu u_1)(\bar u_1 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
     cuuIm1113:
       real: true
-      tex: i (\bar u_1 \gamma_\mu u_1)(\bar u_1 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar u_1 \gamma_\mu u_1)(\bar u_1 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuIm1123:
       real: true
-      tex: i (\bar u_1 \gamma_\mu u_1)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar u_1 \gamma_\mu u_1)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuIm1212:
       real: true
       tex: i (\bar u_1 \gamma_\mu u_2)(\bar u_1 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
     cuuIm1213:
       real: true
-      tex: i (\bar u_1 \gamma_\mu u_2)(\bar u_1 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar u_1 \gamma_\mu u_2)(\bar u_1 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuIm1222:
       real: true
-      tex: i (\bar u_1 \gamma_\mu u_2)(\bar u_2 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar u_1 \gamma_\mu u_2)(\bar u_2 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
     cuuIm1232:
       real: true
-      tex: i (\bar u_1 \gamma_\mu u_2)(\bar u_3 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar u_1 \gamma_\mu u_2)(\bar u_3 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
     cuuIm1233:
       real: true
-      tex: i (\bar u_1 \gamma_\mu u_2)(\bar u_3 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar u_1 \gamma_\mu u_2)(\bar u_3 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuIm1313:
       real: true
       tex: i (\bar u_1 \gamma_\mu u_3)(\bar u_1 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuIm1322:
       real: true
-      tex: i (\bar u_1 \gamma_\mu u_3)(\bar u_2 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar u_1 \gamma_\mu u_3)(\bar u_2 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
     cuuIm1323:
       real: true
-      tex: i (\bar u_1 \gamma_\mu u_3)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar u_1 \gamma_\mu u_3)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuIm1333:
       real: true
-      tex: i (\bar u_1 \gamma_\mu u_3)(\bar u_3 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar u_1 \gamma_\mu u_3)(\bar u_3 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuIm2223:
       real: true
-      tex: i (\bar u_2 \gamma_\mu u_2)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar u_2 \gamma_\mu u_2)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuIm2323:
       real: true
       tex: i (\bar u_2 \gamma_\mu u_3)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuIm3323:
       real: true
-      tex: i (\bar u_3 \gamma_\mu u_3)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar u_3 \gamma_\mu u_3)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuIm1231:
       real: true
-      tex: i (\bar u_1 \gamma_\mu u_2)(\bar u_3 \gamma^\mu u_1) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar u_1 \gamma_\mu u_2)(\bar u_3 \gamma^\mu u_1) / \text{TeV}^2 + \text{h.c.}
     cuuIm1223:
       real: true
-      tex: i (\bar u_1 \gamma_\mu u_2)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar u_1 \gamma_\mu u_2)(\bar u_2 \gamma^\mu u_3) / \text{TeV}^2 + \text{h.c.}
     cuuIm1332:
       real: true
-      tex: i (\bar u_1 \gamma_\mu u_3)(\bar u_3 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar u_1 \gamma_\mu u_3)(\bar u_3 \gamma^\mu u_2) / \text{TeV}^2 + \text{h.c.}
     cddRe1111:
       real: true
       tex: (\bar d_1 \gamma_\mu d_1)(\bar d_1 \gamma^\mu d_1) / \text{TeV}^2
@@ -2033,130 +2033,130 @@ sectors:
       tex: (\bar d_3 \gamma_\mu d_3)(\bar d_3 \gamma^\mu d_3) / \text{TeV}^2
     cddRe1122:
       real: true
-      tex: (\bar d_1 \gamma_\mu d_1)(\bar d_2 \gamma^\mu d_2) / \text{TeV}^2
+      tex: 2 (\bar d_1 \gamma_\mu d_1)(\bar d_2 \gamma^\mu d_2) / \text{TeV}^2
     cddRe1133:
       real: true
-      tex: (\bar d_1 \gamma_\mu d_1)(\bar d_3 \gamma^\mu d_3) / \text{TeV}^2
+      tex: 2 (\bar d_1 \gamma_\mu d_1)(\bar d_3 \gamma^\mu d_3) / \text{TeV}^2
     cddRe2233:
       real: true
-      tex: (\bar d_2 \gamma_\mu d_2)(\bar d_3 \gamma^\mu d_3) / \text{TeV}^2
+      tex: 2 (\bar d_2 \gamma_\mu d_2)(\bar d_3 \gamma^\mu d_3) / \text{TeV}^2
     cddRe1221:
       real: true
-      tex: (\bar d_1 \gamma_\mu d_2)(\bar d_2 \gamma^\mu d_1) / \text{TeV}^2
+      tex: 2 (\bar d_1 \gamma_\mu d_2)(\bar d_2 \gamma^\mu d_1) / \text{TeV}^2
     cddRe1331:
       real: true
-      tex: (\bar d_1 \gamma_\mu d_3)(\bar d_3 \gamma^\mu d_1) / \text{TeV}^2
+      tex: 2 (\bar d_1 \gamma_\mu d_3)(\bar d_3 \gamma^\mu d_1) / \text{TeV}^2
     cddRe2332:
       real: true
-      tex: (\bar d_2 \gamma_\mu d_3)(\bar d_3 \gamma^\mu d_2) / \text{TeV}^2
+      tex: 2 (\bar d_2 \gamma_\mu d_3)(\bar d_3 \gamma^\mu d_2) / \text{TeV}^2
     cddRe1112:
       real: true
-      tex: (\bar d_1 \gamma_\mu d_1)(\bar d_1 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar d_1 \gamma_\mu d_1)(\bar d_1 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
     cddRe1113:
       real: true
-      tex: (\bar d_1 \gamma_\mu d_1)(\bar d_1 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar d_1 \gamma_\mu d_1)(\bar d_1 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddRe1123:
       real: true
-      tex: (\bar d_1 \gamma_\mu d_1)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar d_1 \gamma_\mu d_1)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddRe1212:
       real: true
       tex: (\bar d_1 \gamma_\mu d_2)(\bar d_1 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
     cddRe1213:
       real: true
-      tex: (\bar d_1 \gamma_\mu d_2)(\bar d_1 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar d_1 \gamma_\mu d_2)(\bar d_1 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddRe1222:
       real: true
-      tex: (\bar d_1 \gamma_\mu d_2)(\bar d_2 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar d_1 \gamma_\mu d_2)(\bar d_2 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
     cddRe1232:
       real: true
-      tex: (\bar d_1 \gamma_\mu d_2)(\bar d_3 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar d_1 \gamma_\mu d_2)(\bar d_3 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
     cddRe1233:
       real: true
-      tex: (\bar d_1 \gamma_\mu d_2)(\bar d_3 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar d_1 \gamma_\mu d_2)(\bar d_3 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddRe1313:
       real: true
       tex: (\bar d_1 \gamma_\mu d_3)(\bar d_1 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddRe1322:
       real: true
-      tex: (\bar d_1 \gamma_\mu d_3)(\bar d_2 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar d_1 \gamma_\mu d_3)(\bar d_2 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
     cddRe1323:
       real: true
-      tex: (\bar d_1 \gamma_\mu d_3)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar d_1 \gamma_\mu d_3)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddRe1333:
       real: true
-      tex: (\bar d_1 \gamma_\mu d_3)(\bar d_3 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar d_1 \gamma_\mu d_3)(\bar d_3 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddRe2223:
       real: true
-      tex: (\bar d_2 \gamma_\mu d_2)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar d_2 \gamma_\mu d_2)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddRe2323:
       real: true
       tex: (\bar d_2 \gamma_\mu d_3)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddRe3323:
       real: true
-      tex: (\bar d_3 \gamma_\mu d_3)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar d_3 \gamma_\mu d_3)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddRe1231:
       real: true
-      tex: (\bar d_1 \gamma_\mu d_2)(\bar d_3 \gamma^\mu d_1) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar d_1 \gamma_\mu d_2)(\bar d_3 \gamma^\mu d_1) / \text{TeV}^2 + \text{h.c.}
     cddRe1223:
       real: true
-      tex: (\bar d_1 \gamma_\mu d_2)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar d_1 \gamma_\mu d_2)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddRe1332:
       real: true
-      tex: (\bar d_1 \gamma_\mu d_3)(\bar d_3 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 (\bar d_1 \gamma_\mu d_3)(\bar d_3 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
     cddIm1112:
       real: true
-      tex: i (\bar d_1 \gamma_\mu d_1)(\bar d_1 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar d_1 \gamma_\mu d_1)(\bar d_1 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
     cddIm1113:
       real: true
-      tex: i (\bar d_1 \gamma_\mu d_1)(\bar d_1 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar d_1 \gamma_\mu d_1)(\bar d_1 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddIm1123:
       real: true
-      tex: i (\bar d_1 \gamma_\mu d_1)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar d_1 \gamma_\mu d_1)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddIm1212:
       real: true
       tex: i (\bar d_1 \gamma_\mu d_2)(\bar d_1 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
     cddIm1213:
       real: true
-      tex: i (\bar d_1 \gamma_\mu d_2)(\bar d_1 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar d_1 \gamma_\mu d_2)(\bar d_1 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddIm1222:
       real: true
-      tex: i (\bar d_1 \gamma_\mu d_2)(\bar d_2 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar d_1 \gamma_\mu d_2)(\bar d_2 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
     cddIm1232:
       real: true
-      tex: i (\bar d_1 \gamma_\mu d_2)(\bar d_3 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar d_1 \gamma_\mu d_2)(\bar d_3 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
     cddIm1233:
       real: true
-      tex: i (\bar d_1 \gamma_\mu d_2)(\bar d_3 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar d_1 \gamma_\mu d_2)(\bar d_3 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddIm1313:
       real: true
       tex: i (\bar d_1 \gamma_\mu d_3)(\bar d_1 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddIm1322:
       real: true
-      tex: i (\bar d_1 \gamma_\mu d_3)(\bar d_2 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar d_1 \gamma_\mu d_3)(\bar d_2 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
     cddIm1323:
       real: true
-      tex: i (\bar d_1 \gamma_\mu d_3)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar d_1 \gamma_\mu d_3)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddIm1333:
       real: true
-      tex: i (\bar d_1 \gamma_\mu d_3)(\bar d_3 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar d_1 \gamma_\mu d_3)(\bar d_3 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddIm2223:
       real: true
-      tex: i (\bar d_2 \gamma_\mu d_2)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar d_2 \gamma_\mu d_2)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddIm2323:
       real: true
       tex: i (\bar d_2 \gamma_\mu d_3)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddIm3323:
       real: true
-      tex: i (\bar d_3 \gamma_\mu d_3)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar d_3 \gamma_\mu d_3)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddIm1231:
       real: true
-      tex: i (\bar d_1 \gamma_\mu d_2)(\bar d_3 \gamma^\mu d_1) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar d_1 \gamma_\mu d_2)(\bar d_3 \gamma^\mu d_1) / \text{TeV}^2 + \text{h.c.}
     cddIm1223:
       real: true
-      tex: i (\bar d_1 \gamma_\mu d_2)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar d_1 \gamma_\mu d_2)(\bar d_2 \gamma^\mu d_3) / \text{TeV}^2 + \text{h.c.}
     cddIm1332:
       real: true
-      tex: i (\bar d_1 \gamma_\mu d_3)(\bar d_3 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
+      tex: 2 i (\bar d_1 \gamma_\mu d_3)(\bar d_3 \gamma^\mu d_2) / \text{TeV}^2 + \text{h.c.}
     ceuRe1111:
       real: true
       tex: (\bar e_1 \gamma_\mu e_1)(\bar u_1 \gamma^\mu u_1) / \text{TeV}^2

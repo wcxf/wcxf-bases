@@ -2,7 +2,7 @@
   "eft": "nuSMEFT",
   "basis": "Warsaw",
   "metadata": {
-    "description": "Warsaw basis augmented by Sterile neutrinos. . At variance with their definition, the Wilson coefficients are defined to be dimensionful, such that $\\mathcal L=\\sum _i C_i O_i$. The set of redundant operators coincides with the choice of DSixTools (arXiv:1704.04504). The weak basis for the fermion fields is chosen such that the running dimension-6 mass matrices of charged leptons and down-type quarks are diagonal at the scale where the coefficient values are specified, while up-type quark singlet field is rotated to diagonalise the running dimension-6 up-type quark mass matrix \"from the right\".\n"
+    "description": "Warsaw basis augmented by Sterile neutrinos. The Wilson coefficients are defined to be dimensionful, such that $\\mathcal L=\\sum _i C_i O_i$. The set of redundant operators coincides with the choice of DSixTools (arXiv:1704.04504). The weak basis for the fermion fields is chosen such that the running dimension-6 mass matrices of charged leptons and down-type quarks are diagonal at the scale where the coefficient values are specified, while up-type quark singlet field is rotated to diagonalise the running dimension-6 up-type quark mass matrix \"from the right\".\n"
   },
   "sectors": {
     "dB=dL=0": {

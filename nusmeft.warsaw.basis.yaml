@@ -6,8 +6,8 @@ metadata:
 sectors: 
   dB=dL=0: 
     G: 
-      real: "true"
-      tex: "f^{ABC} G_\mu^{A \nu} G_\nu^{B \rho} G_\rho^{C \mu}"
+      real: true
+      tex: f^{ABC} G_\mu^{A \nu} G_\nu^{B \rho} G_\rho^{C \mu}
     Gtilde: 
       real: "true"
       tex: "f^{ABC} \widetilde G_\mu^{A \nu} G_\nu^{B \rho} G_\rho^{C \mu}"

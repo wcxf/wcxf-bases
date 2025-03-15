@@ -4,9 +4,45 @@
     "description": "Standard Model Effective Field Theory with linearly realized electroweak symmetry breaking.\n"
   },
   "sectors": {
-    "dB=dL=0": {
-      "tex": "\\Delta B=\\Delta L=0",
-      "description": "Baryon and lepton number conserving operators"
+    "dB=de=dmu=dtau=0": {
+      "tex": "\\Delta B=\\Delta e=\\Delta \\mu=\\Delta \\tau=0",
+      "description": "Baryon and individual lepton number conserving operators"
+    },
+    "mue": {
+      "tex": "\\mu e",
+      "description": "Operators violating muon and electron number by one unit and conserve overall lepton number"
+    },
+    "taue": {
+      "tex": "\\tau e",
+      "description": "Operators violating tau and electron number by one unit and conserve overall lepton number"
+    },
+    "mutau": {
+      "tex": "\\mu \\tau",
+      "description": "Operators violating muon and tau number by one unit and conserve overall lepton number"
+    },
+    "muemue": {
+      "tex": "\\mu e \\mu e",
+      "description": "Operators violating muon and electron number by two units and conserve overall lepton number"
+    },
+    "etauemu": {
+      "tex": "e \\tau e \\mu",
+      "description": "Operators violating electron number by two units, muon and tau number by one unit, and conserve overall lepton number"
+    },
+    "muemutau": {
+      "tex": "\\mu e \\mu \\tau",
+      "description": "Operators violating muon number by two units, electron and tau number by one unit, and conserve overall lepton number"
+    },
+    "tauetaue": {
+      "tex": "\\tau e \\tau e",
+      "description": "Operators violating tau and electron number by two units and conserve overall lepton number"
+    },
+    "tauetaumu": {
+      "tex": "\\tau e \\tau \\mu",
+      "description": "Operators violating tau number by two units, electron and muon number by one unit, and conserve overall lepton number"
+    },
+    "taumutaumu": {
+      "tex": "\\tau \\mu \\tau \\mu",
+      "description": "Operators violating tau and muon number by two units and conserve overall lepton number"
     },
     "dB=dL=1": {
       "tex": "\\Delta B=\\Delta L=1",

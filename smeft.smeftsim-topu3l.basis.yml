@@ -1,8 +1,7 @@
 eft: SMEFT
 basis: SMEFTsim_topU3l
 metadata:
-  description: >
-    Basis used in the `SMEFTsim_topU3l` UFO models, version 3.0.0 or later.
+  description: Basis used in the `SMEFTsim_topU3l` UFO models, version 3.0.0 or later.
     Implements Warsaw basis with $U(2)^3$ flavor symmetry in the quarks sector and
     $U(3)^2$ in the leptons sector. $Q,t,b$ are left- and right-handed 3rd gen quarks,
     $q,u,d$ are the left- and right-handed quark fields containing only the first

@@ -31,7 +31,7 @@ class TestEFTFiles(unittest.TestCase):
 # -----------------------
 # 2. Basis File Tests
 # -----------------------
-class TestBasisFiles(unittest.TestCase):
+class TestMainBasisFiles(unittest.TestCase):
 
     def setUp(self):
         self.eft_files = sorted(
@@ -39,7 +39,7 @@ class TestBasisFiles(unittest.TestCase):
             if '.eft.' in f.name.casefold()
         )
         self.basis_files = sorted(
-            f for f in Path('.').rglob('*')
+            f for f in Path('.').glob('*')
             if '.basis.' in f.name.casefold()
         )
 
@@ -57,8 +57,60 @@ class TestBasisFiles(unittest.TestCase):
                 self.fail(f"EFT loading failed for {file.name}: {e}")
 
     def test_basis_files(self):
-        """Test that all Basis files are valid."""
+        """Test that all Basis files in the main folder are valid."""
         for file in self.basis_files:
+            with self.subTest(file=file.name):
+                try:
+                    with open(file, 'r') as f:
+                        basis = wcxf.Basis.load(f)
+                        basis.validate()
+                        print(f"[ OK ]  {file.name}")
+                except Exception as e:
+                    print(f"[FAIL]  {file.name}: {e}")
+                    self.fail(f"Basis validation failed for {file.name}: {e}")
+
+class TestChildBasisFiles(unittest.TestCase):
+
+    def setUp(self):
+        self.eft_files = sorted(
+            f for f in Path('.').rglob('*')
+            if '.eft.' in f.name.casefold()
+        )
+        self.parent_basis_files = sorted(
+            f for f in Path('.').glob('*')
+            if '.basis.' in f.name.casefold()
+        )
+        self.child_basis_files = sorted(
+            f for f in Path('child').glob('*')
+            if '.basis.' in f.name.casefold()
+        )
+
+        if not self.eft_files:
+            self.fail("No EFT files found.")
+        if not self.parent_basis_files:
+            self.fail("No parent Basis files found.")
+        if not self.child_basis_files:
+            self.skipTest("No child Basis files found.")
+
+        # Load EFT files before validating Basis files (required for correct Basis validation)
+        for file in self.eft_files:
+            try:
+                with open(file, 'r') as f:
+                    wcxf.EFT.load(f)
+            except Exception as e:
+                self.fail(f"EFT loading failed for {file.name}: {e}")
+
+       # Load Parent Basis files before validating Child Basis files
+        for file in self.parent_basis_files:
+            try:
+                with open(file, 'r') as f:
+                    wcxf.Basis.load(f)
+            except Exception as e:
+                self.fail(f"Basis loading failed for {file.name}: {e}")
+
+    def test_child_basis_files(self):
+        """Test that all Child Basis files are valid."""
+        for file in self.child_basis_files:
             with self.subTest(file=file.name):
                 try:
                     with open(file, 'r') as f:
@@ -131,6 +183,17 @@ class TestJSONYAMLConsistency(unittest.TestCase):
                     yaml_data = yaml.safe_load(f)
 
                 self.assertEqual(json_data, yaml_data, f"Mismatch between {json_file.name} and {yaml_file.name}")
+
+
+# -----------------------
+# Test Execution Order
+# -----------------------
+def load_tests(loader, tests, pattern):
+    suite = unittest.TestSuite()
+    suite.addTests(loader.loadTestsFromTestCase(TestMainBasisFiles))
+    suite.addTests(loader.loadTestsFromTestCase(TestChildBasisFiles))
+    suite.addTests(loader.loadTestsFromTestCase(TestJSONYAMLConsistency))
+    return suite
 
 
 # -----------------------

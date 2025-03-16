@@ -20,5 +20,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install wilson==2.5
 
+      - name: Install LaTeX
+        run: sudo apt-get update && sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
+
       - name: Run Unittests
         run: python -m unittest tests/test_validate.py -v -b

@@ -18,7 +18,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install wilson==2.5
+          pip install wilson==2.5.1
 
       - name: Install LaTeX
         run: sudo apt-get update && sudo apt-get install -y texlive-latex-base texlive-fonts-recommended

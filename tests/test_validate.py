@@ -190,6 +190,7 @@ class TestJSONYAMLConsistency(unittest.TestCase):
 # -----------------------
 def load_tests(loader, tests, pattern):
     suite = unittest.TestSuite()
+    suite.addTests(loader.loadTestsFromTestCase(TestEFTFiles))
     suite.addTests(loader.loadTestsFromTestCase(TestMainBasisFiles))
     suite.addTests(loader.loadTestsFromTestCase(TestChildBasisFiles))
     suite.addTests(loader.loadTestsFromTestCase(TestJSONYAMLConsistency))

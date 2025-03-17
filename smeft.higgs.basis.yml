@@ -2880,551 +2880,553 @@ sectors:
       tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
     le_2323:
       tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
-  dB=dL=1:
+  dB=de=1:
     duql_1111:
       tex: \left( d_1 C u_1 \right) \left( q_1 C \ell_1 \right)
-    duql_1112:
-      tex: \left( d_1 C u_1 \right) \left( q_1 C \ell_2 \right)
-    duql_1113:
-      tex: \left( d_1 C u_1 \right) \left( q_1 C \ell_3 \right)
     duql_1121:
       tex: \left( d_1 C u_1 \right) \left( q_2 C \ell_1 \right)
-    duql_1122:
-      tex: \left( d_1 C u_1 \right) \left( q_2 C \ell_2 \right)
-    duql_1123:
-      tex: \left( d_1 C u_1 \right) \left( q_2 C \ell_3 \right)
     duql_1131:
       tex: \left( d_1 C u_1 \right) \left( q_3 C \ell_1 \right)
-    duql_1132:
-      tex: \left( d_1 C u_1 \right) \left( q_3 C \ell_2 \right)
-    duql_1133:
-      tex: \left( d_1 C u_1 \right) \left( q_3 C \ell_3 \right)
     duql_1211:
       tex: \left( d_1 C u_2 \right) \left( q_1 C \ell_1 \right)
-    duql_1212:
-      tex: \left( d_1 C u_2 \right) \left( q_1 C \ell_2 \right)
-    duql_1213:
-      tex: \left( d_1 C u_2 \right) \left( q_1 C \ell_3 \right)
     duql_1221:
       tex: \left( d_1 C u_2 \right) \left( q_2 C \ell_1 \right)
-    duql_1222:
-      tex: \left( d_1 C u_2 \right) \left( q_2 C \ell_2 \right)
-    duql_1223:
-      tex: \left( d_1 C u_2 \right) \left( q_2 C \ell_3 \right)
     duql_1231:
       tex: \left( d_1 C u_2 \right) \left( q_3 C \ell_1 \right)
-    duql_1232:
-      tex: \left( d_1 C u_2 \right) \left( q_3 C \ell_2 \right)
-    duql_1233:
-      tex: \left( d_1 C u_2 \right) \left( q_3 C \ell_3 \right)
     duql_1311:
       tex: \left( d_1 C u_3 \right) \left( q_1 C \ell_1 \right)
-    duql_1312:
-      tex: \left( d_1 C u_3 \right) \left( q_1 C \ell_2 \right)
-    duql_1313:
-      tex: \left( d_1 C u_3 \right) \left( q_1 C \ell_3 \right)
     duql_1321:
       tex: \left( d_1 C u_3 \right) \left( q_2 C \ell_1 \right)
-    duql_1322:
-      tex: \left( d_1 C u_3 \right) \left( q_2 C \ell_2 \right)
-    duql_1323:
-      tex: \left( d_1 C u_3 \right) \left( q_2 C \ell_3 \right)
     duql_1331:
       tex: \left( d_1 C u_3 \right) \left( q_3 C \ell_1 \right)
-    duql_1332:
-      tex: \left( d_1 C u_3 \right) \left( q_3 C \ell_2 \right)
-    duql_1333:
-      tex: \left( d_1 C u_3 \right) \left( q_3 C \ell_3 \right)
     duql_2111:
       tex: \left( d_2 C u_1 \right) \left( q_1 C \ell_1 \right)
-    duql_2112:
-      tex: \left( d_2 C u_1 \right) \left( q_1 C \ell_2 \right)
-    duql_2113:
-      tex: \left( d_2 C u_1 \right) \left( q_1 C \ell_3 \right)
     duql_2121:
       tex: \left( d_2 C u_1 \right) \left( q_2 C \ell_1 \right)
-    duql_2122:
-      tex: \left( d_2 C u_1 \right) \left( q_2 C \ell_2 \right)
-    duql_2123:
-      tex: \left( d_2 C u_1 \right) \left( q_2 C \ell_3 \right)
     duql_2131:
       tex: \left( d_2 C u_1 \right) \left( q_3 C \ell_1 \right)
-    duql_2132:
-      tex: \left( d_2 C u_1 \right) \left( q_3 C \ell_2 \right)
-    duql_2133:
-      tex: \left( d_2 C u_1 \right) \left( q_3 C \ell_3 \right)
     duql_2211:
       tex: \left( d_2 C u_2 \right) \left( q_1 C \ell_1 \right)
-    duql_2212:
-      tex: \left( d_2 C u_2 \right) \left( q_1 C \ell_2 \right)
-    duql_2213:
-      tex: \left( d_2 C u_2 \right) \left( q_1 C \ell_3 \right)
     duql_2221:
       tex: \left( d_2 C u_2 \right) \left( q_2 C \ell_1 \right)
-    duql_2222:
-      tex: \left( d_2 C u_2 \right) \left( q_2 C \ell_2 \right)
-    duql_2223:
-      tex: \left( d_2 C u_2 \right) \left( q_2 C \ell_3 \right)
     duql_2231:
       tex: \left( d_2 C u_2 \right) \left( q_3 C \ell_1 \right)
-    duql_2232:
-      tex: \left( d_2 C u_2 \right) \left( q_3 C \ell_2 \right)
-    duql_2233:
-      tex: \left( d_2 C u_2 \right) \left( q_3 C \ell_3 \right)
     duql_2311:
       tex: \left( d_2 C u_3 \right) \left( q_1 C \ell_1 \right)
-    duql_2312:
-      tex: \left( d_2 C u_3 \right) \left( q_1 C \ell_2 \right)
-    duql_2313:
-      tex: \left( d_2 C u_3 \right) \left( q_1 C \ell_3 \right)
     duql_2321:
       tex: \left( d_2 C u_3 \right) \left( q_2 C \ell_1 \right)
-    duql_2322:
-      tex: \left( d_2 C u_3 \right) \left( q_2 C \ell_2 \right)
-    duql_2323:
-      tex: \left( d_2 C u_3 \right) \left( q_2 C \ell_3 \right)
     duql_2331:
       tex: \left( d_2 C u_3 \right) \left( q_3 C \ell_1 \right)
-    duql_2332:
-      tex: \left( d_2 C u_3 \right) \left( q_3 C \ell_2 \right)
-    duql_2333:
-      tex: \left( d_2 C u_3 \right) \left( q_3 C \ell_3 \right)
     duql_3111:
       tex: \left( d_3 C u_1 \right) \left( q_1 C \ell_1 \right)
-    duql_3112:
-      tex: \left( d_3 C u_1 \right) \left( q_1 C \ell_2 \right)
-    duql_3113:
-      tex: \left( d_3 C u_1 \right) \left( q_1 C \ell_3 \right)
     duql_3121:
       tex: \left( d_3 C u_1 \right) \left( q_2 C \ell_1 \right)
-    duql_3122:
-      tex: \left( d_3 C u_1 \right) \left( q_2 C \ell_2 \right)
-    duql_3123:
-      tex: \left( d_3 C u_1 \right) \left( q_2 C \ell_3 \right)
     duql_3131:
       tex: \left( d_3 C u_1 \right) \left( q_3 C \ell_1 \right)
-    duql_3132:
-      tex: \left( d_3 C u_1 \right) \left( q_3 C \ell_2 \right)
-    duql_3133:
-      tex: \left( d_3 C u_1 \right) \left( q_3 C \ell_3 \right)
     duql_3211:
       tex: \left( d_3 C u_2 \right) \left( q_1 C \ell_1 \right)
-    duql_3212:
-      tex: \left( d_3 C u_2 \right) \left( q_1 C \ell_2 \right)
-    duql_3213:
-      tex: \left( d_3 C u_2 \right) \left( q_1 C \ell_3 \right)
     duql_3221:
       tex: \left( d_3 C u_2 \right) \left( q_2 C \ell_1 \right)
-    duql_3222:
-      tex: \left( d_3 C u_2 \right) \left( q_2 C \ell_2 \right)
-    duql_3223:
-      tex: \left( d_3 C u_2 \right) \left( q_2 C \ell_3 \right)
     duql_3231:
       tex: \left( d_3 C u_2 \right) \left( q_3 C \ell_1 \right)
-    duql_3232:
-      tex: \left( d_3 C u_2 \right) \left( q_3 C \ell_2 \right)
-    duql_3233:
-      tex: \left( d_3 C u_2 \right) \left( q_3 C \ell_3 \right)
     duql_3311:
       tex: \left( d_3 C u_3 \right) \left( q_1 C \ell_1 \right)
-    duql_3312:
-      tex: \left( d_3 C u_3 \right) \left( q_1 C \ell_2 \right)
-    duql_3313:
-      tex: \left( d_3 C u_3 \right) \left( q_1 C \ell_3 \right)
     duql_3321:
       tex: \left( d_3 C u_3 \right) \left( q_2 C \ell_1 \right)
-    duql_3322:
-      tex: \left( d_3 C u_3 \right) \left( q_2 C \ell_2 \right)
-    duql_3323:
-      tex: \left( d_3 C u_3 \right) \left( q_2 C \ell_3 \right)
     duql_3331:
       tex: \left( d_3 C u_3 \right) \left( q_3 C \ell_1 \right)
-    duql_3332:
-      tex: \left( d_3 C u_3 \right) \left( q_3 C \ell_2 \right)
-    duql_3333:
-      tex: \left( d_3 C u_3 \right) \left( q_3 C \ell_3 \right)
     qque_1111:
       tex: \left( q_1 C q_1 \right) \left( u_1 C e_1 \right)
-    qque_1112:
-      tex: \left( q_1 C q_1 \right) \left( u_1 C e_2 \right)
-    qque_1113:
-      tex: \left( q_1 C q_1 \right) \left( u_1 C e_3 \right)
     qque_1121:
       tex: \left( q_1 C q_1 \right) \left( u_2 C e_1 \right)
-    qque_1122:
-      tex: \left( q_1 C q_1 \right) \left( u_2 C e_2 \right)
-    qque_1123:
-      tex: \left( q_1 C q_1 \right) \left( u_2 C e_3 \right)
     qque_1131:
       tex: \left( q_1 C q_1 \right) \left( u_3 C e_1 \right)
-    qque_1132:
-      tex: \left( q_1 C q_1 \right) \left( u_3 C e_2 \right)
-    qque_1133:
-      tex: \left( q_1 C q_1 \right) \left( u_3 C e_3 \right)
     qque_1211:
       tex: \left( q_1 C q_2 \right) \left( u_1 C e_1 \right)
-    qque_1212:
-      tex: \left( q_1 C q_2 \right) \left( u_1 C e_2 \right)
-    qque_1213:
-      tex: \left( q_1 C q_2 \right) \left( u_1 C e_3 \right)
     qque_1221:
       tex: \left( q_1 C q_2 \right) \left( u_2 C e_1 \right)
-    qque_1222:
-      tex: \left( q_1 C q_2 \right) \left( u_2 C e_2 \right)
-    qque_1223:
-      tex: \left( q_1 C q_2 \right) \left( u_2 C e_3 \right)
     qque_1231:
       tex: \left( q_1 C q_2 \right) \left( u_3 C e_1 \right)
-    qque_1232:
-      tex: \left( q_1 C q_2 \right) \left( u_3 C e_2 \right)
-    qque_1233:
-      tex: \left( q_1 C q_2 \right) \left( u_3 C e_3 \right)
     qque_1311:
       tex: \left( q_1 C q_3 \right) \left( u_1 C e_1 \right)
-    qque_1312:
-      tex: \left( q_1 C q_3 \right) \left( u_1 C e_2 \right)
-    qque_1313:
-      tex: \left( q_1 C q_3 \right) \left( u_1 C e_3 \right)
     qque_1321:
       tex: \left( q_1 C q_3 \right) \left( u_2 C e_1 \right)
-    qque_1322:
-      tex: \left( q_1 C q_3 \right) \left( u_2 C e_2 \right)
-    qque_1323:
-      tex: \left( q_1 C q_3 \right) \left( u_2 C e_3 \right)
     qque_1331:
       tex: \left( q_1 C q_3 \right) \left( u_3 C e_1 \right)
-    qque_1332:
-      tex: \left( q_1 C q_3 \right) \left( u_3 C e_2 \right)
-    qque_1333:
-      tex: \left( q_1 C q_3 \right) \left( u_3 C e_3 \right)
     qque_2211:
       tex: \left( q_2 C q_2 \right) \left( u_1 C e_1 \right)
-    qque_2212:
-      tex: \left( q_2 C q_2 \right) \left( u_1 C e_2 \right)
-    qque_2213:
-      tex: \left( q_2 C q_2 \right) \left( u_1 C e_3 \right)
     qque_2221:
       tex: \left( q_2 C q_2 \right) \left( u_2 C e_1 \right)
-    qque_2222:
-      tex: \left( q_2 C q_2 \right) \left( u_2 C e_2 \right)
-    qque_2223:
-      tex: \left( q_2 C q_2 \right) \left( u_2 C e_3 \right)
     qque_2231:
       tex: \left( q_2 C q_2 \right) \left( u_3 C e_1 \right)
-    qque_2232:
-      tex: \left( q_2 C q_2 \right) \left( u_3 C e_2 \right)
-    qque_2233:
-      tex: \left( q_2 C q_2 \right) \left( u_3 C e_3 \right)
     qque_2311:
       tex: \left( q_2 C q_3 \right) \left( u_1 C e_1 \right)
-    qque_2312:
-      tex: \left( q_2 C q_3 \right) \left( u_1 C e_2 \right)
-    qque_2313:
-      tex: \left( q_2 C q_3 \right) \left( u_1 C e_3 \right)
     qque_2321:
       tex: \left( q_2 C q_3 \right) \left( u_2 C e_1 \right)
-    qque_2322:
-      tex: \left( q_2 C q_3 \right) \left( u_2 C e_2 \right)
-    qque_2323:
-      tex: \left( q_2 C q_3 \right) \left( u_2 C e_3 \right)
     qque_2331:
       tex: \left( q_2 C q_3 \right) \left( u_3 C e_1 \right)
-    qque_2332:
-      tex: \left( q_2 C q_3 \right) \left( u_3 C e_2 \right)
-    qque_2333:
-      tex: \left( q_2 C q_3 \right) \left( u_3 C e_3 \right)
     qque_3311:
       tex: \left( q_3 C q_3 \right) \left( u_1 C e_1 \right)
-    qque_3312:
-      tex: \left( q_3 C q_3 \right) \left( u_1 C e_2 \right)
-    qque_3313:
-      tex: \left( q_3 C q_3 \right) \left( u_1 C e_3 \right)
     qque_3321:
       tex: \left( q_3 C q_3 \right) \left( u_2 C e_1 \right)
-    qque_3322:
-      tex: \left( q_3 C q_3 \right) \left( u_2 C e_2 \right)
-    qque_3323:
-      tex: \left( q_3 C q_3 \right) \left( u_2 C e_3 \right)
     qque_3331:
       tex: \left( q_3 C q_3 \right) \left( u_3 C e_1 \right)
-    qque_3332:
-      tex: \left( q_3 C q_3 \right) \left( u_3 C e_2 \right)
-    qque_3333:
-      tex: \left( q_3 C q_3 \right) \left( u_3 C e_3 \right)
     qqql_1111:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_1 C \ell_1 \right)
-    qqql_1112:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_1 C \ell_2 \right)
-    qqql_1113:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_1 C \ell_3 \right)
     qqql_1121:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_2 C \ell_1 \right)
-    qqql_1122:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_2 C \ell_2 \right)
-    qqql_1123:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_2 C \ell_3 \right)
     qqql_1131:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_3 C \ell_1 \right)
-    qqql_1132:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_3 C \ell_2 \right)
-    qqql_1133:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_3 C \ell_3 \right)
     qqql_1211:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_1 C \ell_1 \right)
-    qqql_1212:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_1 C \ell_2 \right)
-    qqql_1213:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_1 C \ell_3 \right)
     qqql_1221:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_2 C \ell_1 \right)
-    qqql_1222:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_2 C \ell_2 \right)
-    qqql_1223:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_2 C \ell_3 \right)
     qqql_1231:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_3 C \ell_1 \right)
-    qqql_1232:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_3 C \ell_2 \right)
-    qqql_1233:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_3 C \ell_3 \right)
     qqql_1311:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_1 C \ell_1 \right)
-    qqql_1312:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_1 C \ell_2 \right)
-    qqql_1313:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_1 C \ell_3 \right)
     qqql_1321:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_2 C \ell_1 \right)
-    qqql_1322:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_2 C \ell_2 \right)
-    qqql_1323:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_2 C \ell_3 \right)
     qqql_1331:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_3 C \ell_1 \right)
-    qqql_1332:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_3 C \ell_2 \right)
-    qqql_1333:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_3 C \ell_3 \right)
     qqql_2121:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_2 C \ell_1 \right)
-    qqql_2122:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_2 C \ell_2 \right)
-    qqql_2123:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_2 C \ell_3 \right)
     qqql_2131:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_3 C \ell_1 \right)
-    qqql_2132:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_3 C \ell_2 \right)
-    qqql_2133:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_3 C \ell_3 \right)
     qqql_2221:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_2 C \ell_1 \right)
-    qqql_2222:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_2 C \ell_2 \right)
-    qqql_2223:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_2 C \ell_3 \right)
     qqql_2231:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_3 C \ell_1 \right)
-    qqql_2232:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_3 C \ell_2 \right)
-    qqql_2233:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_3 C \ell_3 \right)
     qqql_2311:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_1 C \ell_1 \right)
-    qqql_2312:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_1 C \ell_2 \right)
-    qqql_2313:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_1 C \ell_3 \right)
     qqql_2321:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_2 C \ell_1 \right)
-    qqql_2322:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_2 C \ell_2 \right)
-    qqql_2323:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_2 C \ell_3 \right)
     qqql_2331:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_3 C \ell_1 \right)
-    qqql_2332:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_3 C \ell_2 \right)
-    qqql_2333:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_3 C \ell_3 \right)
     qqql_3131:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_1 \right) \left( q_3 C \ell_1 \right)
-    qqql_3132:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_1 \right) \left( q_3 C \ell_2 \right)
-    qqql_3133:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_1 \right) \left( q_3 C \ell_3 \right)
     qqql_3231:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_2 \right) \left( q_3 C \ell_1 \right)
-    qqql_3232:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_2 \right) \left( q_3 C \ell_2 \right)
-    qqql_3233:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_2 \right) \left( q_3 C \ell_3 \right)
     qqql_3331:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_3 \right) \left( q_3 C \ell_1 \right)
-    qqql_3332:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_3 \right) \left( q_3 C \ell_2 \right)
-    qqql_3333:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_3 \right) \left( q_3 C \ell_3 \right)
     duue_1111:
       tex: \left( d_1 C u_1 \right) \left( u_1 C e_1 \right)
-    duue_1112:
-      tex: \left( d_1 C u_1 \right) \left( u_1 C e_2 \right)
-    duue_1113:
-      tex: \left( d_1 C u_1 \right) \left( u_1 C e_3 \right)
     duue_1121:
       tex: \left( d_1 C u_1 \right) \left( u_2 C e_1 \right)
-    duue_1122:
-      tex: \left( d_1 C u_1 \right) \left( u_2 C e_2 \right)
-    duue_1123:
-      tex: \left( d_1 C u_1 \right) \left( u_2 C e_3 \right)
     duue_1131:
       tex: \left( d_1 C u_1 \right) \left( u_3 C e_1 \right)
-    duue_1132:
-      tex: \left( d_1 C u_1 \right) \left( u_3 C e_2 \right)
-    duue_1133:
-      tex: \left( d_1 C u_1 \right) \left( u_3 C e_3 \right)
     duue_1211:
       tex: \left( d_1 C u_2 \right) \left( u_1 C e_1 \right)
-    duue_1212:
-      tex: \left( d_1 C u_2 \right) \left( u_1 C e_2 \right)
-    duue_1213:
-      tex: \left( d_1 C u_2 \right) \left( u_1 C e_3 \right)
     duue_1221:
       tex: \left( d_1 C u_2 \right) \left( u_2 C e_1 \right)
-    duue_1222:
-      tex: \left( d_1 C u_2 \right) \left( u_2 C e_2 \right)
-    duue_1223:
-      tex: \left( d_1 C u_2 \right) \left( u_2 C e_3 \right)
     duue_1231:
       tex: \left( d_1 C u_2 \right) \left( u_3 C e_1 \right)
-    duue_1232:
-      tex: \left( d_1 C u_2 \right) \left( u_3 C e_2 \right)
-    duue_1233:
-      tex: \left( d_1 C u_2 \right) \left( u_3 C e_3 \right)
     duue_1311:
       tex: \left( d_1 C u_3 \right) \left( u_1 C e_1 \right)
-    duue_1312:
-      tex: \left( d_1 C u_3 \right) \left( u_1 C e_2 \right)
-    duue_1313:
-      tex: \left( d_1 C u_3 \right) \left( u_1 C e_3 \right)
     duue_1321:
       tex: \left( d_1 C u_3 \right) \left( u_2 C e_1 \right)
-    duue_1322:
-      tex: \left( d_1 C u_3 \right) \left( u_2 C e_2 \right)
-    duue_1323:
-      tex: \left( d_1 C u_3 \right) \left( u_2 C e_3 \right)
     duue_1331:
       tex: \left( d_1 C u_3 \right) \left( u_3 C e_1 \right)
-    duue_1332:
-      tex: \left( d_1 C u_3 \right) \left( u_3 C e_2 \right)
-    duue_1333:
-      tex: \left( d_1 C u_3 \right) \left( u_3 C e_3 \right)
     duue_2111:
       tex: \left( d_2 C u_1 \right) \left( u_1 C e_1 \right)
-    duue_2112:
-      tex: \left( d_2 C u_1 \right) \left( u_1 C e_2 \right)
-    duue_2113:
-      tex: \left( d_2 C u_1 \right) \left( u_1 C e_3 \right)
     duue_2121:
       tex: \left( d_2 C u_1 \right) \left( u_2 C e_1 \right)
-    duue_2122:
-      tex: \left( d_2 C u_1 \right) \left( u_2 C e_2 \right)
-    duue_2123:
-      tex: \left( d_2 C u_1 \right) \left( u_2 C e_3 \right)
     duue_2131:
       tex: \left( d_2 C u_1 \right) \left( u_3 C e_1 \right)
-    duue_2132:
-      tex: \left( d_2 C u_1 \right) \left( u_3 C e_2 \right)
-    duue_2133:
-      tex: \left( d_2 C u_1 \right) \left( u_3 C e_3 \right)
     duue_2211:
       tex: \left( d_2 C u_2 \right) \left( u_1 C e_1 \right)
-    duue_2212:
-      tex: \left( d_2 C u_2 \right) \left( u_1 C e_2 \right)
-    duue_2213:
-      tex: \left( d_2 C u_2 \right) \left( u_1 C e_3 \right)
     duue_2221:
       tex: \left( d_2 C u_2 \right) \left( u_2 C e_1 \right)
-    duue_2222:
-      tex: \left( d_2 C u_2 \right) \left( u_2 C e_2 \right)
-    duue_2223:
-      tex: \left( d_2 C u_2 \right) \left( u_2 C e_3 \right)
     duue_2231:
       tex: \left( d_2 C u_2 \right) \left( u_3 C e_1 \right)
-    duue_2232:
-      tex: \left( d_2 C u_2 \right) \left( u_3 C e_2 \right)
-    duue_2233:
-      tex: \left( d_2 C u_2 \right) \left( u_3 C e_3 \right)
     duue_2311:
       tex: \left( d_2 C u_3 \right) \left( u_1 C e_1 \right)
-    duue_2312:
-      tex: \left( d_2 C u_3 \right) \left( u_1 C e_2 \right)
-    duue_2313:
-      tex: \left( d_2 C u_3 \right) \left( u_1 C e_3 \right)
     duue_2321:
       tex: \left( d_2 C u_3 \right) \left( u_2 C e_1 \right)
-    duue_2322:
-      tex: \left( d_2 C u_3 \right) \left( u_2 C e_2 \right)
-    duue_2323:
-      tex: \left( d_2 C u_3 \right) \left( u_2 C e_3 \right)
     duue_2331:
       tex: \left( d_2 C u_3 \right) \left( u_3 C e_1 \right)
-    duue_2332:
-      tex: \left( d_2 C u_3 \right) \left( u_3 C e_2 \right)
-    duue_2333:
-      tex: \left( d_2 C u_3 \right) \left( u_3 C e_3 \right)
     duue_3111:
       tex: \left( d_3 C u_1 \right) \left( u_1 C e_1 \right)
-    duue_3112:
-      tex: \left( d_3 C u_1 \right) \left( u_1 C e_2 \right)
-    duue_3113:
-      tex: \left( d_3 C u_1 \right) \left( u_1 C e_3 \right)
     duue_3121:
       tex: \left( d_3 C u_1 \right) \left( u_2 C e_1 \right)
-    duue_3122:
-      tex: \left( d_3 C u_1 \right) \left( u_2 C e_2 \right)
-    duue_3123:
-      tex: \left( d_3 C u_1 \right) \left( u_2 C e_3 \right)
     duue_3131:
       tex: \left( d_3 C u_1 \right) \left( u_3 C e_1 \right)
-    duue_3132:
-      tex: \left( d_3 C u_1 \right) \left( u_3 C e_2 \right)
-    duue_3133:
-      tex: \left( d_3 C u_1 \right) \left( u_3 C e_3 \right)
     duue_3211:
       tex: \left( d_3 C u_2 \right) \left( u_1 C e_1 \right)
-    duue_3212:
-      tex: \left( d_3 C u_2 \right) \left( u_1 C e_2 \right)
-    duue_3213:
-      tex: \left( d_3 C u_2 \right) \left( u_1 C e_3 \right)
     duue_3221:
       tex: \left( d_3 C u_2 \right) \left( u_2 C e_1 \right)
-    duue_3222:
-      tex: \left( d_3 C u_2 \right) \left( u_2 C e_2 \right)
-    duue_3223:
-      tex: \left( d_3 C u_2 \right) \left( u_2 C e_3 \right)
     duue_3231:
       tex: \left( d_3 C u_2 \right) \left( u_3 C e_1 \right)
-    duue_3232:
-      tex: \left( d_3 C u_2 \right) \left( u_3 C e_2 \right)
-    duue_3233:
-      tex: \left( d_3 C u_2 \right) \left( u_3 C e_3 \right)
     duue_3311:
       tex: \left( d_3 C u_3 \right) \left( u_1 C e_1 \right)
-    duue_3312:
-      tex: \left( d_3 C u_3 \right) \left( u_1 C e_2 \right)
-    duue_3313:
-      tex: \left( d_3 C u_3 \right) \left( u_1 C e_3 \right)
     duue_3321:
       tex: \left( d_3 C u_3 \right) \left( u_2 C e_1 \right)
-    duue_3322:
-      tex: \left( d_3 C u_3 \right) \left( u_2 C e_2 \right)
-    duue_3323:
-      tex: \left( d_3 C u_3 \right) \left( u_2 C e_3 \right)
     duue_3331:
       tex: \left( d_3 C u_3 \right) \left( u_3 C e_1 \right)
+  dB=dmu=1:
+    duql_1112:
+      tex: \left( d_1 C u_1 \right) \left( q_1 C \ell_2 \right)
+    duql_1122:
+      tex: \left( d_1 C u_1 \right) \left( q_2 C \ell_2 \right)
+    duql_1132:
+      tex: \left( d_1 C u_1 \right) \left( q_3 C \ell_2 \right)
+    duql_1212:
+      tex: \left( d_1 C u_2 \right) \left( q_1 C \ell_2 \right)
+    duql_1222:
+      tex: \left( d_1 C u_2 \right) \left( q_2 C \ell_2 \right)
+    duql_1232:
+      tex: \left( d_1 C u_2 \right) \left( q_3 C \ell_2 \right)
+    duql_1312:
+      tex: \left( d_1 C u_3 \right) \left( q_1 C \ell_2 \right)
+    duql_1322:
+      tex: \left( d_1 C u_3 \right) \left( q_2 C \ell_2 \right)
+    duql_1332:
+      tex: \left( d_1 C u_3 \right) \left( q_3 C \ell_2 \right)
+    duql_2112:
+      tex: \left( d_2 C u_1 \right) \left( q_1 C \ell_2 \right)
+    duql_2122:
+      tex: \left( d_2 C u_1 \right) \left( q_2 C \ell_2 \right)
+    duql_2132:
+      tex: \left( d_2 C u_1 \right) \left( q_3 C \ell_2 \right)
+    duql_2212:
+      tex: \left( d_2 C u_2 \right) \left( q_1 C \ell_2 \right)
+    duql_2222:
+      tex: \left( d_2 C u_2 \right) \left( q_2 C \ell_2 \right)
+    duql_2232:
+      tex: \left( d_2 C u_2 \right) \left( q_3 C \ell_2 \right)
+    duql_2312:
+      tex: \left( d_2 C u_3 \right) \left( q_1 C \ell_2 \right)
+    duql_2322:
+      tex: \left( d_2 C u_3 \right) \left( q_2 C \ell_2 \right)
+    duql_2332:
+      tex: \left( d_2 C u_3 \right) \left( q_3 C \ell_2 \right)
+    duql_3112:
+      tex: \left( d_3 C u_1 \right) \left( q_1 C \ell_2 \right)
+    duql_3122:
+      tex: \left( d_3 C u_1 \right) \left( q_2 C \ell_2 \right)
+    duql_3132:
+      tex: \left( d_3 C u_1 \right) \left( q_3 C \ell_2 \right)
+    duql_3212:
+      tex: \left( d_3 C u_2 \right) \left( q_1 C \ell_2 \right)
+    duql_3222:
+      tex: \left( d_3 C u_2 \right) \left( q_2 C \ell_2 \right)
+    duql_3232:
+      tex: \left( d_3 C u_2 \right) \left( q_3 C \ell_2 \right)
+    duql_3312:
+      tex: \left( d_3 C u_3 \right) \left( q_1 C \ell_2 \right)
+    duql_3322:
+      tex: \left( d_3 C u_3 \right) \left( q_2 C \ell_2 \right)
+    duql_3332:
+      tex: \left( d_3 C u_3 \right) \left( q_3 C \ell_2 \right)
+    qque_1112:
+      tex: \left( q_1 C q_1 \right) \left( u_1 C e_2 \right)
+    qque_1122:
+      tex: \left( q_1 C q_1 \right) \left( u_2 C e_2 \right)
+    qque_1132:
+      tex: \left( q_1 C q_1 \right) \left( u_3 C e_2 \right)
+    qque_1212:
+      tex: \left( q_1 C q_2 \right) \left( u_1 C e_2 \right)
+    qque_1222:
+      tex: \left( q_1 C q_2 \right) \left( u_2 C e_2 \right)
+    qque_1232:
+      tex: \left( q_1 C q_2 \right) \left( u_3 C e_2 \right)
+    qque_1312:
+      tex: \left( q_1 C q_3 \right) \left( u_1 C e_2 \right)
+    qque_1322:
+      tex: \left( q_1 C q_3 \right) \left( u_2 C e_2 \right)
+    qque_1332:
+      tex: \left( q_1 C q_3 \right) \left( u_3 C e_2 \right)
+    qque_2212:
+      tex: \left( q_2 C q_2 \right) \left( u_1 C e_2 \right)
+    qque_2222:
+      tex: \left( q_2 C q_2 \right) \left( u_2 C e_2 \right)
+    qque_2232:
+      tex: \left( q_2 C q_2 \right) \left( u_3 C e_2 \right)
+    qque_2312:
+      tex: \left( q_2 C q_3 \right) \left( u_1 C e_2 \right)
+    qque_2322:
+      tex: \left( q_2 C q_3 \right) \left( u_2 C e_2 \right)
+    qque_2332:
+      tex: \left( q_2 C q_3 \right) \left( u_3 C e_2 \right)
+    qque_3312:
+      tex: \left( q_3 C q_3 \right) \left( u_1 C e_2 \right)
+    qque_3322:
+      tex: \left( q_3 C q_3 \right) \left( u_2 C e_2 \right)
+    qque_3332:
+      tex: \left( q_3 C q_3 \right) \left( u_3 C e_2 \right)
+    qqql_1112:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_1 C \ell_2 \right)
+    qqql_1122:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_2 C \ell_2 \right)
+    qqql_1132:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_3 C \ell_2 \right)
+    qqql_1212:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_1 C \ell_2 \right)
+    qqql_1222:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_2 C \ell_2 \right)
+    qqql_1232:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_3 C \ell_2 \right)
+    qqql_1312:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_1 C \ell_2 \right)
+    qqql_1322:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_2 C \ell_2 \right)
+    qqql_1332:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_3 C \ell_2 \right)
+    qqql_2122:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_2 C \ell_2 \right)
+    qqql_2132:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_3 C \ell_2 \right)
+    qqql_2222:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_2 C \ell_2 \right)
+    qqql_2232:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_3 C \ell_2 \right)
+    qqql_2312:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_1 C \ell_2 \right)
+    qqql_2322:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_2 C \ell_2 \right)
+    qqql_2332:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_3 C \ell_2 \right)
+    qqql_3132:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_1 \right) \left( q_3 C \ell_2 \right)
+    qqql_3232:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_2 \right) \left( q_3 C \ell_2 \right)
+    qqql_3332:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_3 \right) \left( q_3 C \ell_2 \right)
+    duue_1112:
+      tex: \left( d_1 C u_1 \right) \left( u_1 C e_2 \right)
+    duue_1122:
+      tex: \left( d_1 C u_1 \right) \left( u_2 C e_2 \right)
+    duue_1132:
+      tex: \left( d_1 C u_1 \right) \left( u_3 C e_2 \right)
+    duue_1212:
+      tex: \left( d_1 C u_2 \right) \left( u_1 C e_2 \right)
+    duue_1222:
+      tex: \left( d_1 C u_2 \right) \left( u_2 C e_2 \right)
+    duue_1232:
+      tex: \left( d_1 C u_2 \right) \left( u_3 C e_2 \right)
+    duue_1312:
+      tex: \left( d_1 C u_3 \right) \left( u_1 C e_2 \right)
+    duue_1322:
+      tex: \left( d_1 C u_3 \right) \left( u_2 C e_2 \right)
+    duue_1332:
+      tex: \left( d_1 C u_3 \right) \left( u_3 C e_2 \right)
+    duue_2112:
+      tex: \left( d_2 C u_1 \right) \left( u_1 C e_2 \right)
+    duue_2122:
+      tex: \left( d_2 C u_1 \right) \left( u_2 C e_2 \right)
+    duue_2132:
+      tex: \left( d_2 C u_1 \right) \left( u_3 C e_2 \right)
+    duue_2212:
+      tex: \left( d_2 C u_2 \right) \left( u_1 C e_2 \right)
+    duue_2222:
+      tex: \left( d_2 C u_2 \right) \left( u_2 C e_2 \right)
+    duue_2232:
+      tex: \left( d_2 C u_2 \right) \left( u_3 C e_2 \right)
+    duue_2312:
+      tex: \left( d_2 C u_3 \right) \left( u_1 C e_2 \right)
+    duue_2322:
+      tex: \left( d_2 C u_3 \right) \left( u_2 C e_2 \right)
+    duue_2332:
+      tex: \left( d_2 C u_3 \right) \left( u_3 C e_2 \right)
+    duue_3112:
+      tex: \left( d_3 C u_1 \right) \left( u_1 C e_2 \right)
+    duue_3122:
+      tex: \left( d_3 C u_1 \right) \left( u_2 C e_2 \right)
+    duue_3132:
+      tex: \left( d_3 C u_1 \right) \left( u_3 C e_2 \right)
+    duue_3212:
+      tex: \left( d_3 C u_2 \right) \left( u_1 C e_2 \right)
+    duue_3222:
+      tex: \left( d_3 C u_2 \right) \left( u_2 C e_2 \right)
+    duue_3232:
+      tex: \left( d_3 C u_2 \right) \left( u_3 C e_2 \right)
+    duue_3312:
+      tex: \left( d_3 C u_3 \right) \left( u_1 C e_2 \right)
+    duue_3322:
+      tex: \left( d_3 C u_3 \right) \left( u_2 C e_2 \right)
     duue_3332:
       tex: \left( d_3 C u_3 \right) \left( u_3 C e_2 \right)
+  dB=dtau=1:
+    duql_1113:
+      tex: \left( d_1 C u_1 \right) \left( q_1 C \ell_3 \right)
+    duql_1123:
+      tex: \left( d_1 C u_1 \right) \left( q_2 C \ell_3 \right)
+    duql_1133:
+      tex: \left( d_1 C u_1 \right) \left( q_3 C \ell_3 \right)
+    duql_1213:
+      tex: \left( d_1 C u_2 \right) \left( q_1 C \ell_3 \right)
+    duql_1223:
+      tex: \left( d_1 C u_2 \right) \left( q_2 C \ell_3 \right)
+    duql_1233:
+      tex: \left( d_1 C u_2 \right) \left( q_3 C \ell_3 \right)
+    duql_1313:
+      tex: \left( d_1 C u_3 \right) \left( q_1 C \ell_3 \right)
+    duql_1323:
+      tex: \left( d_1 C u_3 \right) \left( q_2 C \ell_3 \right)
+    duql_1333:
+      tex: \left( d_1 C u_3 \right) \left( q_3 C \ell_3 \right)
+    duql_2113:
+      tex: \left( d_2 C u_1 \right) \left( q_1 C \ell_3 \right)
+    duql_2123:
+      tex: \left( d_2 C u_1 \right) \left( q_2 C \ell_3 \right)
+    duql_2133:
+      tex: \left( d_2 C u_1 \right) \left( q_3 C \ell_3 \right)
+    duql_2213:
+      tex: \left( d_2 C u_2 \right) \left( q_1 C \ell_3 \right)
+    duql_2223:
+      tex: \left( d_2 C u_2 \right) \left( q_2 C \ell_3 \right)
+    duql_2233:
+      tex: \left( d_2 C u_2 \right) \left( q_3 C \ell_3 \right)
+    duql_2313:
+      tex: \left( d_2 C u_3 \right) \left( q_1 C \ell_3 \right)
+    duql_2323:
+      tex: \left( d_2 C u_3 \right) \left( q_2 C \ell_3 \right)
+    duql_2333:
+      tex: \left( d_2 C u_3 \right) \left( q_3 C \ell_3 \right)
+    duql_3113:
+      tex: \left( d_3 C u_1 \right) \left( q_1 C \ell_3 \right)
+    duql_3123:
+      tex: \left( d_3 C u_1 \right) \left( q_2 C \ell_3 \right)
+    duql_3133:
+      tex: \left( d_3 C u_1 \right) \left( q_3 C \ell_3 \right)
+    duql_3213:
+      tex: \left( d_3 C u_2 \right) \left( q_1 C \ell_3 \right)
+    duql_3223:
+      tex: \left( d_3 C u_2 \right) \left( q_2 C \ell_3 \right)
+    duql_3233:
+      tex: \left( d_3 C u_2 \right) \left( q_3 C \ell_3 \right)
+    duql_3313:
+      tex: \left( d_3 C u_3 \right) \left( q_1 C \ell_3 \right)
+    duql_3323:
+      tex: \left( d_3 C u_3 \right) \left( q_2 C \ell_3 \right)
+    duql_3333:
+      tex: \left( d_3 C u_3 \right) \left( q_3 C \ell_3 \right)
+    qque_1113:
+      tex: \left( q_1 C q_1 \right) \left( u_1 C e_3 \right)
+    qque_1123:
+      tex: \left( q_1 C q_1 \right) \left( u_2 C e_3 \right)
+    qque_1133:
+      tex: \left( q_1 C q_1 \right) \left( u_3 C e_3 \right)
+    qque_1213:
+      tex: \left( q_1 C q_2 \right) \left( u_1 C e_3 \right)
+    qque_1223:
+      tex: \left( q_1 C q_2 \right) \left( u_2 C e_3 \right)
+    qque_1233:
+      tex: \left( q_1 C q_2 \right) \left( u_3 C e_3 \right)
+    qque_1313:
+      tex: \left( q_1 C q_3 \right) \left( u_1 C e_3 \right)
+    qque_1323:
+      tex: \left( q_1 C q_3 \right) \left( u_2 C e_3 \right)
+    qque_1333:
+      tex: \left( q_1 C q_3 \right) \left( u_3 C e_3 \right)
+    qque_2213:
+      tex: \left( q_2 C q_2 \right) \left( u_1 C e_3 \right)
+    qque_2223:
+      tex: \left( q_2 C q_2 \right) \left( u_2 C e_3 \right)
+    qque_2233:
+      tex: \left( q_2 C q_2 \right) \left( u_3 C e_3 \right)
+    qque_2313:
+      tex: \left( q_2 C q_3 \right) \left( u_1 C e_3 \right)
+    qque_2323:
+      tex: \left( q_2 C q_3 \right) \left( u_2 C e_3 \right)
+    qque_2333:
+      tex: \left( q_2 C q_3 \right) \left( u_3 C e_3 \right)
+    qque_3313:
+      tex: \left( q_3 C q_3 \right) \left( u_1 C e_3 \right)
+    qque_3323:
+      tex: \left( q_3 C q_3 \right) \left( u_2 C e_3 \right)
+    qque_3333:
+      tex: \left( q_3 C q_3 \right) \left( u_3 C e_3 \right)
+    qqql_1113:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_1 C \ell_3 \right)
+    qqql_1123:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_2 C \ell_3 \right)
+    qqql_1133:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_3 C \ell_3 \right)
+    qqql_1213:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_1 C \ell_3 \right)
+    qqql_1223:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_2 C \ell_3 \right)
+    qqql_1233:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_3 C \ell_3 \right)
+    qqql_1313:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_1 C \ell_3 \right)
+    qqql_1323:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_2 C \ell_3 \right)
+    qqql_1333:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_3 C \ell_3 \right)
+    qqql_2123:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_2 C \ell_3 \right)
+    qqql_2133:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_3 C \ell_3 \right)
+    qqql_2223:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_2 C \ell_3 \right)
+    qqql_2233:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_3 C \ell_3 \right)
+    qqql_2313:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_1 C \ell_3 \right)
+    qqql_2323:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_2 C \ell_3 \right)
+    qqql_2333:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_3 C \ell_3 \right)
+    qqql_3133:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_1 \right) \left( q_3 C \ell_3 \right)
+    qqql_3233:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_2 \right) \left( q_3 C \ell_3 \right)
+    qqql_3333:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_3 \right) \left( q_3 C \ell_3 \right)
+    duue_1113:
+      tex: \left( d_1 C u_1 \right) \left( u_1 C e_3 \right)
+    duue_1123:
+      tex: \left( d_1 C u_1 \right) \left( u_2 C e_3 \right)
+    duue_1133:
+      tex: \left( d_1 C u_1 \right) \left( u_3 C e_3 \right)
+    duue_1213:
+      tex: \left( d_1 C u_2 \right) \left( u_1 C e_3 \right)
+    duue_1223:
+      tex: \left( d_1 C u_2 \right) \left( u_2 C e_3 \right)
+    duue_1233:
+      tex: \left( d_1 C u_2 \right) \left( u_3 C e_3 \right)
+    duue_1313:
+      tex: \left( d_1 C u_3 \right) \left( u_1 C e_3 \right)
+    duue_1323:
+      tex: \left( d_1 C u_3 \right) \left( u_2 C e_3 \right)
+    duue_1333:
+      tex: \left( d_1 C u_3 \right) \left( u_3 C e_3 \right)
+    duue_2113:
+      tex: \left( d_2 C u_1 \right) \left( u_1 C e_3 \right)
+    duue_2123:
+      tex: \left( d_2 C u_1 \right) \left( u_2 C e_3 \right)
+    duue_2133:
+      tex: \left( d_2 C u_1 \right) \left( u_3 C e_3 \right)
+    duue_2213:
+      tex: \left( d_2 C u_2 \right) \left( u_1 C e_3 \right)
+    duue_2223:
+      tex: \left( d_2 C u_2 \right) \left( u_2 C e_3 \right)
+    duue_2233:
+      tex: \left( d_2 C u_2 \right) \left( u_3 C e_3 \right)
+    duue_2313:
+      tex: \left( d_2 C u_3 \right) \left( u_1 C e_3 \right)
+    duue_2323:
+      tex: \left( d_2 C u_3 \right) \left( u_2 C e_3 \right)
+    duue_2333:
+      tex: \left( d_2 C u_3 \right) \left( u_3 C e_3 \right)
+    duue_3113:
+      tex: \left( d_3 C u_1 \right) \left( u_1 C e_3 \right)
+    duue_3123:
+      tex: \left( d_3 C u_1 \right) \left( u_2 C e_3 \right)
+    duue_3133:
+      tex: \left( d_3 C u_1 \right) \left( u_3 C e_3 \right)
+    duue_3213:
+      tex: \left( d_3 C u_2 \right) \left( u_1 C e_3 \right)
+    duue_3223:
+      tex: \left( d_3 C u_2 \right) \left( u_2 C e_3 \right)
+    duue_3233:
+      tex: \left( d_3 C u_2 \right) \left( u_3 C e_3 \right)
+    duue_3313:
+      tex: \left( d_3 C u_3 \right) \left( u_1 C e_3 \right)
+    duue_3323:
+      tex: \left( d_3 C u_3 \right) \left( u_2 C e_3 \right)
     duue_3333:
       tex: \left( d_3 C u_3 \right) \left( u_3 C e_3 \right)
   dL=2:

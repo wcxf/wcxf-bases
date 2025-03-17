@@ -34,9 +34,15 @@ sectors:
   taumutaumu:
     tex: \tau \mu \tau \mu
     description: Operators violating tau and muon number by two units and conserving overall lepton number
-  dB=dL=1:
-    tex: \Delta B=\Delta L=1
-    description: Baryon number violating operators that conserve $B-L$
+  dB=de=1:
+    tex: \Delta B=\Delta e=1
+    description: Baryon and electron number violating operators that conserve $B-L$
+  dB=dmu=1:
+    tex: \Delta B=\Delta \mu=1
+    description: Baryon and muon number violating operators that conserve $B-L$
+  dB=dtau=1:
+    tex: \Delta B=\Delta \tau=1
+    description: Baryon and tau number violating operators that conserve $B-L$
   dL=2:
     tex: \Delta L=2
     description: Operators violating lepton number by two units

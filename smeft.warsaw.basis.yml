@@ -1,19 +1,9 @@
 eft: SMEFT
 basis: Warsaw
 metadata:
-  description: >
-    Basis suggested by Grzadkowski, Iskrzyński, Misiak, and Rosiek
-    (arXiv:1008.4884v3). At variance with their definition, the Wilson
-    coefficients are defined to be dimensionful, such that
-    $\mathcal L=\sum _i C_i O_i$. The set of redundant operators
-    coincides with the choice of DSixTools (arXiv:1704.04504).
-    The weak basis for the fermion fields is chosen such that the running
-    dimension-6 mass matrices of charged leptons and down-type quarks
-    are diagonal at the scale where the coefficient values are specified,
-    while up-type quark singlet field is rotated to diagonalise the
-    running dimension-6 up-type quark mass matrix "from the right".
+  description: "Basis suggested by Grzadkowski, Iskrzy\u0144ski, Misiak, and Rosiek (arXiv:1008.4884v3). At variance with their definition, the Wilson coefficients are defined to be dimensionful, such that $\\mathcal L=\\sum _i C_i O_i$. The set of redundant operators coincides with the choice of DSixTools (arXiv:1704.04504). The weak basis for the fermion fields is chosen such that the running dimension-6 mass matrices of charged leptons and down-type quarks are diagonal at the scale where the coefficient values are specified, while up-type quark singlet field is rotated to diagonalise the running dimension-6 up-type quark mass matrix \"from the right\".\n"
 sectors:
-  dB=dL=0:
+  dB=de=dmu=dtau=0:
     G:
       real: true
       tex: f^{ABC} G_\mu^{A \nu} G_\nu^{B \rho} G_\rho^{C \mu}
@@ -97,56 +87,20 @@ sectors:
       tex: \left( \varphi^\dagger \varphi \right) \left( \bar q_3 d_3 \varphi \right)
     ephi_11:
       tex: \left( \varphi^\dagger \varphi \right) \left( \bar \ell_1 e_1 \varphi \right)
-    ephi_12:
-      tex: \left( \varphi^\dagger \varphi \right) \left( \bar \ell_1 e_2 \varphi \right)
-    ephi_13:
-      tex: \left( \varphi^\dagger \varphi \right) \left( \bar \ell_1 e_3 \varphi \right)
-    ephi_21:
-      tex: \left( \varphi^\dagger \varphi \right) \left( \bar \ell_2 e_1 \varphi \right)
     ephi_22:
       tex: \left( \varphi^\dagger \varphi \right) \left( \bar \ell_2 e_2 \varphi \right)
-    ephi_23:
-      tex: \left( \varphi^\dagger \varphi \right) \left( \bar \ell_2 e_3 \varphi \right)
-    ephi_31:
-      tex: \left( \varphi^\dagger \varphi \right) \left( \bar \ell_3 e_1 \varphi \right)
-    ephi_32:
-      tex: \left( \varphi^\dagger \varphi \right) \left( \bar \ell_3 e_2 \varphi \right)
     ephi_33:
       tex: \left( \varphi^\dagger \varphi \right) \left( \bar \ell_3 e_3 \varphi \right)
     eW_11:
       tex: \left( \bar \ell_1 \sigma^{\mu \nu} e_1 \right) \tau^I \varphi W_{\mu \nu}^I
-    eW_12:
-      tex: \left( \bar \ell_1 \sigma^{\mu \nu} e_2 \right) \tau^I \varphi W_{\mu \nu}^I
-    eW_13:
-      tex: \left( \bar \ell_1 \sigma^{\mu \nu} e_3 \right) \tau^I \varphi W_{\mu \nu}^I
-    eW_21:
-      tex: \left( \bar \ell_2 \sigma^{\mu \nu} e_1 \right) \tau^I \varphi W_{\mu \nu}^I
     eW_22:
       tex: \left( \bar \ell_2 \sigma^{\mu \nu} e_2 \right) \tau^I \varphi W_{\mu \nu}^I
-    eW_23:
-      tex: \left( \bar \ell_2 \sigma^{\mu \nu} e_3 \right) \tau^I \varphi W_{\mu \nu}^I
-    eW_31:
-      tex: \left( \bar \ell_3 \sigma^{\mu \nu} e_1 \right) \tau^I \varphi W_{\mu \nu}^I
-    eW_32:
-      tex: \left( \bar \ell_3 \sigma^{\mu \nu} e_2 \right) \tau^I \varphi W_{\mu \nu}^I
     eW_33:
       tex: \left( \bar \ell_3 \sigma^{\mu \nu} e_3 \right) \tau^I \varphi W_{\mu \nu}^I
     eB_11:
       tex: \left( \bar \ell_1 \sigma^{\mu \nu} e_1 \right) \varphi B_{\mu \nu}
-    eB_12:
-      tex: \left( \bar \ell_1 \sigma^{\mu \nu} e_2 \right) \varphi B_{\mu \nu}
-    eB_13:
-      tex: \left( \bar \ell_1 \sigma^{\mu \nu} e_3 \right) \varphi B_{\mu \nu}
-    eB_21:
-      tex: \left( \bar \ell_2 \sigma^{\mu \nu} e_1 \right) \varphi B_{\mu \nu}
     eB_22:
       tex: \left( \bar \ell_2 \sigma^{\mu \nu} e_2 \right) \varphi B_{\mu \nu}
-    eB_23:
-      tex: \left( \bar \ell_2 \sigma^{\mu \nu} e_3 \right) \varphi B_{\mu \nu}
-    eB_31:
-      tex: \left( \bar \ell_3 \sigma^{\mu \nu} e_1 \right) \varphi B_{\mu \nu}
-    eB_32:
-      tex: \left( \bar \ell_3 \sigma^{\mu \nu} e_2 \right) \varphi B_{\mu \nu}
     eB_33:
       tex: \left( \bar \ell_3 \sigma^{\mu \nu} e_3 \right) \varphi B_{\mu \nu}
     uG_11:
@@ -260,45 +214,27 @@ sectors:
     phil1_11:
       real: true
       tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar \ell_1 \gamma^\mu \ell_1 \right)
-    phil1_12:
-      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar \ell_1 \gamma^\mu \ell_2 \right)
-    phil1_13:
-      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar \ell_1 \gamma^\mu \ell_3 \right)
     phil1_22:
       real: true
       tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar \ell_2 \gamma^\mu \ell_2 \right)
-    phil1_23:
-      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar \ell_2 \gamma^\mu \ell_3 \right)
     phil1_33:
       real: true
       tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar \ell_3 \gamma^\mu \ell_3 \right)
     phil3_11:
       real: true
       tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}^I_\mu \varphi \right) \left( \bar \ell_1 \tau^I \gamma^\mu \ell_1 \right)
-    phil3_12:
-      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}^I_\mu \varphi \right) \left( \bar \ell_1 \tau^I \gamma^\mu \ell_2 \right)
-    phil3_13:
-      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}^I_\mu \varphi \right) \left( \bar \ell_1 \tau^I \gamma^\mu \ell_3 \right)
     phil3_22:
       real: true
       tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}^I_\mu \varphi \right) \left( \bar \ell_2 \tau^I \gamma^\mu \ell_2 \right)
-    phil3_23:
-      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}^I_\mu \varphi \right) \left( \bar \ell_2 \tau^I \gamma^\mu \ell_3 \right)
     phil3_33:
       real: true
       tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}^I_\mu \varphi \right) \left( \bar \ell_3 \tau^I \gamma^\mu \ell_3 \right)
     phie_11:
       real: true
       tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar e_1 \gamma^\mu e_1 \right)
-    phie_12:
-      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar e_1 \gamma^\mu e_2 \right)
-    phie_13:
-      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar e_1 \gamma^\mu e_3 \right)
     phie_22:
       real: true
       tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar e_2 \gamma^\mu e_2 \right)
-    phie_23:
-      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar e_2 \gamma^\mu e_3 \right)
     phie_33:
       real: true
       tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar e_3 \gamma^\mu e_3 \right)
@@ -383,63 +319,27 @@ sectors:
     ll_1111:
       real: true
       tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar \ell_1 \gamma^\mu \ell_1 \right)
-    ll_1112:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar \ell_1 \gamma^\mu \ell_2 \right)
-    ll_1113:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar \ell_1 \gamma^\mu \ell_3 \right)
     ll_1122:
       real: true
       tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar \ell_2 \gamma^\mu \ell_2 \right)
-    ll_1123:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar \ell_2 \gamma^\mu \ell_3 \right)
     ll_1133:
       real: true
       tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar \ell_3 \gamma^\mu \ell_3 \right)
-    ll_1212:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar \ell_1 \gamma^\mu \ell_2 \right)
-    ll_1213:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar \ell_1 \gamma^\mu \ell_3 \right)
     ll_1221:
       real: true
       tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar \ell_2 \gamma^\mu \ell_1 \right)
-    ll_1222:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar \ell_2 \gamma^\mu \ell_2 \right)
-    ll_1223:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar \ell_2 \gamma^\mu \ell_3 \right)
-    ll_1231:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar \ell_3 \gamma^\mu \ell_1 \right)
-    ll_1232:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar \ell_3 \gamma^\mu \ell_2 \right)
-    ll_1233:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar \ell_3 \gamma^\mu \ell_3 \right)
-    ll_1313:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar \ell_1 \gamma^\mu \ell_3 \right)
-    ll_1322:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar \ell_2 \gamma^\mu \ell_2 \right)
-    ll_1323:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar \ell_2 \gamma^\mu \ell_3 \right)
     ll_1331:
       real: true
       tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar \ell_3 \gamma^\mu \ell_1 \right)
-    ll_1332:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar \ell_3 \gamma^\mu \ell_2 \right)
-    ll_1333:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar \ell_3 \gamma^\mu \ell_3 \right)
     ll_2222:
       real: true
       tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar \ell_2 \gamma^\mu \ell_2 \right)
-    ll_2223:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar \ell_2 \gamma^\mu \ell_3 \right)
     ll_2233:
       real: true
       tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar \ell_3 \gamma^\mu \ell_3 \right)
-    ll_2323:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar \ell_2 \gamma^\mu \ell_3 \right)
     ll_2332:
       real: true
       tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar \ell_3 \gamma^\mu \ell_2 \right)
-    ll_2333:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar \ell_3 \gamma^\mu \ell_3 \right)
     ll_3333:
       real: true
       tex: \left( \bar \ell_3 \gamma_\mu \ell_3 \right) \left( \bar \ell_3 \gamma^\mu \ell_3 \right)
@@ -584,42 +484,6 @@ sectors:
     lq1_1133:
       real: true
       tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar q_3 \gamma^\mu q_3 \right)
-    lq1_1211:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar q_1 \gamma^\mu q_1 \right)
-    lq1_1212:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar q_1 \gamma^\mu q_2 \right)
-    lq1_1213:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar q_1 \gamma^\mu q_3 \right)
-    lq1_1221:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar q_2 \gamma^\mu q_1 \right)
-    lq1_1222:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar q_2 \gamma^\mu q_2 \right)
-    lq1_1223:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar q_2 \gamma^\mu q_3 \right)
-    lq1_1231:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar q_3 \gamma^\mu q_1 \right)
-    lq1_1232:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar q_3 \gamma^\mu q_2 \right)
-    lq1_1233:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar q_3 \gamma^\mu q_3 \right)
-    lq1_1311:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar q_1 \gamma^\mu q_1 \right)
-    lq1_1312:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar q_1 \gamma^\mu q_2 \right)
-    lq1_1313:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar q_1 \gamma^\mu q_3 \right)
-    lq1_1321:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar q_2 \gamma^\mu q_1 \right)
-    lq1_1322:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar q_2 \gamma^\mu q_2 \right)
-    lq1_1323:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar q_2 \gamma^\mu q_3 \right)
-    lq1_1331:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar q_3 \gamma^\mu q_1 \right)
-    lq1_1332:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar q_3 \gamma^\mu q_2 \right)
-    lq1_1333:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar q_3 \gamma^\mu q_3 \right)
     lq1_2211:
       real: true
       tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar q_1 \gamma^\mu q_1 \right)
@@ -635,24 +499,6 @@ sectors:
     lq1_2233:
       real: true
       tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar q_3 \gamma^\mu q_3 \right)
-    lq1_2311:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar q_1 \gamma^\mu q_1 \right)
-    lq1_2312:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar q_1 \gamma^\mu q_2 \right)
-    lq1_2313:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar q_1 \gamma^\mu q_3 \right)
-    lq1_2321:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar q_2 \gamma^\mu q_1 \right)
-    lq1_2322:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar q_2 \gamma^\mu q_2 \right)
-    lq1_2323:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar q_2 \gamma^\mu q_3 \right)
-    lq1_2331:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar q_3 \gamma^\mu q_1 \right)
-    lq1_2332:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar q_3 \gamma^\mu q_2 \right)
-    lq1_2333:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar q_3 \gamma^\mu q_3 \right)
     lq1_3311:
       real: true
       tex: \left( \bar \ell_3 \gamma_\mu \ell_3 \right) \left( \bar q_1 \gamma^\mu q_1 \right)
@@ -683,42 +529,6 @@ sectors:
     lq3_1133:
       real: true
       tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_1 \right) \left( \bar q_3 \gamma^\mu \tau^I q_3 \right)
-    lq3_1211:
-      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_1 \gamma^\mu \tau^I q_1 \right)
-    lq3_1212:
-      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_1 \gamma^\mu \tau^I q_2 \right)
-    lq3_1213:
-      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_1 \gamma^\mu \tau^I q_3 \right)
-    lq3_1221:
-      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_2 \gamma^\mu \tau^I q_1 \right)
-    lq3_1222:
-      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_2 \gamma^\mu \tau^I q_2 \right)
-    lq3_1223:
-      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_2 \gamma^\mu \tau^I q_3 \right)
-    lq3_1231:
-      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_3 \gamma^\mu \tau^I q_1 \right)
-    lq3_1232:
-      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_3 \gamma^\mu \tau^I q_2 \right)
-    lq3_1233:
-      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_3 \gamma^\mu \tau^I q_3 \right)
-    lq3_1311:
-      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_1 \gamma^\mu \tau^I q_1 \right)
-    lq3_1312:
-      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_1 \gamma^\mu \tau^I q_2 \right)
-    lq3_1313:
-      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_1 \gamma^\mu \tau^I q_3 \right)
-    lq3_1321:
-      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_2 \gamma^\mu \tau^I q_1 \right)
-    lq3_1322:
-      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_2 \gamma^\mu \tau^I q_2 \right)
-    lq3_1323:
-      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_2 \gamma^\mu \tau^I q_3 \right)
-    lq3_1331:
-      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_3 \gamma^\mu \tau^I q_1 \right)
-    lq3_1332:
-      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_3 \gamma^\mu \tau^I q_2 \right)
-    lq3_1333:
-      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_3 \gamma^\mu \tau^I q_3 \right)
     lq3_2211:
       real: true
       tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_1 \gamma^\mu \tau^I q_1 \right)
@@ -734,24 +544,6 @@ sectors:
     lq3_2233:
       real: true
       tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_3 \gamma^\mu \tau^I q_3 \right)
-    lq3_2311:
-      tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_1 \gamma^\mu \tau^I q_1 \right)
-    lq3_2312:
-      tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_1 \gamma^\mu \tau^I q_2 \right)
-    lq3_2313:
-      tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_1 \gamma^\mu \tau^I q_3 \right)
-    lq3_2321:
-      tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_2 \gamma^\mu \tau^I q_1 \right)
-    lq3_2322:
-      tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_2 \gamma^\mu \tau^I q_2 \right)
-    lq3_2323:
-      tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_2 \gamma^\mu \tau^I q_3 \right)
-    lq3_2331:
-      tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_3 \gamma^\mu \tau^I q_1 \right)
-    lq3_2332:
-      tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_3 \gamma^\mu \tau^I q_2 \right)
-    lq3_2333:
-      tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_3 \gamma^\mu \tau^I q_3 \right)
     lq3_3311:
       real: true
       tex: \left( \bar \ell_3 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_1 \gamma^\mu \tau^I q_1 \right)
@@ -770,48 +562,18 @@ sectors:
     ee_1111:
       real: true
       tex: \left( \bar e_1 \gamma_\mu e_1 \right) \left( \bar e_1 \gamma^\mu e_1 \right)
-    ee_1112:
-      tex: \left( \bar e_1 \gamma_\mu e_1 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
-    ee_1113:
-      tex: \left( \bar e_1 \gamma_\mu e_1 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
     ee_1122:
       real: true
       tex: \left( \bar e_1 \gamma_\mu e_1 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
-    ee_1123:
-      tex: \left( \bar e_1 \gamma_\mu e_1 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
     ee_1133:
       real: true
       tex: \left( \bar e_1 \gamma_\mu e_1 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
-    ee_1212:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
-    ee_1213:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
-    ee_1222:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
-    ee_1223:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
-    ee_1232:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar e_3 \gamma^\mu e_2 \right)
-    ee_1233:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
-    ee_1313:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
-    ee_1323:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
-    ee_1333:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
     ee_2222:
       real: true
       tex: \left( \bar e_2 \gamma_\mu e_2 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
-    ee_2223:
-      tex: \left( \bar e_2 \gamma_\mu e_2 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
     ee_2233:
       real: true
       tex: \left( \bar e_2 \gamma_\mu e_2 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
-    ee_2323:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
-    ee_2333:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
     ee_3333:
       real: true
       tex: \left( \bar e_3 \gamma_\mu e_3 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
@@ -956,42 +718,6 @@ sectors:
     eu_1133:
       real: true
       tex: \left( \bar e_1 \gamma_\mu e_1 \right) \left( \bar u_3 \gamma^\mu u_3 \right)
-    eu_1211:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar u_1 \gamma^\mu u_1 \right)
-    eu_1212:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar u_1 \gamma^\mu u_2 \right)
-    eu_1213:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar u_1 \gamma^\mu u_3 \right)
-    eu_1221:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar u_2 \gamma^\mu u_1 \right)
-    eu_1222:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar u_2 \gamma^\mu u_2 \right)
-    eu_1223:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar u_2 \gamma^\mu u_3 \right)
-    eu_1231:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar u_3 \gamma^\mu u_1 \right)
-    eu_1232:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar u_3 \gamma^\mu u_2 \right)
-    eu_1233:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar u_3 \gamma^\mu u_3 \right)
-    eu_1311:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar u_1 \gamma^\mu u_1 \right)
-    eu_1312:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar u_1 \gamma^\mu u_2 \right)
-    eu_1313:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar u_1 \gamma^\mu u_3 \right)
-    eu_1321:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar u_2 \gamma^\mu u_1 \right)
-    eu_1322:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar u_2 \gamma^\mu u_2 \right)
-    eu_1323:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar u_2 \gamma^\mu u_3 \right)
-    eu_1331:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar u_3 \gamma^\mu u_1 \right)
-    eu_1332:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar u_3 \gamma^\mu u_2 \right)
-    eu_1333:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar u_3 \gamma^\mu u_3 \right)
     eu_2211:
       real: true
       tex: \left( \bar e_2 \gamma_\mu e_2 \right) \left( \bar u_1 \gamma^\mu u_1 \right)
@@ -1007,24 +733,6 @@ sectors:
     eu_2233:
       real: true
       tex: \left( \bar e_2 \gamma_\mu e_2 \right) \left( \bar u_3 \gamma^\mu u_3 \right)
-    eu_2311:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar u_1 \gamma^\mu u_1 \right)
-    eu_2312:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar u_1 \gamma^\mu u_2 \right)
-    eu_2313:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar u_1 \gamma^\mu u_3 \right)
-    eu_2321:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar u_2 \gamma^\mu u_1 \right)
-    eu_2322:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar u_2 \gamma^\mu u_2 \right)
-    eu_2323:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar u_2 \gamma^\mu u_3 \right)
-    eu_2331:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar u_3 \gamma^\mu u_1 \right)
-    eu_2332:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar u_3 \gamma^\mu u_2 \right)
-    eu_2333:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar u_3 \gamma^\mu u_3 \right)
     eu_3311:
       real: true
       tex: \left( \bar e_3 \gamma_\mu e_3 \right) \left( \bar u_1 \gamma^\mu u_1 \right)
@@ -1055,42 +763,6 @@ sectors:
     ed_1133:
       real: true
       tex: \left( \bar e_1 \gamma_\mu e_1 \right) \left( \bar d_3 \gamma^\mu d_3 \right)
-    ed_1211:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar d_1 \gamma^\mu d_1 \right)
-    ed_1212:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar d_1 \gamma^\mu d_2 \right)
-    ed_1213:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar d_1 \gamma^\mu d_3 \right)
-    ed_1221:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar d_2 \gamma^\mu d_1 \right)
-    ed_1222:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar d_2 \gamma^\mu d_2 \right)
-    ed_1223:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar d_2 \gamma^\mu d_3 \right)
-    ed_1231:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar d_3 \gamma^\mu d_1 \right)
-    ed_1232:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar d_3 \gamma^\mu d_2 \right)
-    ed_1233:
-      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar d_3 \gamma^\mu d_3 \right)
-    ed_1311:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar d_1 \gamma^\mu d_1 \right)
-    ed_1312:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar d_1 \gamma^\mu d_2 \right)
-    ed_1313:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar d_1 \gamma^\mu d_3 \right)
-    ed_1321:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar d_2 \gamma^\mu d_1 \right)
-    ed_1322:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar d_2 \gamma^\mu d_2 \right)
-    ed_1323:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar d_2 \gamma^\mu d_3 \right)
-    ed_1331:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar d_3 \gamma^\mu d_1 \right)
-    ed_1332:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar d_3 \gamma^\mu d_2 \right)
-    ed_1333:
-      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar d_3 \gamma^\mu d_3 \right)
     ed_2211:
       real: true
       tex: \left( \bar e_2 \gamma_\mu e_2 \right) \left( \bar d_1 \gamma^\mu d_1 \right)
@@ -1106,24 +778,6 @@ sectors:
     ed_2233:
       real: true
       tex: \left( \bar e_2 \gamma_\mu e_2 \right) \left( \bar d_3 \gamma^\mu d_3 \right)
-    ed_2311:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar d_1 \gamma^\mu d_1 \right)
-    ed_2312:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar d_1 \gamma^\mu d_2 \right)
-    ed_2313:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar d_1 \gamma^\mu d_3 \right)
-    ed_2321:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar d_2 \gamma^\mu d_1 \right)
-    ed_2322:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar d_2 \gamma^\mu d_2 \right)
-    ed_2323:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar d_2 \gamma^\mu d_3 \right)
-    ed_2331:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar d_3 \gamma^\mu d_1 \right)
-    ed_2332:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar d_3 \gamma^\mu d_2 \right)
-    ed_2333:
-      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar d_3 \gamma^\mu d_3 \right)
     ed_3311:
       real: true
       tex: \left( \bar e_3 \gamma_\mu e_3 \right) \left( \bar d_1 \gamma^\mu d_1 \right)
@@ -1340,99 +994,33 @@ sectors:
     le_1111:
       real: true
       tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar e_1 \gamma^\mu e_1 \right)
-    le_1112:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
-    le_1113:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
     le_1122:
       real: true
       tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
-    le_1123:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
     le_1133:
       real: true
       tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
-    le_1211:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar e_1 \gamma^\mu e_1 \right)
-    le_1212:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
-    le_1213:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
     le_1221:
       tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar e_2 \gamma^\mu e_1 \right)
-    le_1222:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
-    le_1223:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
-    le_1231:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar e_3 \gamma^\mu e_1 \right)
-    le_1232:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar e_3 \gamma^\mu e_2 \right)
-    le_1233:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
-    le_1311:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar e_1 \gamma^\mu e_1 \right)
-    le_1312:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
-    le_1313:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
-    le_1321:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar e_2 \gamma^\mu e_1 \right)
-    le_1322:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
-    le_1323:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
     le_1331:
       tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar e_3 \gamma^\mu e_1 \right)
-    le_1332:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar e_3 \gamma^\mu e_2 \right)
-    le_1333:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
     le_2211:
       real: true
       tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar e_1 \gamma^\mu e_1 \right)
-    le_2212:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
-    le_2213:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
     le_2222:
       real: true
       tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
-    le_2223:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
     le_2233:
       real: true
       tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
-    le_2311:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar e_1 \gamma^\mu e_1 \right)
-    le_2312:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
-    le_2313:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
-    le_2321:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar e_2 \gamma^\mu e_1 \right)
-    le_2322:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
-    le_2323:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
-    le_2331:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar e_3 \gamma^\mu e_1 \right)
     le_2332:
       tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar e_3 \gamma^\mu e_2 \right)
-    le_2333:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
     le_3311:
       real: true
       tex: \left( \bar \ell_3 \gamma_\mu \ell_3 \right) \left( \bar e_1 \gamma^\mu e_1 \right)
-    le_3312:
-      tex: \left( \bar \ell_3 \gamma_\mu \ell_3 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
-    le_3313:
-      tex: \left( \bar \ell_3 \gamma_\mu \ell_3 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
     le_3322:
       real: true
       tex: \left( \bar \ell_3 \gamma_\mu \ell_3 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
-    le_3323:
-      tex: \left( \bar \ell_3 \gamma_\mu \ell_3 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
     le_3333:
       real: true
       tex: \left( \bar \ell_3 \gamma_\mu \ell_3 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
@@ -1451,42 +1039,6 @@ sectors:
     lu_1133:
       real: true
       tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar u_3 \gamma^\mu u_3 \right)
-    lu_1211:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar u_1 \gamma^\mu u_1 \right)
-    lu_1212:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar u_1 \gamma^\mu u_2 \right)
-    lu_1213:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar u_1 \gamma^\mu u_3 \right)
-    lu_1221:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar u_2 \gamma^\mu u_1 \right)
-    lu_1222:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar u_2 \gamma^\mu u_2 \right)
-    lu_1223:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar u_2 \gamma^\mu u_3 \right)
-    lu_1231:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar u_3 \gamma^\mu u_1 \right)
-    lu_1232:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar u_3 \gamma^\mu u_2 \right)
-    lu_1233:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar u_3 \gamma^\mu u_3 \right)
-    lu_1311:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar u_1 \gamma^\mu u_1 \right)
-    lu_1312:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar u_1 \gamma^\mu u_2 \right)
-    lu_1313:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar u_1 \gamma^\mu u_3 \right)
-    lu_1321:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar u_2 \gamma^\mu u_1 \right)
-    lu_1322:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar u_2 \gamma^\mu u_2 \right)
-    lu_1323:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar u_2 \gamma^\mu u_3 \right)
-    lu_1331:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar u_3 \gamma^\mu u_1 \right)
-    lu_1332:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar u_3 \gamma^\mu u_2 \right)
-    lu_1333:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar u_3 \gamma^\mu u_3 \right)
     lu_2211:
       real: true
       tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar u_1 \gamma^\mu u_1 \right)
@@ -1502,24 +1054,6 @@ sectors:
     lu_2233:
       real: true
       tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar u_3 \gamma^\mu u_3 \right)
-    lu_2311:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar u_1 \gamma^\mu u_1 \right)
-    lu_2312:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar u_1 \gamma^\mu u_2 \right)
-    lu_2313:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar u_1 \gamma^\mu u_3 \right)
-    lu_2321:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar u_2 \gamma^\mu u_1 \right)
-    lu_2322:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar u_2 \gamma^\mu u_2 \right)
-    lu_2323:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar u_2 \gamma^\mu u_3 \right)
-    lu_2331:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar u_3 \gamma^\mu u_1 \right)
-    lu_2332:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar u_3 \gamma^\mu u_2 \right)
-    lu_2333:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar u_3 \gamma^\mu u_3 \right)
     lu_3311:
       real: true
       tex: \left( \bar \ell_3 \gamma_\mu \ell_3 \right) \left( \bar u_1 \gamma^\mu u_1 \right)
@@ -1550,42 +1084,6 @@ sectors:
     ld_1133:
       real: true
       tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar d_3 \gamma^\mu d_3 \right)
-    ld_1211:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar d_1 \gamma^\mu d_1 \right)
-    ld_1212:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar d_1 \gamma^\mu d_2 \right)
-    ld_1213:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar d_1 \gamma^\mu d_3 \right)
-    ld_1221:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar d_2 \gamma^\mu d_1 \right)
-    ld_1222:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar d_2 \gamma^\mu d_2 \right)
-    ld_1223:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar d_2 \gamma^\mu d_3 \right)
-    ld_1231:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar d_3 \gamma^\mu d_1 \right)
-    ld_1232:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar d_3 \gamma^\mu d_2 \right)
-    ld_1233:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar d_3 \gamma^\mu d_3 \right)
-    ld_1311:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar d_1 \gamma^\mu d_1 \right)
-    ld_1312:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar d_1 \gamma^\mu d_2 \right)
-    ld_1313:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar d_1 \gamma^\mu d_3 \right)
-    ld_1321:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar d_2 \gamma^\mu d_1 \right)
-    ld_1322:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar d_2 \gamma^\mu d_2 \right)
-    ld_1323:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar d_2 \gamma^\mu d_3 \right)
-    ld_1331:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar d_3 \gamma^\mu d_1 \right)
-    ld_1332:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar d_3 \gamma^\mu d_2 \right)
-    ld_1333:
-      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar d_3 \gamma^\mu d_3 \right)
     ld_2211:
       real: true
       tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar d_1 \gamma^\mu d_1 \right)
@@ -1601,24 +1099,6 @@ sectors:
     ld_2233:
       real: true
       tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar d_3 \gamma^\mu d_3 \right)
-    ld_2311:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar d_1 \gamma^\mu d_1 \right)
-    ld_2312:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar d_1 \gamma^\mu d_2 \right)
-    ld_2313:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar d_1 \gamma^\mu d_3 \right)
-    ld_2321:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar d_2 \gamma^\mu d_1 \right)
-    ld_2322:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar d_2 \gamma^\mu d_2 \right)
-    ld_2323:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar d_2 \gamma^\mu d_3 \right)
-    ld_2331:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar d_3 \gamma^\mu d_1 \right)
-    ld_2332:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar d_3 \gamma^\mu d_2 \right)
-    ld_2333:
-      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar d_3 \gamma^\mu d_3 \right)
     ld_3311:
       real: true
       tex: \left( \bar \ell_3 \gamma_\mu \ell_3 \right) \left( \bar d_1 \gamma^\mu d_1 \right)
@@ -1637,99 +1117,45 @@ sectors:
     qe_1111:
       real: true
       tex: \left( \bar q_1 \gamma_\mu q_1 \right) \left( \bar e_1 \gamma^\mu e_1 \right)
-    qe_1112:
-      tex: \left( \bar q_1 \gamma_\mu q_1 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
-    qe_1113:
-      tex: \left( \bar q_1 \gamma_\mu q_1 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
     qe_1122:
       real: true
       tex: \left( \bar q_1 \gamma_\mu q_1 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
-    qe_1123:
-      tex: \left( \bar q_1 \gamma_\mu q_1 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
     qe_1133:
       real: true
       tex: \left( \bar q_1 \gamma_\mu q_1 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
     qe_1211:
       tex: \left( \bar q_1 \gamma_\mu q_2 \right) \left( \bar e_1 \gamma^\mu e_1 \right)
-    qe_1212:
-      tex: \left( \bar q_1 \gamma_\mu q_2 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
-    qe_1213:
-      tex: \left( \bar q_1 \gamma_\mu q_2 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
-    qe_1221:
-      tex: \left( \bar q_1 \gamma_\mu q_2 \right) \left( \bar e_2 \gamma^\mu e_1 \right)
     qe_1222:
       tex: \left( \bar q_1 \gamma_\mu q_2 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
-    qe_1223:
-      tex: \left( \bar q_1 \gamma_\mu q_2 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
-    qe_1231:
-      tex: \left( \bar q_1 \gamma_\mu q_2 \right) \left( \bar e_3 \gamma^\mu e_1 \right)
-    qe_1232:
-      tex: \left( \bar q_1 \gamma_\mu q_2 \right) \left( \bar e_3 \gamma^\mu e_2 \right)
     qe_1233:
       tex: \left( \bar q_1 \gamma_\mu q_2 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
     qe_1311:
       tex: \left( \bar q_1 \gamma_\mu q_3 \right) \left( \bar e_1 \gamma^\mu e_1 \right)
-    qe_1312:
-      tex: \left( \bar q_1 \gamma_\mu q_3 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
-    qe_1313:
-      tex: \left( \bar q_1 \gamma_\mu q_3 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
-    qe_1321:
-      tex: \left( \bar q_1 \gamma_\mu q_3 \right) \left( \bar e_2 \gamma^\mu e_1 \right)
     qe_1322:
       tex: \left( \bar q_1 \gamma_\mu q_3 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
-    qe_1323:
-      tex: \left( \bar q_1 \gamma_\mu q_3 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
-    qe_1331:
-      tex: \left( \bar q_1 \gamma_\mu q_3 \right) \left( \bar e_3 \gamma^\mu e_1 \right)
-    qe_1332:
-      tex: \left( \bar q_1 \gamma_\mu q_3 \right) \left( \bar e_3 \gamma^\mu e_2 \right)
     qe_1333:
       tex: \left( \bar q_1 \gamma_\mu q_3 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
     qe_2211:
       real: true
       tex: \left( \bar q_2 \gamma_\mu q_2 \right) \left( \bar e_1 \gamma^\mu e_1 \right)
-    qe_2212:
-      tex: \left( \bar q_2 \gamma_\mu q_2 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
-    qe_2213:
-      tex: \left( \bar q_2 \gamma_\mu q_2 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
     qe_2222:
       real: true
       tex: \left( \bar q_2 \gamma_\mu q_2 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
-    qe_2223:
-      tex: \left( \bar q_2 \gamma_\mu q_2 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
     qe_2233:
       real: true
       tex: \left( \bar q_2 \gamma_\mu q_2 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
     qe_2311:
       tex: \left( \bar q_2 \gamma_\mu q_3 \right) \left( \bar e_1 \gamma^\mu e_1 \right)
-    qe_2312:
-      tex: \left( \bar q_2 \gamma_\mu q_3 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
-    qe_2313:
-      tex: \left( \bar q_2 \gamma_\mu q_3 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
-    qe_2321:
-      tex: \left( \bar q_2 \gamma_\mu q_3 \right) \left( \bar e_2 \gamma^\mu e_1 \right)
     qe_2322:
       tex: \left( \bar q_2 \gamma_\mu q_3 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
-    qe_2323:
-      tex: \left( \bar q_2 \gamma_\mu q_3 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
-    qe_2331:
-      tex: \left( \bar q_2 \gamma_\mu q_3 \right) \left( \bar e_3 \gamma^\mu e_1 \right)
-    qe_2332:
-      tex: \left( \bar q_2 \gamma_\mu q_3 \right) \left( \bar e_3 \gamma^\mu e_2 \right)
     qe_2333:
       tex: \left( \bar q_2 \gamma_\mu q_3 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
     qe_3311:
       real: true
       tex: \left( \bar q_3 \gamma_\mu q_3 \right) \left( \bar e_1 \gamma^\mu e_1 \right)
-    qe_3312:
-      tex: \left( \bar q_3 \gamma_\mu q_3 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
-    qe_3313:
-      tex: \left( \bar q_3 \gamma_\mu q_3 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
     qe_3322:
       real: true
       tex: \left( \bar q_3 \gamma_\mu q_3 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
-    qe_3323:
-      tex: \left( \bar q_3 \gamma_\mu q_3 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
     qe_3333:
       real: true
       tex: \left( \bar q_3 \gamma_\mu q_3 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
@@ -2147,60 +1573,6 @@ sectors:
       tex: \left( \bar \ell_1 e_1 \right) \left( \bar d_3 q_2 \right)
     ledq_1133:
       tex: \left( \bar \ell_1 e_1 \right) \left( \bar d_3 q_3 \right)
-    ledq_1211:
-      tex: \left( \bar \ell_1 e_2 \right) \left( \bar d_1 q_1 \right)
-    ledq_1212:
-      tex: \left( \bar \ell_1 e_2 \right) \left( \bar d_1 q_2 \right)
-    ledq_1213:
-      tex: \left( \bar \ell_1 e_2 \right) \left( \bar d_1 q_3 \right)
-    ledq_1221:
-      tex: \left( \bar \ell_1 e_2 \right) \left( \bar d_2 q_1 \right)
-    ledq_1222:
-      tex: \left( \bar \ell_1 e_2 \right) \left( \bar d_2 q_2 \right)
-    ledq_1223:
-      tex: \left( \bar \ell_1 e_2 \right) \left( \bar d_2 q_3 \right)
-    ledq_1231:
-      tex: \left( \bar \ell_1 e_2 \right) \left( \bar d_3 q_1 \right)
-    ledq_1232:
-      tex: \left( \bar \ell_1 e_2 \right) \left( \bar d_3 q_2 \right)
-    ledq_1233:
-      tex: \left( \bar \ell_1 e_2 \right) \left( \bar d_3 q_3 \right)
-    ledq_1311:
-      tex: \left( \bar \ell_1 e_3 \right) \left( \bar d_1 q_1 \right)
-    ledq_1312:
-      tex: \left( \bar \ell_1 e_3 \right) \left( \bar d_1 q_2 \right)
-    ledq_1313:
-      tex: \left( \bar \ell_1 e_3 \right) \left( \bar d_1 q_3 \right)
-    ledq_1321:
-      tex: \left( \bar \ell_1 e_3 \right) \left( \bar d_2 q_1 \right)
-    ledq_1322:
-      tex: \left( \bar \ell_1 e_3 \right) \left( \bar d_2 q_2 \right)
-    ledq_1323:
-      tex: \left( \bar \ell_1 e_3 \right) \left( \bar d_2 q_3 \right)
-    ledq_1331:
-      tex: \left( \bar \ell_1 e_3 \right) \left( \bar d_3 q_1 \right)
-    ledq_1332:
-      tex: \left( \bar \ell_1 e_3 \right) \left( \bar d_3 q_2 \right)
-    ledq_1333:
-      tex: \left( \bar \ell_1 e_3 \right) \left( \bar d_3 q_3 \right)
-    ledq_2111:
-      tex: \left( \bar \ell_2 e_1 \right) \left( \bar d_1 q_1 \right)
-    ledq_2112:
-      tex: \left( \bar \ell_2 e_1 \right) \left( \bar d_1 q_2 \right)
-    ledq_2113:
-      tex: \left( \bar \ell_2 e_1 \right) \left( \bar d_1 q_3 \right)
-    ledq_2121:
-      tex: \left( \bar \ell_2 e_1 \right) \left( \bar d_2 q_1 \right)
-    ledq_2122:
-      tex: \left( \bar \ell_2 e_1 \right) \left( \bar d_2 q_2 \right)
-    ledq_2123:
-      tex: \left( \bar \ell_2 e_1 \right) \left( \bar d_2 q_3 \right)
-    ledq_2131:
-      tex: \left( \bar \ell_2 e_1 \right) \left( \bar d_3 q_1 \right)
-    ledq_2132:
-      tex: \left( \bar \ell_2 e_1 \right) \left( \bar d_3 q_2 \right)
-    ledq_2133:
-      tex: \left( \bar \ell_2 e_1 \right) \left( \bar d_3 q_3 \right)
     ledq_2211:
       tex: \left( \bar \ell_2 e_2 \right) \left( \bar d_1 q_1 \right)
     ledq_2212:
@@ -2219,60 +1591,6 @@ sectors:
       tex: \left( \bar \ell_2 e_2 \right) \left( \bar d_3 q_2 \right)
     ledq_2233:
       tex: \left( \bar \ell_2 e_2 \right) \left( \bar d_3 q_3 \right)
-    ledq_2311:
-      tex: \left( \bar \ell_2 e_3 \right) \left( \bar d_1 q_1 \right)
-    ledq_2312:
-      tex: \left( \bar \ell_2 e_3 \right) \left( \bar d_1 q_2 \right)
-    ledq_2313:
-      tex: \left( \bar \ell_2 e_3 \right) \left( \bar d_1 q_3 \right)
-    ledq_2321:
-      tex: \left( \bar \ell_2 e_3 \right) \left( \bar d_2 q_1 \right)
-    ledq_2322:
-      tex: \left( \bar \ell_2 e_3 \right) \left( \bar d_2 q_2 \right)
-    ledq_2323:
-      tex: \left( \bar \ell_2 e_3 \right) \left( \bar d_2 q_3 \right)
-    ledq_2331:
-      tex: \left( \bar \ell_2 e_3 \right) \left( \bar d_3 q_1 \right)
-    ledq_2332:
-      tex: \left( \bar \ell_2 e_3 \right) \left( \bar d_3 q_2 \right)
-    ledq_2333:
-      tex: \left( \bar \ell_2 e_3 \right) \left( \bar d_3 q_3 \right)
-    ledq_3111:
-      tex: \left( \bar \ell_3 e_1 \right) \left( \bar d_1 q_1 \right)
-    ledq_3112:
-      tex: \left( \bar \ell_3 e_1 \right) \left( \bar d_1 q_2 \right)
-    ledq_3113:
-      tex: \left( \bar \ell_3 e_1 \right) \left( \bar d_1 q_3 \right)
-    ledq_3121:
-      tex: \left( \bar \ell_3 e_1 \right) \left( \bar d_2 q_1 \right)
-    ledq_3122:
-      tex: \left( \bar \ell_3 e_1 \right) \left( \bar d_2 q_2 \right)
-    ledq_3123:
-      tex: \left( \bar \ell_3 e_1 \right) \left( \bar d_2 q_3 \right)
-    ledq_3131:
-      tex: \left( \bar \ell_3 e_1 \right) \left( \bar d_3 q_1 \right)
-    ledq_3132:
-      tex: \left( \bar \ell_3 e_1 \right) \left( \bar d_3 q_2 \right)
-    ledq_3133:
-      tex: \left( \bar \ell_3 e_1 \right) \left( \bar d_3 q_3 \right)
-    ledq_3211:
-      tex: \left( \bar \ell_3 e_2 \right) \left( \bar d_1 q_1 \right)
-    ledq_3212:
-      tex: \left( \bar \ell_3 e_2 \right) \left( \bar d_1 q_2 \right)
-    ledq_3213:
-      tex: \left( \bar \ell_3 e_2 \right) \left( \bar d_1 q_3 \right)
-    ledq_3221:
-      tex: \left( \bar \ell_3 e_2 \right) \left( \bar d_2 q_1 \right)
-    ledq_3222:
-      tex: \left( \bar \ell_3 e_2 \right) \left( \bar d_2 q_2 \right)
-    ledq_3223:
-      tex: \left( \bar \ell_3 e_2 \right) \left( \bar d_2 q_3 \right)
-    ledq_3231:
-      tex: \left( \bar \ell_3 e_2 \right) \left( \bar d_3 q_1 \right)
-    ledq_3232:
-      tex: \left( \bar \ell_3 e_2 \right) \left( \bar d_3 q_2 \right)
-    ledq_3233:
-      tex: \left( \bar \ell_3 e_2 \right) \left( \bar d_3 q_3 \right)
     ledq_3311:
       tex: \left( \bar \ell_3 e_3 \right) \left( \bar d_1 q_1 \right)
     ledq_3312:
@@ -2633,60 +1951,6 @@ sectors:
       tex: \left( \bar \ell_1 e_1 \right) \epsilon_{jk} \left( \bar q_3 u_2 \right)
     lequ1_1133:
       tex: \left( \bar \ell_1 e_1 \right) \epsilon_{jk} \left( \bar q_3 u_3 \right)
-    lequ1_1211:
-      tex: \left( \bar \ell_1 e_2 \right) \epsilon_{jk} \left( \bar q_1 u_1 \right)
-    lequ1_1212:
-      tex: \left( \bar \ell_1 e_2 \right) \epsilon_{jk} \left( \bar q_1 u_2 \right)
-    lequ1_1213:
-      tex: \left( \bar \ell_1 e_2 \right) \epsilon_{jk} \left( \bar q_1 u_3 \right)
-    lequ1_1221:
-      tex: \left( \bar \ell_1 e_2 \right) \epsilon_{jk} \left( \bar q_2 u_1 \right)
-    lequ1_1222:
-      tex: \left( \bar \ell_1 e_2 \right) \epsilon_{jk} \left( \bar q_2 u_2 \right)
-    lequ1_1223:
-      tex: \left( \bar \ell_1 e_2 \right) \epsilon_{jk} \left( \bar q_2 u_3 \right)
-    lequ1_1231:
-      tex: \left( \bar \ell_1 e_2 \right) \epsilon_{jk} \left( \bar q_3 u_1 \right)
-    lequ1_1232:
-      tex: \left( \bar \ell_1 e_2 \right) \epsilon_{jk} \left( \bar q_3 u_2 \right)
-    lequ1_1233:
-      tex: \left( \bar \ell_1 e_2 \right) \epsilon_{jk} \left( \bar q_3 u_3 \right)
-    lequ1_1311:
-      tex: \left( \bar \ell_1 e_3 \right) \epsilon_{jk} \left( \bar q_1 u_1 \right)
-    lequ1_1312:
-      tex: \left( \bar \ell_1 e_3 \right) \epsilon_{jk} \left( \bar q_1 u_2 \right)
-    lequ1_1313:
-      tex: \left( \bar \ell_1 e_3 \right) \epsilon_{jk} \left( \bar q_1 u_3 \right)
-    lequ1_1321:
-      tex: \left( \bar \ell_1 e_3 \right) \epsilon_{jk} \left( \bar q_2 u_1 \right)
-    lequ1_1322:
-      tex: \left( \bar \ell_1 e_3 \right) \epsilon_{jk} \left( \bar q_2 u_2 \right)
-    lequ1_1323:
-      tex: \left( \bar \ell_1 e_3 \right) \epsilon_{jk} \left( \bar q_2 u_3 \right)
-    lequ1_1331:
-      tex: \left( \bar \ell_1 e_3 \right) \epsilon_{jk} \left( \bar q_3 u_1 \right)
-    lequ1_1332:
-      tex: \left( \bar \ell_1 e_3 \right) \epsilon_{jk} \left( \bar q_3 u_2 \right)
-    lequ1_1333:
-      tex: \left( \bar \ell_1 e_3 \right) \epsilon_{jk} \left( \bar q_3 u_3 \right)
-    lequ1_2111:
-      tex: \left( \bar \ell_2 e_1 \right) \epsilon_{jk} \left( \bar q_1 u_1 \right)
-    lequ1_2112:
-      tex: \left( \bar \ell_2 e_1 \right) \epsilon_{jk} \left( \bar q_1 u_2 \right)
-    lequ1_2113:
-      tex: \left( \bar \ell_2 e_1 \right) \epsilon_{jk} \left( \bar q_1 u_3 \right)
-    lequ1_2121:
-      tex: \left( \bar \ell_2 e_1 \right) \epsilon_{jk} \left( \bar q_2 u_1 \right)
-    lequ1_2122:
-      tex: \left( \bar \ell_2 e_1 \right) \epsilon_{jk} \left( \bar q_2 u_2 \right)
-    lequ1_2123:
-      tex: \left( \bar \ell_2 e_1 \right) \epsilon_{jk} \left( \bar q_2 u_3 \right)
-    lequ1_2131:
-      tex: \left( \bar \ell_2 e_1 \right) \epsilon_{jk} \left( \bar q_3 u_1 \right)
-    lequ1_2132:
-      tex: \left( \bar \ell_2 e_1 \right) \epsilon_{jk} \left( \bar q_3 u_2 \right)
-    lequ1_2133:
-      tex: \left( \bar \ell_2 e_1 \right) \epsilon_{jk} \left( \bar q_3 u_3 \right)
     lequ1_2211:
       tex: \left( \bar \ell_2 e_2 \right) \epsilon_{jk} \left( \bar q_1 u_1 \right)
     lequ1_2212:
@@ -2705,60 +1969,6 @@ sectors:
       tex: \left( \bar \ell_2 e_2 \right) \epsilon_{jk} \left( \bar q_3 u_2 \right)
     lequ1_2233:
       tex: \left( \bar \ell_2 e_2 \right) \epsilon_{jk} \left( \bar q_3 u_3 \right)
-    lequ1_2311:
-      tex: \left( \bar \ell_2 e_3 \right) \epsilon_{jk} \left( \bar q_1 u_1 \right)
-    lequ1_2312:
-      tex: \left( \bar \ell_2 e_3 \right) \epsilon_{jk} \left( \bar q_1 u_2 \right)
-    lequ1_2313:
-      tex: \left( \bar \ell_2 e_3 \right) \epsilon_{jk} \left( \bar q_1 u_3 \right)
-    lequ1_2321:
-      tex: \left( \bar \ell_2 e_3 \right) \epsilon_{jk} \left( \bar q_2 u_1 \right)
-    lequ1_2322:
-      tex: \left( \bar \ell_2 e_3 \right) \epsilon_{jk} \left( \bar q_2 u_2 \right)
-    lequ1_2323:
-      tex: \left( \bar \ell_2 e_3 \right) \epsilon_{jk} \left( \bar q_2 u_3 \right)
-    lequ1_2331:
-      tex: \left( \bar \ell_2 e_3 \right) \epsilon_{jk} \left( \bar q_3 u_1 \right)
-    lequ1_2332:
-      tex: \left( \bar \ell_2 e_3 \right) \epsilon_{jk} \left( \bar q_3 u_2 \right)
-    lequ1_2333:
-      tex: \left( \bar \ell_2 e_3 \right) \epsilon_{jk} \left( \bar q_3 u_3 \right)
-    lequ1_3111:
-      tex: \left( \bar \ell_3 e_1 \right) \epsilon_{jk} \left( \bar q_1 u_1 \right)
-    lequ1_3112:
-      tex: \left( \bar \ell_3 e_1 \right) \epsilon_{jk} \left( \bar q_1 u_2 \right)
-    lequ1_3113:
-      tex: \left( \bar \ell_3 e_1 \right) \epsilon_{jk} \left( \bar q_1 u_3 \right)
-    lequ1_3121:
-      tex: \left( \bar \ell_3 e_1 \right) \epsilon_{jk} \left( \bar q_2 u_1 \right)
-    lequ1_3122:
-      tex: \left( \bar \ell_3 e_1 \right) \epsilon_{jk} \left( \bar q_2 u_2 \right)
-    lequ1_3123:
-      tex: \left( \bar \ell_3 e_1 \right) \epsilon_{jk} \left( \bar q_2 u_3 \right)
-    lequ1_3131:
-      tex: \left( \bar \ell_3 e_1 \right) \epsilon_{jk} \left( \bar q_3 u_1 \right)
-    lequ1_3132:
-      tex: \left( \bar \ell_3 e_1 \right) \epsilon_{jk} \left( \bar q_3 u_2 \right)
-    lequ1_3133:
-      tex: \left( \bar \ell_3 e_1 \right) \epsilon_{jk} \left( \bar q_3 u_3 \right)
-    lequ1_3211:
-      tex: \left( \bar \ell_3 e_2 \right) \epsilon_{jk} \left( \bar q_1 u_1 \right)
-    lequ1_3212:
-      tex: \left( \bar \ell_3 e_2 \right) \epsilon_{jk} \left( \bar q_1 u_2 \right)
-    lequ1_3213:
-      tex: \left( \bar \ell_3 e_2 \right) \epsilon_{jk} \left( \bar q_1 u_3 \right)
-    lequ1_3221:
-      tex: \left( \bar \ell_3 e_2 \right) \epsilon_{jk} \left( \bar q_2 u_1 \right)
-    lequ1_3222:
-      tex: \left( \bar \ell_3 e_2 \right) \epsilon_{jk} \left( \bar q_2 u_2 \right)
-    lequ1_3223:
-      tex: \left( \bar \ell_3 e_2 \right) \epsilon_{jk} \left( \bar q_2 u_3 \right)
-    lequ1_3231:
-      tex: \left( \bar \ell_3 e_2 \right) \epsilon_{jk} \left( \bar q_3 u_1 \right)
-    lequ1_3232:
-      tex: \left( \bar \ell_3 e_2 \right) \epsilon_{jk} \left( \bar q_3 u_2 \right)
-    lequ1_3233:
-      tex: \left( \bar \ell_3 e_2 \right) \epsilon_{jk} \left( \bar q_3 u_3 \right)
     lequ1_3311:
       tex: \left( \bar \ell_3 e_3 \right) \epsilon_{jk} \left( \bar q_1 u_1 \right)
     lequ1_3312:
@@ -2795,60 +2005,6 @@ sectors:
       tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_2 \right)
     lequ3_1133:
       tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_3 \right)
-    lequ3_1211:
-      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_1 \right)
-    lequ3_1212:
-      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_2 \right)
-    lequ3_1213:
-      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_3 \right)
-    lequ3_1221:
-      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_1 \right)
-    lequ3_1222:
-      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_2 \right)
-    lequ3_1223:
-      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_3 \right)
-    lequ3_1231:
-      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_1 \right)
-    lequ3_1232:
-      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_2 \right)
-    lequ3_1233:
-      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_3 \right)
-    lequ3_1311:
-      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_1 \right)
-    lequ3_1312:
-      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_2 \right)
-    lequ3_1313:
-      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_3 \right)
-    lequ3_1321:
-      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_1 \right)
-    lequ3_1322:
-      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_2 \right)
-    lequ3_1323:
-      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_3 \right)
-    lequ3_1331:
-      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_1 \right)
-    lequ3_1332:
-      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_2 \right)
-    lequ3_1333:
-      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_3 \right)
-    lequ3_2111:
-      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_1 \right)
-    lequ3_2112:
-      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_2 \right)
-    lequ3_2113:
-      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_3 \right)
-    lequ3_2121:
-      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_1 \right)
-    lequ3_2122:
-      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_2 \right)
-    lequ3_2123:
-      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_3 \right)
-    lequ3_2131:
-      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_1 \right)
-    lequ3_2132:
-      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_2 \right)
-    lequ3_2133:
-      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_3 \right)
     lequ3_2211:
       tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_1 \right)
     lequ3_2212:
@@ -2867,60 +2023,6 @@ sectors:
       tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_2 \right)
     lequ3_2233:
       tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_3 \right)
-    lequ3_2311:
-      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_1 \right)
-    lequ3_2312:
-      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_2 \right)
-    lequ3_2313:
-      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_3 \right)
-    lequ3_2321:
-      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_1 \right)
-    lequ3_2322:
-      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_2 \right)
-    lequ3_2323:
-      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_3 \right)
-    lequ3_2331:
-      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_1 \right)
-    lequ3_2332:
-      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_2 \right)
-    lequ3_2333:
-      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_3 \right)
-    lequ3_3111:
-      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_1 \right)
-    lequ3_3112:
-      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_2 \right)
-    lequ3_3113:
-      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_3 \right)
-    lequ3_3121:
-      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_1 \right)
-    lequ3_3122:
-      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_2 \right)
-    lequ3_3123:
-      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_3 \right)
-    lequ3_3131:
-      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_1 \right)
-    lequ3_3132:
-      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_2 \right)
-    lequ3_3133:
-      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_3 \right)
-    lequ3_3211:
-      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_1 \right)
-    lequ3_3212:
-      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_2 \right)
-    lequ3_3213:
-      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_3 \right)
-    lequ3_3221:
-      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_1 \right)
-    lequ3_3222:
-      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_2 \right)
-    lequ3_3223:
-      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_3 \right)
-    lequ3_3231:
-      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_1 \right)
-    lequ3_3232:
-      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_2 \right)
-    lequ3_3233:
-      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_3 \right)
     lequ3_3311:
       tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_1 \right)
     lequ3_3312:
@@ -2939,551 +2041,1450 @@ sectors:
       tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_2 \right)
     lequ3_3333:
       tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_3 \right)
-  dB=dL=1:
+  mue:
+    ephi_12:
+      tex: \left( \varphi^\dagger \varphi \right) \left( \bar \ell_1 e_2 \varphi \right)
+    ephi_21:
+      tex: \left( \varphi^\dagger \varphi \right) \left( \bar \ell_2 e_1 \varphi \right)
+    eW_12:
+      tex: \left( \bar \ell_1 \sigma^{\mu \nu} e_2 \right) \tau^I \varphi W_{\mu \nu}^I
+    eW_21:
+      tex: \left( \bar \ell_2 \sigma^{\mu \nu} e_1 \right) \tau^I \varphi W_{\mu \nu}^I
+    eB_12:
+      tex: \left( \bar \ell_1 \sigma^{\mu \nu} e_2 \right) \varphi B_{\mu \nu}
+    eB_21:
+      tex: \left( \bar \ell_2 \sigma^{\mu \nu} e_1 \right) \varphi B_{\mu \nu}
+    phil1_12:
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar \ell_1 \gamma^\mu \ell_2 \right)
+    phil3_12:
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}^I_\mu \varphi \right) \left( \bar \ell_1 \tau^I \gamma^\mu \ell_2 \right)
+    phie_12:
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar e_1 \gamma^\mu e_2 \right)
+    ll_1112:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar \ell_1 \gamma^\mu \ell_2 \right)
+    ll_1222:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar \ell_2 \gamma^\mu \ell_2 \right)
+    ll_1233:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar \ell_3 \gamma^\mu \ell_3 \right)
+    ll_1332:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar \ell_3 \gamma^\mu \ell_2 \right)
+    lq1_1211:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar q_1 \gamma^\mu q_1 \right)
+    lq1_1212:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar q_1 \gamma^\mu q_2 \right)
+    lq1_1213:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar q_1 \gamma^\mu q_3 \right)
+    lq1_1221:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar q_2 \gamma^\mu q_1 \right)
+    lq1_1222:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar q_2 \gamma^\mu q_2 \right)
+    lq1_1223:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar q_2 \gamma^\mu q_3 \right)
+    lq1_1231:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar q_3 \gamma^\mu q_1 \right)
+    lq1_1232:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar q_3 \gamma^\mu q_2 \right)
+    lq1_1233:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar q_3 \gamma^\mu q_3 \right)
+    lq3_1211:
+      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_1 \gamma^\mu \tau^I q_1 \right)
+    lq3_1212:
+      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_1 \gamma^\mu \tau^I q_2 \right)
+    lq3_1213:
+      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_1 \gamma^\mu \tau^I q_3 \right)
+    lq3_1221:
+      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_2 \gamma^\mu \tau^I q_1 \right)
+    lq3_1222:
+      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_2 \gamma^\mu \tau^I q_2 \right)
+    lq3_1223:
+      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_2 \gamma^\mu \tau^I q_3 \right)
+    lq3_1231:
+      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_3 \gamma^\mu \tau^I q_1 \right)
+    lq3_1232:
+      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_3 \gamma^\mu \tau^I q_2 \right)
+    lq3_1233:
+      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_2 \right) \left( \bar q_3 \gamma^\mu \tau^I q_3 \right)
+    ee_1112:
+      tex: \left( \bar e_1 \gamma_\mu e_1 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
+    ee_1222:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
+    ee_1233:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
+    eu_1211:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar u_1 \gamma^\mu u_1 \right)
+    eu_1212:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar u_1 \gamma^\mu u_2 \right)
+    eu_1213:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar u_1 \gamma^\mu u_3 \right)
+    eu_1221:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar u_2 \gamma^\mu u_1 \right)
+    eu_1222:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar u_2 \gamma^\mu u_2 \right)
+    eu_1223:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar u_2 \gamma^\mu u_3 \right)
+    eu_1231:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar u_3 \gamma^\mu u_1 \right)
+    eu_1232:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar u_3 \gamma^\mu u_2 \right)
+    eu_1233:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar u_3 \gamma^\mu u_3 \right)
+    ed_1211:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar d_1 \gamma^\mu d_1 \right)
+    ed_1212:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar d_1 \gamma^\mu d_2 \right)
+    ed_1213:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar d_1 \gamma^\mu d_3 \right)
+    ed_1221:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar d_2 \gamma^\mu d_1 \right)
+    ed_1222:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar d_2 \gamma^\mu d_2 \right)
+    ed_1223:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar d_2 \gamma^\mu d_3 \right)
+    ed_1231:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar d_3 \gamma^\mu d_1 \right)
+    ed_1232:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar d_3 \gamma^\mu d_2 \right)
+    ed_1233:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar d_3 \gamma^\mu d_3 \right)
+    le_1112:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
+    le_1211:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar e_1 \gamma^\mu e_1 \right)
+    le_1222:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
+    le_1233:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
+    le_1332:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar e_3 \gamma^\mu e_2 \right)
+    le_2212:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
+    le_2331:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar e_3 \gamma^\mu e_1 \right)
+    le_3312:
+      tex: \left( \bar \ell_3 \gamma_\mu \ell_3 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
+    lu_1211:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar u_1 \gamma^\mu u_1 \right)
+    lu_1212:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar u_1 \gamma^\mu u_2 \right)
+    lu_1213:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar u_1 \gamma^\mu u_3 \right)
+    lu_1221:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar u_2 \gamma^\mu u_1 \right)
+    lu_1222:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar u_2 \gamma^\mu u_2 \right)
+    lu_1223:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar u_2 \gamma^\mu u_3 \right)
+    lu_1231:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar u_3 \gamma^\mu u_1 \right)
+    lu_1232:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar u_3 \gamma^\mu u_2 \right)
+    lu_1233:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar u_3 \gamma^\mu u_3 \right)
+    ld_1211:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar d_1 \gamma^\mu d_1 \right)
+    ld_1212:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar d_1 \gamma^\mu d_2 \right)
+    ld_1213:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar d_1 \gamma^\mu d_3 \right)
+    ld_1221:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar d_2 \gamma^\mu d_1 \right)
+    ld_1222:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar d_2 \gamma^\mu d_2 \right)
+    ld_1223:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar d_2 \gamma^\mu d_3 \right)
+    ld_1231:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar d_3 \gamma^\mu d_1 \right)
+    ld_1232:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar d_3 \gamma^\mu d_2 \right)
+    ld_1233:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar d_3 \gamma^\mu d_3 \right)
+    qe_1112:
+      tex: \left( \bar q_1 \gamma_\mu q_1 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
+    qe_1212:
+      tex: \left( \bar q_1 \gamma_\mu q_2 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
+    qe_1221:
+      tex: \left( \bar q_1 \gamma_\mu q_2 \right) \left( \bar e_2 \gamma^\mu e_1 \right)
+    qe_1312:
+      tex: \left( \bar q_1 \gamma_\mu q_3 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
+    qe_1321:
+      tex: \left( \bar q_1 \gamma_\mu q_3 \right) \left( \bar e_2 \gamma^\mu e_1 \right)
+    qe_2212:
+      tex: \left( \bar q_2 \gamma_\mu q_2 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
+    qe_2312:
+      tex: \left( \bar q_2 \gamma_\mu q_3 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
+    qe_2321:
+      tex: \left( \bar q_2 \gamma_\mu q_3 \right) \left( \bar e_2 \gamma^\mu e_1 \right)
+    qe_3312:
+      tex: \left( \bar q_3 \gamma_\mu q_3 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
+    ledq_1211:
+      tex: \left( \bar \ell_1 e_2 \right) \left( \bar d_1 q_1 \right)
+    ledq_1212:
+      tex: \left( \bar \ell_1 e_2 \right) \left( \bar d_1 q_2 \right)
+    ledq_1213:
+      tex: \left( \bar \ell_1 e_2 \right) \left( \bar d_1 q_3 \right)
+    ledq_1221:
+      tex: \left( \bar \ell_1 e_2 \right) \left( \bar d_2 q_1 \right)
+    ledq_1222:
+      tex: \left( \bar \ell_1 e_2 \right) \left( \bar d_2 q_2 \right)
+    ledq_1223:
+      tex: \left( \bar \ell_1 e_2 \right) \left( \bar d_2 q_3 \right)
+    ledq_1231:
+      tex: \left( \bar \ell_1 e_2 \right) \left( \bar d_3 q_1 \right)
+    ledq_1232:
+      tex: \left( \bar \ell_1 e_2 \right) \left( \bar d_3 q_2 \right)
+    ledq_1233:
+      tex: \left( \bar \ell_1 e_2 \right) \left( \bar d_3 q_3 \right)
+    ledq_2111:
+      tex: \left( \bar \ell_2 e_1 \right) \left( \bar d_1 q_1 \right)
+    ledq_2112:
+      tex: \left( \bar \ell_2 e_1 \right) \left( \bar d_1 q_2 \right)
+    ledq_2113:
+      tex: \left( \bar \ell_2 e_1 \right) \left( \bar d_1 q_3 \right)
+    ledq_2121:
+      tex: \left( \bar \ell_2 e_1 \right) \left( \bar d_2 q_1 \right)
+    ledq_2122:
+      tex: \left( \bar \ell_2 e_1 \right) \left( \bar d_2 q_2 \right)
+    ledq_2123:
+      tex: \left( \bar \ell_2 e_1 \right) \left( \bar d_2 q_3 \right)
+    ledq_2131:
+      tex: \left( \bar \ell_2 e_1 \right) \left( \bar d_3 q_1 \right)
+    ledq_2132:
+      tex: \left( \bar \ell_2 e_1 \right) \left( \bar d_3 q_2 \right)
+    ledq_2133:
+      tex: \left( \bar \ell_2 e_1 \right) \left( \bar d_3 q_3 \right)
+    lequ1_1211:
+      tex: \left( \bar \ell_1 e_2 \right) \epsilon_{jk} \left( \bar q_1 u_1 \right)
+    lequ1_1212:
+      tex: \left( \bar \ell_1 e_2 \right) \epsilon_{jk} \left( \bar q_1 u_2 \right)
+    lequ1_1213:
+      tex: \left( \bar \ell_1 e_2 \right) \epsilon_{jk} \left( \bar q_1 u_3 \right)
+    lequ1_1221:
+      tex: \left( \bar \ell_1 e_2 \right) \epsilon_{jk} \left( \bar q_2 u_1 \right)
+    lequ1_1222:
+      tex: \left( \bar \ell_1 e_2 \right) \epsilon_{jk} \left( \bar q_2 u_2 \right)
+    lequ1_1223:
+      tex: \left( \bar \ell_1 e_2 \right) \epsilon_{jk} \left( \bar q_2 u_3 \right)
+    lequ1_1231:
+      tex: \left( \bar \ell_1 e_2 \right) \epsilon_{jk} \left( \bar q_3 u_1 \right)
+    lequ1_1232:
+      tex: \left( \bar \ell_1 e_2 \right) \epsilon_{jk} \left( \bar q_3 u_2 \right)
+    lequ1_1233:
+      tex: \left( \bar \ell_1 e_2 \right) \epsilon_{jk} \left( \bar q_3 u_3 \right)
+    lequ1_2111:
+      tex: \left( \bar \ell_2 e_1 \right) \epsilon_{jk} \left( \bar q_1 u_1 \right)
+    lequ1_2112:
+      tex: \left( \bar \ell_2 e_1 \right) \epsilon_{jk} \left( \bar q_1 u_2 \right)
+    lequ1_2113:
+      tex: \left( \bar \ell_2 e_1 \right) \epsilon_{jk} \left( \bar q_1 u_3 \right)
+    lequ1_2121:
+      tex: \left( \bar \ell_2 e_1 \right) \epsilon_{jk} \left( \bar q_2 u_1 \right)
+    lequ1_2122:
+      tex: \left( \bar \ell_2 e_1 \right) \epsilon_{jk} \left( \bar q_2 u_2 \right)
+    lequ1_2123:
+      tex: \left( \bar \ell_2 e_1 \right) \epsilon_{jk} \left( \bar q_2 u_3 \right)
+    lequ1_2131:
+      tex: \left( \bar \ell_2 e_1 \right) \epsilon_{jk} \left( \bar q_3 u_1 \right)
+    lequ1_2132:
+      tex: \left( \bar \ell_2 e_1 \right) \epsilon_{jk} \left( \bar q_3 u_2 \right)
+    lequ1_2133:
+      tex: \left( \bar \ell_2 e_1 \right) \epsilon_{jk} \left( \bar q_3 u_3 \right)
+    lequ3_1211:
+      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_1 \right)
+    lequ3_1212:
+      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_2 \right)
+    lequ3_1213:
+      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_3 \right)
+    lequ3_1221:
+      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_1 \right)
+    lequ3_1222:
+      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_2 \right)
+    lequ3_1223:
+      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_3 \right)
+    lequ3_1231:
+      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_1 \right)
+    lequ3_1232:
+      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_2 \right)
+    lequ3_1233:
+      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_3 \right)
+    lequ3_2111:
+      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_1 \right)
+    lequ3_2112:
+      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_2 \right)
+    lequ3_2113:
+      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_3 \right)
+    lequ3_2121:
+      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_1 \right)
+    lequ3_2122:
+      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_2 \right)
+    lequ3_2123:
+      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_3 \right)
+    lequ3_2131:
+      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_1 \right)
+    lequ3_2132:
+      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_2 \right)
+    lequ3_2133:
+      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_3 \right)
+  taue:
+    ephi_13:
+      tex: \left( \varphi^\dagger \varphi \right) \left( \bar \ell_1 e_3 \varphi \right)
+    ephi_31:
+      tex: \left( \varphi^\dagger \varphi \right) \left( \bar \ell_3 e_1 \varphi \right)
+    eW_13:
+      tex: \left( \bar \ell_1 \sigma^{\mu \nu} e_3 \right) \tau^I \varphi W_{\mu \nu}^I
+    eW_31:
+      tex: \left( \bar \ell_3 \sigma^{\mu \nu} e_1 \right) \tau^I \varphi W_{\mu \nu}^I
+    eB_13:
+      tex: \left( \bar \ell_1 \sigma^{\mu \nu} e_3 \right) \varphi B_{\mu \nu}
+    eB_31:
+      tex: \left( \bar \ell_3 \sigma^{\mu \nu} e_1 \right) \varphi B_{\mu \nu}
+    phil1_13:
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar \ell_1 \gamma^\mu \ell_3 \right)
+    phil3_13:
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}^I_\mu \varphi \right) \left( \bar \ell_1 \tau^I \gamma^\mu \ell_3 \right)
+    phie_13:
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar e_1 \gamma^\mu e_3 \right)
+    ll_1113:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar \ell_1 \gamma^\mu \ell_3 \right)
+    ll_1223:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar \ell_2 \gamma^\mu \ell_3 \right)
+    ll_1322:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar \ell_2 \gamma^\mu \ell_2 \right)
+    ll_1333:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar \ell_3 \gamma^\mu \ell_3 \right)
+    lq1_1311:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar q_1 \gamma^\mu q_1 \right)
+    lq1_1312:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar q_1 \gamma^\mu q_2 \right)
+    lq1_1313:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar q_1 \gamma^\mu q_3 \right)
+    lq1_1321:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar q_2 \gamma^\mu q_1 \right)
+    lq1_1322:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar q_2 \gamma^\mu q_2 \right)
+    lq1_1323:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar q_2 \gamma^\mu q_3 \right)
+    lq1_1331:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar q_3 \gamma^\mu q_1 \right)
+    lq1_1332:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar q_3 \gamma^\mu q_2 \right)
+    lq1_1333:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar q_3 \gamma^\mu q_3 \right)
+    lq3_1311:
+      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_1 \gamma^\mu \tau^I q_1 \right)
+    lq3_1312:
+      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_1 \gamma^\mu \tau^I q_2 \right)
+    lq3_1313:
+      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_1 \gamma^\mu \tau^I q_3 \right)
+    lq3_1321:
+      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_2 \gamma^\mu \tau^I q_1 \right)
+    lq3_1322:
+      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_2 \gamma^\mu \tau^I q_2 \right)
+    lq3_1323:
+      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_2 \gamma^\mu \tau^I q_3 \right)
+    lq3_1331:
+      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_3 \gamma^\mu \tau^I q_1 \right)
+    lq3_1332:
+      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_3 \gamma^\mu \tau^I q_2 \right)
+    lq3_1333:
+      tex: \left( \bar \ell_1 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_3 \gamma^\mu \tau^I q_3 \right)
+    ee_1113:
+      tex: \left( \bar e_1 \gamma_\mu e_1 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
+    ee_1223:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+    ee_1333:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
+    eu_1311:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar u_1 \gamma^\mu u_1 \right)
+    eu_1312:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar u_1 \gamma^\mu u_2 \right)
+    eu_1313:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar u_1 \gamma^\mu u_3 \right)
+    eu_1321:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar u_2 \gamma^\mu u_1 \right)
+    eu_1322:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar u_2 \gamma^\mu u_2 \right)
+    eu_1323:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar u_2 \gamma^\mu u_3 \right)
+    eu_1331:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar u_3 \gamma^\mu u_1 \right)
+    eu_1332:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar u_3 \gamma^\mu u_2 \right)
+    eu_1333:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar u_3 \gamma^\mu u_3 \right)
+    ed_1311:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar d_1 \gamma^\mu d_1 \right)
+    ed_1312:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar d_1 \gamma^\mu d_2 \right)
+    ed_1313:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar d_1 \gamma^\mu d_3 \right)
+    ed_1321:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar d_2 \gamma^\mu d_1 \right)
+    ed_1322:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar d_2 \gamma^\mu d_2 \right)
+    ed_1323:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar d_2 \gamma^\mu d_3 \right)
+    ed_1331:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar d_3 \gamma^\mu d_1 \right)
+    ed_1332:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar d_3 \gamma^\mu d_2 \right)
+    ed_1333:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar d_3 \gamma^\mu d_3 \right)
+    le_1113:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
+    le_1223:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+    le_1311:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar e_1 \gamma^\mu e_1 \right)
+    le_1322:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
+    le_1333:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
+    le_2213:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
+    le_2312:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
+    le_3313:
+      tex: \left( \bar \ell_3 \gamma_\mu \ell_3 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
+    lu_1311:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar u_1 \gamma^\mu u_1 \right)
+    lu_1312:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar u_1 \gamma^\mu u_2 \right)
+    lu_1313:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar u_1 \gamma^\mu u_3 \right)
+    lu_1321:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar u_2 \gamma^\mu u_1 \right)
+    lu_1322:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar u_2 \gamma^\mu u_2 \right)
+    lu_1323:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar u_2 \gamma^\mu u_3 \right)
+    lu_1331:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar u_3 \gamma^\mu u_1 \right)
+    lu_1332:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar u_3 \gamma^\mu u_2 \right)
+    lu_1333:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar u_3 \gamma^\mu u_3 \right)
+    ld_1311:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar d_1 \gamma^\mu d_1 \right)
+    ld_1312:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar d_1 \gamma^\mu d_2 \right)
+    ld_1313:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar d_1 \gamma^\mu d_3 \right)
+    ld_1321:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar d_2 \gamma^\mu d_1 \right)
+    ld_1322:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar d_2 \gamma^\mu d_2 \right)
+    ld_1323:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar d_2 \gamma^\mu d_3 \right)
+    ld_1331:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar d_3 \gamma^\mu d_1 \right)
+    ld_1332:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar d_3 \gamma^\mu d_2 \right)
+    ld_1333:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar d_3 \gamma^\mu d_3 \right)
+    qe_1113:
+      tex: \left( \bar q_1 \gamma_\mu q_1 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
+    qe_1213:
+      tex: \left( \bar q_1 \gamma_\mu q_2 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
+    qe_1231:
+      tex: \left( \bar q_1 \gamma_\mu q_2 \right) \left( \bar e_3 \gamma^\mu e_1 \right)
+    qe_1313:
+      tex: \left( \bar q_1 \gamma_\mu q_3 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
+    qe_1331:
+      tex: \left( \bar q_1 \gamma_\mu q_3 \right) \left( \bar e_3 \gamma^\mu e_1 \right)
+    qe_2213:
+      tex: \left( \bar q_2 \gamma_\mu q_2 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
+    qe_2313:
+      tex: \left( \bar q_2 \gamma_\mu q_3 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
+    qe_2331:
+      tex: \left( \bar q_2 \gamma_\mu q_3 \right) \left( \bar e_3 \gamma^\mu e_1 \right)
+    qe_3313:
+      tex: \left( \bar q_3 \gamma_\mu q_3 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
+    ledq_1311:
+      tex: \left( \bar \ell_1 e_3 \right) \left( \bar d_1 q_1 \right)
+    ledq_1312:
+      tex: \left( \bar \ell_1 e_3 \right) \left( \bar d_1 q_2 \right)
+    ledq_1313:
+      tex: \left( \bar \ell_1 e_3 \right) \left( \bar d_1 q_3 \right)
+    ledq_1321:
+      tex: \left( \bar \ell_1 e_3 \right) \left( \bar d_2 q_1 \right)
+    ledq_1322:
+      tex: \left( \bar \ell_1 e_3 \right) \left( \bar d_2 q_2 \right)
+    ledq_1323:
+      tex: \left( \bar \ell_1 e_3 \right) \left( \bar d_2 q_3 \right)
+    ledq_1331:
+      tex: \left( \bar \ell_1 e_3 \right) \left( \bar d_3 q_1 \right)
+    ledq_1332:
+      tex: \left( \bar \ell_1 e_3 \right) \left( \bar d_3 q_2 \right)
+    ledq_1333:
+      tex: \left( \bar \ell_1 e_3 \right) \left( \bar d_3 q_3 \right)
+    ledq_3111:
+      tex: \left( \bar \ell_3 e_1 \right) \left( \bar d_1 q_1 \right)
+    ledq_3112:
+      tex: \left( \bar \ell_3 e_1 \right) \left( \bar d_1 q_2 \right)
+    ledq_3113:
+      tex: \left( \bar \ell_3 e_1 \right) \left( \bar d_1 q_3 \right)
+    ledq_3121:
+      tex: \left( \bar \ell_3 e_1 \right) \left( \bar d_2 q_1 \right)
+    ledq_3122:
+      tex: \left( \bar \ell_3 e_1 \right) \left( \bar d_2 q_2 \right)
+    ledq_3123:
+      tex: \left( \bar \ell_3 e_1 \right) \left( \bar d_2 q_3 \right)
+    ledq_3131:
+      tex: \left( \bar \ell_3 e_1 \right) \left( \bar d_3 q_1 \right)
+    ledq_3132:
+      tex: \left( \bar \ell_3 e_1 \right) \left( \bar d_3 q_2 \right)
+    ledq_3133:
+      tex: \left( \bar \ell_3 e_1 \right) \left( \bar d_3 q_3 \right)
+    lequ1_1311:
+      tex: \left( \bar \ell_1 e_3 \right) \epsilon_{jk} \left( \bar q_1 u_1 \right)
+    lequ1_1312:
+      tex: \left( \bar \ell_1 e_3 \right) \epsilon_{jk} \left( \bar q_1 u_2 \right)
+    lequ1_1313:
+      tex: \left( \bar \ell_1 e_3 \right) \epsilon_{jk} \left( \bar q_1 u_3 \right)
+    lequ1_1321:
+      tex: \left( \bar \ell_1 e_3 \right) \epsilon_{jk} \left( \bar q_2 u_1 \right)
+    lequ1_1322:
+      tex: \left( \bar \ell_1 e_3 \right) \epsilon_{jk} \left( \bar q_2 u_2 \right)
+    lequ1_1323:
+      tex: \left( \bar \ell_1 e_3 \right) \epsilon_{jk} \left( \bar q_2 u_3 \right)
+    lequ1_1331:
+      tex: \left( \bar \ell_1 e_3 \right) \epsilon_{jk} \left( \bar q_3 u_1 \right)
+    lequ1_1332:
+      tex: \left( \bar \ell_1 e_3 \right) \epsilon_{jk} \left( \bar q_3 u_2 \right)
+    lequ1_1333:
+      tex: \left( \bar \ell_1 e_3 \right) \epsilon_{jk} \left( \bar q_3 u_3 \right)
+    lequ1_3111:
+      tex: \left( \bar \ell_3 e_1 \right) \epsilon_{jk} \left( \bar q_1 u_1 \right)
+    lequ1_3112:
+      tex: \left( \bar \ell_3 e_1 \right) \epsilon_{jk} \left( \bar q_1 u_2 \right)
+    lequ1_3113:
+      tex: \left( \bar \ell_3 e_1 \right) \epsilon_{jk} \left( \bar q_1 u_3 \right)
+    lequ1_3121:
+      tex: \left( \bar \ell_3 e_1 \right) \epsilon_{jk} \left( \bar q_2 u_1 \right)
+    lequ1_3122:
+      tex: \left( \bar \ell_3 e_1 \right) \epsilon_{jk} \left( \bar q_2 u_2 \right)
+    lequ1_3123:
+      tex: \left( \bar \ell_3 e_1 \right) \epsilon_{jk} \left( \bar q_2 u_3 \right)
+    lequ1_3131:
+      tex: \left( \bar \ell_3 e_1 \right) \epsilon_{jk} \left( \bar q_3 u_1 \right)
+    lequ1_3132:
+      tex: \left( \bar \ell_3 e_1 \right) \epsilon_{jk} \left( \bar q_3 u_2 \right)
+    lequ1_3133:
+      tex: \left( \bar \ell_3 e_1 \right) \epsilon_{jk} \left( \bar q_3 u_3 \right)
+    lequ3_1311:
+      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_1 \right)
+    lequ3_1312:
+      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_2 \right)
+    lequ3_1313:
+      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_3 \right)
+    lequ3_1321:
+      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_1 \right)
+    lequ3_1322:
+      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_2 \right)
+    lequ3_1323:
+      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_3 \right)
+    lequ3_1331:
+      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_1 \right)
+    lequ3_1332:
+      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_2 \right)
+    lequ3_1333:
+      tex: \left( \bar \ell_1 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_3 \right)
+    lequ3_3111:
+      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_1 \right)
+    lequ3_3112:
+      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_2 \right)
+    lequ3_3113:
+      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_3 \right)
+    lequ3_3121:
+      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_1 \right)
+    lequ3_3122:
+      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_2 \right)
+    lequ3_3123:
+      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_3 \right)
+    lequ3_3131:
+      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_1 \right)
+    lequ3_3132:
+      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_2 \right)
+    lequ3_3133:
+      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_1 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_3 \right)
+  mutau:
+    ephi_23:
+      tex: \left( \varphi^\dagger \varphi \right) \left( \bar \ell_2 e_3 \varphi \right)
+    ephi_32:
+      tex: \left( \varphi^\dagger \varphi \right) \left( \bar \ell_3 e_2 \varphi \right)
+    eW_23:
+      tex: \left( \bar \ell_2 \sigma^{\mu \nu} e_3 \right) \tau^I \varphi W_{\mu \nu}^I
+    eW_32:
+      tex: \left( \bar \ell_3 \sigma^{\mu \nu} e_2 \right) \tau^I \varphi W_{\mu \nu}^I
+    eB_23:
+      tex: \left( \bar \ell_2 \sigma^{\mu \nu} e_3 \right) \varphi B_{\mu \nu}
+    eB_32:
+      tex: \left( \bar \ell_3 \sigma^{\mu \nu} e_2 \right) \varphi B_{\mu \nu}
+    phil1_23:
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar \ell_2 \gamma^\mu \ell_3 \right)
+    phil3_23:
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}^I_\mu \varphi \right) \left( \bar \ell_2 \tau^I \gamma^\mu \ell_3 \right)
+    phie_23:
+      tex: \left( \varphi^\dagger i \overset\leftrightarrow{D}_\mu \varphi \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+    ll_1123:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar \ell_2 \gamma^\mu \ell_3 \right)
+    ll_1231:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar \ell_3 \gamma^\mu \ell_1 \right)
+    ll_2223:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar \ell_2 \gamma^\mu \ell_3 \right)
+    ll_2333:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar \ell_3 \gamma^\mu \ell_3 \right)
+    lq1_2311:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar q_1 \gamma^\mu q_1 \right)
+    lq1_2312:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar q_1 \gamma^\mu q_2 \right)
+    lq1_2313:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar q_1 \gamma^\mu q_3 \right)
+    lq1_2321:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar q_2 \gamma^\mu q_1 \right)
+    lq1_2322:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar q_2 \gamma^\mu q_2 \right)
+    lq1_2323:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar q_2 \gamma^\mu q_3 \right)
+    lq1_2331:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar q_3 \gamma^\mu q_1 \right)
+    lq1_2332:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar q_3 \gamma^\mu q_2 \right)
+    lq1_2333:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar q_3 \gamma^\mu q_3 \right)
+    lq3_2311:
+      tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_1 \gamma^\mu \tau^I q_1 \right)
+    lq3_2312:
+      tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_1 \gamma^\mu \tau^I q_2 \right)
+    lq3_2313:
+      tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_1 \gamma^\mu \tau^I q_3 \right)
+    lq3_2321:
+      tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_2 \gamma^\mu \tau^I q_1 \right)
+    lq3_2322:
+      tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_2 \gamma^\mu \tau^I q_2 \right)
+    lq3_2323:
+      tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_2 \gamma^\mu \tau^I q_3 \right)
+    lq3_2331:
+      tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_3 \gamma^\mu \tau^I q_1 \right)
+    lq3_2332:
+      tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_3 \gamma^\mu \tau^I q_2 \right)
+    lq3_2333:
+      tex: \left( \bar \ell_2 \gamma_\mu \tau^I \ell_3 \right) \left( \bar q_3 \gamma^\mu \tau^I q_3 \right)
+    ee_1123:
+      tex: \left( \bar e_1 \gamma_\mu e_1 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+    ee_2223:
+      tex: \left( \bar e_2 \gamma_\mu e_2 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+    ee_2333:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
+    eu_2311:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar u_1 \gamma^\mu u_1 \right)
+    eu_2312:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar u_1 \gamma^\mu u_2 \right)
+    eu_2313:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar u_1 \gamma^\mu u_3 \right)
+    eu_2321:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar u_2 \gamma^\mu u_1 \right)
+    eu_2322:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar u_2 \gamma^\mu u_2 \right)
+    eu_2323:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar u_2 \gamma^\mu u_3 \right)
+    eu_2331:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar u_3 \gamma^\mu u_1 \right)
+    eu_2332:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar u_3 \gamma^\mu u_2 \right)
+    eu_2333:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar u_3 \gamma^\mu u_3 \right)
+    ed_2311:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar d_1 \gamma^\mu d_1 \right)
+    ed_2312:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar d_1 \gamma^\mu d_2 \right)
+    ed_2313:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar d_1 \gamma^\mu d_3 \right)
+    ed_2321:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar d_2 \gamma^\mu d_1 \right)
+    ed_2322:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar d_2 \gamma^\mu d_2 \right)
+    ed_2323:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar d_2 \gamma^\mu d_3 \right)
+    ed_2331:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar d_3 \gamma^\mu d_1 \right)
+    ed_2332:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar d_3 \gamma^\mu d_2 \right)
+    ed_2333:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar d_3 \gamma^\mu d_3 \right)
+    le_1123:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_1 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+    le_1231:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar e_3 \gamma^\mu e_1 \right)
+    le_1321:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar e_2 \gamma^\mu e_1 \right)
+    le_2223:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_2 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+    le_2311:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar e_1 \gamma^\mu e_1 \right)
+    le_2322:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar e_2 \gamma^\mu e_2 \right)
+    le_2333:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar e_3 \gamma^\mu e_3 \right)
+    le_3323:
+      tex: \left( \bar \ell_3 \gamma_\mu \ell_3 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+    lu_2311:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar u_1 \gamma^\mu u_1 \right)
+    lu_2312:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar u_1 \gamma^\mu u_2 \right)
+    lu_2313:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar u_1 \gamma^\mu u_3 \right)
+    lu_2321:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar u_2 \gamma^\mu u_1 \right)
+    lu_2322:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar u_2 \gamma^\mu u_2 \right)
+    lu_2323:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar u_2 \gamma^\mu u_3 \right)
+    lu_2331:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar u_3 \gamma^\mu u_1 \right)
+    lu_2332:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar u_3 \gamma^\mu u_2 \right)
+    lu_2333:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar u_3 \gamma^\mu u_3 \right)
+    ld_2311:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar d_1 \gamma^\mu d_1 \right)
+    ld_2312:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar d_1 \gamma^\mu d_2 \right)
+    ld_2313:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar d_1 \gamma^\mu d_3 \right)
+    ld_2321:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar d_2 \gamma^\mu d_1 \right)
+    ld_2322:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar d_2 \gamma^\mu d_2 \right)
+    ld_2323:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar d_2 \gamma^\mu d_3 \right)
+    ld_2331:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar d_3 \gamma^\mu d_1 \right)
+    ld_2332:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar d_3 \gamma^\mu d_2 \right)
+    ld_2333:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar d_3 \gamma^\mu d_3 \right)
+    qe_1123:
+      tex: \left( \bar q_1 \gamma_\mu q_1 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+    qe_1223:
+      tex: \left( \bar q_1 \gamma_\mu q_2 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+    qe_1232:
+      tex: \left( \bar q_1 \gamma_\mu q_2 \right) \left( \bar e_3 \gamma^\mu e_2 \right)
+    qe_1323:
+      tex: \left( \bar q_1 \gamma_\mu q_3 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+    qe_1332:
+      tex: \left( \bar q_1 \gamma_\mu q_3 \right) \left( \bar e_3 \gamma^\mu e_2 \right)
+    qe_2223:
+      tex: \left( \bar q_2 \gamma_\mu q_2 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+    qe_2323:
+      tex: \left( \bar q_2 \gamma_\mu q_3 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+    qe_2332:
+      tex: \left( \bar q_2 \gamma_\mu q_3 \right) \left( \bar e_3 \gamma^\mu e_2 \right)
+    qe_3323:
+      tex: \left( \bar q_3 \gamma_\mu q_3 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+    ledq_2311:
+      tex: \left( \bar \ell_2 e_3 \right) \left( \bar d_1 q_1 \right)
+    ledq_2312:
+      tex: \left( \bar \ell_2 e_3 \right) \left( \bar d_1 q_2 \right)
+    ledq_2313:
+      tex: \left( \bar \ell_2 e_3 \right) \left( \bar d_1 q_3 \right)
+    ledq_2321:
+      tex: \left( \bar \ell_2 e_3 \right) \left( \bar d_2 q_1 \right)
+    ledq_2322:
+      tex: \left( \bar \ell_2 e_3 \right) \left( \bar d_2 q_2 \right)
+    ledq_2323:
+      tex: \left( \bar \ell_2 e_3 \right) \left( \bar d_2 q_3 \right)
+    ledq_2331:
+      tex: \left( \bar \ell_2 e_3 \right) \left( \bar d_3 q_1 \right)
+    ledq_2332:
+      tex: \left( \bar \ell_2 e_3 \right) \left( \bar d_3 q_2 \right)
+    ledq_2333:
+      tex: \left( \bar \ell_2 e_3 \right) \left( \bar d_3 q_3 \right)
+    ledq_3211:
+      tex: \left( \bar \ell_3 e_2 \right) \left( \bar d_1 q_1 \right)
+    ledq_3212:
+      tex: \left( \bar \ell_3 e_2 \right) \left( \bar d_1 q_2 \right)
+    ledq_3213:
+      tex: \left( \bar \ell_3 e_2 \right) \left( \bar d_1 q_3 \right)
+    ledq_3221:
+      tex: \left( \bar \ell_3 e_2 \right) \left( \bar d_2 q_1 \right)
+    ledq_3222:
+      tex: \left( \bar \ell_3 e_2 \right) \left( \bar d_2 q_2 \right)
+    ledq_3223:
+      tex: \left( \bar \ell_3 e_2 \right) \left( \bar d_2 q_3 \right)
+    ledq_3231:
+      tex: \left( \bar \ell_3 e_2 \right) \left( \bar d_3 q_1 \right)
+    ledq_3232:
+      tex: \left( \bar \ell_3 e_2 \right) \left( \bar d_3 q_2 \right)
+    ledq_3233:
+      tex: \left( \bar \ell_3 e_2 \right) \left( \bar d_3 q_3 \right)
+    lequ1_2311:
+      tex: \left( \bar \ell_2 e_3 \right) \epsilon_{jk} \left( \bar q_1 u_1 \right)
+    lequ1_2312:
+      tex: \left( \bar \ell_2 e_3 \right) \epsilon_{jk} \left( \bar q_1 u_2 \right)
+    lequ1_2313:
+      tex: \left( \bar \ell_2 e_3 \right) \epsilon_{jk} \left( \bar q_1 u_3 \right)
+    lequ1_2321:
+      tex: \left( \bar \ell_2 e_3 \right) \epsilon_{jk} \left( \bar q_2 u_1 \right)
+    lequ1_2322:
+      tex: \left( \bar \ell_2 e_3 \right) \epsilon_{jk} \left( \bar q_2 u_2 \right)
+    lequ1_2323:
+      tex: \left( \bar \ell_2 e_3 \right) \epsilon_{jk} \left( \bar q_2 u_3 \right)
+    lequ1_2331:
+      tex: \left( \bar \ell_2 e_3 \right) \epsilon_{jk} \left( \bar q_3 u_1 \right)
+    lequ1_2332:
+      tex: \left( \bar \ell_2 e_3 \right) \epsilon_{jk} \left( \bar q_3 u_2 \right)
+    lequ1_2333:
+      tex: \left( \bar \ell_2 e_3 \right) \epsilon_{jk} \left( \bar q_3 u_3 \right)
+    lequ1_3211:
+      tex: \left( \bar \ell_3 e_2 \right) \epsilon_{jk} \left( \bar q_1 u_1 \right)
+    lequ1_3212:
+      tex: \left( \bar \ell_3 e_2 \right) \epsilon_{jk} \left( \bar q_1 u_2 \right)
+    lequ1_3213:
+      tex: \left( \bar \ell_3 e_2 \right) \epsilon_{jk} \left( \bar q_1 u_3 \right)
+    lequ1_3221:
+      tex: \left( \bar \ell_3 e_2 \right) \epsilon_{jk} \left( \bar q_2 u_1 \right)
+    lequ1_3222:
+      tex: \left( \bar \ell_3 e_2 \right) \epsilon_{jk} \left( \bar q_2 u_2 \right)
+    lequ1_3223:
+      tex: \left( \bar \ell_3 e_2 \right) \epsilon_{jk} \left( \bar q_2 u_3 \right)
+    lequ1_3231:
+      tex: \left( \bar \ell_3 e_2 \right) \epsilon_{jk} \left( \bar q_3 u_1 \right)
+    lequ1_3232:
+      tex: \left( \bar \ell_3 e_2 \right) \epsilon_{jk} \left( \bar q_3 u_2 \right)
+    lequ1_3233:
+      tex: \left( \bar \ell_3 e_2 \right) \epsilon_{jk} \left( \bar q_3 u_3 \right)
+    lequ3_2311:
+      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_1 \right)
+    lequ3_2312:
+      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_2 \right)
+    lequ3_2313:
+      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_3 \right)
+    lequ3_2321:
+      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_1 \right)
+    lequ3_2322:
+      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_2 \right)
+    lequ3_2323:
+      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_3 \right)
+    lequ3_2331:
+      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_1 \right)
+    lequ3_2332:
+      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_2 \right)
+    lequ3_2333:
+      tex: \left( \bar \ell_2 \sigma_{\mu \nu} e_3 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_3 \right)
+    lequ3_3211:
+      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_1 \right)
+    lequ3_3212:
+      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_2 \right)
+    lequ3_3213:
+      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_1 \sigma^{\mu \nu} u_3 \right)
+    lequ3_3221:
+      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_1 \right)
+    lequ3_3222:
+      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_2 \right)
+    lequ3_3223:
+      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_2 \sigma^{\mu \nu} u_3 \right)
+    lequ3_3231:
+      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_1 \right)
+    lequ3_3232:
+      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_2 \right)
+    lequ3_3233:
+      tex: \left( \bar \ell_3 \sigma_{\mu \nu} e_2 \right) \epsilon_{jk} \left( \bar q_3 \sigma^{\mu \nu} u_3 \right)
+  muemue:
+    ll_1212:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar \ell_1 \gamma^\mu \ell_2 \right)
+    ee_1212:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
+    le_1212:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
+  etauemu:
+    ll_1213:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar \ell_1 \gamma^\mu \ell_3 \right)
+    ee_1213:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
+    le_1213:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
+    le_1312:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar e_1 \gamma^\mu e_2 \right)
+  muemutau:
+    ll_1232:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar \ell_3 \gamma^\mu \ell_2 \right)
+    ee_1232:
+      tex: \left( \bar e_1 \gamma_\mu e_2 \right) \left( \bar e_3 \gamma^\mu e_2 \right)
+    le_1232:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_2 \right) \left( \bar e_3 \gamma^\mu e_2 \right)
+    le_2321:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar e_2 \gamma^\mu e_1 \right)
+  tauetaue:
+    ll_1313:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar \ell_1 \gamma^\mu \ell_3 \right)
+    ee_1313:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
+    le_1313:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
+  tauetaumu:
+    ll_1323:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar \ell_2 \gamma^\mu \ell_3 \right)
+    ee_1323:
+      tex: \left( \bar e_1 \gamma_\mu e_3 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+    le_1323:
+      tex: \left( \bar \ell_1 \gamma_\mu \ell_3 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+    le_2313:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar e_1 \gamma^\mu e_3 \right)
+  taumutaumu:
+    ll_2323:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar \ell_2 \gamma^\mu \ell_3 \right)
+    ee_2323:
+      tex: \left( \bar e_2 \gamma_\mu e_3 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+    le_2323:
+      tex: \left( \bar \ell_2 \gamma_\mu \ell_3 \right) \left( \bar e_2 \gamma^\mu e_3 \right)
+  dB=de=1:
     duql_1111:
       tex: \left( d_1 C u_1 \right) \left( q_1 C \ell_1 \right)
-    duql_1112:
-      tex: \left( d_1 C u_1 \right) \left( q_1 C \ell_2 \right)
-    duql_1113:
-      tex: \left( d_1 C u_1 \right) \left( q_1 C \ell_3 \right)
     duql_1121:
       tex: \left( d_1 C u_1 \right) \left( q_2 C \ell_1 \right)
-    duql_1122:
-      tex: \left( d_1 C u_1 \right) \left( q_2 C \ell_2 \right)
-    duql_1123:
-      tex: \left( d_1 C u_1 \right) \left( q_2 C \ell_3 \right)
     duql_1131:
       tex: \left( d_1 C u_1 \right) \left( q_3 C \ell_1 \right)
-    duql_1132:
-      tex: \left( d_1 C u_1 \right) \left( q_3 C \ell_2 \right)
-    duql_1133:
-      tex: \left( d_1 C u_1 \right) \left( q_3 C \ell_3 \right)
     duql_1211:
       tex: \left( d_1 C u_2 \right) \left( q_1 C \ell_1 \right)
-    duql_1212:
-      tex: \left( d_1 C u_2 \right) \left( q_1 C \ell_2 \right)
-    duql_1213:
-      tex: \left( d_1 C u_2 \right) \left( q_1 C \ell_3 \right)
     duql_1221:
       tex: \left( d_1 C u_2 \right) \left( q_2 C \ell_1 \right)
-    duql_1222:
-      tex: \left( d_1 C u_2 \right) \left( q_2 C \ell_2 \right)
-    duql_1223:
-      tex: \left( d_1 C u_2 \right) \left( q_2 C \ell_3 \right)
     duql_1231:
       tex: \left( d_1 C u_2 \right) \left( q_3 C \ell_1 \right)
-    duql_1232:
-      tex: \left( d_1 C u_2 \right) \left( q_3 C \ell_2 \right)
-    duql_1233:
-      tex: \left( d_1 C u_2 \right) \left( q_3 C \ell_3 \right)
     duql_1311:
       tex: \left( d_1 C u_3 \right) \left( q_1 C \ell_1 \right)
-    duql_1312:
-      tex: \left( d_1 C u_3 \right) \left( q_1 C \ell_2 \right)
-    duql_1313:
-      tex: \left( d_1 C u_3 \right) \left( q_1 C \ell_3 \right)
     duql_1321:
       tex: \left( d_1 C u_3 \right) \left( q_2 C \ell_1 \right)
-    duql_1322:
-      tex: \left( d_1 C u_3 \right) \left( q_2 C \ell_2 \right)
-    duql_1323:
-      tex: \left( d_1 C u_3 \right) \left( q_2 C \ell_3 \right)
     duql_1331:
       tex: \left( d_1 C u_3 \right) \left( q_3 C \ell_1 \right)
-    duql_1332:
-      tex: \left( d_1 C u_3 \right) \left( q_3 C \ell_2 \right)
-    duql_1333:
-      tex: \left( d_1 C u_3 \right) \left( q_3 C \ell_3 \right)
     duql_2111:
       tex: \left( d_2 C u_1 \right) \left( q_1 C \ell_1 \right)
-    duql_2112:
-      tex: \left( d_2 C u_1 \right) \left( q_1 C \ell_2 \right)
-    duql_2113:
-      tex: \left( d_2 C u_1 \right) \left( q_1 C \ell_3 \right)
     duql_2121:
       tex: \left( d_2 C u_1 \right) \left( q_2 C \ell_1 \right)
-    duql_2122:
-      tex: \left( d_2 C u_1 \right) \left( q_2 C \ell_2 \right)
-    duql_2123:
-      tex: \left( d_2 C u_1 \right) \left( q_2 C \ell_3 \right)
     duql_2131:
       tex: \left( d_2 C u_1 \right) \left( q_3 C \ell_1 \right)
-    duql_2132:
-      tex: \left( d_2 C u_1 \right) \left( q_3 C \ell_2 \right)
-    duql_2133:
-      tex: \left( d_2 C u_1 \right) \left( q_3 C \ell_3 \right)
     duql_2211:
       tex: \left( d_2 C u_2 \right) \left( q_1 C \ell_1 \right)
-    duql_2212:
-      tex: \left( d_2 C u_2 \right) \left( q_1 C \ell_2 \right)
-    duql_2213:
-      tex: \left( d_2 C u_2 \right) \left( q_1 C \ell_3 \right)
     duql_2221:
       tex: \left( d_2 C u_2 \right) \left( q_2 C \ell_1 \right)
-    duql_2222:
-      tex: \left( d_2 C u_2 \right) \left( q_2 C \ell_2 \right)
-    duql_2223:
-      tex: \left( d_2 C u_2 \right) \left( q_2 C \ell_3 \right)
     duql_2231:
       tex: \left( d_2 C u_2 \right) \left( q_3 C \ell_1 \right)
-    duql_2232:
-      tex: \left( d_2 C u_2 \right) \left( q_3 C \ell_2 \right)
-    duql_2233:
-      tex: \left( d_2 C u_2 \right) \left( q_3 C \ell_3 \right)
     duql_2311:
       tex: \left( d_2 C u_3 \right) \left( q_1 C \ell_1 \right)
-    duql_2312:
-      tex: \left( d_2 C u_3 \right) \left( q_1 C \ell_2 \right)
-    duql_2313:
-      tex: \left( d_2 C u_3 \right) \left( q_1 C \ell_3 \right)
     duql_2321:
       tex: \left( d_2 C u_3 \right) \left( q_2 C \ell_1 \right)
-    duql_2322:
-      tex: \left( d_2 C u_3 \right) \left( q_2 C \ell_2 \right)
-    duql_2323:
-      tex: \left( d_2 C u_3 \right) \left( q_2 C \ell_3 \right)
     duql_2331:
       tex: \left( d_2 C u_3 \right) \left( q_3 C \ell_1 \right)
-    duql_2332:
-      tex: \left( d_2 C u_3 \right) \left( q_3 C \ell_2 \right)
-    duql_2333:
-      tex: \left( d_2 C u_3 \right) \left( q_3 C \ell_3 \right)
     duql_3111:
       tex: \left( d_3 C u_1 \right) \left( q_1 C \ell_1 \right)
-    duql_3112:
-      tex: \left( d_3 C u_1 \right) \left( q_1 C \ell_2 \right)
-    duql_3113:
-      tex: \left( d_3 C u_1 \right) \left( q_1 C \ell_3 \right)
     duql_3121:
       tex: \left( d_3 C u_1 \right) \left( q_2 C \ell_1 \right)
-    duql_3122:
-      tex: \left( d_3 C u_1 \right) \left( q_2 C \ell_2 \right)
-    duql_3123:
-      tex: \left( d_3 C u_1 \right) \left( q_2 C \ell_3 \right)
     duql_3131:
       tex: \left( d_3 C u_1 \right) \left( q_3 C \ell_1 \right)
-    duql_3132:
-      tex: \left( d_3 C u_1 \right) \left( q_3 C \ell_2 \right)
-    duql_3133:
-      tex: \left( d_3 C u_1 \right) \left( q_3 C \ell_3 \right)
     duql_3211:
       tex: \left( d_3 C u_2 \right) \left( q_1 C \ell_1 \right)
-    duql_3212:
-      tex: \left( d_3 C u_2 \right) \left( q_1 C \ell_2 \right)
-    duql_3213:
-      tex: \left( d_3 C u_2 \right) \left( q_1 C \ell_3 \right)
     duql_3221:
       tex: \left( d_3 C u_2 \right) \left( q_2 C \ell_1 \right)
-    duql_3222:
-      tex: \left( d_3 C u_2 \right) \left( q_2 C \ell_2 \right)
-    duql_3223:
-      tex: \left( d_3 C u_2 \right) \left( q_2 C \ell_3 \right)
     duql_3231:
       tex: \left( d_3 C u_2 \right) \left( q_3 C \ell_1 \right)
-    duql_3232:
-      tex: \left( d_3 C u_2 \right) \left( q_3 C \ell_2 \right)
-    duql_3233:
-      tex: \left( d_3 C u_2 \right) \left( q_3 C \ell_3 \right)
     duql_3311:
       tex: \left( d_3 C u_3 \right) \left( q_1 C \ell_1 \right)
-    duql_3312:
-      tex: \left( d_3 C u_3 \right) \left( q_1 C \ell_2 \right)
-    duql_3313:
-      tex: \left( d_3 C u_3 \right) \left( q_1 C \ell_3 \right)
     duql_3321:
       tex: \left( d_3 C u_3 \right) \left( q_2 C \ell_1 \right)
-    duql_3322:
-      tex: \left( d_3 C u_3 \right) \left( q_2 C \ell_2 \right)
-    duql_3323:
-      tex: \left( d_3 C u_3 \right) \left( q_2 C \ell_3 \right)
     duql_3331:
       tex: \left( d_3 C u_3 \right) \left( q_3 C \ell_1 \right)
-    duql_3332:
-      tex: \left( d_3 C u_3 \right) \left( q_3 C \ell_2 \right)
-    duql_3333:
-      tex: \left( d_3 C u_3 \right) \left( q_3 C \ell_3 \right)
     qque_1111:
       tex: \left( q_1 C q_1 \right) \left( u_1 C e_1 \right)
-    qque_1112:
-      tex: \left( q_1 C q_1 \right) \left( u_1 C e_2 \right)
-    qque_1113:
-      tex: \left( q_1 C q_1 \right) \left( u_1 C e_3 \right)
     qque_1121:
       tex: \left( q_1 C q_1 \right) \left( u_2 C e_1 \right)
-    qque_1122:
-      tex: \left( q_1 C q_1 \right) \left( u_2 C e_2 \right)
-    qque_1123:
-      tex: \left( q_1 C q_1 \right) \left( u_2 C e_3 \right)
     qque_1131:
       tex: \left( q_1 C q_1 \right) \left( u_3 C e_1 \right)
-    qque_1132:
-      tex: \left( q_1 C q_1 \right) \left( u_3 C e_2 \right)
-    qque_1133:
-      tex: \left( q_1 C q_1 \right) \left( u_3 C e_3 \right)
     qque_1211:
       tex: \left( q_1 C q_2 \right) \left( u_1 C e_1 \right)
-    qque_1212:
-      tex: \left( q_1 C q_2 \right) \left( u_1 C e_2 \right)
-    qque_1213:
-      tex: \left( q_1 C q_2 \right) \left( u_1 C e_3 \right)
     qque_1221:
       tex: \left( q_1 C q_2 \right) \left( u_2 C e_1 \right)
-    qque_1222:
-      tex: \left( q_1 C q_2 \right) \left( u_2 C e_2 \right)
-    qque_1223:
-      tex: \left( q_1 C q_2 \right) \left( u_2 C e_3 \right)
     qque_1231:
       tex: \left( q_1 C q_2 \right) \left( u_3 C e_1 \right)
-    qque_1232:
-      tex: \left( q_1 C q_2 \right) \left( u_3 C e_2 \right)
-    qque_1233:
-      tex: \left( q_1 C q_2 \right) \left( u_3 C e_3 \right)
     qque_1311:
       tex: \left( q_1 C q_3 \right) \left( u_1 C e_1 \right)
-    qque_1312:
-      tex: \left( q_1 C q_3 \right) \left( u_1 C e_2 \right)
-    qque_1313:
-      tex: \left( q_1 C q_3 \right) \left( u_1 C e_3 \right)
     qque_1321:
       tex: \left( q_1 C q_3 \right) \left( u_2 C e_1 \right)
-    qque_1322:
-      tex: \left( q_1 C q_3 \right) \left( u_2 C e_2 \right)
-    qque_1323:
-      tex: \left( q_1 C q_3 \right) \left( u_2 C e_3 \right)
     qque_1331:
       tex: \left( q_1 C q_3 \right) \left( u_3 C e_1 \right)
-    qque_1332:
-      tex: \left( q_1 C q_3 \right) \left( u_3 C e_2 \right)
-    qque_1333:
-      tex: \left( q_1 C q_3 \right) \left( u_3 C e_3 \right)
     qque_2211:
       tex: \left( q_2 C q_2 \right) \left( u_1 C e_1 \right)
-    qque_2212:
-      tex: \left( q_2 C q_2 \right) \left( u_1 C e_2 \right)
-    qque_2213:
-      tex: \left( q_2 C q_2 \right) \left( u_1 C e_3 \right)
     qque_2221:
       tex: \left( q_2 C q_2 \right) \left( u_2 C e_1 \right)
-    qque_2222:
-      tex: \left( q_2 C q_2 \right) \left( u_2 C e_2 \right)
-    qque_2223:
-      tex: \left( q_2 C q_2 \right) \left( u_2 C e_3 \right)
     qque_2231:
       tex: \left( q_2 C q_2 \right) \left( u_3 C e_1 \right)
-    qque_2232:
-      tex: \left( q_2 C q_2 \right) \left( u_3 C e_2 \right)
-    qque_2233:
-      tex: \left( q_2 C q_2 \right) \left( u_3 C e_3 \right)
     qque_2311:
       tex: \left( q_2 C q_3 \right) \left( u_1 C e_1 \right)
-    qque_2312:
-      tex: \left( q_2 C q_3 \right) \left( u_1 C e_2 \right)
-    qque_2313:
-      tex: \left( q_2 C q_3 \right) \left( u_1 C e_3 \right)
     qque_2321:
       tex: \left( q_2 C q_3 \right) \left( u_2 C e_1 \right)
-    qque_2322:
-      tex: \left( q_2 C q_3 \right) \left( u_2 C e_2 \right)
-    qque_2323:
-      tex: \left( q_2 C q_3 \right) \left( u_2 C e_3 \right)
     qque_2331:
       tex: \left( q_2 C q_3 \right) \left( u_3 C e_1 \right)
-    qque_2332:
-      tex: \left( q_2 C q_3 \right) \left( u_3 C e_2 \right)
-    qque_2333:
-      tex: \left( q_2 C q_3 \right) \left( u_3 C e_3 \right)
     qque_3311:
       tex: \left( q_3 C q_3 \right) \left( u_1 C e_1 \right)
-    qque_3312:
-      tex: \left( q_3 C q_3 \right) \left( u_1 C e_2 \right)
-    qque_3313:
-      tex: \left( q_3 C q_3 \right) \left( u_1 C e_3 \right)
     qque_3321:
       tex: \left( q_3 C q_3 \right) \left( u_2 C e_1 \right)
-    qque_3322:
-      tex: \left( q_3 C q_3 \right) \left( u_2 C e_2 \right)
-    qque_3323:
-      tex: \left( q_3 C q_3 \right) \left( u_2 C e_3 \right)
     qque_3331:
       tex: \left( q_3 C q_3 \right) \left( u_3 C e_1 \right)
-    qque_3332:
-      tex: \left( q_3 C q_3 \right) \left( u_3 C e_2 \right)
-    qque_3333:
-      tex: \left( q_3 C q_3 \right) \left( u_3 C e_3 \right)
     qqql_1111:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_1 C \ell_1 \right)
-    qqql_1112:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_1 C \ell_2 \right)
-    qqql_1113:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_1 C \ell_3 \right)
     qqql_1121:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_2 C \ell_1 \right)
-    qqql_1122:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_2 C \ell_2 \right)
-    qqql_1123:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_2 C \ell_3 \right)
     qqql_1131:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_3 C \ell_1 \right)
-    qqql_1132:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_3 C \ell_2 \right)
-    qqql_1133:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_3 C \ell_3 \right)
     qqql_1211:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_1 C \ell_1 \right)
-    qqql_1212:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_1 C \ell_2 \right)
-    qqql_1213:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_1 C \ell_3 \right)
     qqql_1221:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_2 C \ell_1 \right)
-    qqql_1222:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_2 C \ell_2 \right)
-    qqql_1223:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_2 C \ell_3 \right)
     qqql_1231:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_3 C \ell_1 \right)
-    qqql_1232:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_3 C \ell_2 \right)
-    qqql_1233:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_3 C \ell_3 \right)
     qqql_1311:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_1 C \ell_1 \right)
-    qqql_1312:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_1 C \ell_2 \right)
-    qqql_1313:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_1 C \ell_3 \right)
     qqql_1321:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_2 C \ell_1 \right)
-    qqql_1322:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_2 C \ell_2 \right)
-    qqql_1323:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_2 C \ell_3 \right)
     qqql_1331:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_3 C \ell_1 \right)
-    qqql_1332:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_3 C \ell_2 \right)
-    qqql_1333:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_3 C \ell_3 \right)
     qqql_2121:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_2 C \ell_1 \right)
-    qqql_2122:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_2 C \ell_2 \right)
-    qqql_2123:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_2 C \ell_3 \right)
     qqql_2131:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_3 C \ell_1 \right)
-    qqql_2132:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_3 C \ell_2 \right)
-    qqql_2133:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_3 C \ell_3 \right)
     qqql_2221:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_2 C \ell_1 \right)
-    qqql_2222:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_2 C \ell_2 \right)
-    qqql_2223:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_2 C \ell_3 \right)
     qqql_2231:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_3 C \ell_1 \right)
-    qqql_2232:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_3 C \ell_2 \right)
-    qqql_2233:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_3 C \ell_3 \right)
     qqql_2311:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_1 C \ell_1 \right)
-    qqql_2312:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_1 C \ell_2 \right)
-    qqql_2313:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_1 C \ell_3 \right)
     qqql_2321:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_2 C \ell_1 \right)
-    qqql_2322:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_2 C \ell_2 \right)
-    qqql_2323:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_2 C \ell_3 \right)
     qqql_2331:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_3 C \ell_1 \right)
-    qqql_2332:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_3 C \ell_2 \right)
-    qqql_2333:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_3 C \ell_3 \right)
     qqql_3131:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_1 \right) \left( q_3 C \ell_1 \right)
-    qqql_3132:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_1 \right) \left( q_3 C \ell_2 \right)
-    qqql_3133:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_1 \right) \left( q_3 C \ell_3 \right)
     qqql_3231:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_2 \right) \left( q_3 C \ell_1 \right)
-    qqql_3232:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_2 \right) \left( q_3 C \ell_2 \right)
-    qqql_3233:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_2 \right) \left( q_3 C \ell_3 \right)
     qqql_3331:
       tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_3 \right) \left( q_3 C \ell_1 \right)
-    qqql_3332:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_3 \right) \left( q_3 C \ell_2 \right)
-    qqql_3333:
-      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_3 \right) \left( q_3 C \ell_3 \right)
     duue_1111:
       tex: \left( d_1 C u_1 \right) \left( u_1 C e_1 \right)
-    duue_1112:
-      tex: \left( d_1 C u_1 \right) \left( u_1 C e_2 \right)
-    duue_1113:
-      tex: \left( d_1 C u_1 \right) \left( u_1 C e_3 \right)
     duue_1121:
       tex: \left( d_1 C u_1 \right) \left( u_2 C e_1 \right)
-    duue_1122:
-      tex: \left( d_1 C u_1 \right) \left( u_2 C e_2 \right)
-    duue_1123:
-      tex: \left( d_1 C u_1 \right) \left( u_2 C e_3 \right)
     duue_1131:
       tex: \left( d_1 C u_1 \right) \left( u_3 C e_1 \right)
-    duue_1132:
-      tex: \left( d_1 C u_1 \right) \left( u_3 C e_2 \right)
-    duue_1133:
-      tex: \left( d_1 C u_1 \right) \left( u_3 C e_3 \right)
     duue_1211:
       tex: \left( d_1 C u_2 \right) \left( u_1 C e_1 \right)
-    duue_1212:
-      tex: \left( d_1 C u_2 \right) \left( u_1 C e_2 \right)
-    duue_1213:
-      tex: \left( d_1 C u_2 \right) \left( u_1 C e_3 \right)
     duue_1221:
       tex: \left( d_1 C u_2 \right) \left( u_2 C e_1 \right)
-    duue_1222:
-      tex: \left( d_1 C u_2 \right) \left( u_2 C e_2 \right)
-    duue_1223:
-      tex: \left( d_1 C u_2 \right) \left( u_2 C e_3 \right)
     duue_1231:
       tex: \left( d_1 C u_2 \right) \left( u_3 C e_1 \right)
-    duue_1232:
-      tex: \left( d_1 C u_2 \right) \left( u_3 C e_2 \right)
-    duue_1233:
-      tex: \left( d_1 C u_2 \right) \left( u_3 C e_3 \right)
     duue_1311:
       tex: \left( d_1 C u_3 \right) \left( u_1 C e_1 \right)
-    duue_1312:
-      tex: \left( d_1 C u_3 \right) \left( u_1 C e_2 \right)
-    duue_1313:
-      tex: \left( d_1 C u_3 \right) \left( u_1 C e_3 \right)
     duue_1321:
       tex: \left( d_1 C u_3 \right) \left( u_2 C e_1 \right)
-    duue_1322:
-      tex: \left( d_1 C u_3 \right) \left( u_2 C e_2 \right)
-    duue_1323:
-      tex: \left( d_1 C u_3 \right) \left( u_2 C e_3 \right)
     duue_1331:
       tex: \left( d_1 C u_3 \right) \left( u_3 C e_1 \right)
-    duue_1332:
-      tex: \left( d_1 C u_3 \right) \left( u_3 C e_2 \right)
-    duue_1333:
-      tex: \left( d_1 C u_3 \right) \left( u_3 C e_3 \right)
     duue_2111:
       tex: \left( d_2 C u_1 \right) \left( u_1 C e_1 \right)
-    duue_2112:
-      tex: \left( d_2 C u_1 \right) \left( u_1 C e_2 \right)
-    duue_2113:
-      tex: \left( d_2 C u_1 \right) \left( u_1 C e_3 \right)
     duue_2121:
       tex: \left( d_2 C u_1 \right) \left( u_2 C e_1 \right)
-    duue_2122:
-      tex: \left( d_2 C u_1 \right) \left( u_2 C e_2 \right)
-    duue_2123:
-      tex: \left( d_2 C u_1 \right) \left( u_2 C e_3 \right)
     duue_2131:
       tex: \left( d_2 C u_1 \right) \left( u_3 C e_1 \right)
-    duue_2132:
-      tex: \left( d_2 C u_1 \right) \left( u_3 C e_2 \right)
-    duue_2133:
-      tex: \left( d_2 C u_1 \right) \left( u_3 C e_3 \right)
     duue_2211:
       tex: \left( d_2 C u_2 \right) \left( u_1 C e_1 \right)
-    duue_2212:
-      tex: \left( d_2 C u_2 \right) \left( u_1 C e_2 \right)
-    duue_2213:
-      tex: \left( d_2 C u_2 \right) \left( u_1 C e_3 \right)
     duue_2221:
       tex: \left( d_2 C u_2 \right) \left( u_2 C e_1 \right)
-    duue_2222:
-      tex: \left( d_2 C u_2 \right) \left( u_2 C e_2 \right)
-    duue_2223:
-      tex: \left( d_2 C u_2 \right) \left( u_2 C e_3 \right)
     duue_2231:
       tex: \left( d_2 C u_2 \right) \left( u_3 C e_1 \right)
-    duue_2232:
-      tex: \left( d_2 C u_2 \right) \left( u_3 C e_2 \right)
-    duue_2233:
-      tex: \left( d_2 C u_2 \right) \left( u_3 C e_3 \right)
     duue_2311:
       tex: \left( d_2 C u_3 \right) \left( u_1 C e_1 \right)
-    duue_2312:
-      tex: \left( d_2 C u_3 \right) \left( u_1 C e_2 \right)
-    duue_2313:
-      tex: \left( d_2 C u_3 \right) \left( u_1 C e_3 \right)
     duue_2321:
       tex: \left( d_2 C u_3 \right) \left( u_2 C e_1 \right)
-    duue_2322:
-      tex: \left( d_2 C u_3 \right) \left( u_2 C e_2 \right)
-    duue_2323:
-      tex: \left( d_2 C u_3 \right) \left( u_2 C e_3 \right)
     duue_2331:
       tex: \left( d_2 C u_3 \right) \left( u_3 C e_1 \right)
-    duue_2332:
-      tex: \left( d_2 C u_3 \right) \left( u_3 C e_2 \right)
-    duue_2333:
-      tex: \left( d_2 C u_3 \right) \left( u_3 C e_3 \right)
     duue_3111:
       tex: \left( d_3 C u_1 \right) \left( u_1 C e_1 \right)
-    duue_3112:
-      tex: \left( d_3 C u_1 \right) \left( u_1 C e_2 \right)
-    duue_3113:
-      tex: \left( d_3 C u_1 \right) \left( u_1 C e_3 \right)
     duue_3121:
       tex: \left( d_3 C u_1 \right) \left( u_2 C e_1 \right)
-    duue_3122:
-      tex: \left( d_3 C u_1 \right) \left( u_2 C e_2 \right)
-    duue_3123:
-      tex: \left( d_3 C u_1 \right) \left( u_2 C e_3 \right)
     duue_3131:
       tex: \left( d_3 C u_1 \right) \left( u_3 C e_1 \right)
-    duue_3132:
-      tex: \left( d_3 C u_1 \right) \left( u_3 C e_2 \right)
-    duue_3133:
-      tex: \left( d_3 C u_1 \right) \left( u_3 C e_3 \right)
     duue_3211:
       tex: \left( d_3 C u_2 \right) \left( u_1 C e_1 \right)
-    duue_3212:
-      tex: \left( d_3 C u_2 \right) \left( u_1 C e_2 \right)
-    duue_3213:
-      tex: \left( d_3 C u_2 \right) \left( u_1 C e_3 \right)
     duue_3221:
       tex: \left( d_3 C u_2 \right) \left( u_2 C e_1 \right)
-    duue_3222:
-      tex: \left( d_3 C u_2 \right) \left( u_2 C e_2 \right)
-    duue_3223:
-      tex: \left( d_3 C u_2 \right) \left( u_2 C e_3 \right)
     duue_3231:
       tex: \left( d_3 C u_2 \right) \left( u_3 C e_1 \right)
-    duue_3232:
-      tex: \left( d_3 C u_2 \right) \left( u_3 C e_2 \right)
-    duue_3233:
-      tex: \left( d_3 C u_2 \right) \left( u_3 C e_3 \right)
     duue_3311:
       tex: \left( d_3 C u_3 \right) \left( u_1 C e_1 \right)
-    duue_3312:
-      tex: \left( d_3 C u_3 \right) \left( u_1 C e_2 \right)
-    duue_3313:
-      tex: \left( d_3 C u_3 \right) \left( u_1 C e_3 \right)
     duue_3321:
       tex: \left( d_3 C u_3 \right) \left( u_2 C e_1 \right)
-    duue_3322:
-      tex: \left( d_3 C u_3 \right) \left( u_2 C e_2 \right)
-    duue_3323:
-      tex: \left( d_3 C u_3 \right) \left( u_2 C e_3 \right)
     duue_3331:
       tex: \left( d_3 C u_3 \right) \left( u_3 C e_1 \right)
+  dB=dmu=1:
+    duql_1112:
+      tex: \left( d_1 C u_1 \right) \left( q_1 C \ell_2 \right)
+    duql_1122:
+      tex: \left( d_1 C u_1 \right) \left( q_2 C \ell_2 \right)
+    duql_1132:
+      tex: \left( d_1 C u_1 \right) \left( q_3 C \ell_2 \right)
+    duql_1212:
+      tex: \left( d_1 C u_2 \right) \left( q_1 C \ell_2 \right)
+    duql_1222:
+      tex: \left( d_1 C u_2 \right) \left( q_2 C \ell_2 \right)
+    duql_1232:
+      tex: \left( d_1 C u_2 \right) \left( q_3 C \ell_2 \right)
+    duql_1312:
+      tex: \left( d_1 C u_3 \right) \left( q_1 C \ell_2 \right)
+    duql_1322:
+      tex: \left( d_1 C u_3 \right) \left( q_2 C \ell_2 \right)
+    duql_1332:
+      tex: \left( d_1 C u_3 \right) \left( q_3 C \ell_2 \right)
+    duql_2112:
+      tex: \left( d_2 C u_1 \right) \left( q_1 C \ell_2 \right)
+    duql_2122:
+      tex: \left( d_2 C u_1 \right) \left( q_2 C \ell_2 \right)
+    duql_2132:
+      tex: \left( d_2 C u_1 \right) \left( q_3 C \ell_2 \right)
+    duql_2212:
+      tex: \left( d_2 C u_2 \right) \left( q_1 C \ell_2 \right)
+    duql_2222:
+      tex: \left( d_2 C u_2 \right) \left( q_2 C \ell_2 \right)
+    duql_2232:
+      tex: \left( d_2 C u_2 \right) \left( q_3 C \ell_2 \right)
+    duql_2312:
+      tex: \left( d_2 C u_3 \right) \left( q_1 C \ell_2 \right)
+    duql_2322:
+      tex: \left( d_2 C u_3 \right) \left( q_2 C \ell_2 \right)
+    duql_2332:
+      tex: \left( d_2 C u_3 \right) \left( q_3 C \ell_2 \right)
+    duql_3112:
+      tex: \left( d_3 C u_1 \right) \left( q_1 C \ell_2 \right)
+    duql_3122:
+      tex: \left( d_3 C u_1 \right) \left( q_2 C \ell_2 \right)
+    duql_3132:
+      tex: \left( d_3 C u_1 \right) \left( q_3 C \ell_2 \right)
+    duql_3212:
+      tex: \left( d_3 C u_2 \right) \left( q_1 C \ell_2 \right)
+    duql_3222:
+      tex: \left( d_3 C u_2 \right) \left( q_2 C \ell_2 \right)
+    duql_3232:
+      tex: \left( d_3 C u_2 \right) \left( q_3 C \ell_2 \right)
+    duql_3312:
+      tex: \left( d_3 C u_3 \right) \left( q_1 C \ell_2 \right)
+    duql_3322:
+      tex: \left( d_3 C u_3 \right) \left( q_2 C \ell_2 \right)
+    duql_3332:
+      tex: \left( d_3 C u_3 \right) \left( q_3 C \ell_2 \right)
+    qque_1112:
+      tex: \left( q_1 C q_1 \right) \left( u_1 C e_2 \right)
+    qque_1122:
+      tex: \left( q_1 C q_1 \right) \left( u_2 C e_2 \right)
+    qque_1132:
+      tex: \left( q_1 C q_1 \right) \left( u_3 C e_2 \right)
+    qque_1212:
+      tex: \left( q_1 C q_2 \right) \left( u_1 C e_2 \right)
+    qque_1222:
+      tex: \left( q_1 C q_2 \right) \left( u_2 C e_2 \right)
+    qque_1232:
+      tex: \left( q_1 C q_2 \right) \left( u_3 C e_2 \right)
+    qque_1312:
+      tex: \left( q_1 C q_3 \right) \left( u_1 C e_2 \right)
+    qque_1322:
+      tex: \left( q_1 C q_3 \right) \left( u_2 C e_2 \right)
+    qque_1332:
+      tex: \left( q_1 C q_3 \right) \left( u_3 C e_2 \right)
+    qque_2212:
+      tex: \left( q_2 C q_2 \right) \left( u_1 C e_2 \right)
+    qque_2222:
+      tex: \left( q_2 C q_2 \right) \left( u_2 C e_2 \right)
+    qque_2232:
+      tex: \left( q_2 C q_2 \right) \left( u_3 C e_2 \right)
+    qque_2312:
+      tex: \left( q_2 C q_3 \right) \left( u_1 C e_2 \right)
+    qque_2322:
+      tex: \left( q_2 C q_3 \right) \left( u_2 C e_2 \right)
+    qque_2332:
+      tex: \left( q_2 C q_3 \right) \left( u_3 C e_2 \right)
+    qque_3312:
+      tex: \left( q_3 C q_3 \right) \left( u_1 C e_2 \right)
+    qque_3322:
+      tex: \left( q_3 C q_3 \right) \left( u_2 C e_2 \right)
+    qque_3332:
+      tex: \left( q_3 C q_3 \right) \left( u_3 C e_2 \right)
+    qqql_1112:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_1 C \ell_2 \right)
+    qqql_1122:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_2 C \ell_2 \right)
+    qqql_1132:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_3 C \ell_2 \right)
+    qqql_1212:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_1 C \ell_2 \right)
+    qqql_1222:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_2 C \ell_2 \right)
+    qqql_1232:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_3 C \ell_2 \right)
+    qqql_1312:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_1 C \ell_2 \right)
+    qqql_1322:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_2 C \ell_2 \right)
+    qqql_1332:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_3 C \ell_2 \right)
+    qqql_2122:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_2 C \ell_2 \right)
+    qqql_2132:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_3 C \ell_2 \right)
+    qqql_2222:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_2 C \ell_2 \right)
+    qqql_2232:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_3 C \ell_2 \right)
+    qqql_2312:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_1 C \ell_2 \right)
+    qqql_2322:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_2 C \ell_2 \right)
+    qqql_2332:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_3 C \ell_2 \right)
+    qqql_3132:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_1 \right) \left( q_3 C \ell_2 \right)
+    qqql_3232:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_2 \right) \left( q_3 C \ell_2 \right)
+    qqql_3332:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_3 \right) \left( q_3 C \ell_2 \right)
+    duue_1112:
+      tex: \left( d_1 C u_1 \right) \left( u_1 C e_2 \right)
+    duue_1122:
+      tex: \left( d_1 C u_1 \right) \left( u_2 C e_2 \right)
+    duue_1132:
+      tex: \left( d_1 C u_1 \right) \left( u_3 C e_2 \right)
+    duue_1212:
+      tex: \left( d_1 C u_2 \right) \left( u_1 C e_2 \right)
+    duue_1222:
+      tex: \left( d_1 C u_2 \right) \left( u_2 C e_2 \right)
+    duue_1232:
+      tex: \left( d_1 C u_2 \right) \left( u_3 C e_2 \right)
+    duue_1312:
+      tex: \left( d_1 C u_3 \right) \left( u_1 C e_2 \right)
+    duue_1322:
+      tex: \left( d_1 C u_3 \right) \left( u_2 C e_2 \right)
+    duue_1332:
+      tex: \left( d_1 C u_3 \right) \left( u_3 C e_2 \right)
+    duue_2112:
+      tex: \left( d_2 C u_1 \right) \left( u_1 C e_2 \right)
+    duue_2122:
+      tex: \left( d_2 C u_1 \right) \left( u_2 C e_2 \right)
+    duue_2132:
+      tex: \left( d_2 C u_1 \right) \left( u_3 C e_2 \right)
+    duue_2212:
+      tex: \left( d_2 C u_2 \right) \left( u_1 C e_2 \right)
+    duue_2222:
+      tex: \left( d_2 C u_2 \right) \left( u_2 C e_2 \right)
+    duue_2232:
+      tex: \left( d_2 C u_2 \right) \left( u_3 C e_2 \right)
+    duue_2312:
+      tex: \left( d_2 C u_3 \right) \left( u_1 C e_2 \right)
+    duue_2322:
+      tex: \left( d_2 C u_3 \right) \left( u_2 C e_2 \right)
+    duue_2332:
+      tex: \left( d_2 C u_3 \right) \left( u_3 C e_2 \right)
+    duue_3112:
+      tex: \left( d_3 C u_1 \right) \left( u_1 C e_2 \right)
+    duue_3122:
+      tex: \left( d_3 C u_1 \right) \left( u_2 C e_2 \right)
+    duue_3132:
+      tex: \left( d_3 C u_1 \right) \left( u_3 C e_2 \right)
+    duue_3212:
+      tex: \left( d_3 C u_2 \right) \left( u_1 C e_2 \right)
+    duue_3222:
+      tex: \left( d_3 C u_2 \right) \left( u_2 C e_2 \right)
+    duue_3232:
+      tex: \left( d_3 C u_2 \right) \left( u_3 C e_2 \right)
+    duue_3312:
+      tex: \left( d_3 C u_3 \right) \left( u_1 C e_2 \right)
+    duue_3322:
+      tex: \left( d_3 C u_3 \right) \left( u_2 C e_2 \right)
     duue_3332:
       tex: \left( d_3 C u_3 \right) \left( u_3 C e_2 \right)
+  dB=dtau=1:
+    duql_1113:
+      tex: \left( d_1 C u_1 \right) \left( q_1 C \ell_3 \right)
+    duql_1123:
+      tex: \left( d_1 C u_1 \right) \left( q_2 C \ell_3 \right)
+    duql_1133:
+      tex: \left( d_1 C u_1 \right) \left( q_3 C \ell_3 \right)
+    duql_1213:
+      tex: \left( d_1 C u_2 \right) \left( q_1 C \ell_3 \right)
+    duql_1223:
+      tex: \left( d_1 C u_2 \right) \left( q_2 C \ell_3 \right)
+    duql_1233:
+      tex: \left( d_1 C u_2 \right) \left( q_3 C \ell_3 \right)
+    duql_1313:
+      tex: \left( d_1 C u_3 \right) \left( q_1 C \ell_3 \right)
+    duql_1323:
+      tex: \left( d_1 C u_3 \right) \left( q_2 C \ell_3 \right)
+    duql_1333:
+      tex: \left( d_1 C u_3 \right) \left( q_3 C \ell_3 \right)
+    duql_2113:
+      tex: \left( d_2 C u_1 \right) \left( q_1 C \ell_3 \right)
+    duql_2123:
+      tex: \left( d_2 C u_1 \right) \left( q_2 C \ell_3 \right)
+    duql_2133:
+      tex: \left( d_2 C u_1 \right) \left( q_3 C \ell_3 \right)
+    duql_2213:
+      tex: \left( d_2 C u_2 \right) \left( q_1 C \ell_3 \right)
+    duql_2223:
+      tex: \left( d_2 C u_2 \right) \left( q_2 C \ell_3 \right)
+    duql_2233:
+      tex: \left( d_2 C u_2 \right) \left( q_3 C \ell_3 \right)
+    duql_2313:
+      tex: \left( d_2 C u_3 \right) \left( q_1 C \ell_3 \right)
+    duql_2323:
+      tex: \left( d_2 C u_3 \right) \left( q_2 C \ell_3 \right)
+    duql_2333:
+      tex: \left( d_2 C u_3 \right) \left( q_3 C \ell_3 \right)
+    duql_3113:
+      tex: \left( d_3 C u_1 \right) \left( q_1 C \ell_3 \right)
+    duql_3123:
+      tex: \left( d_3 C u_1 \right) \left( q_2 C \ell_3 \right)
+    duql_3133:
+      tex: \left( d_3 C u_1 \right) \left( q_3 C \ell_3 \right)
+    duql_3213:
+      tex: \left( d_3 C u_2 \right) \left( q_1 C \ell_3 \right)
+    duql_3223:
+      tex: \left( d_3 C u_2 \right) \left( q_2 C \ell_3 \right)
+    duql_3233:
+      tex: \left( d_3 C u_2 \right) \left( q_3 C \ell_3 \right)
+    duql_3313:
+      tex: \left( d_3 C u_3 \right) \left( q_1 C \ell_3 \right)
+    duql_3323:
+      tex: \left( d_3 C u_3 \right) \left( q_2 C \ell_3 \right)
+    duql_3333:
+      tex: \left( d_3 C u_3 \right) \left( q_3 C \ell_3 \right)
+    qque_1113:
+      tex: \left( q_1 C q_1 \right) \left( u_1 C e_3 \right)
+    qque_1123:
+      tex: \left( q_1 C q_1 \right) \left( u_2 C e_3 \right)
+    qque_1133:
+      tex: \left( q_1 C q_1 \right) \left( u_3 C e_3 \right)
+    qque_1213:
+      tex: \left( q_1 C q_2 \right) \left( u_1 C e_3 \right)
+    qque_1223:
+      tex: \left( q_1 C q_2 \right) \left( u_2 C e_3 \right)
+    qque_1233:
+      tex: \left( q_1 C q_2 \right) \left( u_3 C e_3 \right)
+    qque_1313:
+      tex: \left( q_1 C q_3 \right) \left( u_1 C e_3 \right)
+    qque_1323:
+      tex: \left( q_1 C q_3 \right) \left( u_2 C e_3 \right)
+    qque_1333:
+      tex: \left( q_1 C q_3 \right) \left( u_3 C e_3 \right)
+    qque_2213:
+      tex: \left( q_2 C q_2 \right) \left( u_1 C e_3 \right)
+    qque_2223:
+      tex: \left( q_2 C q_2 \right) \left( u_2 C e_3 \right)
+    qque_2233:
+      tex: \left( q_2 C q_2 \right) \left( u_3 C e_3 \right)
+    qque_2313:
+      tex: \left( q_2 C q_3 \right) \left( u_1 C e_3 \right)
+    qque_2323:
+      tex: \left( q_2 C q_3 \right) \left( u_2 C e_3 \right)
+    qque_2333:
+      tex: \left( q_2 C q_3 \right) \left( u_3 C e_3 \right)
+    qque_3313:
+      tex: \left( q_3 C q_3 \right) \left( u_1 C e_3 \right)
+    qque_3323:
+      tex: \left( q_3 C q_3 \right) \left( u_2 C e_3 \right)
+    qque_3333:
+      tex: \left( q_3 C q_3 \right) \left( u_3 C e_3 \right)
+    qqql_1113:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_1 C \ell_3 \right)
+    qqql_1123:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_2 C \ell_3 \right)
+    qqql_1133:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_1 \right) \left( q_3 C \ell_3 \right)
+    qqql_1213:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_1 C \ell_3 \right)
+    qqql_1223:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_2 C \ell_3 \right)
+    qqql_1233:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_2 \right) \left( q_3 C \ell_3 \right)
+    qqql_1313:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_1 C \ell_3 \right)
+    qqql_1323:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_2 C \ell_3 \right)
+    qqql_1333:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_1 C q_3 \right) \left( q_3 C \ell_3 \right)
+    qqql_2123:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_2 C \ell_3 \right)
+    qqql_2133:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_1 \right) \left( q_3 C \ell_3 \right)
+    qqql_2223:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_2 C \ell_3 \right)
+    qqql_2233:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_2 \right) \left( q_3 C \ell_3 \right)
+    qqql_2313:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_1 C \ell_3 \right)
+    qqql_2323:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_2 C \ell_3 \right)
+    qqql_2333:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_2 C q_3 \right) \left( q_3 C \ell_3 \right)
+    qqql_3133:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_1 \right) \left( q_3 C \ell_3 \right)
+    qqql_3233:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_2 \right) \left( q_3 C \ell_3 \right)
+    qqql_3333:
+      tex: \epsilon_{il} \epsilon_{jk} \left( q_3 C q_3 \right) \left( q_3 C \ell_3 \right)
+    duue_1113:
+      tex: \left( d_1 C u_1 \right) \left( u_1 C e_3 \right)
+    duue_1123:
+      tex: \left( d_1 C u_1 \right) \left( u_2 C e_3 \right)
+    duue_1133:
+      tex: \left( d_1 C u_1 \right) \left( u_3 C e_3 \right)
+    duue_1213:
+      tex: \left( d_1 C u_2 \right) \left( u_1 C e_3 \right)
+    duue_1223:
+      tex: \left( d_1 C u_2 \right) \left( u_2 C e_3 \right)
+    duue_1233:
+      tex: \left( d_1 C u_2 \right) \left( u_3 C e_3 \right)
+    duue_1313:
+      tex: \left( d_1 C u_3 \right) \left( u_1 C e_3 \right)
+    duue_1323:
+      tex: \left( d_1 C u_3 \right) \left( u_2 C e_3 \right)
+    duue_1333:
+      tex: \left( d_1 C u_3 \right) \left( u_3 C e_3 \right)
+    duue_2113:
+      tex: \left( d_2 C u_1 \right) \left( u_1 C e_3 \right)
+    duue_2123:
+      tex: \left( d_2 C u_1 \right) \left( u_2 C e_3 \right)
+    duue_2133:
+      tex: \left( d_2 C u_1 \right) \left( u_3 C e_3 \right)
+    duue_2213:
+      tex: \left( d_2 C u_2 \right) \left( u_1 C e_3 \right)
+    duue_2223:
+      tex: \left( d_2 C u_2 \right) \left( u_2 C e_3 \right)
+    duue_2233:
+      tex: \left( d_2 C u_2 \right) \left( u_3 C e_3 \right)
+    duue_2313:
+      tex: \left( d_2 C u_3 \right) \left( u_1 C e_3 \right)
+    duue_2323:
+      tex: \left( d_2 C u_3 \right) \left( u_2 C e_3 \right)
+    duue_2333:
+      tex: \left( d_2 C u_3 \right) \left( u_3 C e_3 \right)
+    duue_3113:
+      tex: \left( d_3 C u_1 \right) \left( u_1 C e_3 \right)
+    duue_3123:
+      tex: \left( d_3 C u_1 \right) \left( u_2 C e_3 \right)
+    duue_3133:
+      tex: \left( d_3 C u_1 \right) \left( u_3 C e_3 \right)
+    duue_3213:
+      tex: \left( d_3 C u_2 \right) \left( u_1 C e_3 \right)
+    duue_3223:
+      tex: \left( d_3 C u_2 \right) \left( u_2 C e_3 \right)
+    duue_3233:
+      tex: \left( d_3 C u_2 \right) \left( u_3 C e_3 \right)
+    duue_3313:
+      tex: \left( d_3 C u_3 \right) \left( u_1 C e_3 \right)
+    duue_3323:
+      tex: \left( d_3 C u_3 \right) \left( u_2 C e_3 \right)
     duue_3333:
       tex: \left( d_3 C u_3 \right) \left( u_3 C e_3 \right)
   dL=2:

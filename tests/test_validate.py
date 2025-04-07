@@ -4,6 +4,8 @@ import json
 import yaml
 from wilson import wcxf
 
+DATA_DIR = Path(__file__).resolve().parent.parent
+
 # -----------------------
 # 1. EFT File Tests
 # -----------------------
@@ -11,7 +13,7 @@ class TestEFTFiles(unittest.TestCase):
 
     def setUp(self):
         self.eft_files = sorted(
-            f for f in Path('.').rglob('*')
+            f for f in DATA_DIR.rglob('*')
             if '.eft.' in f.name.casefold()
         )
         if not self.eft_files:
@@ -35,11 +37,11 @@ class TestMainBasisFiles(unittest.TestCase):
 
     def setUp(self):
         self.eft_files = sorted(
-            f for f in Path('.').rglob('*')
+            f for f in DATA_DIR.rglob('*')
             if '.eft.' in f.name.casefold()
         )
         self.basis_files = sorted(
-            f for f in Path('.').glob('*')
+            f for f in DATA_DIR.glob('*')
             if '.basis.' in f.name.casefold()
         )
 
@@ -73,15 +75,15 @@ class TestChildBasisFiles(unittest.TestCase):
 
     def setUp(self):
         self.eft_files = sorted(
-            f for f in Path('.').rglob('*')
+            f for f in DATA_DIR.rglob('*')
             if '.eft.' in f.name.casefold()
         )
         self.parent_basis_files = sorted(
-            f for f in Path('.').glob('*')
+            f for f in DATA_DIR.glob('*')
             if '.basis.' in f.name.casefold()
         )
         self.child_basis_files = sorted(
-            f for f in Path('child').glob('*')
+            f for f in  (DATA_DIR / 'child').glob('*')
             if '.basis.' in f.name.casefold()
         )
 
@@ -129,12 +131,12 @@ class TestJSONYAMLConsistency(unittest.TestCase):
 
     def setUp(self):
         self.json_files = sorted(
-            f for f in Path('.').rglob('*')
+            f for f in DATA_DIR.rglob('*')
             if any(ext in f.name.casefold() for ext in ['.eft.', '.basis.'])
             and f.suffix.casefold() == '.json'
         )
         self.yaml_files = sorted(
-            f for f in Path('.').rglob('*')
+            f for f in DATA_DIR.rglob('*')
             if any(ext in f.name.casefold() for ext in ['.eft.', '.basis.'])
             and f.suffix.casefold() in {'.yaml', '.yml'}
         )

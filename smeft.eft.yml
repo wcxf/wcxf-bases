@@ -1,15 +1,48 @@
 eft: SMEFT
 metadata:
-  description: >
-    Standard Model Effective Field Theory with linearly realized
-    electroweak symmetry breaking.
+  description: 'Standard Model Effective Field Theory with linearly realized electroweak symmetry breaking.
+
+    '
 sectors:
-  dB=dL=0:
-    tex: \Delta B=\Delta L=0
-    description: Baryon and lepton number conserving operators
-  dB=dL=1:
-    tex: \Delta B=\Delta L=1
-    description: Baryon number violating operators that conserve $B-L$
+  dB=de=dmu=dtau=0:
+    tex: \Delta B=\Delta e=\Delta \mu=\Delta \tau=0
+    description: Baryon and individual lepton number conserving operators
+  mue:
+    tex: \mu e
+    description: Operators violating muon and electron number by one unit and conserving overall lepton number
+  taue:
+    tex: \tau e
+    description: Operators violating tau and electron number by one unit and conserving overall lepton number
+  mutau:
+    tex: \mu \tau
+    description: Operators violating muon and tau number by one unit and conserving overall lepton number
+  muemue:
+    tex: \mu e \mu e
+    description: Operators violating muon and electron number by two units and conserving overall lepton number
+  etauemu:
+    tex: e \tau e \mu
+    description: Operators violating electron number by two units, muon and tau number by one unit, and conserving overall lepton number
+  muemutau:
+    tex: \mu e \mu \tau
+    description: Operators violating muon number by two units, electron and tau number by one unit, and conserving overall lepton number
+  tauetaue:
+    tex: \tau e \tau e
+    description: Operators violating tau and electron number by two units and conserving overall lepton number
+  tauetaumu:
+    tex: \tau e \tau \mu
+    description: Operators violating tau number by two units, electron and muon number by one unit, and conserving overall lepton number
+  taumutaumu:
+    tex: \tau \mu \tau \mu
+    description: Operators violating tau and muon number by two units and conserving overall lepton number
+  dB=de=1:
+    tex: \Delta B=\Delta e=1
+    description: Baryon and electron number violating operators that conserve $B-L$
+  dB=dmu=1:
+    tex: \Delta B=\Delta \mu=1
+    description: Baryon and muon number violating operators that conserve $B-L$
+  dB=dtau=1:
+    tex: \Delta B=\Delta \tau=1
+    description: Baryon and tau number violating operators that conserve $B-L$
   dL=2:
     tex: \Delta L=2
     description: Operators violating lepton number by two units
